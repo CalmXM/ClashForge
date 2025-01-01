@@ -29,11 +29,22 @@ jobs:
         run: |
           # 检查文件是否存在
           if [ -f clash_config.yaml ]; then
+            # 读取 YAML 文件的内容
+            content=$(<clash_config.yaml)
+
             # 使用 curl 上传到 Gist
             curl -X POST -H "Authorization: token ${{ secrets.GIST_TOKEN }}" \
               -H "Accept: application/vnd.github+json" \
               https://api.github.com/gists \
-              -d "{\"description\":\"ClashForge config file\",\"public\":false,\"files\":{\"clash_config.yaml\":{\"content\":\"$(cat clash_config.yaml | jq -Rs .)\"}}}"
+              -d '{
+                    "description": "ClashForge config file",
+                    "public": false,
+                    "files": {
+                      "clash_config.yaml": {
+                        "content": "'"$content"'"
+                      }
+                    }
+                  }'
           else
             echo "clash_config.yaml does not exist, skipping upload."
           fi
