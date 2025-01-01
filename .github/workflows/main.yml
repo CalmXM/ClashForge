@@ -1,6 +1,8 @@
 name: ClashForge
 
 on:
+  #schedule:
+  #  - cron: '0 7-22/5 * * *'
   push:
     paths-ignore:
       - '**'
@@ -12,6 +14,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          # 转到 Settings > Secrets and variables > Actions
+          # 点击 New repository secret，添加 Secret，名称为 BOT，输入你的token
+          token: ${{ secrets.BOT }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -25,26 +31,10 @@ jobs:
       - name: Run ClashForge.py
         run: python ClashForge.py
 
-      - name: Upload clash_config.yaml to Gist
+      - name: Commit and push file
         run: |
-          # 检查文件是否存在
-          if [ -f clash_config.yaml ]; then
-            # 读取 YAML 文件的内容
-            content=$(<clash_config.yaml)
-
-            # 使用 curl 上传到 Gist
-            curl -X POST -H "Authorization: token ${{ secrets.GIST_TOKEN }}" \
-              -H "Accept: application/vnd.github+json" \
-              https://api.github.com/gists \
-              -d '{
-                    "description": "ClashForge config file",
-                    "public": false,
-                    "files": {
-                      "clash_config.yaml": {
-                        "content": "'"$content"'"
-                      }
-                    }
-                  }'
-          else
-            echo "clash_config.yaml does not exist, skipping upload."
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clash_config.yaml
+          git commit -m "update" || echo "No changes to commit"
+          git push https://${{ secrets.BOT }}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git
