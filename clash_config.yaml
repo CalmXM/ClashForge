@@ -32,6 +32,1350 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
+- name: VN 冰摇桃桃乌龙茶-2N
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1J
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  auth: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1A
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 3302e75f-cccb-44cb-9399-fc95379d1716
+  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国法兰克福-1V
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 5e1622c8-b06a-4bbe-bb86-fc003ff36218
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /itdog?ed=2560
+    headers:
+      Host: us-new03.daluquan.top
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1F
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2L
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2U
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 87ea04fe-0d85-45dc-969d-21f9d4093071
+  auth: 87ea04fe-0d85-45dc-969d-21f9d4093071
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2O
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  auth: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2J
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
+  auth: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2C
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: e465c41a-b19a-40a3-a283-28837b8dc946
+  auth: e465c41a-b19a-40a3-a283-28837b8dc946
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2B
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
+  auth: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1H
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2P
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: e7b4ae37-aa93-435d-a117-4b1374a256e5
+  auth: e7b4ae37-aa93-435d-a117-4b1374a256e5
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1T
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: fe2bb220-8067-4ebb-afaa-073d505602c7
+  auth: fe2bb220-8067-4ebb-afaa-073d505602c7
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1D
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  auth: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2K
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
+  auth: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-3B
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
+  auth: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3C
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: f13d2950-2f5f-4b60-a43d-1ecd79075349
+  auth: f13d2950-2f5f-4b60-a43d-1ecd79075349
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2L
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2S
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 319a698e-e15b-4ce2-be54-e7da366b2797
+  auth: 319a698e-e15b-4ce2-be54-e7da366b2797
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3D
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 1ec79fb8-11b3-4614-9f84-6ba70404502c
+  auth: 1ec79fb8-11b3-4614-9f84-6ba70404502c
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国HY2
+  server: fmg.yunduanjc.top
+  port: 3450
+  type: hysteria2
+  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  sni: fmg.yunduanjc.top
+  up: 2500
+  down: 500
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1x
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
+  auth: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1W
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 4472de78-346d-48a5-a003-c54026184faa
+  auth: 4472de78-346d-48a5-a003-c54026184faa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-首尔
+  server: oracle-arm-seoul1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1J
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  auth: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2V
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  auth: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-3E
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 85f45406-8c19-419a-9c51-2213a042f913
+  auth: 85f45406-8c19-419a-9c51-2213a042f913
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1Z
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
+  auth: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港-1B
+  server: xg.dashuai.cyou
+  port: 19901
+  type: vmess
+  uuid: c245ff19-60a5-4e1c-9fa6-70f8cbb5242c
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2A
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
+  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2N
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1I
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: ef126498-d69a-4a42-a749-a28036279675
+  auth: ef126498-d69a-4a42-a749-a28036279675
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1B
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 0eab2332-a057-4676-976d-00e98cff3436
+  auth: 0eab2332-a057-4676-976d-00e98cff3436
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-2
+  server: oracle-arm-chuncheon2.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1F
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-3A
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  auth: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1P
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
+  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1H
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2D
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: d865813b-4594-434e-b358-f42da830d8b3
+  auth: d865813b-4594-434e-b358-f42da830d8b3
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-3D
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 1ec79fb8-11b3-4614-9f84-6ba70404502c
+  auth: 1ec79fb8-11b3-4614-9f84-6ba70404502c
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2D
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: d865813b-4594-434e-b358-f42da830d8b3
+  auth: d865813b-4594-434e-b358-f42da830d8b3
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1M
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2E
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 3579c97b-fdc6-4500-9966-91b5d1262090
+  auth: 3579c97b-fdc6-4500-9966-91b5d1262090
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1K
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: e2369895-56ef-44c6-97fd-37a4853c4cf2
+  auth: e2369895-56ef-44c6-97fd-37a4853c4cf2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1W
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 4472de78-346d-48a5-a003-c54026184faa
+  auth: 4472de78-346d-48a5-a003-c54026184faa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1C
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  auth: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3B
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
+  auth: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2H
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: aab7f572-5524-4fc3-9735-ed7e9b53af32
+  auth: aab7f572-5524-4fc3-9735-ed7e9b53af32
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1N
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 6c402ec0-9440-4e71-8599-bcbd417c24e3
+  auth: 6c402ec0-9440-4e71-8599-bcbd417c24e3
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2G
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  auth: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2R
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 33fa84ad-dc96-4292-b554-bab0263fdd7f
+  auth: 33fa84ad-dc96-4292-b554-bab0263fdd7f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2A
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
+  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2L
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1S
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 5cf52f9a-025b-4824-8510-70c511ac532a
+  auth: 5cf52f9a-025b-4824-8510-70c511ac532a
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1A
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 3302e75f-cccb-44cb-9399-fc95379d1716
+  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1R
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
+  auth: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1Y
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  auth: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2O
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  auth: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2x
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 376b75b5-51d9-493a-976b-2d5ea75b35de
+  auth: 376b75b5-51d9-493a-976b-2d5ea75b35de
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2Z
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 506024c6-79b9-4f09-a999-7760032db0e4
+  auth: 506024c6-79b9-4f09-a999-7760032db0e4
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1U
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
+  auth: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1M
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2S
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 319a698e-e15b-4ce2-be54-e7da366b2797
+  auth: 319a698e-e15b-4ce2-be54-e7da366b2797
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1R
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
+  auth: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1E
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
+  auth: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2D
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: d865813b-4594-434e-b358-f42da830d8b3
+  auth: d865813b-4594-434e-b358-f42da830d8b3
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1x
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
+  auth: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2R
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 33fa84ad-dc96-4292-b554-bab0263fdd7f
+  auth: 33fa84ad-dc96-4292-b554-bab0263fdd7f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2W
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: dec2f0e6-734f-41ad-ba03-dd8640d311f5
+  auth: dec2f0e6-734f-41ad-ba03-dd8640d311f5
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2Z
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 506024c6-79b9-4f09-a999-7760032db0e4
+  auth: 506024c6-79b9-4f09-a999-7760032db0e4
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2K
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
+  auth: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1O
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1D
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  auth: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2C
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: e465c41a-b19a-40a3-a283-28837b8dc946
+  auth: e465c41a-b19a-40a3-a283-28837b8dc946
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-3F
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 206f233a-846a-4eab-8464-9abead26b5fa
+  auth: 206f233a-846a-4eab-8464-9abead26b5fa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1B
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 0eab2332-a057-4676-976d-00e98cff3436
+  auth: 0eab2332-a057-4676-976d-00e98cff3436
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1J
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  auth: dbe9f83a-a353-48ae-add7-04f4e44e33e2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2V
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  auth: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2O
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  auth: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-3E
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 85f45406-8c19-419a-9c51-2213a042f913
+  auth: 85f45406-8c19-419a-9c51-2213a042f913
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2T
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: afc62065-9f25-43bd-a3d8-1992de6185d5
+  auth: afc62065-9f25-43bd-a3d8-1992de6185d5
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1G
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
+  auth: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1N
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 6c402ec0-9440-4e71-8599-bcbd417c24e3
+  auth: 6c402ec0-9440-4e71-8599-bcbd417c24e3
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2G
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  auth: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2I
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 74d39a62-e873-452b-9884-3acec6bffa1b
+  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2U
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 87ea04fe-0d85-45dc-969d-21f9d4093071
+  auth: 87ea04fe-0d85-45dc-969d-21f9d4093071
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1Q
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
+  auth: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2I
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 74d39a62-e873-452b-9884-3acec6bffa1b
+  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2H
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: aab7f572-5524-4fc3-9735-ed7e9b53af32
+  auth: aab7f572-5524-4fc3-9735-ed7e9b53af32
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1I
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: ef126498-d69a-4a42-a749-a28036279675
+  auth: ef126498-d69a-4a42-a749-a28036279675
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2N
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2J
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
+  auth: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1G
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
+  auth: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1Q
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
+  auth: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本-2
+  server: oracle-amd-osaka1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: osaka.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1F
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡-1
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: main.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2F
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 555389c6-7100-481b-86de-e83d28af0013
+  auth: 555389c6-7100-481b-86de-e83d28af0013
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3E
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 85f45406-8c19-419a-9c51-2213a042f913
+  auth: 85f45406-8c19-419a-9c51-2213a042f913
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2I
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 74d39a62-e873-452b-9884-3acec6bffa1b
+  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1C
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  auth: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1Z
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
+  auth: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1Y
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  auth: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3A
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  auth: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1M
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇪🇺 欧洲-伦敦-1
+  server: oracle-arm-london1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: london1.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2E
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 3579c97b-fdc6-4500-9966-91b5d1262090
+  auth: 3579c97b-fdc6-4500-9966-91b5d1262090
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2V
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  auth: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1V
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 6a80f43b-369b-447f-9338-619fce733722
+  auth: 6a80f43b-369b-447f-9338-619fce733722
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2P
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: e7b4ae37-aa93-435d-a117-4b1374a256e5
+  auth: e7b4ae37-aa93-435d-a117-4b1374a256e5
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1P
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
+  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国VL
+  server: cf3.yunduanjc.top
+  port: 2086
+  type: vless
+  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: akdg.yunduanjc.top
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1D
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  auth: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2Q
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 41d62958-4518-45f4-84f8-199564923cf8
+  auth: 41d62958-4518-45f4-84f8-199564923cf8
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1Y
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  auth: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-3F
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 206f233a-846a-4eab-8464-9abead26b5fa
+  auth: 206f233a-846a-4eab-8464-9abead26b5fa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1H
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1C
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  auth: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2G
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  auth: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2Q
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 41d62958-4518-45f4-84f8-199564923cf8
+  auth: 41d62958-4518-45f4-84f8-199564923cf8
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1K
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: e2369895-56ef-44c6-97fd-37a4853c4cf2
+  auth: e2369895-56ef-44c6-97fd-37a4853c4cf2
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国VM2
   server: cf2.yunduanjc.top
   port: 2082
@@ -46,78 +1390,97 @@ proxies:
     headers:
       Host: akdg.yunduanjc.top
   udp: true
-- name: VN 冰摇桃桃乌龙茶-1C
+- name: VN 冰摇桃桃乌龙茶-3F
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: 6c402ec0-9440-4e71-8599-bcbd417c24e3
-  auth: 6c402ec0-9440-4e71-8599-bcbd417c24e3
+  password: 206f233a-846a-4eab-8464-9abead26b5fa
+  auth: 206f233a-846a-4eab-8464-9abead26b5fa
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国法兰克福-2x
-  server: frankfurt.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: d825dd16-0aa8-4433-8325-adf443632545
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /itdog?ed=2560
-    headers:
-      Host: us-new03.daluquan.top
   udp: true
 - name: 🇯🇵 JP 香草星冰乐-1E
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
-  password: e465c41a-b19a-40a3-a283-28837b8dc946
-  auth: e465c41a-b19a-40a3-a283-28837b8dc946
+  password: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
+  auth: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-1L
+- name: VN 冰摇桃桃乌龙茶-1I
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
-  auth: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
+  password: ef126498-d69a-4a42-a749-a28036279675
+  auth: ef126498-d69a-4a42-a749-a28036279675
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-2L
+- name: VN 冰摇桃桃乌龙茶-2B
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
+  auth: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1S
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 5cf52f9a-025b-4824-8510-70c511ac532a
+  auth: 5cf52f9a-025b-4824-8510-70c511ac532a
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2Y
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: e1f2a782-0f88-4488-b448-aabd494c67c6
+  auth: e1f2a782-0f88-4488-b448-aabd494c67c6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2T
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
-  password: 56c8bc67-afe4-4192-824e-17d25fc276fe
-  auth: 56c8bc67-afe4-4192-824e-17d25fc276fe
+  password: afc62065-9f25-43bd-a3d8-1992de6185d5
+  auth: afc62065-9f25-43bd-a3d8-1992de6185d5
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-2S
+- name: VN 冰摇桃桃乌龙茶-1x
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: 376b75b5-51d9-493a-976b-2d5ea75b35de
-  auth: 376b75b5-51d9-493a-976b-2d5ea75b35de
+  password: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
+  auth: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-1F
-  server: vn.taipeicity.news
-  port: 23656
+- name: 🇯🇵 JP 香草星冰乐-2H
+  server: jpzl2.stardad.lol
+  port: 48512
   type: hysteria2
   password: aab7f572-5524-4fc3-9735-ed7e9b53af32
   auth: aab7f572-5524-4fc3-9735-ed7e9b53af32
@@ -126,7 +1489,7 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-1A
+- name: 🇯🇵 JP 香草星冰乐-2Z
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
@@ -137,51 +1500,18 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-2x
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  auth: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2Y
+- name: 🇸🇬 SG 冷萃冰咖啡-1G
   server: sgzl2.stardad.lol
   port: 35701
   type: hysteria2
-  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
-  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
+  password: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
+  auth: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-2V
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 33fa84ad-dc96-4292-b554-bab0263fdd7f
-  auth: 33fa84ad-dc96-4292-b554-bab0263fdd7f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2D
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 0eab2332-a057-4676-976d-00e98cff3436
-  auth: 0eab2332-a057-4676-976d-00e98cff3436
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1x
+- name: VN 冰摇桃桃乌龙茶-2S
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
@@ -192,106 +1522,161 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-3E
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 39769c11-ce30-431b-8305-e8a84d360336
-  auth: 39769c11-ce30-431b-8305-e8a84d360336
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1Z
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: e2369895-56ef-44c6-97fd-37a4853c4cf2
-  auth: e2369895-56ef-44c6-97fd-37a4853c4cf2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2J
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  auth: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-3A
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  auth: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1Y
+- name: VN 冰摇桃桃乌龙茶-1A
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: 85f45406-8c19-419a-9c51-2213a042f913
-  auth: 85f45406-8c19-419a-9c51-2213a042f913
+  password: 3302e75f-cccb-44cb-9399-fc95379d1716
+  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-2U
+- name: VN 冰摇桃桃乌龙茶-2A
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: 41d62958-4518-45f4-84f8-199564923cf8
-  auth: 41d62958-4518-45f4-84f8-199564923cf8
+  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
+  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2O
+- name: 🇸🇬 SG 冷萃冰咖啡-1V
   server: sgzl2.stardad.lol
   port: 35701
   type: hysteria2
-  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
-  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
+  password: 6a80f43b-369b-447f-9338-619fce733722
+  auth: 6a80f43b-369b-447f-9338-619fce733722
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-3B
+- name: VN 冰摇桃桃乌龙茶-1P
   server: vn.taipeicity.news
   port: 23656
   type: hysteria2
-  password: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
-  auth: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
+  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
+  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-2G
+- name: VN 冰摇桃桃乌龙茶-2F
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 555389c6-7100-481b-86de-e83d28af0013
+  auth: 555389c6-7100-481b-86de-e83d28af0013
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1E
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
+  auth: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-2E
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 3579c97b-fdc6-4500-9966-91b5d1262090
+  auth: 3579c97b-fdc6-4500-9966-91b5d1262090
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-1R
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
-  password: 6d85036b-0b07-4055-81dc-6fc665cccbed
-  auth: 6d85036b-0b07-4055-81dc-6fc665cccbed
+  password: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
+  auth: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2E
+- name: 🇯🇵 JP 香草星冰乐-1O
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本-1
+  server: oracle-amd-tokyo1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  auth: 16c0fc78-1407-4b4a-8958-90c24e63c6fd
+  sni: tokyo.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1O
+  server: vn.taipeicity.news
+  port: 23656
+  type: hysteria2
+  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2x
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 376b75b5-51d9-493a-976b-2d5ea75b35de
+  auth: 376b75b5-51d9-493a-976b-2d5ea75b35de
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-1W
+  server: sgzl2.stardad.lol
+  port: 35701
+  type: hysteria2
+  password: 4472de78-346d-48a5-a003-c54026184faa
+  auth: 4472de78-346d-48a5-a003-c54026184faa
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP 香草星冰乐-2Y
+  server: jpzl2.stardad.lol
+  port: 48512
+  type: hysteria2
+  password: e1f2a782-0f88-4488-b448-aabd494c67c6
+  auth: e1f2a782-0f88-4488-b448-aabd494c67c6
+  sni: https://bing.com
+  up: 10
+  down: 10
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG 冷萃冰咖啡-2W
   server: sgzl2.stardad.lol
   port: 35701
   type: hysteria2
@@ -302,34 +1687,23 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-2H
-  server: vn.taipeicity.news
-  port: 23656
+- name: 🇯🇵 JP 香草星冰乐-1T
+  server: jpzl2.stardad.lol
+  port: 48512
   type: hysteria2
-  password: e1f2a782-0f88-4488-b448-aabd494c67c6
-  auth: e1f2a782-0f88-4488-b448-aabd494c67c6
+  password: fe2bb220-8067-4ebb-afaa-073d505602c7
+  auth: fe2bb220-8067-4ebb-afaa-073d505602c7
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-1U
-  server: vn.taipeicity.news
-  port: 23656
+- name: 🇸🇬 SG 冷萃冰咖啡-1L
+  server: sgzl2.stardad.lol
+  port: 35701
   type: hysteria2
-  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2K
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
-  auth: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  password: 24c86cdd-662e-4ba8-8171-769572297e1e
+  auth: 24c86cdd-662e-4ba8-8171-769572297e1e
   sni: https://bing.com
   up: 10
   down: 10
@@ -349,857 +1723,7 @@ proxies:
     headers:
       Host: akdg.yunduanjc.top
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-015-1E
-  server: 195.58.49.42
-  port: 20315
-  type: vmess
-  uuid: f6b589d8-858c-4321-b6d7-3248f03006d9
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1I
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
-  auth: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2T
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 5cf52f9a-025b-4824-8510-70c511ac532a
-  auth: 5cf52f9a-025b-4824-8510-70c511ac532a
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-首尔
-  server: oracle-arm-seoul1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: korea.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1Q
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: fe2bb220-8067-4ebb-afaa-073d505602c7
-  auth: fe2bb220-8067-4ebb-afaa-073d505602c7
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1L
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
-  auth: f1b52cf1-bb67-4ba1-9d40-e894ad958a38
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2Z
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
-  auth: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-3F
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
-  auth: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1A
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 506024c6-79b9-4f09-a999-7760032db0e4
-  auth: 506024c6-79b9-4f09-a999-7760032db0e4
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2P
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 555389c6-7100-481b-86de-e83d28af0013
-  auth: 555389c6-7100-481b-86de-e83d28af0013
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1V
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 206f233a-846a-4eab-8464-9abead26b5fa
-  auth: 206f233a-846a-4eab-8464-9abead26b5fa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1O
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: dbe9f83a-a353-48ae-add7-04f4e44e33e2
-  auth: dbe9f83a-a353-48ae-add7-04f4e44e33e2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1Y
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 85f45406-8c19-419a-9c51-2213a042f913
-  auth: 85f45406-8c19-419a-9c51-2213a042f913
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2C
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 74d39a62-e873-452b-9884-3acec6bffa1b
-  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2B
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1W
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: ef126498-d69a-4a42-a749-a28036279675
-  auth: ef126498-d69a-4a42-a749-a28036279675
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1H
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1D
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: d865813b-4594-434e-b358-f42da830d8b3
-  auth: d865813b-4594-434e-b358-f42da830d8b3
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2J
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  auth: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-3A
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  auth: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1T
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  auth: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2J
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  auth: 4c1f28fe-1e76-4bb9-bfc0-abe5421a9333
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2Q
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2N
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 6a80f43b-369b-447f-9338-619fce733722
-  auth: 6a80f43b-369b-447f-9338-619fce733722
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1O
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: dbe9f83a-a353-48ae-add7-04f4e44e33e2
-  auth: dbe9f83a-a353-48ae-add7-04f4e44e33e2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2A
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
-  auth: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2x
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  auth: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1M
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  auth: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1S
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: e7b4ae37-aa93-435d-a117-4b1374a256e5
-  auth: e7b4ae37-aa93-435d-a117-4b1374a256e5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2O
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
-  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1M
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  auth: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2F
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
-  auth: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2V
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 33fa84ad-dc96-4292-b554-bab0263fdd7f
-  auth: 33fa84ad-dc96-4292-b554-bab0263fdd7f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2I
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1J
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: afc62065-9f25-43bd-a3d8-1992de6185d5
-  auth: afc62065-9f25-43bd-a3d8-1992de6185d5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本-2
-  server: oracle-amd-osaka1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: osaka.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2Y
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
-  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2K
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
-  auth: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1U
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-2
-  server: oracle-arm-chuncheon2.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: korea.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1F
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: aab7f572-5524-4fc3-9735-ed7e9b53af32
-  auth: aab7f572-5524-4fc3-9735-ed7e9b53af32
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国VL
-  server: cf3.yunduanjc.top
-  port: 2086
-  type: vless
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: akdg.yunduanjc.top
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1R
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2B
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2I
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2F
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
-  auth: 8f10d0c1-5cdb-4d94-8daa-1cb9c9eaaf2f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2A
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
-  auth: 9dc2ffe5-56ff-4e9e-a26f-703a531c780b
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本-1
-  server: oracle-amd-tokyo1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: tokyo.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1B
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 3302e75f-cccb-44cb-9399-fc95379d1716
-  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1C
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 6c402ec0-9440-4e71-8599-bcbd417c24e3
-  auth: 6c402ec0-9440-4e71-8599-bcbd417c24e3
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-3D
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  auth: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-3F
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
-  auth: 03a84299-9f25-47b8-aeb5-43a1190fa1aa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-3B
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
-  auth: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-3B
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
-  auth: 49ef6ed7-96be-468e-a0be-e3b983a3fe11
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2N
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 6a80f43b-369b-447f-9338-619fce733722
-  auth: 6a80f43b-369b-447f-9338-619fce733722
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2G
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 6d85036b-0b07-4055-81dc-6fc665cccbed
-  auth: 6d85036b-0b07-4055-81dc-6fc665cccbed
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1B
-  server: 185.121.134.12
-  port: 31650
-  type: hysteria2
-  password: 32ae93e7-25f3-47b8-ac6c-d76e3d59d41e
-  auth: 32ae93e7-25f3-47b8-ac6c-d76e3d59d41e
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1Y
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 85f45406-8c19-419a-9c51-2213a042f913
-  auth: 85f45406-8c19-419a-9c51-2213a042f913
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-3A
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  auth: bed65264-1b72-44d9-9bbf-c6b26b11ecc6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1S
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: e7b4ae37-aa93-435d-a117-4b1374a256e5
-  auth: e7b4ae37-aa93-435d-a117-4b1374a256e5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1U
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  auth: 23f0b201-880e-4617-87c1-dc37a8cf869a
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2R
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
-  auth: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1T
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  auth: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1W
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: ef126498-d69a-4a42-a749-a28036279675
-  auth: ef126498-d69a-4a42-a749-a28036279675
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1G
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
-  auth: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2C
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 74d39a62-e873-452b-9884-3acec6bffa1b
-  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-3C
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 4472de78-346d-48a5-a003-c54026184faa
-  auth: 4472de78-346d-48a5-a003-c54026184faa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2O
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
-  auth: bad6b1bf-4f08-41ca-8efe-5f527f14b5a1
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-3D
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  auth: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1C
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 6c402ec0-9440-4e71-8599-bcbd417c24e3
-  auth: 6c402ec0-9440-4e71-8599-bcbd417c24e3
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2W
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
-  auth: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2E
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: dec2f0e6-734f-41ad-ba03-dd8640d311f5
-  auth: dec2f0e6-734f-41ad-ba03-dd8640d311f5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2P
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 555389c6-7100-481b-86de-e83d28af0013
-  auth: 555389c6-7100-481b-86de-e83d28af0013
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1V
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 206f233a-846a-4eab-8464-9abead26b5fa
-  auth: 206f233a-846a-4eab-8464-9abead26b5fa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1D
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: d865813b-4594-434e-b358-f42da830d8b3
-  auth: d865813b-4594-434e-b358-f42da830d8b3
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2M
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
-  auth: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-3C
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 4472de78-346d-48a5-a003-c54026184faa
-  auth: 4472de78-346d-48a5-a003-c54026184faa
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2S
+- name: 🇯🇵 JP 香草星冰乐-2x
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
@@ -1210,163 +1734,20 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-2C
+- name: 🇯🇵 JP 香草星冰乐-3A
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
-  password: 74d39a62-e873-452b-9884-3acec6bffa1b
-  auth: 74d39a62-e873-452b-9884-3acec6bffa1b
+  password: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
+  auth: 98ae4568-0ce2-4c36-ae1f-8f029bd97c1c
   sni: https://bing.com
   up: 10
   down: 10
   skip-cert-verify: true
   udp: true
-- name: VN 冰摇桃桃乌龙茶-1R
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1N
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
-  auth: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2D
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 0eab2332-a057-4676-976d-00e98cff3436
-  auth: 0eab2332-a057-4676-976d-00e98cff3436
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1B
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 3302e75f-cccb-44cb-9399-fc95379d1716
-  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2L
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 56c8bc67-afe4-4192-824e-17d25fc276fe
-  auth: 56c8bc67-afe4-4192-824e-17d25fc276fe
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇪🇺 欧洲-伦敦-1
-  server: oracle-arm-london1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: london1.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1H
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2Q
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国HY2
-  server: fmg.yunduanjc.top
-  port: 3450
-  type: hysteria2
-  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  sni: fmg.yunduanjc.top
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1M
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  auth: 1ec79fb8-11b3-4614-9f84-6ba70404502c
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1G
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
-  auth: ca0cfb50-9a94-4afd-85c0-0027eeff5b89
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2E
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: dec2f0e6-734f-41ad-ba03-dd8640d311f5
-  auth: dec2f0e6-734f-41ad-ba03-dd8640d311f5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1R
+- name: 🇸🇬 SG 冷萃冰咖啡-2M
   server: sgzl2.stardad.lol
   port: 35701
-  type: hysteria2
-  password: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  auth: 6e74c05b-6ff4-4a76-b9e0-6a7e9e0645d2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-3E
-  server: vn.taipeicity.news
-  port: 23656
   type: hysteria2
   password: 39769c11-ce30-431b-8305-e8a84d360336
   auth: 39769c11-ce30-431b-8305-e8a84d360336
@@ -1375,139 +1756,7 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1B
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 3302e75f-cccb-44cb-9399-fc95379d1716
-  auth: 3302e75f-cccb-44cb-9399-fc95379d1716
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2H
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: e1f2a782-0f88-4488-b448-aabd494c67c6
-  auth: e1f2a782-0f88-4488-b448-aabd494c67c6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2Y
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 6ad95f00-b760-4b0c-a2de-1ea251903e88
-  auth: 6ad95f00-b760-4b0c-a2de-1ea251903e88
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2Q
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  auth: 2fcadb33-ddef-445e-832c-3be00d6769a8
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1x
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 319a698e-e15b-4ce2-be54-e7da366b2797
-  auth: 319a698e-e15b-4ce2-be54-e7da366b2797
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡-1
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: d0040571-af21-4ace-b209-53dbda68c912
-  auth: d0040571-af21-4ace-b209-53dbda68c912
-  sni: main.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2M
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
-  auth: a3c2c2b6-d6c0-4995-8c8a-c34943f10e76
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2x
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  auth: 9b707d0d-e2ca-4e78-9bc4-3ee309f27468
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1K
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 24c86cdd-662e-4ba8-8171-769572297e1e
-  auth: 24c86cdd-662e-4ba8-8171-769572297e1e
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1Z
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: e2369895-56ef-44c6-97fd-37a4853c4cf2
-  auth: e2369895-56ef-44c6-97fd-37a4853c4cf2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1K
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 24c86cdd-662e-4ba8-8171-769572297e1e
-  auth: 24c86cdd-662e-4ba8-8171-769572297e1e
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1N
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
-  auth: 1dd7c9f5-f022-4c74-a2e4-49dc8a316afc
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2T
+- name: 🇯🇵 JP 香草星冰乐-1S
   server: jpzl2.stardad.lol
   port: 48512
   type: hysteria2
@@ -1518,223 +1767,24 @@ proxies:
   down: 10
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 JP 香草星冰乐-1Z
-  server: jpzl2.stardad.lol
-  port: 48512
+- name: 🇩🇪 德国-法兰克福-HY-001-1W
+  server: 185.121.134.12
+  port: 31650
+  type: hysteria2
+  password: 2cb749f9-414d-4f35-9aa5-3101ffdaccce
+  auth: 2cb749f9-414d-4f35-9aa5-3101ffdaccce
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: VN 冰摇桃桃乌龙茶-1K
+  server: vn.taipeicity.news
+  port: 23656
   type: hysteria2
   password: e2369895-56ef-44c6-97fd-37a4853c4cf2
   auth: e2369895-56ef-44c6-97fd-37a4853c4cf2
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1Q
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: fe2bb220-8067-4ebb-afaa-073d505602c7
-  auth: fe2bb220-8067-4ebb-afaa-073d505602c7
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-2U
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: 41d62958-4518-45f4-84f8-199564923cf8
-  auth: 41d62958-4518-45f4-84f8-199564923cf8
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2U
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 41d62958-4518-45f4-84f8-199564923cf8
-  auth: 41d62958-4518-45f4-84f8-199564923cf8
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1I
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
-  auth: ae4de94e-c008-4c21-95fc-dcfe0ed2fec6
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SG 冷萃冰咖啡-1H
-  server: sgzl2.stardad.lol
-  port: 35701
-  type: hysteria2
-  password: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  auth: d83d0ca0-b09a-4f90-96e7-d95e10ef3d86
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1A
-  server: 185.121.134.12
-  port: 31650
-  type: hysteria2
-  password: b8b24e93-b02c-41f4-9132-bea81d5ef827
-  auth: b8b24e93-b02c-41f4-9132-bea81d5ef827
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-3D
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  auth: 87ea04fe-0d85-45dc-969d-21f9d4093071
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2B
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  auth: fb8824f1-e2ec-4f15-acbb-d2ec56014380
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2I
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  auth: 415a0f3c-2a52-4788-99d7-f0490fb4827f
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1G
-  server: 185.121.134.12
-  port: 31650
-  type: hysteria2
-  password: 686a2b99-f91b-46c6-9b87-676a000beeff
-  auth: 686a2b99-f91b-46c6-9b87-676a000beeff
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1E
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: e465c41a-b19a-40a3-a283-28837b8dc946
-  auth: e465c41a-b19a-40a3-a283-28837b8dc946
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1x
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 319a698e-e15b-4ce2-be54-e7da366b2797
-  auth: 319a698e-e15b-4ce2-be54-e7da366b2797
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1J
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: afc62065-9f25-43bd-a3d8-1992de6185d5
-  auth: afc62065-9f25-43bd-a3d8-1992de6185d5
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-1P
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 3579c97b-fdc6-4500-9966-91b5d1262090
-  auth: 3579c97b-fdc6-4500-9966-91b5d1262090
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2R
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
-  auth: 6c0c29ab-8b4a-417a-a106-2052584ca8fc
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1P
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 3579c97b-fdc6-4500-9966-91b5d1262090
-  auth: 3579c97b-fdc6-4500-9966-91b5d1262090
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-1T
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  auth: f13d2950-2f5f-4b60-a43d-1ecd79075349
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: VN 冰摇桃桃乌龙茶-2W
-  server: vn.taipeicity.news
-  port: 23656
-  type: hysteria2
-  password: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
-  auth: 8fbb4163-775d-4fa2-b9f1-d9d62d0b9a80
-  sni: https://bing.com
-  up: 10
-  down: 10
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP 香草星冰乐-2Z
-  server: jpzl2.stardad.lol
-  port: 48512
-  type: hysteria2
-  password: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
-  auth: 5b3810f3-d1e2-4ae1-9ceb-d3c5326bc4fc
   sni: https://bing.com
   up: 10
   down: 10
@@ -1752,160 +1802,165 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国VM2
-  - 🇯🇵 JP 香草星冰乐-2V
-  - 🇸🇬 SG 冷萃冰咖啡-2Y
-  - VN 冰摇桃桃乌龙茶-2D
-  - 🇺🇸 美国HY2
-  - VN 冰摇桃桃乌龙茶-1C
-  - 🇩🇪 德国法兰克福-2x
-  - 🇩🇪 德国VM1
   - 🇩🇪 德国VL
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇯🇵 JP 香草星冰乐-2M
-  - 🇯🇵 JP 香草星冰乐-2K
-  - 🇯🇵 JP 香草星冰乐-1T
-  - 🇯🇵 JP 香草星冰乐-3B
-  - 🇯🇵 JP 香草星冰乐-2C
-  - 🇯🇵 JP 香草星冰乐-1W
-  - 🇯🇵 JP 香草星冰乐-1U
-  - 🇯🇵 JP 香草星冰乐-3D
-  - 🇯🇵 JP 香草星冰乐-2P
-  - 🇯🇵 JP 香草星冰乐-1Z
-  - 🇯🇵 JP 香草星冰乐-2I
-  - 🇯🇵 JP 香草星冰乐-1P
-  - 🇯🇵 JP 香草星冰乐-1Q
-  - 🇯🇵 JP 香草星冰乐-2R
+  - 🇩🇪 德国VM1
   - 🇯🇵 JP 香草星冰乐-2L
-  - 🇯🇵 JP 香草星冰乐-3E
-  - 🇯🇵 JP 香草星冰乐-1K
-  - 🇯🇵 JP 香草星冰乐-2F
-  - 🇯🇵 JP 香草星冰乐-1O
-  - 🇯🇵 JP 香草星冰乐-2D
-  - 🇯🇵 JP 香草星冰乐-2Y
-  - 🇯🇵 JP 香草星冰乐-2Q
-  - 🇯🇵 JP 香草星冰乐-1H
-  - 🇯🇵 JP 香草星冰乐-2E
-  - 🇯🇵 JP 香草星冰乐-1B
-  - 🇯🇵 JP 香草星冰乐-2U
-  - 🇯🇵 JP 香草星冰乐-1A
-  - 🇯🇵 JP 香草星冰乐-1V
-  - 🇯🇵 JP 香草星冰乐-1x
-  - 🇯🇵 JP 香草星冰乐-2Z
-  - 🇯🇵 JP 香草星冰乐-1S
-  - 🇯🇵 JP 香草星冰乐-1E
-  - 🇯🇵 JP 香草星冰乐-2G
-  - 🇯🇵 JP 香草星冰乐-1G
-  - 🇯🇵 JP 香草星冰乐-2x
-  - 🇯🇵 JP 香草星冰乐-2J
-  - 🇯🇵 JP 香草星冰乐-1Y
-  - 🇯🇵 JP 香草星冰乐-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1Y
-  - 🇯🇵 JP 香草星冰乐-1R
-  - 🇯🇵 JP 香草星冰乐-2T
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇯🇵 JP 香草星冰乐-1L
-  - 🇯🇵 JP 香草星冰乐-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2J
-  - 🇸🇬 SG 冷萃冰咖啡-2E
-  - 🇸🇬 SG 冷萃冰咖啡-1U
-  - 🇸🇬 SG 冷萃冰咖啡-1M
-  - 🇸🇬 SG 冷萃冰咖啡-2B
-  - 🇸🇬 SG 冷萃冰咖啡-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2U
-  - 🇸🇬 SG 冷萃冰咖啡-3B
-  - 🇸🇬 SG 冷萃冰咖啡-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1B
-  - 🇸🇬 SG 冷萃冰咖啡-1H
-  - 🇸🇬 SG 冷萃冰咖啡-1T
-  - 🇯🇵 JP 香草星冰乐-2H
-  - 🇯🇵 JP 香草星冰乐-2W
-  - 🇸🇬 SG 冷萃冰咖啡-2I
-  - 🇸🇬 SG 冷萃冰咖啡-2C
-  - 🇯🇵 JP 香草星冰乐-1J
-  - 🇯🇵 JP 香草星冰乐-1M
-  - 🇯🇵 JP 香草星冰乐-2B
-  - 🇪🇺 欧洲-伦敦-1
-  - 🇯🇵 JP 香草星冰乐-1N
-  - 🇯🇵 JP 香草星冰乐-3C
-  - 🇯🇵 JP 香草星冰乐-3F
-  - 🇯🇵 JP 香草星冰乐-2A
-  - 🇯🇵 日本-2
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇯🇵 JP 香草星冰乐-2S
-  - VN 冰摇桃桃乌龙茶-2x
-  - VN 冰摇桃桃乌龙茶-2Q
-  - 🇯🇵 JP 香草星冰乐-1D
-  - 🇯🇵 JP 香草星冰乐-2N
-  - 🇯🇵 JP 香草星冰乐-1F
-  - VN 冰摇桃桃乌龙茶-3E
-  - 🇯🇵 JP 香草星冰乐-3A
-  - VN 冰摇桃桃乌龙茶-1P
-  - VN 冰摇桃桃乌龙茶-3F
-  - VN 冰摇桃桃乌龙茶-1Y
-  - VN 冰摇桃桃乌龙茶-2B
-  - 🇯🇵 JP 香草星冰乐-1I
-  - VN 冰摇桃桃乌龙茶-2J
-  - VN 冰摇桃桃乌龙茶-1I
-  - VN 冰摇桃桃乌龙茶-1T
-  - VN 冰摇桃桃乌龙茶-1E
-  - VN 冰摇桃桃乌龙茶-2Y
-  - VN 冰摇桃桃乌龙茶-1S
-  - VN 冰摇桃桃乌龙茶-2O
-  - VN 冰摇桃桃乌龙茶-1V
-  - VN 冰摇桃桃乌龙茶-2A
-  - 🇸🇬 SG 冷萃冰咖啡-3A
-  - VN 冰摇桃桃乌龙茶-2M
-  - VN 冰摇桃桃乌龙茶-2E
-  - VN 冰摇桃桃乌龙茶-2G
-  - VN 冰摇桃桃乌龙茶-1A
-  - VN 冰摇桃桃乌龙茶-1G
-  - VN 冰摇桃桃乌龙茶-1N
-  - 🇯🇵 日本-1
-  - VN 冰摇桃桃乌龙茶-1M
+  - 🇩🇪 德国VM2
   - VN 冰摇桃桃乌龙茶-1J
-  - VN 冰摇桃桃乌龙茶-2R
-  - VN 冰摇桃桃乌龙茶-2Z
-  - VN 冰摇桃桃乌龙茶-2P
-  - VN 冰摇桃桃乌龙茶-1O
-  - 🇸🇬 SG 冷萃冰咖啡-2Q
-  - VN 冰摇桃桃乌龙茶-1H
-  - VN 冰摇桃桃乌龙茶-2K
-  - VN 冰摇桃桃乌龙茶-2V
-  - VN 冰摇桃桃乌龙茶-1U
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1E
-  - VN 冰摇桃桃乌龙茶-2W
-  - VN 冰摇桃桃乌龙茶-1K
-  - VN 冰摇桃桃乌龙茶-1B
-  - VN 冰摇桃桃乌龙茶-2U
-  - 🇸🇬 SG 冷萃冰咖啡-2x
-  - VN 冰摇桃桃乌龙茶-3C
-  - 🇰🇷 韩国-2
-  - VN 冰摇桃桃乌龙茶-2I
-  - VN 冰摇桃桃乌龙茶-1F
-  - 🇸🇬 SG 冷萃冰咖啡-3D
-  - VN 冰摇桃桃乌龙茶-1L
-  - VN 冰摇桃桃乌龙茶-1Q
-  - 🇰🇷 韩国-首尔
-  - VN 冰摇桃桃乌龙茶-2F
-  - VN 冰摇桃桃乌龙茶-2H
-  - VN 冰摇桃桃乌龙茶-3B
-  - VN 冰摇桃桃乌龙茶-1W
-  - VN 冰摇桃桃乌龙茶-2L
-  - VN 冰摇桃桃乌龙茶-2S
-  - VN 冰摇桃桃乌龙茶-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1R
-  - VN 冰摇桃桃乌龙茶-1x
-  - VN 冰摇桃桃乌龙茶-3D
+  - 🇪🇺 欧洲-伦敦-1
   - VN 冰摇桃桃乌龙茶-2N
-  - 🇸🇬 新加坡-1
-  - VN 冰摇桃桃乌龙茶-3A
-  - VN 冰摇桃桃乌龙茶-2C
-  - VN 冰摇桃桃乌龙茶-2T
-  - VN 冰摇桃桃乌龙茶-1D
-  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2U
+  - 🇯🇵 JP 香草星冰乐-3B
+  - 🇩🇪 德国法兰克福-1V
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国-法兰克福-HY-001-1W
+  - 🇭🇰 香港-1B
+  - 🇸🇬 SG 冷萃冰咖啡-1S
+  - 🇸🇬 SG 冷萃冰咖啡-3E
+  - 🇯🇵 JP 香草星冰乐-2T
+  - 🇯🇵 JP 香草星冰乐-2A
+  - 🇸🇬 SG 冷萃冰咖啡-2J
+  - 🇸🇬 SG 冷萃冰咖啡-2A
+  - 🇯🇵 JP 香草星冰乐-3F
+  - 🇯🇵 JP 香草星冰乐-1C
+  - 🇯🇵 JP 香草星冰乐-2x
+  - 🇯🇵 JP 香草星冰乐-1I
+  - 🇸🇬 SG 冷萃冰咖啡-1A
+  - 🇸🇬 SG 冷萃冰咖啡-2S
+  - 🇯🇵 JP 香草星冰乐-1G
+  - 🇸🇬 SG 冷萃冰咖啡-2O
+  - 🇸🇬 SG 冷萃冰咖啡-1U
+  - 🇯🇵 JP 香草星冰乐-1M
+  - 🇯🇵 JP 香草星冰乐-2Z
+  - 🇯🇵 JP 香草星冰乐-2G
+  - 🇸🇬 SG 冷萃冰咖啡-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1K
+  - 🇸🇬 SG 冷萃冰咖啡-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1J
+  - 🇯🇵 JP 香草星冰乐-2Y
+  - 🇸🇬 SG 冷萃冰咖啡-2Y
+  - 🇯🇵 JP 香草星冰乐-2H
+  - 🇯🇵 JP 香草星冰乐-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1N
   - 🇸🇬 SG 冷萃冰咖啡-1x
+  - 🇸🇬 SG 冷萃冰咖啡-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1I
+  - 🇸🇬 SG 冷萃冰咖啡-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1E
+  - 🇯🇵 JP 香草星冰乐-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2E
+  - 🇯🇵 JP 香草星冰乐-1A
+  - 🇸🇬 SG 冷萃冰咖啡-1C
+  - 🇸🇬 SG 冷萃冰咖啡-3B
+  - 🇸🇬 SG 冷萃冰咖啡-1M
+  - 🇸🇬 SG 冷萃冰咖啡-1B
+  - 🇯🇵 JP 香草星冰乐-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1W
+  - 🇸🇬 SG 冷萃冰咖啡-2T
+  - 🇸🇬 SG 冷萃冰咖啡-1V
+  - 🇸🇬 SG 冷萃冰咖啡-1G
+  - 🇯🇵 JP 香草星冰乐-2N
+  - 🇯🇵 JP 香草星冰乐-1S
+  - 🇸🇬 SG 冷萃冰咖啡-2Q
+  - 🇸🇬 SG 冷萃冰咖啡-2x
+  - 🇯🇵 JP 香草星冰乐-1H
+  - 🇯🇵 JP 香草星冰乐-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2B
+  - 🇸🇬 SG 冷萃冰咖啡-1Z
+  - 🇯🇵 JP 香草星冰乐-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1D
+  - 🇸🇬 SG 冷萃冰咖啡-2G
+  - 🇯🇵 JP 香草星冰乐-1E
+  - 🇸🇬 SG 冷萃冰咖啡-1H
+  - 🇯🇵 JP 香草星冰乐-2E
+  - 🇯🇵 JP 香草星冰乐-1K
+  - 🇯🇵 JP 香草星冰乐-1Q
+  - 🇯🇵 JP 香草星冰乐-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-2R
+  - 🇸🇬 SG 冷萃冰咖啡-2H
+  - 🇯🇵 JP 香草星冰乐-2V
+  - 🇸🇬 SG 冷萃冰咖啡-3F
+  - 🇸🇬 SG 冷萃冰咖啡-1Q
+  - 🇸🇬 SG 冷萃冰咖啡-2C
+  - 🇸🇬 SG 冷萃冰咖啡-2P
+  - 🇸🇬 SG 冷萃冰咖啡-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2F
+  - 🇸🇬 SG 冷萃冰咖啡-2Z
+  - 🇸🇬 SG 冷萃冰咖啡-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2M
+  - 🇯🇵 JP 香草星冰乐-3E
+  - 🇯🇵 JP 香草星冰乐-1W
+  - 🇯🇵 JP 香草星冰乐-2S
+  - 🇸🇬 SG 冷萃冰咖啡-1R
+  - 🇸🇬 SG 冷萃冰咖啡-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2U
+  - 🇰🇷 韩国-首尔
+  - 🇸🇬 SG 冷萃冰咖啡-3D
+  - 🇯🇵 JP 香草星冰乐-1D
+  - 🇯🇵 JP 香草星冰乐-1x
+  - 🇯🇵 JP 香草星冰乐-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2N
+  - 🇯🇵 JP 香草星冰乐-1J
+  - 🇯🇵 JP 香草星冰乐-1R
+  - 🇸🇬 SG 冷萃冰咖啡-2L
+  - 🇸🇬 SG 冷萃冰咖啡-1L
+  - 🇯🇵 日本-1
+  - 🇯🇵 日本-2
+  - 🇸🇬 SG 冷萃冰咖啡-2K
+  - 🇰🇷 韩国-2
+  - 🇸🇬 新加坡-1
+  - 🇸🇬 SG 冷萃冰咖啡-3C
+  - 🇯🇵 JP 香草星冰乐-1N
+  - 🇸🇬 SG 冷萃冰咖啡-2V
+  - VN 冰摇桃桃乌龙茶-2S
+  - 🇯🇵 JP 香草星冰乐-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1T
+  - VN 冰摇桃桃乌龙茶-1O
+  - 🇯🇵 JP 香草星冰乐-2O
+  - VN 冰摇桃桃乌龙茶-3F
+  - VN 冰摇桃桃乌龙茶-2K
+  - VN 冰摇桃桃乌龙茶-1W
+  - VN 冰摇桃桃乌龙茶-2H
+  - VN 冰摇桃桃乌龙茶-1G
+  - VN 冰摇桃桃乌龙茶-2D
+  - VN 冰摇桃桃乌龙茶-1S
+  - 🇯🇵 JP 香草星冰乐-2P
+  - VN 冰摇桃桃乌龙茶-2R
+  - VN 冰摇桃桃乌龙茶-2Q
+  - 🇯🇵 JP 香草星冰乐-1T
+  - VN 冰摇桃桃乌龙茶-2G
+  - VN 冰摇桃桃乌龙茶-1H
+  - VN 冰摇桃桃乌龙茶-2E
+  - VN 冰摇桃桃乌龙茶-1Y
+  - VN 冰摇桃桃乌龙茶-1A
+  - VN 冰摇桃桃乌龙茶-2O
+  - VN 冰摇桃桃乌龙茶-2F
+  - VN 冰摇桃桃乌龙茶-2C
+  - VN 冰摇桃桃乌龙茶-2B
+  - VN 冰摇桃桃乌龙茶-1M
+  - VN 冰摇桃桃乌龙茶-1I
+  - VN 冰摇桃桃乌龙茶-2A
+  - VN 冰摇桃桃乌龙茶-1Z
+  - VN 冰摇桃桃乌龙茶-2I
+  - VN 冰摇桃桃乌龙茶-3A
+  - VN 冰摇桃桃乌龙茶-2L
+  - VN 冰摇桃桃乌龙茶-1E
+  - VN 冰摇桃桃乌龙茶-2J
+  - VN 冰摇桃桃乌龙茶-3E
+  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2x
+  - VN 冰摇桃桃乌龙茶-1K
+  - VN 冰摇桃桃乌龙茶-1C
+  - VN 冰摇桃桃乌龙茶-1B
+  - VN 冰摇桃桃乌龙茶-1P
+  - VN 冰摇桃桃乌龙茶-1F
+  - VN 冰摇桃桃乌龙茶-1V
+  - VN 冰摇桃桃乌龙茶-2Z
+  - VN 冰摇桃桃乌龙茶-1D
+  - VN 冰摇桃桃乌龙茶-1x
+  - VN 冰摇桃桃乌龙茶-2V
+  - VN 冰摇桃桃乌龙茶-3D
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -1913,319 +1968,329 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国VM2
-  - 🇯🇵 JP 香草星冰乐-2V
-  - 🇸🇬 SG 冷萃冰咖啡-2Y
-  - VN 冰摇桃桃乌龙茶-2D
-  - 🇺🇸 美国HY2
-  - VN 冰摇桃桃乌龙茶-1C
-  - 🇩🇪 德国法兰克福-2x
-  - 🇩🇪 德国VM1
   - 🇩🇪 德国VL
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇯🇵 JP 香草星冰乐-2M
-  - 🇯🇵 JP 香草星冰乐-2K
-  - 🇯🇵 JP 香草星冰乐-1T
-  - 🇯🇵 JP 香草星冰乐-3B
-  - 🇯🇵 JP 香草星冰乐-2C
-  - 🇯🇵 JP 香草星冰乐-1W
-  - 🇯🇵 JP 香草星冰乐-1U
-  - 🇯🇵 JP 香草星冰乐-3D
-  - 🇯🇵 JP 香草星冰乐-2P
-  - 🇯🇵 JP 香草星冰乐-1Z
-  - 🇯🇵 JP 香草星冰乐-2I
-  - 🇯🇵 JP 香草星冰乐-1P
-  - 🇯🇵 JP 香草星冰乐-1Q
-  - 🇯🇵 JP 香草星冰乐-2R
+  - 🇩🇪 德国VM1
   - 🇯🇵 JP 香草星冰乐-2L
-  - 🇯🇵 JP 香草星冰乐-3E
-  - 🇯🇵 JP 香草星冰乐-1K
-  - 🇯🇵 JP 香草星冰乐-2F
-  - 🇯🇵 JP 香草星冰乐-1O
-  - 🇯🇵 JP 香草星冰乐-2D
-  - 🇯🇵 JP 香草星冰乐-2Y
-  - 🇯🇵 JP 香草星冰乐-2Q
-  - 🇯🇵 JP 香草星冰乐-1H
-  - 🇯🇵 JP 香草星冰乐-2E
-  - 🇯🇵 JP 香草星冰乐-1B
-  - 🇯🇵 JP 香草星冰乐-2U
-  - 🇯🇵 JP 香草星冰乐-1A
-  - 🇯🇵 JP 香草星冰乐-1V
-  - 🇯🇵 JP 香草星冰乐-1x
-  - 🇯🇵 JP 香草星冰乐-2Z
-  - 🇯🇵 JP 香草星冰乐-1S
-  - 🇯🇵 JP 香草星冰乐-1E
-  - 🇯🇵 JP 香草星冰乐-2G
-  - 🇯🇵 JP 香草星冰乐-1G
-  - 🇯🇵 JP 香草星冰乐-2x
-  - 🇯🇵 JP 香草星冰乐-2J
-  - 🇯🇵 JP 香草星冰乐-1Y
-  - 🇯🇵 JP 香草星冰乐-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1Y
-  - 🇯🇵 JP 香草星冰乐-1R
-  - 🇯🇵 JP 香草星冰乐-2T
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇯🇵 JP 香草星冰乐-1L
-  - 🇯🇵 JP 香草星冰乐-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2J
-  - 🇸🇬 SG 冷萃冰咖啡-2E
-  - 🇸🇬 SG 冷萃冰咖啡-1U
-  - 🇸🇬 SG 冷萃冰咖啡-1M
-  - 🇸🇬 SG 冷萃冰咖啡-2B
-  - 🇸🇬 SG 冷萃冰咖啡-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2U
-  - 🇸🇬 SG 冷萃冰咖啡-3B
-  - 🇸🇬 SG 冷萃冰咖啡-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1B
-  - 🇸🇬 SG 冷萃冰咖啡-1H
-  - 🇸🇬 SG 冷萃冰咖啡-1T
-  - 🇯🇵 JP 香草星冰乐-2H
-  - 🇯🇵 JP 香草星冰乐-2W
-  - 🇸🇬 SG 冷萃冰咖啡-2I
-  - 🇸🇬 SG 冷萃冰咖啡-2C
-  - 🇯🇵 JP 香草星冰乐-1J
-  - 🇯🇵 JP 香草星冰乐-1M
-  - 🇯🇵 JP 香草星冰乐-2B
-  - 🇪🇺 欧洲-伦敦-1
-  - 🇯🇵 JP 香草星冰乐-1N
-  - 🇯🇵 JP 香草星冰乐-3C
-  - 🇯🇵 JP 香草星冰乐-3F
-  - 🇯🇵 JP 香草星冰乐-2A
-  - 🇯🇵 日本-2
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇯🇵 JP 香草星冰乐-2S
-  - VN 冰摇桃桃乌龙茶-2x
-  - VN 冰摇桃桃乌龙茶-2Q
-  - 🇯🇵 JP 香草星冰乐-1D
-  - 🇯🇵 JP 香草星冰乐-2N
-  - 🇯🇵 JP 香草星冰乐-1F
-  - VN 冰摇桃桃乌龙茶-3E
-  - 🇯🇵 JP 香草星冰乐-3A
-  - VN 冰摇桃桃乌龙茶-1P
-  - VN 冰摇桃桃乌龙茶-3F
-  - VN 冰摇桃桃乌龙茶-1Y
-  - VN 冰摇桃桃乌龙茶-2B
-  - 🇯🇵 JP 香草星冰乐-1I
-  - VN 冰摇桃桃乌龙茶-2J
-  - VN 冰摇桃桃乌龙茶-1I
-  - VN 冰摇桃桃乌龙茶-1T
-  - VN 冰摇桃桃乌龙茶-1E
-  - VN 冰摇桃桃乌龙茶-2Y
-  - VN 冰摇桃桃乌龙茶-1S
-  - VN 冰摇桃桃乌龙茶-2O
-  - VN 冰摇桃桃乌龙茶-1V
-  - VN 冰摇桃桃乌龙茶-2A
-  - 🇸🇬 SG 冷萃冰咖啡-3A
-  - VN 冰摇桃桃乌龙茶-2M
-  - VN 冰摇桃桃乌龙茶-2E
-  - VN 冰摇桃桃乌龙茶-2G
-  - VN 冰摇桃桃乌龙茶-1A
-  - VN 冰摇桃桃乌龙茶-1G
-  - VN 冰摇桃桃乌龙茶-1N
-  - 🇯🇵 日本-1
-  - VN 冰摇桃桃乌龙茶-1M
+  - 🇩🇪 德国VM2
   - VN 冰摇桃桃乌龙茶-1J
-  - VN 冰摇桃桃乌龙茶-2R
-  - VN 冰摇桃桃乌龙茶-2Z
-  - VN 冰摇桃桃乌龙茶-2P
-  - VN 冰摇桃桃乌龙茶-1O
-  - 🇸🇬 SG 冷萃冰咖啡-2Q
-  - VN 冰摇桃桃乌龙茶-1H
-  - VN 冰摇桃桃乌龙茶-2K
-  - VN 冰摇桃桃乌龙茶-2V
-  - VN 冰摇桃桃乌龙茶-1U
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1E
-  - VN 冰摇桃桃乌龙茶-2W
-  - VN 冰摇桃桃乌龙茶-1K
-  - VN 冰摇桃桃乌龙茶-1B
-  - VN 冰摇桃桃乌龙茶-2U
-  - 🇸🇬 SG 冷萃冰咖啡-2x
-  - VN 冰摇桃桃乌龙茶-3C
-  - 🇰🇷 韩国-2
-  - VN 冰摇桃桃乌龙茶-2I
-  - VN 冰摇桃桃乌龙茶-1F
-  - 🇸🇬 SG 冷萃冰咖啡-3D
-  - VN 冰摇桃桃乌龙茶-1L
-  - VN 冰摇桃桃乌龙茶-1Q
-  - 🇰🇷 韩国-首尔
-  - VN 冰摇桃桃乌龙茶-2F
-  - VN 冰摇桃桃乌龙茶-2H
-  - VN 冰摇桃桃乌龙茶-3B
-  - VN 冰摇桃桃乌龙茶-1W
-  - VN 冰摇桃桃乌龙茶-2L
-  - VN 冰摇桃桃乌龙茶-2S
-  - VN 冰摇桃桃乌龙茶-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1R
-  - VN 冰摇桃桃乌龙茶-1x
-  - VN 冰摇桃桃乌龙茶-3D
+  - 🇪🇺 欧洲-伦敦-1
   - VN 冰摇桃桃乌龙茶-2N
-  - 🇸🇬 新加坡-1
-  - VN 冰摇桃桃乌龙茶-3A
-  - VN 冰摇桃桃乌龙茶-2C
-  - VN 冰摇桃桃乌龙茶-2T
-  - VN 冰摇桃桃乌龙茶-1D
-  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2U
+  - 🇯🇵 JP 香草星冰乐-3B
+  - 🇩🇪 德国法兰克福-1V
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国-法兰克福-HY-001-1W
+  - 🇭🇰 香港-1B
+  - 🇸🇬 SG 冷萃冰咖啡-1S
+  - 🇸🇬 SG 冷萃冰咖啡-3E
+  - 🇯🇵 JP 香草星冰乐-2T
+  - 🇯🇵 JP 香草星冰乐-2A
+  - 🇸🇬 SG 冷萃冰咖啡-2J
+  - 🇸🇬 SG 冷萃冰咖啡-2A
+  - 🇯🇵 JP 香草星冰乐-3F
+  - 🇯🇵 JP 香草星冰乐-1C
+  - 🇯🇵 JP 香草星冰乐-2x
+  - 🇯🇵 JP 香草星冰乐-1I
+  - 🇸🇬 SG 冷萃冰咖啡-1A
+  - 🇸🇬 SG 冷萃冰咖啡-2S
+  - 🇯🇵 JP 香草星冰乐-1G
+  - 🇸🇬 SG 冷萃冰咖啡-2O
+  - 🇸🇬 SG 冷萃冰咖啡-1U
+  - 🇯🇵 JP 香草星冰乐-1M
+  - 🇯🇵 JP 香草星冰乐-2Z
+  - 🇯🇵 JP 香草星冰乐-2G
+  - 🇸🇬 SG 冷萃冰咖啡-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1K
+  - 🇸🇬 SG 冷萃冰咖啡-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1J
+  - 🇯🇵 JP 香草星冰乐-2Y
+  - 🇸🇬 SG 冷萃冰咖啡-2Y
+  - 🇯🇵 JP 香草星冰乐-2H
+  - 🇯🇵 JP 香草星冰乐-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1N
   - 🇸🇬 SG 冷萃冰咖啡-1x
+  - 🇸🇬 SG 冷萃冰咖啡-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1I
+  - 🇸🇬 SG 冷萃冰咖啡-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1E
+  - 🇯🇵 JP 香草星冰乐-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2E
+  - 🇯🇵 JP 香草星冰乐-1A
+  - 🇸🇬 SG 冷萃冰咖啡-1C
+  - 🇸🇬 SG 冷萃冰咖啡-3B
+  - 🇸🇬 SG 冷萃冰咖啡-1M
+  - 🇸🇬 SG 冷萃冰咖啡-1B
+  - 🇯🇵 JP 香草星冰乐-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1W
+  - 🇸🇬 SG 冷萃冰咖啡-2T
+  - 🇸🇬 SG 冷萃冰咖啡-1V
+  - 🇸🇬 SG 冷萃冰咖啡-1G
+  - 🇯🇵 JP 香草星冰乐-2N
+  - 🇯🇵 JP 香草星冰乐-1S
+  - 🇸🇬 SG 冷萃冰咖啡-2Q
+  - 🇸🇬 SG 冷萃冰咖啡-2x
+  - 🇯🇵 JP 香草星冰乐-1H
+  - 🇯🇵 JP 香草星冰乐-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2B
+  - 🇸🇬 SG 冷萃冰咖啡-1Z
+  - 🇯🇵 JP 香草星冰乐-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1D
+  - 🇸🇬 SG 冷萃冰咖啡-2G
+  - 🇯🇵 JP 香草星冰乐-1E
+  - 🇸🇬 SG 冷萃冰咖啡-1H
+  - 🇯🇵 JP 香草星冰乐-2E
+  - 🇯🇵 JP 香草星冰乐-1K
+  - 🇯🇵 JP 香草星冰乐-1Q
+  - 🇯🇵 JP 香草星冰乐-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-2R
+  - 🇸🇬 SG 冷萃冰咖啡-2H
+  - 🇯🇵 JP 香草星冰乐-2V
+  - 🇸🇬 SG 冷萃冰咖啡-3F
+  - 🇸🇬 SG 冷萃冰咖啡-1Q
+  - 🇸🇬 SG 冷萃冰咖啡-2C
+  - 🇸🇬 SG 冷萃冰咖啡-2P
+  - 🇸🇬 SG 冷萃冰咖啡-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2F
+  - 🇸🇬 SG 冷萃冰咖啡-2Z
+  - 🇸🇬 SG 冷萃冰咖啡-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2M
+  - 🇯🇵 JP 香草星冰乐-3E
+  - 🇯🇵 JP 香草星冰乐-1W
+  - 🇯🇵 JP 香草星冰乐-2S
+  - 🇸🇬 SG 冷萃冰咖啡-1R
+  - 🇸🇬 SG 冷萃冰咖啡-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2U
+  - 🇰🇷 韩国-首尔
+  - 🇸🇬 SG 冷萃冰咖啡-3D
+  - 🇯🇵 JP 香草星冰乐-1D
+  - 🇯🇵 JP 香草星冰乐-1x
+  - 🇯🇵 JP 香草星冰乐-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2N
+  - 🇯🇵 JP 香草星冰乐-1J
+  - 🇯🇵 JP 香草星冰乐-1R
+  - 🇸🇬 SG 冷萃冰咖啡-2L
+  - 🇸🇬 SG 冷萃冰咖啡-1L
+  - 🇯🇵 日本-1
+  - 🇯🇵 日本-2
+  - 🇸🇬 SG 冷萃冰咖啡-2K
+  - 🇰🇷 韩国-2
+  - 🇸🇬 新加坡-1
+  - 🇸🇬 SG 冷萃冰咖啡-3C
+  - 🇯🇵 JP 香草星冰乐-1N
+  - 🇸🇬 SG 冷萃冰咖啡-2V
+  - VN 冰摇桃桃乌龙茶-2S
+  - 🇯🇵 JP 香草星冰乐-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1T
+  - VN 冰摇桃桃乌龙茶-1O
+  - 🇯🇵 JP 香草星冰乐-2O
+  - VN 冰摇桃桃乌龙茶-3F
+  - VN 冰摇桃桃乌龙茶-2K
+  - VN 冰摇桃桃乌龙茶-1W
+  - VN 冰摇桃桃乌龙茶-2H
+  - VN 冰摇桃桃乌龙茶-1G
+  - VN 冰摇桃桃乌龙茶-2D
+  - VN 冰摇桃桃乌龙茶-1S
+  - 🇯🇵 JP 香草星冰乐-2P
+  - VN 冰摇桃桃乌龙茶-2R
+  - VN 冰摇桃桃乌龙茶-2Q
+  - 🇯🇵 JP 香草星冰乐-1T
+  - VN 冰摇桃桃乌龙茶-2G
+  - VN 冰摇桃桃乌龙茶-1H
+  - VN 冰摇桃桃乌龙茶-2E
+  - VN 冰摇桃桃乌龙茶-1Y
+  - VN 冰摇桃桃乌龙茶-1A
+  - VN 冰摇桃桃乌龙茶-2O
+  - VN 冰摇桃桃乌龙茶-2F
+  - VN 冰摇桃桃乌龙茶-2C
+  - VN 冰摇桃桃乌龙茶-2B
+  - VN 冰摇桃桃乌龙茶-1M
+  - VN 冰摇桃桃乌龙茶-1I
+  - VN 冰摇桃桃乌龙茶-2A
+  - VN 冰摇桃桃乌龙茶-1Z
+  - VN 冰摇桃桃乌龙茶-2I
+  - VN 冰摇桃桃乌龙茶-3A
+  - VN 冰摇桃桃乌龙茶-2L
+  - VN 冰摇桃桃乌龙茶-1E
+  - VN 冰摇桃桃乌龙茶-2J
+  - VN 冰摇桃桃乌龙茶-3E
+  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2x
+  - VN 冰摇桃桃乌龙茶-1K
+  - VN 冰摇桃桃乌龙茶-1C
+  - VN 冰摇桃桃乌龙茶-1B
+  - VN 冰摇桃桃乌龙茶-1P
+  - VN 冰摇桃桃乌龙茶-1F
+  - VN 冰摇桃桃乌龙茶-1V
+  - VN 冰摇桃桃乌龙茶-2Z
+  - VN 冰摇桃桃乌龙茶-1D
+  - VN 冰摇桃桃乌龙茶-1x
+  - VN 冰摇桃桃乌龙茶-2V
+  - VN 冰摇桃桃乌龙茶-3D
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国VM2
-  - 🇯🇵 JP 香草星冰乐-2V
-  - 🇸🇬 SG 冷萃冰咖啡-2Y
-  - VN 冰摇桃桃乌龙茶-2D
-  - 🇺🇸 美国HY2
-  - VN 冰摇桃桃乌龙茶-1C
-  - 🇩🇪 德国法兰克福-2x
-  - 🇩🇪 德国VM1
   - 🇩🇪 德国VL
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇯🇵 JP 香草星冰乐-2M
-  - 🇯🇵 JP 香草星冰乐-2K
-  - 🇯🇵 JP 香草星冰乐-1T
-  - 🇯🇵 JP 香草星冰乐-3B
-  - 🇯🇵 JP 香草星冰乐-2C
-  - 🇯🇵 JP 香草星冰乐-1W
-  - 🇯🇵 JP 香草星冰乐-1U
-  - 🇯🇵 JP 香草星冰乐-3D
-  - 🇯🇵 JP 香草星冰乐-2P
-  - 🇯🇵 JP 香草星冰乐-1Z
-  - 🇯🇵 JP 香草星冰乐-2I
-  - 🇯🇵 JP 香草星冰乐-1P
-  - 🇯🇵 JP 香草星冰乐-1Q
-  - 🇯🇵 JP 香草星冰乐-2R
+  - 🇩🇪 德国VM1
   - 🇯🇵 JP 香草星冰乐-2L
-  - 🇯🇵 JP 香草星冰乐-3E
-  - 🇯🇵 JP 香草星冰乐-1K
-  - 🇯🇵 JP 香草星冰乐-2F
-  - 🇯🇵 JP 香草星冰乐-1O
-  - 🇯🇵 JP 香草星冰乐-2D
-  - 🇯🇵 JP 香草星冰乐-2Y
-  - 🇯🇵 JP 香草星冰乐-2Q
-  - 🇯🇵 JP 香草星冰乐-1H
-  - 🇯🇵 JP 香草星冰乐-2E
-  - 🇯🇵 JP 香草星冰乐-1B
-  - 🇯🇵 JP 香草星冰乐-2U
-  - 🇯🇵 JP 香草星冰乐-1A
-  - 🇯🇵 JP 香草星冰乐-1V
-  - 🇯🇵 JP 香草星冰乐-1x
-  - 🇯🇵 JP 香草星冰乐-2Z
-  - 🇯🇵 JP 香草星冰乐-1S
-  - 🇯🇵 JP 香草星冰乐-1E
-  - 🇯🇵 JP 香草星冰乐-2G
-  - 🇯🇵 JP 香草星冰乐-1G
-  - 🇯🇵 JP 香草星冰乐-2x
-  - 🇯🇵 JP 香草星冰乐-2J
-  - 🇯🇵 JP 香草星冰乐-1Y
-  - 🇯🇵 JP 香草星冰乐-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1Y
-  - 🇯🇵 JP 香草星冰乐-1R
-  - 🇯🇵 JP 香草星冰乐-2T
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇯🇵 JP 香草星冰乐-1L
-  - 🇯🇵 JP 香草星冰乐-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2J
-  - 🇸🇬 SG 冷萃冰咖啡-2E
-  - 🇸🇬 SG 冷萃冰咖啡-1U
-  - 🇸🇬 SG 冷萃冰咖啡-1M
-  - 🇸🇬 SG 冷萃冰咖啡-2B
-  - 🇸🇬 SG 冷萃冰咖啡-2O
-  - 🇸🇬 SG 冷萃冰咖啡-1C
-  - 🇸🇬 SG 冷萃冰咖啡-2U
-  - 🇸🇬 SG 冷萃冰咖啡-3B
-  - 🇸🇬 SG 冷萃冰咖啡-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1B
-  - 🇸🇬 SG 冷萃冰咖啡-1H
-  - 🇸🇬 SG 冷萃冰咖啡-1T
-  - 🇯🇵 JP 香草星冰乐-2H
-  - 🇯🇵 JP 香草星冰乐-2W
-  - 🇸🇬 SG 冷萃冰咖啡-2I
-  - 🇸🇬 SG 冷萃冰咖啡-2C
-  - 🇯🇵 JP 香草星冰乐-1J
-  - 🇯🇵 JP 香草星冰乐-1M
-  - 🇯🇵 JP 香草星冰乐-2B
-  - 🇪🇺 欧洲-伦敦-1
-  - 🇯🇵 JP 香草星冰乐-1N
-  - 🇯🇵 JP 香草星冰乐-3C
-  - 🇯🇵 JP 香草星冰乐-3F
-  - 🇯🇵 JP 香草星冰乐-2A
-  - 🇯🇵 日本-2
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇯🇵 JP 香草星冰乐-2S
-  - VN 冰摇桃桃乌龙茶-2x
-  - VN 冰摇桃桃乌龙茶-2Q
-  - 🇯🇵 JP 香草星冰乐-1D
-  - 🇯🇵 JP 香草星冰乐-2N
-  - 🇯🇵 JP 香草星冰乐-1F
-  - VN 冰摇桃桃乌龙茶-3E
-  - 🇯🇵 JP 香草星冰乐-3A
-  - VN 冰摇桃桃乌龙茶-1P
-  - VN 冰摇桃桃乌龙茶-3F
-  - VN 冰摇桃桃乌龙茶-1Y
-  - VN 冰摇桃桃乌龙茶-2B
-  - 🇯🇵 JP 香草星冰乐-1I
-  - VN 冰摇桃桃乌龙茶-2J
-  - VN 冰摇桃桃乌龙茶-1I
-  - VN 冰摇桃桃乌龙茶-1T
-  - VN 冰摇桃桃乌龙茶-1E
-  - VN 冰摇桃桃乌龙茶-2Y
-  - VN 冰摇桃桃乌龙茶-1S
-  - VN 冰摇桃桃乌龙茶-2O
-  - VN 冰摇桃桃乌龙茶-1V
-  - VN 冰摇桃桃乌龙茶-2A
-  - 🇸🇬 SG 冷萃冰咖啡-3A
-  - VN 冰摇桃桃乌龙茶-2M
-  - VN 冰摇桃桃乌龙茶-2E
-  - VN 冰摇桃桃乌龙茶-2G
-  - VN 冰摇桃桃乌龙茶-1A
-  - VN 冰摇桃桃乌龙茶-1G
-  - VN 冰摇桃桃乌龙茶-1N
-  - 🇯🇵 日本-1
-  - VN 冰摇桃桃乌龙茶-1M
+  - 🇩🇪 德国VM2
   - VN 冰摇桃桃乌龙茶-1J
-  - VN 冰摇桃桃乌龙茶-2R
-  - VN 冰摇桃桃乌龙茶-2Z
-  - VN 冰摇桃桃乌龙茶-2P
-  - VN 冰摇桃桃乌龙茶-1O
-  - 🇸🇬 SG 冷萃冰咖啡-2Q
-  - VN 冰摇桃桃乌龙茶-1H
-  - VN 冰摇桃桃乌龙茶-2K
-  - VN 冰摇桃桃乌龙茶-2V
-  - VN 冰摇桃桃乌龙茶-1U
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1E
-  - VN 冰摇桃桃乌龙茶-2W
-  - VN 冰摇桃桃乌龙茶-1K
-  - VN 冰摇桃桃乌龙茶-1B
-  - VN 冰摇桃桃乌龙茶-2U
-  - 🇸🇬 SG 冷萃冰咖啡-2x
-  - VN 冰摇桃桃乌龙茶-3C
-  - 🇰🇷 韩国-2
-  - VN 冰摇桃桃乌龙茶-2I
-  - VN 冰摇桃桃乌龙茶-1F
-  - 🇸🇬 SG 冷萃冰咖啡-3D
-  - VN 冰摇桃桃乌龙茶-1L
-  - VN 冰摇桃桃乌龙茶-1Q
-  - 🇰🇷 韩国-首尔
-  - VN 冰摇桃桃乌龙茶-2F
-  - VN 冰摇桃桃乌龙茶-2H
-  - VN 冰摇桃桃乌龙茶-3B
-  - VN 冰摇桃桃乌龙茶-1W
-  - VN 冰摇桃桃乌龙茶-2L
-  - VN 冰摇桃桃乌龙茶-2S
-  - VN 冰摇桃桃乌龙茶-1Z
-  - 🇸🇬 SG 冷萃冰咖啡-1R
-  - VN 冰摇桃桃乌龙茶-1x
-  - VN 冰摇桃桃乌龙茶-3D
+  - 🇪🇺 欧洲-伦敦-1
   - VN 冰摇桃桃乌龙茶-2N
-  - 🇸🇬 新加坡-1
-  - VN 冰摇桃桃乌龙茶-3A
-  - VN 冰摇桃桃乌龙茶-2C
-  - VN 冰摇桃桃乌龙茶-2T
-  - VN 冰摇桃桃乌龙茶-1D
-  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2U
+  - 🇯🇵 JP 香草星冰乐-3B
+  - 🇩🇪 德国法兰克福-1V
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国-法兰克福-HY-001-1W
+  - 🇭🇰 香港-1B
+  - 🇸🇬 SG 冷萃冰咖啡-1S
+  - 🇸🇬 SG 冷萃冰咖啡-3E
+  - 🇯🇵 JP 香草星冰乐-2T
+  - 🇯🇵 JP 香草星冰乐-2A
+  - 🇸🇬 SG 冷萃冰咖啡-2J
+  - 🇸🇬 SG 冷萃冰咖啡-2A
+  - 🇯🇵 JP 香草星冰乐-3F
+  - 🇯🇵 JP 香草星冰乐-1C
+  - 🇯🇵 JP 香草星冰乐-2x
+  - 🇯🇵 JP 香草星冰乐-1I
+  - 🇸🇬 SG 冷萃冰咖啡-1A
+  - 🇸🇬 SG 冷萃冰咖啡-2S
+  - 🇯🇵 JP 香草星冰乐-1G
+  - 🇸🇬 SG 冷萃冰咖啡-2O
+  - 🇸🇬 SG 冷萃冰咖啡-1U
+  - 🇯🇵 JP 香草星冰乐-1M
+  - 🇯🇵 JP 香草星冰乐-2Z
+  - 🇯🇵 JP 香草星冰乐-2G
+  - 🇸🇬 SG 冷萃冰咖啡-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1K
+  - 🇸🇬 SG 冷萃冰咖啡-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1J
+  - 🇯🇵 JP 香草星冰乐-2Y
+  - 🇸🇬 SG 冷萃冰咖啡-2Y
+  - 🇯🇵 JP 香草星冰乐-2H
+  - 🇯🇵 JP 香草星冰乐-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1N
   - 🇸🇬 SG 冷萃冰咖啡-1x
+  - 🇸🇬 SG 冷萃冰咖啡-2I
+  - 🇸🇬 SG 冷萃冰咖啡-1I
+  - 🇸🇬 SG 冷萃冰咖啡-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1E
+  - 🇯🇵 JP 香草星冰乐-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2E
+  - 🇯🇵 JP 香草星冰乐-1A
+  - 🇸🇬 SG 冷萃冰咖啡-1C
+  - 🇸🇬 SG 冷萃冰咖啡-3B
+  - 🇸🇬 SG 冷萃冰咖啡-1M
+  - 🇸🇬 SG 冷萃冰咖啡-1B
+  - 🇯🇵 JP 香草星冰乐-1P
+  - 🇸🇬 SG 冷萃冰咖啡-1W
+  - 🇸🇬 SG 冷萃冰咖啡-2T
+  - 🇸🇬 SG 冷萃冰咖啡-1V
+  - 🇸🇬 SG 冷萃冰咖啡-1G
+  - 🇯🇵 JP 香草星冰乐-2N
+  - 🇯🇵 JP 香草星冰乐-1S
+  - 🇸🇬 SG 冷萃冰咖啡-2Q
+  - 🇸🇬 SG 冷萃冰咖啡-2x
+  - 🇯🇵 JP 香草星冰乐-1H
+  - 🇯🇵 JP 香草星冰乐-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2B
+  - 🇸🇬 SG 冷萃冰咖啡-1Z
+  - 🇯🇵 JP 香草星冰乐-3A
+  - 🇸🇬 SG 冷萃冰咖啡-1D
+  - 🇸🇬 SG 冷萃冰咖啡-2G
+  - 🇯🇵 JP 香草星冰乐-1E
+  - 🇸🇬 SG 冷萃冰咖啡-1H
+  - 🇯🇵 JP 香草星冰乐-2E
+  - 🇯🇵 JP 香草星冰乐-1K
+  - 🇯🇵 JP 香草星冰乐-1Q
+  - 🇯🇵 JP 香草星冰乐-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-1Y
+  - 🇸🇬 SG 冷萃冰咖啡-2R
+  - 🇸🇬 SG 冷萃冰咖啡-2H
+  - 🇯🇵 JP 香草星冰乐-2V
+  - 🇸🇬 SG 冷萃冰咖啡-3F
+  - 🇸🇬 SG 冷萃冰咖啡-1Q
+  - 🇸🇬 SG 冷萃冰咖啡-2C
+  - 🇸🇬 SG 冷萃冰咖啡-2P
+  - 🇸🇬 SG 冷萃冰咖啡-2D
+  - 🇸🇬 SG 冷萃冰咖啡-2F
+  - 🇸🇬 SG 冷萃冰咖啡-2Z
+  - 🇸🇬 SG 冷萃冰咖啡-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2M
+  - 🇯🇵 JP 香草星冰乐-3E
+  - 🇯🇵 JP 香草星冰乐-1W
+  - 🇯🇵 JP 香草星冰乐-2S
+  - 🇸🇬 SG 冷萃冰咖啡-1R
+  - 🇸🇬 SG 冷萃冰咖啡-1O
+  - 🇸🇬 SG 冷萃冰咖啡-2U
+  - 🇰🇷 韩国-首尔
+  - 🇸🇬 SG 冷萃冰咖啡-3D
+  - 🇯🇵 JP 香草星冰乐-1D
+  - 🇯🇵 JP 香草星冰乐-1x
+  - 🇯🇵 JP 香草星冰乐-1F
+  - 🇸🇬 SG 冷萃冰咖啡-2N
+  - 🇯🇵 JP 香草星冰乐-1J
+  - 🇯🇵 JP 香草星冰乐-1R
+  - 🇸🇬 SG 冷萃冰咖啡-2L
+  - 🇸🇬 SG 冷萃冰咖啡-1L
+  - 🇯🇵 日本-1
+  - 🇯🇵 日本-2
+  - 🇸🇬 SG 冷萃冰咖啡-2K
+  - 🇰🇷 韩国-2
+  - 🇸🇬 新加坡-1
+  - 🇸🇬 SG 冷萃冰咖啡-3C
+  - 🇯🇵 JP 香草星冰乐-1N
+  - 🇸🇬 SG 冷萃冰咖啡-2V
+  - VN 冰摇桃桃乌龙茶-2S
+  - 🇯🇵 JP 香草星冰乐-2W
+  - 🇸🇬 SG 冷萃冰咖啡-1T
+  - VN 冰摇桃桃乌龙茶-1O
+  - 🇯🇵 JP 香草星冰乐-2O
+  - VN 冰摇桃桃乌龙茶-3F
+  - VN 冰摇桃桃乌龙茶-2K
+  - VN 冰摇桃桃乌龙茶-1W
+  - VN 冰摇桃桃乌龙茶-2H
+  - VN 冰摇桃桃乌龙茶-1G
+  - VN 冰摇桃桃乌龙茶-2D
+  - VN 冰摇桃桃乌龙茶-1S
+  - 🇯🇵 JP 香草星冰乐-2P
+  - VN 冰摇桃桃乌龙茶-2R
+  - VN 冰摇桃桃乌龙茶-2Q
+  - 🇯🇵 JP 香草星冰乐-1T
+  - VN 冰摇桃桃乌龙茶-2G
+  - VN 冰摇桃桃乌龙茶-1H
+  - VN 冰摇桃桃乌龙茶-2E
+  - VN 冰摇桃桃乌龙茶-1Y
+  - VN 冰摇桃桃乌龙茶-1A
+  - VN 冰摇桃桃乌龙茶-2O
+  - VN 冰摇桃桃乌龙茶-2F
+  - VN 冰摇桃桃乌龙茶-2C
+  - VN 冰摇桃桃乌龙茶-2B
+  - VN 冰摇桃桃乌龙茶-1M
+  - VN 冰摇桃桃乌龙茶-1I
+  - VN 冰摇桃桃乌龙茶-2A
+  - VN 冰摇桃桃乌龙茶-1Z
+  - VN 冰摇桃桃乌龙茶-2I
+  - VN 冰摇桃桃乌龙茶-3A
+  - VN 冰摇桃桃乌龙茶-2L
+  - VN 冰摇桃桃乌龙茶-1E
+  - VN 冰摇桃桃乌龙茶-2J
+  - VN 冰摇桃桃乌龙茶-3E
+  - VN 冰摇桃桃乌龙茶-1R
+  - VN 冰摇桃桃乌龙茶-2x
+  - VN 冰摇桃桃乌龙茶-1K
+  - VN 冰摇桃桃乌龙茶-1C
+  - VN 冰摇桃桃乌龙茶-1B
+  - VN 冰摇桃桃乌龙茶-1P
+  - VN 冰摇桃桃乌龙茶-1F
+  - VN 冰摇桃桃乌龙茶-1V
+  - VN 冰摇桃桃乌龙茶-2Z
+  - VN 冰摇桃桃乌龙茶-1D
+  - VN 冰摇桃桃乌龙茶-1x
+  - VN 冰摇桃桃乌龙茶-2V
+  - VN 冰摇桃桃乌龙茶-3D
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
