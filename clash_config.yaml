@@ -32,11 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇩🇪 德国法兰克福-1J
+- name: 🇩🇪 德国法兰克福-1O
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 756698cc-ae0f-4eb8-9822-5e83018485b3
+  uuid: 27267eac-c7ae-475b-bb35-f810075426a7
   alterId: 0
   cipher: auto
   tls: false
@@ -46,87 +46,31 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-015-1F
-  server: 195.58.49.42
-  port: 20326
-  type: vmess
-  uuid: bd9ebc10-69aa-438d-8900-c5ff185d88a2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇩🇪 德国VL
-  server: cf3.yunduanjc.top
-  port: 2086
-  type: vless
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: akdg.yunduanjc.top
-  udp: true
-- name: 🇭🇰 香港
-  server: xg.dashuai.cyou
-  port: 19901
-  type: vmess
-  uuid: 234c24b2-daa1-4417-ada1-ea31d0fac104
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-- name: 🇯🇵 日本HY2
-  server: fjp.yunduanjc.top
-  port: 3450
-  type: hysteria2
-  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  sni: fjp.yunduanjc.top
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-HY-015-1L
-  server: 195.58.49.42
-  port: 28155
-  type: hysteria2
-  password: aaee3691-18a8-4d31-8302-3cb0fe2d6445
-  auth: aaee3691-18a8-4d31-8302-3cb0fe2d6445
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1N
+- name: 🇩🇪 德国-法兰克福-HY-001-1G
   server: 185.121.134.12
   port: 31651
   type: hysteria2
-  password: 1bfee7c4-318d-43a8-a15a-cc32d31b7c19
-  auth: 1bfee7c4-318d-43a8-a15a-cc32d31b7c19
+  password: 9ffa0e2a-70be-46a5-b672-af4907615bb5
+  auth: 9ffa0e2a-70be-46a5-b672-af4907615bb5
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇩🇪 德国VM2
-  server: cf2.yunduanjc.top
-  port: 2082
+- name: 🇺🇸 美国-纽约-001-1E
+  server: bymdkmpb.whmvmkwuey.store
+  port: 443
   type: vmess
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  uuid: a1a23c7e-46d6-4a18-a277-749c60041470
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: akdg.yunduanjc.top
+      Host: bymdkmpb.whmvmkwuey.store
   udp: true
 - name: 🇩🇪 德国VM1
   server: cf1.yunduanjc.top
@@ -142,6 +86,98 @@ proxies:
     headers:
       Host: akdg.yunduanjc.top
   udp: true
+- name: 🇭🇰 香港-1B
+  server: xg.dashuai.cyou
+  port: 19901
+  type: vmess
+  uuid: a5e8b0c3-45b8-43bb-bde5-d76c28d109a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🇯🇵 日本HY2
+  server: fjp.yunduanjc.top
+  port: 3450
+  type: hysteria2
+  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  sni: fjp.yunduanjc.top
+  up: 2500
+  down: 500
+  skip-cert-verify: true
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-015-1D
+  server: 195.58.49.42
+  port: 28155
+  type: hysteria2
+  password: 1259d835-7c07-4f02-8d47-f2cba0164490
+  auth: 1259d835-7c07-4f02-8d47-f2cba0164490
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇩🇪 德国VL
+  server: cf3.yunduanjc.top
+  port: 2086
+  type: vless
+  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: akdg.yunduanjc.top
+  udp: true
+- name: 🇭🇰 香港HY2
+  server: akhk.yunduanjc.top
+  port: 3450
+  type: hysteria2
+  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  sni: akhk.yunduanjc.top
+  up: 2500
+  down: 500
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国VM2
+  server: cf2.yunduanjc.top
+  port: 2082
+  type: vmess
+  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: akdg.yunduanjc.top
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001-1A
+  server: 185.121.134.12
+  port: 31651
+  type: hysteria2
+  password: 39b86b55-7833-4bd0-9adb-3cff213e9f05
+  auth: 39b86b55-7833-4bd0-9adb-3cff213e9f05
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇺🇸 美国HY2
+  server: fmg.yunduanjc.top
+  port: 3450
+  type: hysteria2
+  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  sni: fmg.yunduanjc.top
+  up: 2500
+  down: 500
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -154,15 +190,18 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1N
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国法兰克福-1O
+  - 🇩🇪 德国VM2
   - 🇩🇪 德国VL
   - 🇩🇪 德国VM1
-  - 🇩🇪 德国法兰克福-1J
-  - 🇩🇪 德国VM2
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1F
-  - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1L
+  - 🇩🇪 德国-法兰克福-HY-001-1G
   - 🇯🇵 日本HY2
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-法兰克福-HY-001-1A
+  - 🇺🇸 美国-纽约-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1D
+  - 🇭🇰 香港HY2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -170,29 +209,35 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1N
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国法兰克福-1O
+  - 🇩🇪 德国VM2
   - 🇩🇪 德国VL
   - 🇩🇪 德国VM1
-  - 🇩🇪 德国法兰克福-1J
-  - 🇩🇪 德国VM2
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1F
-  - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1L
+  - 🇩🇪 德国-法兰克福-HY-001-1G
   - 🇯🇵 日本HY2
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-法兰克福-HY-001-1A
+  - 🇺🇸 美国-纽约-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1D
+  - 🇭🇰 香港HY2
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1N
+  - 🇺🇸 美国HY2
+  - 🇩🇪 德国法兰克福-1O
+  - 🇩🇪 德国VM2
   - 🇩🇪 德国VL
   - 🇩🇪 德国VM1
-  - 🇩🇪 德国法兰克福-1J
-  - 🇩🇪 德国VM2
-  - 🇷🇺 俄罗斯-圣彼得堡-015-1F
-  - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1L
+  - 🇩🇪 德国-法兰克福-HY-001-1G
   - 🇯🇵 日本HY2
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-法兰克福-HY-001-1A
+  - 🇺🇸 美国-纽约-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-015-1D
+  - 🇭🇰 香港HY2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
