@@ -32,23 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇩🇪 德国-法兰克福-HY-001-1K
-  server: 185.121.134.12
-  port: 31651
-  type: hysteria2
-  password: 17faef64-201f-44a1-a0e2-fc117b8e726a
-  auth: 17faef64-201f-44a1-a0e2-fc117b8e726a
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国法兰克福-1N
+- name: 🇩🇪 德国法兰克福-1D
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 5508f0ba-9c83-407b-8e07-f59121be8ff8
+  uuid: d27c4791-664a-4d02-b3b0-3faa121113cf
   alterId: 0
   cipher: auto
   tls: false
@@ -57,61 +45,6 @@ proxies:
     path: /itdog?ed=2560
     headers:
       Host: us-new03.daluquan.top
-  udp: true
-- name: 🇸🇬 新加坡-1
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: main.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本-1
-  server: oracle-amd-tokyo1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: tokyo.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 欧洲-法兰克福-1
-  server: oracle-arm-frankfurt1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: frankfurt1.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本HY2
-  server: fjp.yunduanjc.top
-  port: 3450
-  type: hysteria2
-  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  sni: fjp.yunduanjc.top
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-1
-  server: oracle-arm-chuncheon1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: korea.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国VL
   server: cf3.yunduanjc.top
@@ -124,15 +57,6 @@ proxies:
     path: /?ed=2048
     headers:
       Host: akdg.yunduanjc.top
-  udp: true
-- name: 🇭🇰 香港
-  server: xg.dashuai.cyou
-  port: 19901
-  type: vmess
-  uuid: c069504b-0dbb-4e62-be04-584b1c0581b7
-  alterId: 0
-  cipher: auto
-  tls: false
   udp: true
 - name: 🇩🇪 德国VM1
   server: cf1.yunduanjc.top
@@ -148,6 +72,129 @@ proxies:
     headers:
       Host: akdg.yunduanjc.top
   udp: true
+- name: 🇯🇵 日本-1
+  server: oracle-amd-tokyo1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: tokyo.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港-1C
+  server: xg.dashuai.cyou
+  port: 19901
+  type: vmess
+  uuid: 070039cc-884d-48b8-8df1-db1ff0dd2361
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🇸🇬 新加坡-1
+  server: oracle-amd-singapore1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: main.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 欧洲-法兰克福-1
+  server: oracle-arm-frankfurt1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: frankfurt1.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001
+  server: 185.121.134.12
+  port: 31651
+  type: hysteria2
+  password: b113ff81-1183-40f3-9526-8c34a2db458c
+  auth: b113ff81-1183-40f3-9526-8c34a2db458c
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇺🇸 美国-拉斯维加斯-001
+  server: qaqnajsp.mmzhk.website
+  port: 443
+  type: vmess
+  uuid: b113ff81-1183-40f3-9526-8c34a2db458c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: qaqnajsp.mmzhk.website
+  udp: true
+- name: 🇰🇷 韩国-2
+  server: oracle-arm-chuncheon2.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-1
+  server: oracle-arm-chuncheon1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本HY2
+  server: fjp.yunduanjc.top
+  port: 3450
+  type: hysteria2
+  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
+  sni: fjp.yunduanjc.top
+  up: 2500
+  down: 500
+  skip-cert-verify: true
+  udp: true
+- name: 🇪🇺 欧洲-伦敦-1
+  server: oracle-arm-london1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: london1.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-首尔
+  server: oracle-arm-seoul1.lanmaoyun.icu
+  port: 30001
+  type: hysteria2
+  password: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  auth: 92939e2f-bf51-4700-b9f1-2c116451f3fe
+  sni: korea.nodes.lanmaoyun.icu
+  up: 100
+  down: 1000
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国VM2
   server: cf2.yunduanjc.top
   port: 2082
@@ -162,50 +209,6 @@ proxies:
     headers:
       Host: akdg.yunduanjc.top
   udp: true
-- name: 🇪🇺 欧洲-伦敦-1
-  server: oracle-arm-london1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: london1.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本-2
-  server: oracle-amd-osaka1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: osaka.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-2
-  server: oracle-arm-chuncheon2.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: korea.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-首尔
-  server: oracle-arm-seoul1.lanmaoyun.icu
-  port: 30001
-  type: hysteria2
-  password: c8e40c02-2b45-46ff-b53f-26273a24001a
-  auth: c8e40c02-2b45-46ff-b53f-26273a24001a
-  sni: korea.nodes.lanmaoyun.icu
-  up: 100
-  down: 1000
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -218,21 +221,21 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1K
   - 🇩🇪 德国VM1
   - 🇩🇪 德国VM2
-  - 🇩🇪 德国法兰克福-1N
   - 🇩🇪 德国VL
+  - 🇩🇪 德国法兰克福-1D
+  - 🇺🇸 美国-拉斯维加斯-001
+  - 🇭🇰 香港-1C
+  - 🇩🇪 德国-法兰克福-HY-001
   - 🇪🇺 欧洲-伦敦-1
-  - 🇩🇪 欧洲-法兰克福-1
-  - 🇭🇰 香港
-  - 🇸🇬 新加坡-1
-  - 🇰🇷 韩国-1
-  - 🇯🇵 日本-1
-  - 🇰🇷 韩国-2
   - 🇰🇷 韩国-首尔
+  - 🇯🇵 日本-1
+  - 🇰🇷 韩国-1
+  - 🇩🇪 欧洲-法兰克福-1
+  - 🇸🇬 新加坡-1
   - 🇯🇵 日本HY2
-  - 🇯🇵 日本-2
+  - 🇰🇷 韩国-2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -240,41 +243,41 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1K
   - 🇩🇪 德国VM1
   - 🇩🇪 德国VM2
-  - 🇩🇪 德国法兰克福-1N
   - 🇩🇪 德国VL
+  - 🇩🇪 德国法兰克福-1D
+  - 🇺🇸 美国-拉斯维加斯-001
+  - 🇭🇰 香港-1C
+  - 🇩🇪 德国-法兰克福-HY-001
   - 🇪🇺 欧洲-伦敦-1
-  - 🇩🇪 欧洲-法兰克福-1
-  - 🇭🇰 香港
-  - 🇸🇬 新加坡-1
-  - 🇰🇷 韩国-1
-  - 🇯🇵 日本-1
-  - 🇰🇷 韩国-2
   - 🇰🇷 韩国-首尔
+  - 🇯🇵 日本-1
+  - 🇰🇷 韩国-1
+  - 🇩🇪 欧洲-法兰克福-1
+  - 🇸🇬 新加坡-1
   - 🇯🇵 日本HY2
-  - 🇯🇵 日本-2
+  - 🇰🇷 韩国-2
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-1K
   - 🇩🇪 德国VM1
   - 🇩🇪 德国VM2
-  - 🇩🇪 德国法兰克福-1N
   - 🇩🇪 德国VL
+  - 🇩🇪 德国法兰克福-1D
+  - 🇺🇸 美国-拉斯维加斯-001
+  - 🇭🇰 香港-1C
+  - 🇩🇪 德国-法兰克福-HY-001
   - 🇪🇺 欧洲-伦敦-1
-  - 🇩🇪 欧洲-法兰克福-1
-  - 🇭🇰 香港
-  - 🇸🇬 新加坡-1
-  - 🇰🇷 韩国-1
-  - 🇯🇵 日本-1
-  - 🇰🇷 韩国-2
   - 🇰🇷 韩国-首尔
+  - 🇯🇵 日本-1
+  - 🇰🇷 韩国-1
+  - 🇩🇪 欧洲-法兰克福-1
+  - 🇸🇬 新加坡-1
   - 🇯🇵 日本HY2
-  - 🇯🇵 日本-2
+  - 🇰🇷 韩国-2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
