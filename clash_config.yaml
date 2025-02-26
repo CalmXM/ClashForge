@@ -32,25 +32,23 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-1x
-  server: shhh001.oraclenat.cc
-  port: 23451
+- name: 🇷🇺 俄罗斯-圣彼得堡-015-1R
+  server: 195.58.49.42
+  port: 20331
   type: vmess
-  uuid: 9f621cb8-66e8-4b5d-911e-24d42a012ba5
+  uuid: d09e7550-863f-4574-96d7-c9b12a7dbd5f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: shhh001.oraclenat.cc
   udp: true
-- name: 🇩🇪 德国法兰克福-2F
+- name: 🇩🇪 德国法兰克福-2I
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 756698cc-ae0f-4eb8-9822-5e83018485b3
+  uuid: 30c1f070-1986-4b8a-9a6b-eb7ca3be14de
   alterId: 0
   cipher: auto
   tls: false
@@ -60,128 +58,116 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-001-1C
-  server: qaqnajsp.mmzhk.website
-  port: 443
-  type: vmess
-  uuid: 63d44cd5-cbb9-4c2b-9804-ccbf8feb62c8
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: qaqnajsp.mmzhk.website
+- name: 🇭🇰 香港-1B
+  server: xg.xjyjc.top
+  port: 36800
+  type: hysteria2
+  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  sni: xg.xjyjc.top
+  skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国-纽约-001-1B
-  server: jmamrabl.whmvmkwuey.store
-  port: 443
-  type: vmess
-  uuid: ac7d6fb3-7dbd-401b-80c5-0f594bf7952d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jmamrabl.whmvmkwuey.store
+- name: 🇭🇰 香港-流媒体解锁-1A
+  server: xg.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 7d333ed0-2589-4a48-b08f-df270659e142
+  auth: 7d333ed0-2589-4a48-b08f-df270659e142
+  sni: xg.sytcloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国-流媒体解锁-1B
+  server: mg.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 70552f2f-4320-4689-8f87-8009448c6d76
+  auth: 70552f2f-4320-4689-8f87-8009448c6d76
+  sni: mg.sytcloud.top
+  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国-法兰克福-HY-001-1A
   server: 185.121.134.12
   port: 31651
   type: hysteria2
-  password: 88893c6e-5012-4ed9-b6a5-03ef7ae05c1c
-  auth: 88893c6e-5012-4ed9-b6a5-03ef7ae05c1c
+  password: d27f2385-b80d-48df-883b-1fcaf5781526
+  auth: d27f2385-b80d-48df-883b-1fcaf5781526
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇭🇰 香港-1C
-  server: xg.dashuai.cyou
-  port: 19901
-  type: vmess
-  uuid: 111923e6-eb8c-40d7-b9cd-009ad8c8aae3
-  alterId: 0
-  cipher: auto
-  tls: false
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1D
-  server: 185.121.134.12
-  port: 31651
+- name: 🇸🇬 新加坡-流媒体解锁-1A
+  server: xjp.sytcloud.top
+  port: 35801
   type: hysteria2
-  password: 995e4abf-540a-420e-98bf-8e4a16cfc744
-  auth: 995e4abf-540a-420e-98bf-8e4a16cfc744
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇺🇸 美国HY2
-  server: fmg.yunduanjc.top
-  port: 3450
-  type: hysteria2
-  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  sni: fmg.yunduanjc.top
-  up: 2500
-  down: 500
+  password: 7d333ed0-2589-4a48-b08f-df270659e142
+  auth: 7d333ed0-2589-4a48-b08f-df270659e142
+  sni: xjp.sytcloud.top
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国VM1
-  server: cf1.yunduanjc.top
-  port: 2082
-  type: vmess
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: akdg.yunduanjc.top
-  udp: true
-- name: 🇩🇪 德国VM2
-  server: cf2.yunduanjc.top
-  port: 2082
-  type: vmess
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: akdg.yunduanjc.top
-  udp: true
-- name: 🇯🇵 日本HY2
-  server: fjp.yunduanjc.top
-  port: 3450
+- name: 🇺🇸 美国-流媒体解锁-1A
+  server: mg.sytcloud.top
+  port: 35801
   type: hysteria2
-  password: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  auth: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  sni: fjp.yunduanjc.top
-  up: 2500
-  down: 500
+  password: 7d333ed0-2589-4a48-b08f-df270659e142
+  auth: 7d333ed0-2589-4a48-b08f-df270659e142
+  sni: mg.sytcloud.top
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国VL
-  server: cf3.yunduanjc.top
-  port: 2086
-  type: vless
-  uuid: 4bd29c58-d4ad-4be2-882a-2a16a8f65fd5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: akdg.yunduanjc.top
+- name: 🇯🇵 日本
+  server: rb.xjyjc.top
+  port: 36800
+  type: hysteria2
+  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  sni: rb.xjyjc.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港-流媒体解锁-1B
+  server: xg.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 70552f2f-4320-4689-8f87-8009448c6d76
+  auth: 70552f2f-4320-4689-8f87-8009448c6d76
+  sni: xg.sytcloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本-流媒体解锁-1B
+  server: rb.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 70552f2f-4320-4689-8f87-8009448c6d76
+  auth: 70552f2f-4320-4689-8f87-8009448c6d76
+  sni: rb.sytcloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国-2M
+  server: dg.xjyjc.top
+  port: 36800
+  type: hysteria2
+  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
+  sni: dg.xjyjc.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本-流媒体解锁-1A
+  server: rb.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 7d333ed0-2589-4a48-b08f-df270659e142
+  auth: 7d333ed0-2589-4a48-b08f-df270659e142
+  sni: rb.sytcloud.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡-流媒体解锁-1B
+  server: xjp.sytcloud.top
+  port: 35801
+  type: hysteria2
+  password: 70552f2f-4320-4689-8f87-8009448c6d76
+  auth: 70552f2f-4320-4689-8f87-8009448c6d76
+  sni: xjp.sytcloud.top
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -195,18 +181,20 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国VM1
-  - 🇩🇪 德国VL
-  - 🇩🇪 德国VM2
-  - 🇺🇸 美国HY2
+  - 🇯🇵 日本-流媒体解锁-1B
+  - 🇩🇪 德国法兰克福-2I
+  - 🇺🇸 美国-流媒体解锁-1A
+  - 🇭🇰 香港-流媒体解锁-1B
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇭🇰 香港-1C
-  - 🇩🇪 德国法兰克福-2F
-  - 🇯🇵 日本HY2
-  - 🇺🇸 美国-拉斯维加斯-001-1C
-  - 🇺🇸 美国-1x
-  - 🇺🇸 美国-纽约-001-1B
+  - 🇺🇸 美国-流媒体解锁-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-015-1R
+  - 🇯🇵 日本
+  - 🇯🇵 日本-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1A
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-2M
+  - 🇭🇰 香港-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1B
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -214,35 +202,39 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国VM1
-  - 🇩🇪 德国VL
-  - 🇩🇪 德国VM2
-  - 🇺🇸 美国HY2
+  - 🇯🇵 日本-流媒体解锁-1B
+  - 🇩🇪 德国法兰克福-2I
+  - 🇺🇸 美国-流媒体解锁-1A
+  - 🇭🇰 香港-流媒体解锁-1B
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇭🇰 香港-1C
-  - 🇩🇪 德国法兰克福-2F
-  - 🇯🇵 日本HY2
-  - 🇺🇸 美国-拉斯维加斯-001-1C
-  - 🇺🇸 美国-1x
-  - 🇺🇸 美国-纽约-001-1B
+  - 🇺🇸 美国-流媒体解锁-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-015-1R
+  - 🇯🇵 日本
+  - 🇯🇵 日本-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1A
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-2M
+  - 🇭🇰 香港-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1B
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国VM1
-  - 🇩🇪 德国VL
-  - 🇩🇪 德国VM2
-  - 🇺🇸 美国HY2
+  - 🇯🇵 日本-流媒体解锁-1B
+  - 🇩🇪 德国法兰克福-2I
+  - 🇺🇸 美国-流媒体解锁-1A
+  - 🇭🇰 香港-流媒体解锁-1B
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇭🇰 香港-1C
-  - 🇩🇪 德国法兰克福-2F
-  - 🇯🇵 日本HY2
-  - 🇺🇸 美国-拉斯维加斯-001-1C
-  - 🇺🇸 美国-1x
-  - 🇺🇸 美国-纽约-001-1B
+  - 🇺🇸 美国-流媒体解锁-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-015-1R
+  - 🇯🇵 日本
+  - 🇯🇵 日本-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1A
+  - 🇭🇰 香港-1B
+  - 🇩🇪 德国-2M
+  - 🇭🇰 香港-流媒体解锁-1A
+  - 🇸🇬 新加坡-流媒体解锁-1B
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
