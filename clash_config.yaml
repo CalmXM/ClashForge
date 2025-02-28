@@ -32,43 +32,37 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇸🇬 新加坡-流媒体解锁-1B
-  server: xjp.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 70552f2f-4320-4689-8f87-8009448c6d76
-  auth: 70552f2f-4320-4689-8f87-8009448c6d76
-  sni: xjp.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 香港-1A
-  server: xg.xjyjc.top
-  port: 36800
-  type: hysteria2
-  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  sni: xg.xjyjc.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡西部-1P
-  server: westsg2-ddns.oraclenat.cc
-  port: 23452
+- name: 🇷🇺 俄罗斯-圣彼得堡-015-2M
+  server: 195.58.49.42
+  port: 20333
   type: vmess
-  uuid: c161452a-5a9a-4dbb-998e-de23da397952
+  uuid: a39b4fe4-0737-41bf-87fa-40e48f99c4a4
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: westsg2-ddns.oraclenat.cc
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-001-1G
+- name: 🇺🇸 美国-拉斯维加斯-002-2O
+  server: pdizy.whmvmkwuey.store
+  port: 443
+  type: vmess
+  uuid: 064ebbba-73e6-43b4-89f3-6f731abd69f1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pdizy.whmvmkwuey.store
+  udp: true
+- name: 🇺🇸 美国-拉斯维加斯-001-1L
   server: biazh.mmzhk.website
   port: 443
   type: vmess
-  uuid: 33494738-aa00-4119-90cd-e13ccc311c19
+  uuid: fba789a4-4291-4b48-a8d0-eb3c3743cff3
   alterId: 0
   cipher: auto
   tls: true
@@ -78,107 +72,28 @@ proxies:
     headers:
       Host: biazh.mmzhk.website
   udp: true
-- name: 🇯🇵 日本-东京-001-1M
-  server: 212.192.221.188
-  port: 20327
+- name: 🇩🇪 德国法兰克福-1D
+  server: frankfurt.faforex.eu.org
+  port: 23451
   type: vmess
-  uuid: 7fe91663-7ff6-45e8-9c70-f5d0c58c85af
+  uuid: 262bfe80-99fc-4ed5-bafe-86c1224b5a06
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /itdog?ed=2560
+    headers:
+      Host: us-new03.daluquan.top
   udp: true
-- name: 🇯🇵 日本-流媒体解锁-1B
-  server: rb.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 70552f2f-4320-4689-8f87-8009448c6d76
-  auth: 70552f2f-4320-4689-8f87-8009448c6d76
-  sni: rb.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 香港-流媒体解锁-1B
-  server: xg.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 70552f2f-4320-4689-8f87-8009448c6d76
-  auth: 70552f2f-4320-4689-8f87-8009448c6d76
-  sni: xg.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本
-  server: rb.xjyjc.top
-  port: 36800
-  type: hysteria2
-  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  sni: rb.xjyjc.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 香港-流媒体解锁-1A
-  server: xg.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 7d333ed0-2589-4a48-b08f-df270659e142
-  auth: 7d333ed0-2589-4a48-b08f-df270659e142
-  sni: xg.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-流媒体解锁-1B
-  server: mg.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 70552f2f-4320-4689-8f87-8009448c6d76
-  auth: 70552f2f-4320-4689-8f87-8009448c6d76
-  sni: mg.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡
-  server: xjp.xjyjc.top
-  port: 36800
-  type: hysteria2
-  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  sni: xjp.xjyjc.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国-1E
-  server: dg.xjyjc.top
-  port: 36800
-  type: hysteria2
-  password: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  auth: b54c62ce-b1d6-4fea-bf3a-c9394a4593eb
-  sni: dg.xjyjc.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本-流媒体解锁-1A
-  server: rb.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 7d333ed0-2589-4a48-b08f-df270659e142
-  auth: 7d333ed0-2589-4a48-b08f-df270659e142
-  sni: rb.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡-流媒体解锁-1A
-  server: xjp.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 7d333ed0-2589-4a48-b08f-df270659e142
-  auth: 7d333ed0-2589-4a48-b08f-df270659e142
-  sni: xjp.sytcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-流媒体解锁-1A
-  server: mg.sytcloud.top
-  port: 35801
-  type: hysteria2
-  password: 7d333ed0-2589-4a48-b08f-df270659e142
-  auth: 7d333ed0-2589-4a48-b08f-df270659e142
-  sni: mg.sytcloud.top
-  skip-cert-verify: true
+- name: 🇭🇰 香港
+  server: xg.dashuai.cyou
+  port: 19901
+  type: vmess
+  uuid: e76ff261-8e32-42f2-9095-7440ea0c1356
+  alterId: 0
+  cipher: auto
+  tls: false
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -192,21 +107,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 香港-1A
-  - 🇺🇸 美国-拉斯维加斯-001-1G
-  - 🇸🇬 新加坡-流媒体解锁-1B
-  - 🇺🇸 美国-流媒体解锁-1A
-  - 🇺🇸 美国-流媒体解锁-1B
-  - 🇸🇬 新加坡-流媒体解锁-1A
-  - 🇯🇵 日本-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1B
-  - 🇸🇬 新加坡西部-1P
-  - 🇯🇵 日本-流媒体解锁-1B
-  - 🇩🇪 德国-1E
-  - 🇯🇵 日本
-  - 🇸🇬 新加坡
-  - 🇯🇵 日本-东京-001-1M
+  - 🇩🇪 德国法兰克福-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
+  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇭🇰 香港
+  - 🇺🇸 美国-拉斯维加斯-002-2O
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -214,41 +119,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇭🇰 香港-1A
-  - 🇺🇸 美国-拉斯维加斯-001-1G
-  - 🇸🇬 新加坡-流媒体解锁-1B
-  - 🇺🇸 美国-流媒体解锁-1A
-  - 🇺🇸 美国-流媒体解锁-1B
-  - 🇸🇬 新加坡-流媒体解锁-1A
-  - 🇯🇵 日本-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1B
-  - 🇸🇬 新加坡西部-1P
-  - 🇯🇵 日本-流媒体解锁-1B
-  - 🇩🇪 德国-1E
-  - 🇯🇵 日本
-  - 🇸🇬 新加坡
-  - 🇯🇵 日本-东京-001-1M
+  - 🇩🇪 德国法兰克福-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
+  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇭🇰 香港
+  - 🇺🇸 美国-拉斯维加斯-002-2O
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇭🇰 香港-1A
-  - 🇺🇸 美国-拉斯维加斯-001-1G
-  - 🇸🇬 新加坡-流媒体解锁-1B
-  - 🇺🇸 美国-流媒体解锁-1A
-  - 🇺🇸 美国-流媒体解锁-1B
-  - 🇸🇬 新加坡-流媒体解锁-1A
-  - 🇯🇵 日本-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1A
-  - 🇭🇰 香港-流媒体解锁-1B
-  - 🇸🇬 新加坡西部-1P
-  - 🇯🇵 日本-流媒体解锁-1B
-  - 🇩🇪 德国-1E
-  - 🇯🇵 日本
-  - 🇸🇬 新加坡
-  - 🇯🇵 日本-东京-001-1M
+  - 🇩🇪 德国法兰克福-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
+  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇭🇰 香港
+  - 🇺🇸 美国-拉斯维加斯-002-2O
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
