@@ -32,23 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇷🇺 俄罗斯-圣彼得堡-015-2M
-  server: 195.58.49.42
-  port: 20333
-  type: vmess
-  uuid: a39b4fe4-0737-41bf-87fa-40e48f99c4a4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-002-2O
+- name: 🇺🇸 美国-拉斯维加斯-002-3C
   server: pdizy.whmvmkwuey.store
   port: 443
   type: vmess
-  uuid: 064ebbba-73e6-43b4-89f3-6f731abd69f1
+  uuid: 214e7f0f-d9b6-4b13-aabf-dcb9dd55f47d
   alterId: 0
   cipher: auto
   tls: true
@@ -58,11 +46,11 @@ proxies:
     headers:
       Host: pdizy.whmvmkwuey.store
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-001-1L
+- name: 🇺🇸 美国-拉斯维加斯-001-2S
   server: biazh.mmzhk.website
   port: 443
   type: vmess
-  uuid: fba789a4-4291-4b48-a8d0-eb3c3743cff3
+  uuid: 30cefac7-270e-4dab-96a8-48764c0f180a
   alterId: 0
   cipher: auto
   tls: true
@@ -72,11 +60,11 @@ proxies:
     headers:
       Host: biazh.mmzhk.website
   udp: true
-- name: 🇩🇪 德国法兰克福-1D
+- name: 🇩🇪 德国法兰克福-2E
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 262bfe80-99fc-4ed5-bafe-86c1224b5a06
+  uuid: d86db44d-635c-4a51-9b1c-9dfdde56c5b4
   alterId: 0
   cipher: auto
   tls: false
@@ -86,11 +74,23 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-015-2U
+  server: 195.58.49.42
+  port: 20335
+  type: vmess
+  uuid: 3ba766fc-c92f-48ad-b5e8-12d24a76abbe
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
 - name: 🇭🇰 香港
   server: xg.dashuai.cyou
   port: 19901
   type: vmess
-  uuid: e76ff261-8e32-42f2-9095-7440ea0c1356
+  uuid: 780607a6-a2ee-4769-9d9d-aba585060e14
   alterId: 0
   cipher: auto
   tls: false
@@ -107,11 +107,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
-  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇩🇪 德国法兰克福-2E
+  - 🇺🇸 美国-拉斯维加斯-001-2S
+  - 🇺🇸 美国-拉斯维加斯-002-3C
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-002-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -119,21 +119,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
-  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇩🇪 德国法兰克福-2E
+  - 🇺🇸 美国-拉斯维加斯-001-2S
+  - 🇺🇸 美国-拉斯维加斯-002-3C
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-002-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2M
-  - 🇺🇸 美国-拉斯维加斯-001-1L
+  - 🇩🇪 德国法兰克福-2E
+  - 🇺🇸 美国-拉斯维加斯-001-2S
+  - 🇺🇸 美国-拉斯维加斯-002-3C
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-002-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
