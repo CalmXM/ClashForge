@@ -32,25 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-拉斯维加斯-002-3C
-  server: pdizy.whmvmkwuey.store
-  port: 443
-  type: vmess
-  uuid: 214e7f0f-d9b6-4b13-aabf-dcb9dd55f47d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pdizy.whmvmkwuey.store
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-001-2S
+- name: 🇺🇸 美国-拉斯维加斯-001-2C
   server: biazh.mmzhk.website
   port: 443
   type: vmess
-  uuid: 30cefac7-270e-4dab-96a8-48764c0f180a
+  uuid: 1eca113d-8ad3-4a81-a873-cf1cc3f75efa
   alterId: 0
   cipher: auto
   tls: true
@@ -60,37 +46,25 @@ proxies:
     headers:
       Host: biazh.mmzhk.website
   udp: true
-- name: 🇩🇪 德国法兰克福-2E
-  server: frankfurt.faforex.eu.org
-  port: 23451
+- name: 🇺🇸 美国-拉斯维加斯-002-3H
+  server: pdizy.whmvmkwuey.store
+  port: 443
   type: vmess
-  uuid: d86db44d-635c-4a51-9b1c-9dfdde56c5b4
+  uuid: 7c74a9f8-5e4d-4ba3-b356-7d33e25dc09f
   alterId: 0
   cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /itdog?ed=2560
-    headers:
-      Host: us-new03.daluquan.top
-  udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-015-2U
-  server: 195.58.49.42
-  port: 20335
-  type: vmess
-  uuid: 3ba766fc-c92f-48ad-b5e8-12d24a76abbe
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: pdizy.whmvmkwuey.store
   udp: true
 - name: 🇭🇰 香港
   server: xg.dashuai.cyou
   port: 19901
   type: vmess
-  uuid: 780607a6-a2ee-4769-9d9d-aba585060e14
+  uuid: 648c790f-4c5f-49c5-a843-b1f77ff899de
   alterId: 0
   cipher: auto
   tls: false
@@ -107,11 +81,9 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-2E
-  - 🇺🇸 美国-拉斯维加斯-001-2S
-  - 🇺🇸 美国-拉斯维加斯-002-3C
+  - 🇺🇸 美国-拉斯维加斯-002-3H
   - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
+  - 🇺🇸 美国-拉斯维加斯-001-2C
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -119,21 +91,17 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-2E
-  - 🇺🇸 美国-拉斯维加斯-001-2S
-  - 🇺🇸 美国-拉斯维加斯-002-3C
+  - 🇺🇸 美国-拉斯维加斯-002-3H
   - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
+  - 🇺🇸 美国-拉斯维加斯-001-2C
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-2E
-  - 🇺🇸 美国-拉斯维加斯-001-2S
-  - 🇺🇸 美国-拉斯维加斯-002-3C
+  - 🇺🇸 美国-拉斯维加斯-002-3H
   - 🇭🇰 香港
-  - 🇷🇺 俄罗斯-圣彼得堡-015-2U
+  - 🇺🇸 美国-拉斯维加斯-001-2C
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
