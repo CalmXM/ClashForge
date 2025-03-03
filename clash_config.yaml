@@ -32,39 +32,37 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-拉斯维加斯-001-2C
-  server: biazh.mmzhk.website
-  port: 443
+- name: 🇩🇪 德国法兰克福-1W
+  server: frankfurt.faforex.eu.org
+  port: 23451
   type: vmess
-  uuid: 1eca113d-8ad3-4a81-a873-cf1cc3f75efa
+  uuid: d27c4791-664a-4d02-b3b0-3faa121113cf
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
   ws-opts:
-    path: /
+    path: /itdog?ed=2560
     headers:
-      Host: biazh.mmzhk.website
+      Host: us-new03.daluquan.top
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-002-3H
-  server: pdizy.whmvmkwuey.store
-  port: 443
+- name: 🇺🇸 美国-纽约-001-2V
+  server: 166.1.228.206
+  port: 20337
   type: vmess
-  uuid: 7c74a9f8-5e4d-4ba3-b356-7d33e25dc09f
+  uuid: 9f4508cb-21c5-4d09-873a-e7061c02ee1a
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: pdizy.whmvmkwuey.store
   udp: true
 - name: 🇭🇰 香港
   server: xg.dashuai.cyou
   port: 19901
   type: vmess
-  uuid: 648c790f-4c5f-49c5-a843-b1f77ff899de
+  uuid: 85e635f3-8909-4bf6-a998-70cb8646b74e
   alterId: 0
   cipher: auto
   tls: false
@@ -81,9 +79,9 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-002-3H
+  - 🇺🇸 美国-纽约-001-2V
+  - 🇩🇪 德国法兰克福-1W
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-001-2C
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -91,17 +89,17 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-002-3H
+  - 🇺🇸 美国-纽约-001-2V
+  - 🇩🇪 德国法兰克福-1W
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-001-2C
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-002-3H
+  - 🇺🇸 美国-纽约-001-2V
+  - 🇩🇪 德国法兰克福-1W
   - 🇭🇰 香港
-  - 🇺🇸 美国-拉斯维加斯-001-2C
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
