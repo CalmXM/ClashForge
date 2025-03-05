@@ -32,37 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-拉斯维加斯-001-3R
-  server: biazh.mmzhk.website
-  port: 443
-  type: vmess
-  uuid: 7d3e75fd-14d5-401b-b1e5-74da9b7a6e06
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: biazh.mmzhk.website
-  udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-001-1L
-  server: 195.58.49.42
-  port: 21538
-  type: vmess
-  uuid: e4e9aae2-7c96-4001-a0ea-d5eb3371bdd3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-  udp: true
-- name: 🇩🇪 德国法兰克福-2E
+- name: 🇩🇪 德国法兰克福-2A
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: c54e3b82-2bd4-45c9-bde5-5eedb4e34043
+  uuid: 3fcdabd1-7767-470a-8548-c7fe92ce0846
   alterId: 0
   cipher: auto
   tls: false
@@ -72,23 +46,39 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-3K
-  server: 194.87.105.250
-  port: 32651
-  type: hysteria2
-  password: 68dc609e-66ee-4ac0-9e95-5dd9c0db2ab5
-  auth: 68dc609e-66ee-4ac0-9e95-5dd9c0db2ab5
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+- name: 🇺🇸 美国-拉斯维加斯-002-3K
+  server: pdizy.whmvmkwuey.store
+  port: 443
+  type: vmess
+  uuid: b10b424d-3a60-4a59-bfe5-c7170e92ea49
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pdizy.whmvmkwuey.store
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-F3-001-1H
+- name: 🇺🇸 美国-拉斯维加斯-001-2V
+  server: biazh.mmzhk.website
+  port: 443
+  type: vmess
+  uuid: 55a51019-ae43-404e-b782-fe0028e6e806
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: biazh.mmzhk.website
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-F3-001-1D
   server: 195.58.49.42
   port: 20350
   type: vmess
-  uuid: 79a403ba-cb1f-4a91-a4f7-bbb01e37a5e4
+  uuid: 602c1f9a-ebed-486d-ab95-4872381d6534
   alterId: 0
   cipher: auto
   tls: false
@@ -96,11 +86,20 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-F1-001-1C
+- name: 🇭🇰 香港
+  server: xg.dashuai.cyou
+  port: 19901
+  type: vmess
+  uuid: 2c790df0-25c1-4d50-8dac-1e455c683838
+  alterId: 0
+  cipher: auto
+  tls: false
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-F1-001-1B
   server: 195.58.49.42
   port: 20338
   type: vmess
-  uuid: 089c1ef3-bf51-4aeb-b975-2e346d333a8d
+  uuid: d8c5b33d-c375-44fb-a07d-caaab343c36f
   alterId: 0
   cipher: auto
   tls: false
@@ -120,12 +119,12 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-3K
-  - 🇩🇪 德国法兰克福-2E
-  - 🇷🇺 俄罗斯-圣彼得堡-001-1L
-  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1C
-  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1H
-  - 🇺🇸 美国-拉斯维加斯-001-3R
+  - 🇩🇪 德国法兰克福-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1D
+  - 🇺🇸 美国-拉斯维加斯-001-2V
+  - 🇺🇸 美国-拉斯维加斯-002-3K
+  - 🇭🇰 香港
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -133,23 +132,23 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-3K
-  - 🇩🇪 德国法兰克福-2E
-  - 🇷🇺 俄罗斯-圣彼得堡-001-1L
-  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1C
-  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1H
-  - 🇺🇸 美国-拉斯维加斯-001-3R
+  - 🇩🇪 德国法兰克福-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1D
+  - 🇺🇸 美国-拉斯维加斯-001-2V
+  - 🇺🇸 美国-拉斯维加斯-002-3K
+  - 🇭🇰 香港
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国-法兰克福-HY-001-3K
-  - 🇩🇪 德国法兰克福-2E
-  - 🇷🇺 俄罗斯-圣彼得堡-001-1L
-  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1C
-  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1H
-  - 🇺🇸 美国-拉斯维加斯-001-3R
+  - 🇩🇪 德国法兰克福-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-F1-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-F3-001-1D
+  - 🇺🇸 美国-拉斯维加斯-001-2V
+  - 🇺🇸 美国-拉斯维加斯-002-3K
+  - 🇭🇰 香港
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
