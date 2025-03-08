@@ -32,11 +32,39 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇩🇪 德国法兰克福-2G
+- name: 🇸🇬 新加坡 04-1B
+  server: sg04.ofopp.com
+  port: 12004
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇸🇬 新加坡 03-1A
+  server: sg03.ofopp.com
+  port: 12003
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇺🇸 美国-拉斯维加斯-001-1J
+  server: biazh.mmzhk.website
+  port: 443
+  type: vmess
+  uuid: 6bd0b555-0452-40af-9879-a05c7bce78d2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: biazh.mmzhk.website
+  udp: true
+- name: 🇩🇪 德国法兰克福-2F
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 6ebbbbe6-7c65-435b-a702-6945dd55f30f
+  uuid: 30c1f070-1986-4b8a-9a6b-eb7ca3be14de
   alterId: 0
   cipher: auto
   tls: false
@@ -46,14 +74,678 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇭🇰 香港
-  server: xg.dashuai.cyou
-  port: 19901
+- name: 🇺🇸 美国-纽约-F3-001-2B
+  server: 166.1.228.231
+  port: 23002
   type: vmess
-  uuid: 8be7613b-e795-4aad-8aa0-32093fca0128
+  uuid: 59f0b785-02ad-4369-8d8b-787b92274dd0
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇺🇸 美国 05-1A
+  server: us05.ofopp.com
+  port: 13005
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡西部-1P
+  server: westsg2-ddns.oraclenat.cc
+  port: 23452
+  type: vmess
+  uuid: 756698cc-ae0f-4eb8-9822-5e83018485b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: westsg2-ddns.oraclenat.cc
+  udp: true
+- name: 🇯🇵 日本 05-1A
+  server: jp05.ofopp.com
+  port: 11005
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡 05-1C
+  server: sg05.ofopp.com
+  port: 12005
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇯🇵 日本 02-1C
+  server: jp02.ofopp.com
+  port: 11002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇺🇸 美国 03-1C
+  server: us03.ofopp.com
+  port: 13003
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇹🇭 泰国 01-1B
+  server: th01.ofopp.com
+  port: 24001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 01-1A
+  server: tw01.ofopp.com
+  port: 14001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇺🇸 美国 02-1B
+  server: us02.ofopp.com
+  port: 13002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 06-1A
+  server: hk06.ofopp.com
+  port: 10006
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇹🇼 台湾 03-1A
+  server: tw03.ofopp.com
+  port: 14003
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡 02-1C
+  server: sg02.ofopp.com
+  port: 12002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇸🇬 新加坡 05-1B
+  server: sg05.ofopp.com
+  port: 12005
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 02-1C
+  server: hk02.ofopp.com
+  port: 10002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 08-1A
+  server: hk08.ofopp.com
+  port: 10008
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇯🇵 日本 02-1A
+  server: jp02.ofopp.com
+  port: 11002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇷🇺 俄罗斯 01-1C
+  server: ru01.ofopp.com
+  port: 22001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 07-1A
+  server: hk07.ofopp.com
+  port: 10007
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 03-1B
+  server: hk03.ofopp.com
+  port: 10003
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇺🇸 美国 04-1B
+  server: us04.ofopp.com
+  port: 13004
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇺🇸 美国 01-1C
+  server: us01.ofopp.com
+  port: 13001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇹🇼 台湾 02-1C
+  server: tw02.ofopp.com
+  port: 14002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇲🇾 马来西亚 02-1B
+  server: my02.ofopp.com
+  port: 16002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇻🇳 越南 01-1B
+  server: vn01.ofopp.com
+  port: 21001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇰🇷 韩国 02-1B
+  server: kr01.ofopp.com
+  port: 25002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇯🇵 日本 05-1C
+  server: jp05.ofopp.com
+  port: 11005
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 05-1A
+  server: hk05.ofopp.com
+  port: 10005
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 05-1B
+  server: hk05.ofopp.com
+  port: 10005
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 01-1C
+  server: tw01.ofopp.com
+  port: 14001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇰🇷 韩国 02-1C
+  server: kr01.ofopp.com
+  port: 25002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇷🇺 俄罗斯 01-1B
+  server: ru01.ofopp.com
+  port: 22001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇺🇸 美国 02-1A
+  server: us02.ofopp.com
+  port: 13002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇰🇷 韩国 01-1A
+  server: kr01.ofopp.com
+  port: 25001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇻🇳 越南 01-1A
+  server: vn01.ofopp.com
+  port: 21001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 02-1A
+  server: hk02.ofopp.com
+  port: 10002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇯🇵 日本 03-1A
+  server: jp03.ofopp.com
+  port: 11003
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇺🇸 美国 01-1A
+  server: us01.ofopp.com
+  port: 13001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡 05-1A
+  server: sg05.ofopp.com
+  port: 12005
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇹🇼 台湾 04-1A
+  server: tw04.ofopp.com
+  port: 14004
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇦🇷 阿根廷 01-1A
+  server: ar01.ofopp.com
+  port: 22001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇹🇼 台湾 02-1B
+  server: tw02.ofopp.com
+  port: 14002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇸🇬 新加坡 03-1B
+  server: sg03.ofopp.com
+  port: 12003
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇲🇾 马来西亚 01-1A
+  server: my01.ofopp.com
+  port: 16001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡 02-1B
+  server: sg02.ofopp.com
+  port: 12002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇺🇸 美国 04-1C
+  server: us04.ofopp.com
+  port: 13004
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇸🇬 新加坡 01-1C
+  server: sg01.ofopp.com
+  port: 12001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇺🇸 美国 03-1A
+  server: us03.ofopp.com
+  port: 13003
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇰🇷 韩国 01-1B
+  server: kr01.ofopp.com
+  port: 25001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 03-1C
+  server: tw03.ofopp.com
+  port: 14003
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇸🇬 新加坡 03-1C
+  server: sg03.ofopp.com
+  port: 12003
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇹🇭 泰国 01-1A
+  server: th01.ofopp.com
+  port: 24001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇺🇸 美国 05-1C
+  server: us05.ofopp.com
+  port: 13005
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 03-1C
+  server: hk03.ofopp.com
+  port: 10003
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇯🇵 日本 04-1B
+  server: jp04.ofopp.com
+  port: 11004
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇯🇵 日本 05-1B
+  server: jp05.ofopp.com
+  port: 11005
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 02-1A
+  server: tw02.ofopp.com
+  port: 14002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 05-1C
+  server: hk05.ofopp.com
+  port: 10005
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇯🇵 日本 04-1A
+  server: jp04.ofopp.com
+  port: 11004
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇹🇼 台湾 01-1B
+  server: tw01.ofopp.com
+  port: 14001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 04-1C
+  server: hk04.ofopp.com
+  port: 10004
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇺🇸 美国-纽约-HY-F1-001-1B
+  server: 207.90.236.21
+  port: 31000
+  type: hysteria2
+  password: 5c4b135c-093b-4594-9ac0-6c43d0f25dbf
+  auth: 5c4b135c-093b-4594-9ac0-6c43d0f25dbf
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇭🇰 香港 06-1C
+  server: hk06.ofopp.com
+  port: 10006
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇸🇬 新加坡 02-1A
+  server: sg02.ofopp.com
+  port: 12002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F1-001-1B
+  server: 176.32.35.148
+  port: 31000
+  type: hysteria2
+  password: 5c4b135c-093b-4594-9ac0-6c43d0f25dbf
+  auth: 5c4b135c-093b-4594-9ac0-6c43d0f25dbf
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇰🇷 韩国 01-1C
+  server: kr01.ofopp.com
+  port: 25001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 07-1C
+  server: hk07.ofopp.com
+  port: 10007
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇯🇵 日本 02-1B
+  server: jp02.ofopp.com
+  port: 11002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇸🇬 新加坡 04-1C
+  server: sg04.ofopp.com
+  port: 12004
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇸🇬 新加坡 01-1B
+  server: sg01.ofopp.com
+  port: 12001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇲🇾 马来西亚 02-1C
+  server: my02.ofopp.com
+  port: 16002
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇵🇭 菲律宾 01-1A
+  server: ph01.ofopp.com
+  port: 20001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇯🇵 日本 03-1C
+  server: jp03.ofopp.com
+  port: 11003
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇯🇵 日本 03-1B
+  server: jp03.ofopp.com
+  port: 11003
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇵🇭 菲律宾 01-1B
+  server: ph01.ofopp.com
+  port: 20001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇰🇷 韩国 02-1A
+  server: kr01.ofopp.com
+  port: 25002
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 08-1B
+  server: hk08.ofopp.com
+  port: 10008
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 04-1C
+  server: tw04.ofopp.com
+  port: 14004
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇹🇭 泰国 01-1C
+  server: th01.ofopp.com
+  port: 24001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 06-1B
+  server: hk06.ofopp.com
+  port: 10006
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇸🇬 新加坡 04-1A
+  server: sg04.ofopp.com
+  port: 12004
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇸🇬 新加坡 01-1A
+  server: sg01.ofopp.com
+  port: 12001
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 02-1B
+  server: hk02.ofopp.com
+  port: 10002
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇲🇾 马来西亚 01-1B
+  server: my01.ofopp.com
+  port: 16001
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇹🇼 台湾 04-1B
+  server: tw04.ofopp.com
+  port: 14004
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 08-1C
+  server: hk08.ofopp.com
+  port: 10008
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇵🇭 菲律宾 01-1C
+  server: ph01.ofopp.com
+  port: 20001
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇭🇰 香港 04-1A
+  server: hk04.ofopp.com
+  port: 10004
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇭🇰 香港 07-1B
+  server: hk07.ofopp.com
+  port: 10007
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 03-1A
+  server: hk03.ofopp.com
+  port: 10003
+  type: ss
+  cipher: aes-256-gcm
+  password: b04df70c-f384-4e3b-8199-d4bc60d7623f
+  udp: true
+- name: 🇯🇵 日本 04-1C
+  server: jp04.ofopp.com
+  port: 11004
+  type: ss
+  cipher: aes-256-gcm
+  password: 07b0d8ca-cb98-4fdc-ae7c-27322f9c40a8
+  udp: true
+- name: 🇹🇼 台湾 03-1B
+  server: tw03.ofopp.com
+  port: 14003
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
+  udp: true
+- name: 🇭🇰 香港 04-1B
+  server: hk04.ofopp.com
+  port: 10004
+  type: ss
+  cipher: aes-256-gcm
+  password: e688c710-ecbc-49bc-ac08-6c566db44e2d
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -67,8 +759,103 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-2G
-  - 🇭🇰 香港
+  - 🇩🇪 德国法兰克福-2F
+  - 🇺🇸 美国-纽约-HY-F1-001-1B
+  - 🇺🇸 美国-纽约-F3-001-2B
+  - 🇺🇸 美国-拉斯维加斯-001-1J
+  - 🇭🇰 香港 08-1A
+  - 🇭🇰 香港 02-1A
+  - 🇷🇺 俄罗斯-莫斯科-HY-F1-001-1B
+  - 🇭🇰 香港 03-1C
+  - 🇭🇰 香港 02-1C
+  - 🇭🇰 香港 03-1B
+  - 🇭🇰 香港 05-1A
+  - 🇭🇰 香港 05-1B
+  - 🇭🇰 香港 07-1A
+  - 🇹🇼 台湾 02-1B
+  - 🇹🇼 台湾 01-1A
+  - 🇭🇰 香港 06-1A
+  - 🇹🇼 台湾 01-1C
+  - 🇭🇰 香港 04-1B
+  - 🇭🇰 香港 04-1C
+  - 🇸🇬 新加坡 04-1B
+  - 🇭🇰 香港 04-1A
+  - 🇹🇼 台湾 02-1C
+  - 🇭🇰 香港 08-1C
+  - 🇸🇬 新加坡 01-1B
+  - 🇸🇬 新加坡 03-1B
+  - 🇸🇬 新加坡 03-1C
+  - 🇯🇵 日本 05-1C
+  - 🇹🇼 台湾 03-1C
+  - 🇯🇵 日本 02-1A
+  - 🇹🇼 台湾 04-1B
+  - 🇸🇬 新加坡 04-1C
+  - 🇲🇾 马来西亚 02-1B
+  - 🇸🇬 新加坡 05-1B
+  - 🇸🇬 新加坡 04-1A
+  - 🇭🇰 香港 07-1C
+  - 🇸🇬 新加坡 02-1C
+  - 🇭🇰 香港 03-1A
+  - 🇲🇾 马来西亚 01-1A
+  - 🇭🇰 香港 07-1B
+  - 🇵🇭 菲律宾 01-1B
+  - 🇯🇵 日本 05-1A
+  - 🇯🇵 日本 02-1C
+  - 🇸🇬 新加坡 01-1C
+  - 🇹🇼 台湾 03-1A
+  - 🇯🇵 日本 03-1A
+  - 🇹🇼 台湾 04-1A
+  - 🇸🇬 新加坡 03-1A
+  - 🇯🇵 日本 04-1C
+  - 🇵🇭 菲律宾 01-1A
+  - 🇹🇼 台湾 02-1A
+  - 🇭🇰 香港 05-1C
+  - 🇸🇬 新加坡西部-1P
+  - 🇻🇳 越南 01-1B
+  - 🇻🇳 越南 01-1A
+  - 🇹🇭 泰国 01-1A
+  - 🇭🇰 香港 06-1B
+  - 🇸🇬 新加坡 05-1A
+  - 🇰🇷 韩国 01-1A
+  - 🇭🇰 香港 02-1B
+  - 🇯🇵 日本 04-1B
+  - 🇸🇬 新加坡 02-1A
+  - 🇰🇷 韩国 01-1B
+  - 🇲🇾 马来西亚 01-1B
+  - 🇰🇷 韩国 02-1B
+  - 🇭🇰 香港 08-1B
+  - 🇯🇵 日本 04-1A
+  - 🇹🇭 泰国 01-1B
+  - 🇹🇼 台湾 04-1C
+  - 🇰🇷 韩国 02-1C
+  - 🇰🇷 韩国 01-1C
+  - 🇯🇵 日本 05-1B
+  - 🇸🇬 新加坡 02-1B
+  - 🇯🇵 日本 03-1B
+  - 🇭🇰 香港 06-1C
+  - 🇺🇸 美国 02-1A
+  - 🇺🇸 美国 01-1A
+  - 🇹🇼 台湾 03-1B
+  - 🇺🇸 美国 04-1C
+  - 🇺🇸 美国 02-1B
+  - 🇷🇺 俄罗斯 01-1B
+  - 🇦🇷 阿根廷 01-1A
+  - 🇲🇾 马来西亚 02-1C
+  - 🇺🇸 美国 01-1C
+  - 🇸🇬 新加坡 05-1C
+  - 🇯🇵 日本 02-1B
+  - 🇵🇭 菲律宾 01-1C
+  - 🇺🇸 美国 03-1A
+  - 🇺🇸 美国 05-1A
+  - 🇺🇸 美国 05-1C
+  - 🇺🇸 美国 04-1B
+  - 🇹🇭 泰国 01-1C
+  - 🇯🇵 日本 03-1C
+  - 🇷🇺 俄罗斯 01-1C
+  - 🇸🇬 新加坡 01-1A
+  - 🇺🇸 美国 03-1C
+  - 🇹🇼 台湾 01-1B
+  - 🇰🇷 韩国 02-1A
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -76,15 +863,205 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-2G
-  - 🇭🇰 香港
+  - 🇩🇪 德国法兰克福-2F
+  - 🇺🇸 美国-纽约-HY-F1-001-1B
+  - 🇺🇸 美国-纽约-F3-001-2B
+  - 🇺🇸 美国-拉斯维加斯-001-1J
+  - 🇭🇰 香港 08-1A
+  - 🇭🇰 香港 02-1A
+  - 🇷🇺 俄罗斯-莫斯科-HY-F1-001-1B
+  - 🇭🇰 香港 03-1C
+  - 🇭🇰 香港 02-1C
+  - 🇭🇰 香港 03-1B
+  - 🇭🇰 香港 05-1A
+  - 🇭🇰 香港 05-1B
+  - 🇭🇰 香港 07-1A
+  - 🇹🇼 台湾 02-1B
+  - 🇹🇼 台湾 01-1A
+  - 🇭🇰 香港 06-1A
+  - 🇹🇼 台湾 01-1C
+  - 🇭🇰 香港 04-1B
+  - 🇭🇰 香港 04-1C
+  - 🇸🇬 新加坡 04-1B
+  - 🇭🇰 香港 04-1A
+  - 🇹🇼 台湾 02-1C
+  - 🇭🇰 香港 08-1C
+  - 🇸🇬 新加坡 01-1B
+  - 🇸🇬 新加坡 03-1B
+  - 🇸🇬 新加坡 03-1C
+  - 🇯🇵 日本 05-1C
+  - 🇹🇼 台湾 03-1C
+  - 🇯🇵 日本 02-1A
+  - 🇹🇼 台湾 04-1B
+  - 🇸🇬 新加坡 04-1C
+  - 🇲🇾 马来西亚 02-1B
+  - 🇸🇬 新加坡 05-1B
+  - 🇸🇬 新加坡 04-1A
+  - 🇭🇰 香港 07-1C
+  - 🇸🇬 新加坡 02-1C
+  - 🇭🇰 香港 03-1A
+  - 🇲🇾 马来西亚 01-1A
+  - 🇭🇰 香港 07-1B
+  - 🇵🇭 菲律宾 01-1B
+  - 🇯🇵 日本 05-1A
+  - 🇯🇵 日本 02-1C
+  - 🇸🇬 新加坡 01-1C
+  - 🇹🇼 台湾 03-1A
+  - 🇯🇵 日本 03-1A
+  - 🇹🇼 台湾 04-1A
+  - 🇸🇬 新加坡 03-1A
+  - 🇯🇵 日本 04-1C
+  - 🇵🇭 菲律宾 01-1A
+  - 🇹🇼 台湾 02-1A
+  - 🇭🇰 香港 05-1C
+  - 🇸🇬 新加坡西部-1P
+  - 🇻🇳 越南 01-1B
+  - 🇻🇳 越南 01-1A
+  - 🇹🇭 泰国 01-1A
+  - 🇭🇰 香港 06-1B
+  - 🇸🇬 新加坡 05-1A
+  - 🇰🇷 韩国 01-1A
+  - 🇭🇰 香港 02-1B
+  - 🇯🇵 日本 04-1B
+  - 🇸🇬 新加坡 02-1A
+  - 🇰🇷 韩国 01-1B
+  - 🇲🇾 马来西亚 01-1B
+  - 🇰🇷 韩国 02-1B
+  - 🇭🇰 香港 08-1B
+  - 🇯🇵 日本 04-1A
+  - 🇹🇭 泰国 01-1B
+  - 🇹🇼 台湾 04-1C
+  - 🇰🇷 韩国 02-1C
+  - 🇰🇷 韩国 01-1C
+  - 🇯🇵 日本 05-1B
+  - 🇸🇬 新加坡 02-1B
+  - 🇯🇵 日本 03-1B
+  - 🇭🇰 香港 06-1C
+  - 🇺🇸 美国 02-1A
+  - 🇺🇸 美国 01-1A
+  - 🇹🇼 台湾 03-1B
+  - 🇺🇸 美国 04-1C
+  - 🇺🇸 美国 02-1B
+  - 🇷🇺 俄罗斯 01-1B
+  - 🇦🇷 阿根廷 01-1A
+  - 🇲🇾 马来西亚 02-1C
+  - 🇺🇸 美国 01-1C
+  - 🇸🇬 新加坡 05-1C
+  - 🇯🇵 日本 02-1B
+  - 🇵🇭 菲律宾 01-1C
+  - 🇺🇸 美国 03-1A
+  - 🇺🇸 美国 05-1A
+  - 🇺🇸 美国 05-1C
+  - 🇺🇸 美国 04-1B
+  - 🇹🇭 泰国 01-1C
+  - 🇯🇵 日本 03-1C
+  - 🇷🇺 俄罗斯 01-1C
+  - 🇸🇬 新加坡 01-1A
+  - 🇺🇸 美国 03-1C
+  - 🇹🇼 台湾 01-1B
+  - 🇰🇷 韩国 02-1A
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-2G
-  - 🇭🇰 香港
+  - 🇩🇪 德国法兰克福-2F
+  - 🇺🇸 美国-纽约-HY-F1-001-1B
+  - 🇺🇸 美国-纽约-F3-001-2B
+  - 🇺🇸 美国-拉斯维加斯-001-1J
+  - 🇭🇰 香港 08-1A
+  - 🇭🇰 香港 02-1A
+  - 🇷🇺 俄罗斯-莫斯科-HY-F1-001-1B
+  - 🇭🇰 香港 03-1C
+  - 🇭🇰 香港 02-1C
+  - 🇭🇰 香港 03-1B
+  - 🇭🇰 香港 05-1A
+  - 🇭🇰 香港 05-1B
+  - 🇭🇰 香港 07-1A
+  - 🇹🇼 台湾 02-1B
+  - 🇹🇼 台湾 01-1A
+  - 🇭🇰 香港 06-1A
+  - 🇹🇼 台湾 01-1C
+  - 🇭🇰 香港 04-1B
+  - 🇭🇰 香港 04-1C
+  - 🇸🇬 新加坡 04-1B
+  - 🇭🇰 香港 04-1A
+  - 🇹🇼 台湾 02-1C
+  - 🇭🇰 香港 08-1C
+  - 🇸🇬 新加坡 01-1B
+  - 🇸🇬 新加坡 03-1B
+  - 🇸🇬 新加坡 03-1C
+  - 🇯🇵 日本 05-1C
+  - 🇹🇼 台湾 03-1C
+  - 🇯🇵 日本 02-1A
+  - 🇹🇼 台湾 04-1B
+  - 🇸🇬 新加坡 04-1C
+  - 🇲🇾 马来西亚 02-1B
+  - 🇸🇬 新加坡 05-1B
+  - 🇸🇬 新加坡 04-1A
+  - 🇭🇰 香港 07-1C
+  - 🇸🇬 新加坡 02-1C
+  - 🇭🇰 香港 03-1A
+  - 🇲🇾 马来西亚 01-1A
+  - 🇭🇰 香港 07-1B
+  - 🇵🇭 菲律宾 01-1B
+  - 🇯🇵 日本 05-1A
+  - 🇯🇵 日本 02-1C
+  - 🇸🇬 新加坡 01-1C
+  - 🇹🇼 台湾 03-1A
+  - 🇯🇵 日本 03-1A
+  - 🇹🇼 台湾 04-1A
+  - 🇸🇬 新加坡 03-1A
+  - 🇯🇵 日本 04-1C
+  - 🇵🇭 菲律宾 01-1A
+  - 🇹🇼 台湾 02-1A
+  - 🇭🇰 香港 05-1C
+  - 🇸🇬 新加坡西部-1P
+  - 🇻🇳 越南 01-1B
+  - 🇻🇳 越南 01-1A
+  - 🇹🇭 泰国 01-1A
+  - 🇭🇰 香港 06-1B
+  - 🇸🇬 新加坡 05-1A
+  - 🇰🇷 韩国 01-1A
+  - 🇭🇰 香港 02-1B
+  - 🇯🇵 日本 04-1B
+  - 🇸🇬 新加坡 02-1A
+  - 🇰🇷 韩国 01-1B
+  - 🇲🇾 马来西亚 01-1B
+  - 🇰🇷 韩国 02-1B
+  - 🇭🇰 香港 08-1B
+  - 🇯🇵 日本 04-1A
+  - 🇹🇭 泰国 01-1B
+  - 🇹🇼 台湾 04-1C
+  - 🇰🇷 韩国 02-1C
+  - 🇰🇷 韩国 01-1C
+  - 🇯🇵 日本 05-1B
+  - 🇸🇬 新加坡 02-1B
+  - 🇯🇵 日本 03-1B
+  - 🇭🇰 香港 06-1C
+  - 🇺🇸 美国 02-1A
+  - 🇺🇸 美国 01-1A
+  - 🇹🇼 台湾 03-1B
+  - 🇺🇸 美国 04-1C
+  - 🇺🇸 美国 02-1B
+  - 🇷🇺 俄罗斯 01-1B
+  - 🇦🇷 阿根廷 01-1A
+  - 🇲🇾 马来西亚 02-1C
+  - 🇺🇸 美国 01-1C
+  - 🇸🇬 新加坡 05-1C
+  - 🇯🇵 日本 02-1B
+  - 🇵🇭 菲律宾 01-1C
+  - 🇺🇸 美国 03-1A
+  - 🇺🇸 美国 05-1A
+  - 🇺🇸 美国 05-1C
+  - 🇺🇸 美国 04-1B
+  - 🇹🇭 泰国 01-1C
+  - 🇯🇵 日本 03-1C
+  - 🇷🇺 俄罗斯 01-1C
+  - 🇸🇬 新加坡 01-1A
+  - 🇺🇸 美国 03-1C
+  - 🇹🇼 台湾 01-1B
+  - 🇰🇷 韩国 02-1A
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
