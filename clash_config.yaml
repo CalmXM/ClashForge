@@ -32,26 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国01-免费-1P
-  server: us01.sh-cloudflare.sbs
-  port: 8443
-  type: vmess
-  uuid: ae6737c3-88b0-4e17-9578-75cc6cba7131
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: us01.sh-cloudflare.sbs
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us01.sh-cloudflare.sbs
-  udp: true
-- name: 🇩🇪 德国01-免费-1T
+- name: 🇩🇪 德国01-免费-2C
   server: de01.sh-cloudflare.sbs
   port: 2096
   type: vmess
-  uuid: a4310254-1e75-45da-afc5-4b9b1e810384
+  uuid: 76f7ebb3-e0ee-4aea-814b-6945a8bf1699
   alterId: 0
   cipher: auto
   tls: true
@@ -62,24 +47,39 @@ proxies:
     headers:
       Host: de01.sh-cloudflare.sbs
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1B
+- name: 🇺🇸 美国01-免费-1U
+  server: us01.sh-cloudflare.sbs
+  port: 8443
+  type: vmess
+  uuid: 22394f68-54a8-43ab-b1d5-3629794ca105
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: us01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.sh-cloudflare.sbs
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001-1C
   server: 5.39.252.72
   port: 32008
   type: hysteria2
-  password: 790f0398-d200-4087-9a91-e7375a4ec7b1
-  auth: 790f0398-d200-4087-9a91-e7375a4ec7b1
+  password: 3c41b437-9222-4606-b4b3-f830de59001d
+  auth: 3c41b437-9222-4606-b4b3-f830de59001d
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1F
+- name: 🇩🇪 德国-法兰克福-HY-001-1D
   server: 5.39.252.72
   port: 32008
   type: hysteria2
-  password: 265009d7-a429-4973-bf5a-4880a01a7207
-  auth: 265009d7-a429-4973-bf5a-4880a01a7207
+  password: fbd51a89-cc7a-4c63-a5a5-6679ee5e6649
+  auth: fbd51a89-cc7a-4c63-a5a5-6679ee5e6649
   up: 100
   down: 100
   skip-cert-verify: true
@@ -98,24 +98,12 @@ proxies:
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1C
+- name: 🇩🇪 德国-法兰克福-HY-001-1B
   server: 5.39.252.72
   port: 32008
   type: hysteria2
-  password: cde79f29-1a4a-464f-8b2b-f95baaadade2
-  auth: cde79f29-1a4a-464f-8b2b-f95baaadade2
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1D
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: e6820769-01aa-4861-ac1c-b386a3a0a689
-  auth: e6820769-01aa-4861-ac1c-b386a3a0a689
+  password: eb9daedd-31ad-472b-b96f-4e76f426ff31
+  auth: eb9daedd-31ad-472b-b96f-4e76f426ff31
   up: 100
   down: 100
   skip-cert-verify: true
@@ -126,8 +114,44 @@ proxies:
   server: 5.39.252.72
   port: 32008
   type: hysteria2
-  password: eb9daedd-31ad-472b-b96f-4e76f426ff31
-  auth: eb9daedd-31ad-472b-b96f-4e76f426ff31
+  password: fc9f303c-05bb-4d3b-8905-8c85641f747d
+  auth: fc9f303c-05bb-4d3b-8905-8c85641f747d
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001-1H
+  server: 5.39.252.72
+  port: 32008
+  type: hysteria2
+  password: bdd55c2b-8b26-45be-ab6a-73bcde5dea7b
+  auth: bdd55c2b-8b26-45be-ab6a-73bcde5dea7b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001-1F
+  server: 5.39.252.72
+  port: 32008
+  type: hysteria2
+  password: 03882453-260e-4b8b-8efc-1b0a3c980601
+  auth: 03882453-260e-4b8b-8efc-1b0a3c980601
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇩🇪 德国-法兰克福-HY-001-1G
+  server: 5.39.252.72
+  port: 32008
+  type: hysteria2
+  password: 2012ab53-7769-4001-8e00-2e6337214d31
+  auth: 2012ab53-7769-4001-8e00-2e6337214d31
   up: 100
   down: 100
   skip-cert-verify: true
@@ -146,14 +170,16 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国01-免费-1P
-  - 🇩🇪 德国-法兰克福-HY-001-1D
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1C
+  - 🇩🇪 德国-法兰克福-HY-001-1H
   - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国-法兰克福-HY-001-1C
   - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇩🇪 德国01-免费-1T
+  - 🇩🇪 德国-法兰克福-HY-001-1D
+  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国01-免费-2C
+  - 🇩🇪 德国-法兰克福-HY-001-1G
+  - 🇺🇸 美国01-免费-1U
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -161,27 +187,31 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国01-免费-1P
-  - 🇩🇪 德国-法兰克福-HY-001-1D
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1C
+  - 🇩🇪 德国-法兰克福-HY-001-1H
   - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国-法兰克福-HY-001-1C
   - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇩🇪 德国01-免费-1T
+  - 🇩🇪 德国-法兰克福-HY-001-1D
+  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国01-免费-2C
+  - 🇩🇪 德国-法兰克福-HY-001-1G
+  - 🇺🇸 美国01-免费-1U
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国01-免费-1P
-  - 🇩🇪 德国-法兰克福-HY-001-1D
   - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1C
+  - 🇩🇪 德国-法兰克福-HY-001-1H
   - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国-法兰克福-HY-001-1C
   - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇩🇪 德国01-免费-1T
+  - 🇩🇪 德国-法兰克福-HY-001-1D
+  - 🇩🇪 德国-法兰克福-HY-001-1F
+  - 🇩🇪 德国01-免费-2C
+  - 🇩🇪 德国-法兰克福-HY-001-1G
+  - 🇺🇸 美国01-免费-1U
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
