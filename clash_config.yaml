@@ -32,11 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇷🇺 俄罗斯-莫斯科-F3-001-1E
-  server: 195.133.5.127
-  port: 23036
+- name: 🇨🇦 加拿大-多伦多-001-1M
+  server: 141.195.112.33
+  port: 20037
   type: vmess
-  uuid: f811df67-312e-4c9d-85c0-de01be87da21
+  uuid: 10e28960-abf7-4c31-af73-8473f53d537b
   alterId: 0
   cipher: auto
   tls: false
@@ -44,22 +44,19 @@ proxies:
   ws-opts:
     path: /
   udp: true
-- name: 🇩🇪 德国01-免费-2G
-  server: de01.sh-cloudflare.sbs
-  port: 2096
+- name: 🇷🇺 俄罗斯-莫斯科-F3-001-2E
+  server: 195.133.5.127
+  port: 23037
   type: vmess
-  uuid: 76878fb3-d364-4a8d-a3b6-5da6038a2521
+  uuid: e70925ce-d251-43fb-b7b3-408489ede7df
   alterId: 0
   cipher: auto
-  tls: true
-  servername: de01.sh-cloudflare.sbs
+  tls: false
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: de01.sh-cloudflare.sbs
   udp: true
-- name: 🇺🇸 美国01-免费-2J
+- name: 🇺🇸 美国01-免费-2O
   server: us01.sh-cloudflare.sbs
   port: 8443
   type: vmess
@@ -74,9 +71,297 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1D
-  server: 5.39.252.72
-  port: 32008
+- name: 🇨🇦 加拿大-多伦多-HY-001-2J
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: ec1eb2f6-9f53-484f-a946-d6e47ca79209
+  auth: ec1eb2f6-9f53-484f-a946-d6e47ca79209
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2G
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: aef0e1a8-7a4f-4b6a-9986-51b24ec1ec49
+  auth: aef0e1a8-7a4f-4b6a-9986-51b24ec1ec49
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2F
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: b74fb640-3135-4453-92ce-3d2c543ac258
+  auth: b74fb640-3135-4453-92ce-3d2c543ac258
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2B
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: a9b896be-33b9-44bf-a620-d03d91567566
+  auth: a9b896be-33b9-44bf-a620-d03d91567566
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2D
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: d0386d4e-f687-40d2-9840-8ed680bf54b8
+  auth: d0386d4e-f687-40d2-9840-8ed680bf54b8
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2C
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 0b235309-2fba-44e4-bcce-72c6845e81c6
+  auth: 0b235309-2fba-44e4-bcce-72c6845e81c6
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1O
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: f00e4914-9273-4ed9-a8d7-cabfa02d31df
+  auth: f00e4914-9273-4ed9-a8d7-cabfa02d31df
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1E
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  auth: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 9f0c5680-37b4-4458-bd5d-a5d6862fd383
+  auth: 9f0c5680-37b4-4458-bd5d-a5d6862fd383
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1C
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 04fe02db-8be9-492d-a664-f19d68e0b06b
+  auth: 04fe02db-8be9-492d-a664-f19d68e0b06b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-2G
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: aef0e1a8-7a4f-4b6a-9986-51b24ec1ec49
+  auth: aef0e1a8-7a4f-4b6a-9986-51b24ec1ec49
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1M
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 10e28960-abf7-4c31-af73-8473f53d537b
+  auth: 10e28960-abf7-4c31-af73-8473f53d537b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1D
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: f983169d-3035-4964-b8dd-0a3d76d7e027
+  auth: f983169d-3035-4964-b8dd-0a3d76d7e027
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Y
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: cc3aebe7-dfd1-4d31-8d8f-34a5ceae4047
+  auth: cc3aebe7-dfd1-4d31-8d8f-34a5ceae4047
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1L
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 6b8b46f4-93e8-4112-8705-e7849dd94a9e
+  auth: 6b8b46f4-93e8-4112-8705-e7849dd94a9e
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1B
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: e1ca6f4b-1e84-4c19-8d36-f31232f99796
+  auth: e1ca6f4b-1e84-4c19-8d36-f31232f99796
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-2H
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 1323bf5f-0c4f-4713-9bde-6e7deb1d88c8
+  auth: 1323bf5f-0c4f-4713-9bde-6e7deb1d88c8
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1A
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 940b5a4b-acb4-43a6-8721-7f7fa36b55e9
+  auth: 940b5a4b-acb4-43a6-8721-7f7fa36b55e9
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1M
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 10e28960-abf7-4c31-af73-8473f53d537b
+  auth: 10e28960-abf7-4c31-af73-8473f53d537b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1P
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 088667ae-3e90-4ca4-8960-84d5fd351612
+  auth: 088667ae-3e90-4ca4-8960-84d5fd351612
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1B
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: e1ca6f4b-1e84-4c19-8d36-f31232f99796
+  auth: e1ca6f4b-1e84-4c19-8d36-f31232f99796
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2H
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 1323bf5f-0c4f-4713-9bde-6e7deb1d88c8
+  auth: 1323bf5f-0c4f-4713-9bde-6e7deb1d88c8
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 44edcaff-0995-49f8-a20b-0098ae1ab043
+  auth: 44edcaff-0995-49f8-a20b-0098ae1ab043
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 4390f921-380e-4537-b367-5d00b766db1b
+  auth: 4390f921-380e-4537-b367-5d00b766db1b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1U
+  server: 141.195.112.33
+  port: 30032
   type: hysteria2
   password: ecfa24a4-e831-47e5-ad74-3a503c170229
   auth: ecfa24a4-e831-47e5-ad74-3a503c170229
@@ -86,21 +371,127 @@ proxies:
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇸🇬 新加坡西部-1N
-  server: westsg2-ddns.oraclenat.cc
-  port: 23452
-  type: vmess
-  uuid: 39bbd60f-bf33-4842-bf9f-0a20ffc2cd67
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: westsg2-ddns.oraclenat.cc
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: f811df67-312e-4c9d-85c0-de01be87da21
+  auth: f811df67-312e-4c9d-85c0-de01be87da21
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+- name: 🇨🇦 加拿大-多伦多-HY-001-2I
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: f11d614f-47b1-4360-a347-8d1eb102bad6
+  auth: f11d614f-47b1-4360-a347-8d1eb102bad6
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1K
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: da7cd603-5b3d-417f-bf2d-052521abdf40
+  auth: da7cd603-5b3d-417f-bf2d-052521abdf40
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1V
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
+  auth: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1S
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: ce4dff26-7553-4881-9d65-adc8d4426cba
+  auth: ce4dff26-7553-4881-9d65-adc8d4426cba
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-2E
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: e70925ce-d251-43fb-b7b3-408489ede7df
+  auth: e70925ce-d251-43fb-b7b3-408489ede7df
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1G
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 44edcaff-0995-49f8-a20b-0098ae1ab043
+  auth: 44edcaff-0995-49f8-a20b-0098ae1ab043
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-2C
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 0b235309-2fba-44e4-bcce-72c6845e81c6
+  auth: 0b235309-2fba-44e4-bcce-72c6845e81c6
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2A
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: ee288e52-3d25-461f-a9a3-7aadc1a892f4
+  auth: ee288e52-3d25-461f-a9a3-7aadc1a892f4
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1R
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 03231487-454c-4bd0-9fdb-50620c999988
+  auth: 03231487-454c-4bd0-9fdb-50620c999988
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1x
   server: 195.133.5.127
   port: 33007
   type: hysteria2
@@ -112,41 +503,29 @@ proxies:
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1L
-  server: 5.39.252.72
-  port: 32008
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
+  server: 195.133.5.127
+  port: 33007
   type: hysteria2
-  password: 940b5a4b-acb4-43a6-8721-7f7fa36b55e9
-  auth: 940b5a4b-acb4-43a6-8721-7f7fa36b55e9
+  password: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  auth: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-2D
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: d0386d4e-f687-40d2-9840-8ed680bf54b8
+  auth: d0386d4e-f687-40d2-9840-8ed680bf54b8
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
-  server: 195.133.5.127
-  port: 33007
-  type: hysteria2
-  password: ecfa24a4-e831-47e5-ad74-3a503c170229
-  auth: ecfa24a4-e831-47e5-ad74-3a503c170229
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
-  server: 195.133.5.127
-  port: 33007
-  type: hysteria2
-  password: f811df67-312e-4c9d-85c0-de01be87da21
-  auth: f811df67-312e-4c9d-85c0-de01be87da21
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
   server: 195.133.5.127
@@ -160,19 +539,19 @@ proxies:
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1G
-  server: 5.39.252.72
-  port: 32008
+- name: 🇨🇦 加拿大-多伦多-HY-001-1W
+  server: 141.195.112.33
+  port: 30032
   type: hysteria2
-  password: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
-  auth: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
+  password: 2d5475be-9df4-4825-a1cb-30b8203240ff
+  auth: 2d5475be-9df4-4825-a1cb-30b8203240ff
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1B
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
   server: 195.133.5.127
   port: 33007
   type: hysteria2
@@ -184,81 +563,81 @@ proxies:
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1A
-  server: 5.39.252.72
-  port: 32008
+- name: 🇨🇦 加拿大-多伦多-HY-001-2A
+  server: 141.195.112.33
+  port: 30032
   type: hysteria2
-  password: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
-  auth: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
+  password: ee288e52-3d25-461f-a9a3-7aadc1a892f4
+  auth: ee288e52-3d25-461f-a9a3-7aadc1a892f4
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1F
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: 04fe02db-8be9-492d-a664-f19d68e0b06b
-  auth: 04fe02db-8be9-492d-a664-f19d68e0b06b
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1I
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: 920e7322-b1b5-440f-be45-54565b012a21
-  auth: 920e7322-b1b5-440f-be45-54565b012a21
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1E
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: f811df67-312e-4c9d-85c0-de01be87da21
-  auth: f811df67-312e-4c9d-85c0-de01be87da21
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1A
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1U
   server: 195.133.5.127
   port: 33007
   type: hysteria2
-  password: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
-  auth: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
+  password: ecfa24a4-e831-47e5-ad74-3a503c170229
+  auth: ecfa24a4-e831-47e5-ad74-3a503c170229
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2E
   server: 195.133.5.127
   port: 33007
   type: hysteria2
-  password: 04fe02db-8be9-492d-a664-f19d68e0b06b
-  auth: 04fe02db-8be9-492d-a664-f19d68e0b06b
+  password: e70925ce-d251-43fb-b7b3-408489ede7df
+  auth: e70925ce-d251-43fb-b7b3-408489ede7df
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Q
   server: 195.133.5.127
   port: 33007
+  type: hysteria2
+  password: 7a96fb22-a98a-4af8-b782-257440c810ea
+  auth: 7a96fb22-a98a-4af8-b782-257440c810ea
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1W
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 2d5475be-9df4-4825-a1cb-30b8203240ff
+  auth: 2d5475be-9df4-4825-a1cb-30b8203240ff
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1P
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 088667ae-3e90-4ca4-8960-84d5fd351612
+  auth: 088667ae-3e90-4ca4-8960-84d5fd351612
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1V
+  server: 141.195.112.33
+  port: 30032
   type: hysteria2
   password: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
   auth: a8b87edc-bc6a-471f-8fc4-2aaf89ffd7cf
@@ -266,105 +645,141 @@ proxies:
   down: 100
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1O
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: f00e4914-9273-4ed9-a8d7-cabfa02d31df
+  auth: f00e4914-9273-4ed9-a8d7-cabfa02d31df
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
 - name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
   server: 195.133.5.127
   port: 33007
   type: hysteria2
-  password: 0b235309-2fba-44e4-bcce-72c6845e81c6
-  auth: 0b235309-2fba-44e4-bcce-72c6845e81c6
+  password: 04fe02db-8be9-492d-a664-f19d68e0b06b
+  auth: 04fe02db-8be9-492d-a664-f19d68e0b06b
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1J
-  server: 5.39.252.72
-  port: 32008
+- name: 🇨🇦 加拿大-多伦多-HY-001-1S
+  server: 141.195.112.33
+  port: 30032
   type: hysteria2
-  password: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
-  auth: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  password: ce4dff26-7553-4881-9d65-adc8d4426cba
+  auth: ce4dff26-7553-4881-9d65-adc8d4426cba
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1H
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: a9b896be-33b9-44bf-a620-d03d91567566
-  auth: a9b896be-33b9-44bf-a620-d03d91567566
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Z
   server: 195.133.5.127
   port: 33007
   type: hysteria2
-  password: a9b896be-33b9-44bf-a620-d03d91567566
-  auth: a9b896be-33b9-44bf-a620-d03d91567566
+  password: aece2699-e3fb-4b7c-8557-7961b5a3994f
+  auth: aece2699-e3fb-4b7c-8557-7961b5a3994f
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
+- name: 🇨🇦 加拿大-多伦多-HY-001-1T
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: abc36c4a-6c87-478d-ba6d-ad8862fccda5
+  auth: abc36c4a-6c87-478d-ba6d-ad8862fccda5
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2J
   server: 195.133.5.127
   port: 33007
   type: hysteria2
-  password: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
-  auth: 0bbd8072-746d-4c42-9ea4-349eeb6c8463
+  password: ec1eb2f6-9f53-484f-a946-d6e47ca79209
+  auth: ec1eb2f6-9f53-484f-a946-d6e47ca79209
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1K
-  server: 5.39.252.72
-  port: 32008
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1N
+  server: 195.133.5.127
+  port: 33007
   type: hysteria2
-  password: 307f7ac1-0709-4b48-a14e-6a16a4a306da
-  auth: 307f7ac1-0709-4b48-a14e-6a16a4a306da
+  password: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
+  auth: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1B
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: f983169d-3035-4964-b8dd-0a3d76d7e027
-  auth: f983169d-3035-4964-b8dd-0a3d76d7e027
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
-  udp: true
-- name: 🇩🇪 德国-法兰克福-HY-001-1C
-  server: 5.39.252.72
-  port: 32008
-  type: hysteria2
-  password: 0b235309-2fba-44e4-bcce-72c6845e81c6
-  auth: 0b235309-2fba-44e4-bcce-72c6845e81c6
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 6b8b46f4-93e8-4112-8705-e7849dd94a9e
+  auth: 6b8b46f4-93e8-4112-8705-e7849dd94a9e
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: da7cd603-5b3d-417f-bf2d-052521abdf40
+  auth: da7cd603-5b3d-417f-bf2d-052521abdf40
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1R
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: 03231487-454c-4bd0-9fdb-50620c999988
+  auth: 03231487-454c-4bd0-9fdb-50620c999988
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1T
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: abc36c4a-6c87-478d-ba6d-ad8862fccda5
+  auth: abc36c4a-6c87-478d-ba6d-ad8862fccda5
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1A
   server: 195.133.5.127
   port: 33007
   type: hysteria2
@@ -375,6 +790,42 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1N
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
+  auth: 251cbdbd-5d78-4c00-8a81-fd048a45d8c7
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2I
+  server: 195.133.5.127
+  port: 33007
+  type: hysteria2
+  password: f11d614f-47b1-4360-a347-8d1eb102bad6
+  auth: f11d614f-47b1-4360-a347-8d1eb102bad6
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇨🇦 加拿大-多伦多-HY-001-1H
+  server: 141.195.112.33
+  port: 30032
+  type: hysteria2
+  password: f811df67-312e-4c9d-85c0-de01be87da21
+  auth: f811df67-312e-4c9d-85c0-de01be87da21
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: M2UyNTc5OWUwYjkyM2Q2OQ==
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -388,34 +839,72 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国01-免费-2J
-  - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1K
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇩🇪 德国-法兰克福-HY-001-1I
-  - 🇩🇪 德国-法兰克福-HY-001-1L
-  - 🇩🇪 德国-法兰克福-HY-001-1H
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇩🇪 德国-法兰克福-HY-001-1C
-  - 🇩🇪 德国-法兰克福-HY-001-1F
-  - 🇩🇪 德国-法兰克福-HY-001-1J
-  - 🇩🇪 德国01-免费-2G
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇨🇦 加拿大-多伦多-HY-001-1S
+  - 🇨🇦 加拿大-多伦多-HY-001-1A
+  - 🇨🇦 加拿大-多伦多-HY-001-2H
+  - 🇨🇦 加拿大-多伦多-HY-001-1U
+  - 🇨🇦 加拿大-多伦多-HY-001-1T
+  - 🇨🇦 加拿大-多伦多-HY-001-1L
+  - 🇨🇦 加拿大-多伦多-HY-001-1E
+  - 🇨🇦 加拿大-多伦多-HY-001-1H
+  - 🇨🇦 加拿大-多伦多-HY-001-2G
+  - 🇨🇦 加拿大-多伦多-HY-001-1D
+  - 🇨🇦 加拿大-多伦多-HY-001-1C
+  - 🇨🇦 加拿大-多伦多-HY-001-2I
+  - 🇨🇦 加拿大-多伦多-HY-001-1V
+  - 🇨🇦 加拿大-多伦多-HY-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1M
+  - 🇨🇦 加拿大-多伦多-HY-001-1B
+  - 🇨🇦 加拿大-多伦多-HY-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-1N
+  - 🇺🇸 美国01-免费-2O
+  - 🇨🇦 加拿大-多伦多-HY-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1U
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2G
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Q
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1V
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2B
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1M
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Z
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1T
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1R
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1A
-  - 🇷🇺 俄罗斯-莫斯科-F3-001-1E
-  - 🇸🇬 新加坡西部-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1x
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1W
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Y
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1S
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2A
+  - 🇷🇺 俄罗斯-莫斯科-F3-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-2A
+  - 🇨🇦 加拿大-多伦多-HY-001-1W
+  - 🇨🇦 加拿大-多伦多-HY-001-2D
+  - 🇨🇦 加拿大-多伦多-HY-001-1R
+  - 🇨🇦 加拿大-多伦多-HY-001-2C
+  - 🇨🇦 加拿大-多伦多-HY-001-1G
+  - 🇨🇦 加拿大-多伦多-HY-001-2J
+  - 🇨🇦 加拿大-多伦多-001-1M
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -423,67 +912,143 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国01-免费-2J
-  - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1K
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇩🇪 德国-法兰克福-HY-001-1I
-  - 🇩🇪 德国-法兰克福-HY-001-1L
-  - 🇩🇪 德国-法兰克福-HY-001-1H
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇩🇪 德国-法兰克福-HY-001-1C
-  - 🇩🇪 德国-法兰克福-HY-001-1F
-  - 🇩🇪 德国-法兰克福-HY-001-1J
-  - 🇩🇪 德国01-免费-2G
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇨🇦 加拿大-多伦多-HY-001-1S
+  - 🇨🇦 加拿大-多伦多-HY-001-1A
+  - 🇨🇦 加拿大-多伦多-HY-001-2H
+  - 🇨🇦 加拿大-多伦多-HY-001-1U
+  - 🇨🇦 加拿大-多伦多-HY-001-1T
+  - 🇨🇦 加拿大-多伦多-HY-001-1L
+  - 🇨🇦 加拿大-多伦多-HY-001-1E
+  - 🇨🇦 加拿大-多伦多-HY-001-1H
+  - 🇨🇦 加拿大-多伦多-HY-001-2G
+  - 🇨🇦 加拿大-多伦多-HY-001-1D
+  - 🇨🇦 加拿大-多伦多-HY-001-1C
+  - 🇨🇦 加拿大-多伦多-HY-001-2I
+  - 🇨🇦 加拿大-多伦多-HY-001-1V
+  - 🇨🇦 加拿大-多伦多-HY-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1M
+  - 🇨🇦 加拿大-多伦多-HY-001-1B
+  - 🇨🇦 加拿大-多伦多-HY-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-1N
+  - 🇺🇸 美国01-免费-2O
+  - 🇨🇦 加拿大-多伦多-HY-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1U
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2G
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Q
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1V
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2B
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1M
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Z
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1T
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1R
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1A
-  - 🇷🇺 俄罗斯-莫斯科-F3-001-1E
-  - 🇸🇬 新加坡西部-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1x
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1W
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Y
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1S
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2A
+  - 🇷🇺 俄罗斯-莫斯科-F3-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-2A
+  - 🇨🇦 加拿大-多伦多-HY-001-1W
+  - 🇨🇦 加拿大-多伦多-HY-001-2D
+  - 🇨🇦 加拿大-多伦多-HY-001-1R
+  - 🇨🇦 加拿大-多伦多-HY-001-2C
+  - 🇨🇦 加拿大-多伦多-HY-001-1G
+  - 🇨🇦 加拿大-多伦多-HY-001-2J
+  - 🇨🇦 加拿大-多伦多-001-1M
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国01-免费-2J
-  - 🇩🇪 德国-法兰克福-HY-001-1E
-  - 🇩🇪 德国-法兰克福-HY-001-1A
-  - 🇩🇪 德国-法兰克福-HY-001-1K
-  - 🇩🇪 德国-法兰克福-HY-001-1G
-  - 🇩🇪 德国-法兰克福-HY-001-1I
-  - 🇩🇪 德国-法兰克福-HY-001-1L
-  - 🇩🇪 德国-法兰克福-HY-001-1H
-  - 🇩🇪 德国-法兰克福-HY-001-1D
-  - 🇩🇪 德国-法兰克福-HY-001-1C
-  - 🇩🇪 德国-法兰克福-HY-001-1F
-  - 🇩🇪 德国-法兰克福-HY-001-1J
-  - 🇩🇪 德国01-免费-2G
-  - 🇩🇪 德国-法兰克福-HY-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇨🇦 加拿大-多伦多-HY-001-1S
+  - 🇨🇦 加拿大-多伦多-HY-001-1A
+  - 🇨🇦 加拿大-多伦多-HY-001-2H
+  - 🇨🇦 加拿大-多伦多-HY-001-1U
+  - 🇨🇦 加拿大-多伦多-HY-001-1T
+  - 🇨🇦 加拿大-多伦多-HY-001-1L
+  - 🇨🇦 加拿大-多伦多-HY-001-1E
+  - 🇨🇦 加拿大-多伦多-HY-001-1H
+  - 🇨🇦 加拿大-多伦多-HY-001-2G
+  - 🇨🇦 加拿大-多伦多-HY-001-1D
+  - 🇨🇦 加拿大-多伦多-HY-001-1C
+  - 🇨🇦 加拿大-多伦多-HY-001-2I
+  - 🇨🇦 加拿大-多伦多-HY-001-1V
+  - 🇨🇦 加拿大-多伦多-HY-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1M
+  - 🇨🇦 加拿大-多伦多-HY-001-1B
+  - 🇨🇦 加拿大-多伦多-HY-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-1N
+  - 🇺🇸 美国01-免费-2O
+  - 🇨🇦 加拿大-多伦多-HY-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1U
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2G
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1B
-  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Q
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1V
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2B
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2F
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1L
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1O
+  - 🇨🇦 加拿大-多伦多-HY-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1M
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1D
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Z
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1H
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1T
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1G
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1R
   - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1A
-  - 🇷🇺 俄罗斯-莫斯科-F3-001-1E
-  - 🇸🇬 新加坡西部-1N
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1x
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1P
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1W
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1Y
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1K
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1I
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1S
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2C
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2J
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-1E
+  - 🇷🇺 俄罗斯-莫斯科-HY-F3-001-2A
+  - 🇷🇺 俄罗斯-莫斯科-F3-001-2E
+  - 🇨🇦 加拿大-多伦多-HY-001-2A
+  - 🇨🇦 加拿大-多伦多-HY-001-1W
+  - 🇨🇦 加拿大-多伦多-HY-001-2D
+  - 🇨🇦 加拿大-多伦多-HY-001-1R
+  - 🇨🇦 加拿大-多伦多-HY-001-2C
+  - 🇨🇦 加拿大-多伦多-HY-001-1G
+  - 🇨🇦 加拿大-多伦多-HY-001-2J
+  - 🇨🇦 加拿大-多伦多-001-1M
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
