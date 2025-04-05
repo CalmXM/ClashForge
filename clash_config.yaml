@@ -32,118 +32,100 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇯🇵 直连-日本2-1C
-  server: 160.16.200.209
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国01-免费-2O
-  server: de01.sh-cloudflare.sbs
-  port: 2096
+- name: 🇺🇸 美国5-1F
+  server: us155.vp1000.net
+  port: 443
   type: vmess
-  uuid: bba4d9e0-4ccd-4bca-817f-3c8e4bbf3444
+  uuid: 69b4e3c4-86fc-4fa2-b759-c471e515db85
   alterId: 0
   cipher: auto
   tls: true
-  servername: de01.sh-cloudflare.sbs
   network: ws
   ws-opts:
-    path: /
+    path: /cp100vp800kkkdsnx
     headers:
-      Host: de01.sh-cloudflare.sbs
+      Host: us148.vp1000.net
   udp: true
-- name: 🇯🇵 直连-日本6-1D
-  server: 160.16.107.214
-  port: 21077
-  type: hysteria2
-  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本5-1F
-  server: 160.16.134.79
-  port: 21077
-  type: hysteria2
-  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本2-1A
-  server: 160.16.200.209
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰 直连-香港HKT-1F
-  server: hkt1.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  sni: bestcast.pw
-  up: 300
-  down: 300
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本8-1D
-  server: 153.121.72.155
-  port: 21077
-  type: hysteria2
-  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 直连-台湾3-1E
+- name: 🇹🇼 直连-台湾3-1A
   server: twhi3.geeknetwork.fun
   port: 17055
   type: ss
   cipher: 2022-blake3-aes-128-gcm
   password: OGFhNDc2N2FmOGI5ZTE4MA==:YTdhMWJiZTQtNzBkNy00MA==
   udp: true
-- name: 🇯🇵 直连-日本7-1C
-  server: 160.16.205.217
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇧🇷 巴西2-1E
+  server: br.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 58225619-3f5f-4b4b-81d0-fcb8d3f3f262
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpDisney
+    headers:
+      Host: br.vp1000.net
   udp: true
-- name: 🇭🇰 直连-香港HKT-1C
-  server: hkt1.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 300
-  down: 300
-  skip-cert-verify: true
+- name: 🇩🇪 德国法兰克福-1Y
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 40afffb0-6d9f-49a2-95d0-b70dc0cab7a7
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /itdog?ed=2560
+    headers:
+      Host: us-new03.daluquan.top
   udp: true
-- name: 🇯🇵 直连-日本3-1B
-  server: 160.16.237.241
+- name: 🇮🇳 印度4-1F
+  server: ip4-in4.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 69b4e3c4-86fc-4fa2-b759-c471e515db85
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicfastpDisney
+    headers:
+      Host: ip4-in4.vp1000.net
+  udp: true
+- name: 🇺🇸 美国01-免费-1H
+  server: us01.sh-cloudflare.sbs
+  port: 8443
+  type: vmess
+  uuid: 2f8a343a-c441-490d-8e9c-115ae668059d
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: us01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.sh-cloudflare.sbs
+  udp: true
+- name: 🇯🇵 日本4-IP6-1D
+  server: ip6-jp2.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 235c8c2f-3968-4ef5-b2c7-36c8c3f8cc7b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpaylfastpDisney
+    headers:
+      Host: ip4-jp2.vp1000.net
+  udp: true
+- name: 🇯🇵 直连-日本4-1F
+  server: 160.16.53.111
   port: 21077
   type: hysteria2
   password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
@@ -157,28 +139,6 @@ proxies:
   server: 160.16.205.217
   port: 21077
   type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本8-1A
-  server: 153.121.72.155
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本8-1C
-  server: 153.121.72.155
-  port: 21077
-  type: hysteria2
   password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
   auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
   sni: bestcast.pw
@@ -186,92 +146,26 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本4-1E
-  server: 160.16.53.111
-  port: 21077
-  type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本7-1B
-  server: 160.16.205.217
-  port: 21077
-  type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本7-1A
-  server: 160.16.205.217
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本5-1A
-  server: 160.16.134.79
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇯🇵 日本2-1C
+  server: ip4-jp2.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 4dafff6f-12d3-425b-9163-f3fb9c6ec3eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpaylfastpDisney
+    headers:
+      Host: ip4-jp2.vp1000.net
   udp: true
 - name: 🇯🇵 直连-日本2-1E
   server: 160.16.200.209
   port: 21077
   type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 直连-台湾3-1D
-  server: twhi3.geeknetwork.fun
-  port: 17055
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: OGFhNDc2N2FmOGI5ZTE4MA==:N2FkMmUwM2EtOThlMC00MA==
-  udp: true
-- name: 🇯🇵 直连-日本2-1B
-  server: 160.16.200.209
-  port: 21077
-  type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇼 直连-台湾3-1A
-  server: twhi3.geeknetwork.fun
-  port: 17055
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: OGFhNDc2N2FmOGI5ZTE4MA==:MmNjZDhhNjUtNzkzZC00Zg==
-  udp: true
-- name: 🇯🇵 直连-日本3-1D
-  server: 160.16.237.241
-  port: 21077
-  type: hysteria2
-  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
   sni: bestcast.pw
   up: 100
   down: 100
@@ -288,8 +182,152 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本4-1A
+- name: 🇧🇷 巴西3-1A
+  server: 144.22.216.68
+  port: 8443
+  type: vmess
+  uuid: 4e70e0b1-154f-4632-b4f8-e3c3c407828c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpDisney
+    headers:
+      Host: br3.vp1000.net
+  udp: true
+- name: 🇯🇵 日本1-1F
+  server: ip4-jp1.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 69b4e3c4-86fc-4fa2-b759-c471e515db85
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpaylfastpDisney
+    headers:
+      Host: ip4-jp1.vp1000.net
+  udp: true
+- name: 🇯🇵 直连-日本3-1F
+  server: 160.16.237.241
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本5-1C
+  server: 160.16.134.79
+  port: 21077
+  type: hysteria2
+  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本3-IP6-1C
+  server: ip6-jp1.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 4dafff6f-12d3-425b-9163-f3fb9c6ec3eb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpaylfastpDisney
+    headers:
+      Host: ip4-jp1.vp1000.net
+  udp: true
+- name: 🇯🇵 直连-日本4-1D
   server: 160.16.53.111
+  port: 21077
+  type: hysteria2
+  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本6-1D
+  server: 160.16.107.214
+  port: 21077
+  type: hysteria2
+  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 直连-香港HKT-1C
+  server: hkt1.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  sni: bestcast.pw
+  up: 300
+  down: 300
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本6-1E
+  server: 160.16.107.214
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国4-1D
+  server: us148.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 235c8c2f-3968-4ef5-b2c7-36c8c3f8cc7b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /cp100vp800kkkdsnx
+    headers:
+      Host: us148.vp1000.net
+  udp: true
+- name: 🇯🇵 直连-日本8-1D
+  server: 153.121.72.155
+  port: 21077
+  type: hysteria2
+  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本4-1E
+  server: 160.16.53.111
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本2-1B
+  server: 160.16.200.209
   port: 21077
   type: hysteria2
   password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
@@ -299,8 +337,26 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本6-1B
-  server: 160.16.107.214
+- name: 🇹🇼 直连-台湾3-1B
+  server: twhi3.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:MmNjZDhhNjUtNzkzZC00Zg==
+  udp: true
+- name: 🇯🇵 直连-日本8-1A
+  server: 153.121.72.155
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本2-1F
+  server: 160.16.200.209
   port: 21077
   type: hysteria2
   password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
@@ -321,41 +377,8 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本6-1C
-  server: 160.16.107.214
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本4-1B
-  server: 160.16.53.111
-  port: 21077
-  type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本5-1C
-  server: 160.16.134.79
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本6-1F
-  server: 160.16.107.214
+- name: 🇯🇵 直连-日本8-1C
+  server: 153.121.72.155
   port: 21077
   type: hysteria2
   password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
@@ -365,51 +388,39 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本3-1E
-  server: 160.16.237.241
+- name: 🇯🇵 直连-日本8-1E
+  server: 153.121.72.155
   port: 21077
   type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
   sni: bestcast.pw
   up: 100
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本6-1E
-  server: 160.16.107.214
-  port: 21077
-  type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇹🇼 直连-台湾3-1E
+  server: twhi3.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:OWQ4MWYwNjctYWE5Ny00Mw==
   udp: true
-- name: 🇯🇵 直连-日本3-1A
-  server: 160.16.237.241
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇧🇷 巴西5-IP6-1F
+  server: ip6-br5.vp1000.net
+  port: 443
+  type: vmess
+  uuid: 69b4e3c4-86fc-4fa2-b759-c471e515db85
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /pulicpDisney
+    headers:
+      Host: br.vp1000.net
   udp: true
-- name: 🇯🇵 直连-日本6-1A
-  server: 160.16.107.214
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本-1E
+- name: 🇯🇵 直连-日本-1A
   server: 160.16.114.236
   port: 21077
   type: hysteria2
@@ -424,26 +435,29 @@ proxies:
   server: 160.16.114.236
   port: 21077
   type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
   sni: bestcast.pw
   up: 100
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本4-1D
-  server: 160.16.53.111
-  port: 21077
-  type: hysteria2
-  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇹🇼 直连-台湾4-1A
+  server: twhi4.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:YTdhMWJiZTQtNzBkNy00MA==
   udp: true
-- name: 🇯🇵 直连-日本2-1F
-  server: 160.16.200.209
+- name: 🇹🇼 直连-台湾4-1C
+  server: twhi4.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:N2JjOGFkYmQtNmFhNy00NA==
+  udp: true
+- name: 🇯🇵 直连-日本3-1C
+  server: 160.16.237.241
   port: 21077
   type: hysteria2
   password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
@@ -453,8 +467,8 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 直连-韩国4-1A
-  server: kr4.geeknetwork.fun
+- name: 🇯🇵 直连-日本5-1B
+  server: 160.16.134.79
   port: 21077
   type: hysteria2
   password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
@@ -464,30 +478,19 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本8-1B
-  server: 153.121.72.155
-  port: 21077
-  type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 直连-韩国4-1B
-  server: kr4.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本7-1F
+- name: 🇯🇵 直连-日本7-1B
   server: 160.16.205.217
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 直连-韩国4-1C
+  server: kr4.geeknetwork.fun
   port: 21077
   type: hysteria2
   password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
@@ -497,8 +500,19 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本8-1E
-  server: 153.121.72.155
+- name: 🇯🇵 直连-日本-1E
+  server: 160.16.114.236
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本5-1A
+  server: 160.16.134.79
   port: 21077
   type: hysteria2
   password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
@@ -508,7 +522,259 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本4-1F
+- name: 🇹🇼 直连-台湾3-1D
+  server: twhi3.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:N2FkMmUwM2EtOThlMC00MA==
+  udp: true
+- name: 🇯🇵 直连-日本7-1F
+  server: 160.16.205.217
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本8-1F
+  server: 153.121.72.155
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 直连-香港HKT-1E
+  server: hkt1.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 300
+  down: 300
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 直连-香港HKT-1B
+  server: hkt1.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 300
+  down: 300
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 直连-香港HKT-1F
+  server: hkt1.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 300
+  down: 300
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇼 直连-台湾4-1F
+  server: twhi4.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:MmEwYTRjNDQtNzU0Mi00ZA==
+  udp: true
+- name: 🇯🇵 直连-日本-1B
+  server: 160.16.114.236
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本6-1F
+  server: 160.16.107.214
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 直连-香港HKT-1A
+  server: hkt1.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 300
+  down: 300
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇼 直连-台湾3-1F
+  server: twhi3.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:MmEwYTRjNDQtNzU0Mi00ZA==
+  udp: true
+- name: 🇯🇵 直连-日本2-1A
+  server: 160.16.200.209
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本8-1B
+  server: 153.121.72.155
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 直连-韩国4-1A
+  server: kr4.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 直连-韩国4-1B
+  server: kr4.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本5-1E
+  server: 160.16.134.79
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本6-1B
+  server: 160.16.107.214
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本6-1C
+  server: 160.16.107.214
+  port: 21077
+  type: hysteria2
+  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本3-1A
+  server: 160.16.237.241
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 直连-韩国4-1E
+  server: kr4.geeknetwork.fun
+  port: 21077
+  type: hysteria2
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本4-1A
+  server: 160.16.53.111
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本5-1F
+  server: 160.16.134.79
+  port: 21077
+  type: hysteria2
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本7-1A
+  server: 160.16.205.217
+  port: 21077
+  type: hysteria2
+  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本5-1D
+  server: 160.16.134.79
+  port: 21077
+  type: hysteria2
+  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本4-1C
   server: 160.16.53.111
   port: 21077
   type: hysteria2
@@ -519,18 +785,18 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 直连-香港HKT-1A
-  server: hkt1.geeknetwork.fun
+- name: 🇰🇷 直连-韩国4-1F
+  server: kr4.geeknetwork.fun
   port: 21077
   type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
   sni: bestcast.pw
-  up: 300
-  down: 300
+  up: 100
+  down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本-1B
+- name: 🇯🇵 直连-日本-1F
   server: 160.16.114.236
   port: 21077
   type: hysteria2
@@ -541,41 +807,15 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 直连-韩国4-1F
-  server: kr4.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
+- name: 🇹🇼 直连-台湾3-1C
+  server: twhi3.geeknetwork.fun
+  port: 17055
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: OGFhNDc2N2FmOGI5ZTE4MA==:N2JjOGFkYmQtNmFhNy00NA==
   udp: true
-- name: 🇯🇵 直连-日本-1A
-  server: 160.16.114.236
-  port: 21077
-  type: hysteria2
-  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本8-1F
-  server: 153.121.72.155
-  port: 21077
-  type: hysteria2
-  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 直连-韩国4-1D
-  server: kr4.geeknetwork.fun
+- name: 🇯🇵 直连-日本7-1D
+  server: 160.16.205.217
   port: 21077
   type: hysteria2
   password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
@@ -585,23 +825,34 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 直连-香港HKT-1B
-  server: hkt1.geeknetwork.fun
+- name: 🇯🇵 直连-日本3-1D
+  server: 160.16.237.241
   port: 21077
   type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
   sni: bestcast.pw
-  up: 300
-  down: 300
+  up: 100
+  down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本5-1B
-  server: 160.16.134.79
+- name: 🇯🇵 直连-日本3-1E
+  server: 160.16.237.241
   port: 21077
   type: hysteria2
-  password: 2a0a4c44-7542-4dad-8200-09fc67faadaa
-  auth: 2a0a4c44-7542-4dad-8200-09fc67faadaa
+  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  sni: bestcast.pw
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 直连-日本4-1B
+  server: 160.16.53.111
+  port: 21077
+  type: hysteria2
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
   sni: bestcast.pw
   up: 100
   down: 100
@@ -618,19 +869,8 @@ proxies:
   down: 300
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰 直连-香港HKT-1E
-  server: hkt1.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  auth: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
-  sni: bestcast.pw
-  up: 300
-  down: 300
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本3-1F
-  server: 160.16.237.241
+- name: 🇯🇵 直连-日本2-1C
+  server: 160.16.200.209
   port: 21077
   type: hysteria2
   password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
@@ -640,41 +880,30 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本3-1C
+- name: 🇯🇵 直连-日本3-1B
   server: 160.16.237.241
   port: 21077
   type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
+  password: 2ccd8a65-793d-4f9e-aec5-781295ccd363
+  auth: 2ccd8a65-793d-4f9e-aec5-781295ccd363
   sni: bestcast.pw
   up: 100
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本-1F
-  server: 160.16.114.236
-  port: 21077
-  type: hysteria2
-  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本7-1D
+- name: 🇯🇵 直连-日本7-1C
   server: 160.16.205.217
   port: 21077
   type: hysteria2
-  password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
-  auth: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
+  password: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
+  auth: 7bc8adbd-6aa7-44da-b8d6-fcd90bef4135
   sni: bestcast.pw
   up: 100
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 直连-日本5-1E
-  server: 160.16.134.79
+- name: 🇯🇵 直连-日本6-1A
+  server: 160.16.107.214
   port: 21077
   type: hysteria2
   password: a7a1bbe4-70d7-40d2-ac12-d0841ca90a0f
@@ -684,30 +913,8 @@ proxies:
   down: 100
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 直连-韩国4-1C
+- name: 🇰🇷 直连-韩国4-1D
   server: kr4.geeknetwork.fun
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本4-1C
-  server: 160.16.53.111
-  port: 21077
-  type: hysteria2
-  password: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  auth: 9d81f067-aa97-43e8-83dd-223d6ea66dda
-  sni: bestcast.pw
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 直连-日本5-1D
-  server: 160.16.134.79
   port: 21077
   type: hysteria2
   password: 7ad2e03a-98e0-4023-b292-0a3c67a691f6
@@ -729,69 +936,87 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇯🇵 直连-日本2-1C
-  - 🇯🇵 直连-日本6-1D
-  - 🇭🇰 直连-香港HKT-1F
-  - 🇯🇵 直连-日本5-1F
-  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本2-1E
+  - 🇩🇪 德国法兰克福-1Y
+  - 🇺🇸 美国4-1D
+  - 🇹🇼 直连-台湾3-1B
+  - 🇹🇼 直连-台湾3-1C
   - 🇹🇼 直连-台湾3-1D
-  - 🇯🇵 直连-日本7-1A
-  - 🇯🇵 直连-日本3-1B
-  - 🇯🇵 直连-日本8-1D
+  - 🇹🇼 直连-台湾3-1F
+  - 🇹🇼 直连-台湾3-1A
+  - 🇹🇼 直连-台湾4-1F
+  - 🇯🇵 直连-日本-1D
+  - 🇧🇷 巴西3-1A
+  - 🇺🇸 美国01-免费-1H
+  - 🇯🇵 直连-日本4-1B
+  - 🇯🇵 直连-日本8-1A
   - 🇯🇵 直连-日本2-1F
   - 🇯🇵 直连-日本-1C
-  - 🇯🇵 直连-日本8-1F
-  - 🇯🇵 直连-日本3-1D
-  - 🇯🇵 直连-日本-1A
-  - 🇯🇵 直连-日本-1E
-  - 🇯🇵 直连-日本8-1E
   - 🇯🇵 直连-日本4-1F
+  - 🇯🇵 直连-日本7-1A
   - 🇯🇵 直连-日本8-1C
-  - 🇯🇵 直连-日本3-1E
-  - 🇯🇵 直连-日本-1F
-  - 🇯🇵 直连-日本7-1C
-  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本5-1E
   - 🇯🇵 直连-日本4-1C
   - 🇯🇵 直连-日本4-1E
-  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本7-1B
+  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本7-1F
-  - 🇯🇵 直连-日本4-1B
-  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本6-1C
   - 🇯🇵 直连-日本5-1B
-  - 🇯🇵 直连-日本-1B
-  - 🇯🇵 直连-日本4-1D
-  - 🇯🇵 直连-日本2-1E
+  - 🇯🇵 直连-日本6-1B
+  - 🇯🇵 直连-日本8-1F
+  - 🇯🇵 直连-日本5-1F
+  - 🇯🇵 直连-日本2-1C
+  - 🇯🇵 直连-日本3-1B
+  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本6-1A
+  - 🇯🇵 直连-日本7-1E
+  - 🇯🇵 直连-日本3-1E
+  - 🇯🇵 直连-日本3-1D
+  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本7-1C
+  - 🇯🇵 直连-日本5-1D
+  - 🇧🇷 巴西2-1E
+  - 🇰🇷 直连-韩国4-1E
+  - 🇰🇷 直连-韩国4-1C
+  - 🇧🇷 巴西5-IP6-1F
+  - 🇰🇷 直连-韩国4-1A
+  - 🇰🇷 直连-韩国4-1B
+  - 🇹🇼 直连-台湾4-1C
+  - 🇭🇰 直连-香港HKT-1F
+  - 🇯🇵 直连-日本6-1E
+  - 🇭🇰 直连-香港HKT-1E
+  - 🇹🇼 直连-台湾4-1A
+  - 🇯🇵 直连-日本3-1F
   - 🇯🇵 直连-日本2-1B
   - 🇯🇵 直连-日本3-1A
+  - 🇯🇵 直连-日本4-1D
+  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本8-1E
+  - 🇯🇵 直连-日本6-1D
+  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本4-1A
-  - 🇯🇵 直连-日本5-1D
-  - 🇯🇵 直连-日本-1D
-  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本-1F
   - 🇯🇵 直连-日本5-1C
-  - 🇯🇵 直连-日本6-1E
-  - 🇯🇵 直连-日本6-1B
-  - 🇯🇵 直连-日本8-1A
-  - 🇯🇵 直连-日本5-1E
-  - 🇹🇼 直连-台湾3-1A
-  - 🇹🇼 直连-台湾3-1E
-  - 🇩🇪 德国01-免费-2O
-  - 🇯🇵 直连-日本6-1A
   - 🇰🇷 直连-韩国4-1D
-  - 🇭🇰 直连-香港HKT-1E
-  - 🇭🇰 直连-香港HKT-1B
-  - 🇭🇰 直连-香港HKT-1A
-  - 🇰🇷 直连-韩国4-1A
-  - 🇭🇰 直连-香港HKT-1D
-  - 🇯🇵 直连-日本7-1E
-  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本3-1C
-  - 🇯🇵 直连-日本3-1F
-  - 🇯🇵 直连-日本6-1C
+  - 🇹🇼 直连-台湾3-1E
+  - 🇺🇸 美国5-1F
+  - 🇯🇵 直连-日本-1E
+  - 🇯🇵 直连-日本-1B
+  - 🇯🇵 日本3-IP6-1C
+  - 🇯🇵 日本4-IP6-1D
+  - 🇯🇵 日本2-1C
+  - 🇭🇰 直连-香港HKT-1B
+  - 🇭🇰 直连-香港HKT-1D
+  - 🇯🇵 直连-日本8-1D
+  - 🇮🇳 印度4-1F
   - 🇭🇰 直连-香港HKT-1C
   - 🇰🇷 直连-韩国4-1F
-  - 🇰🇷 直连-韩国4-1C
-  - 🇰🇷 直连-韩国4-1B
+  - 🇯🇵 日本1-1F
+  - 🇭🇰 直连-香港HKT-1A
+  - 🇯🇵 直连-日本-1A
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -799,137 +1024,173 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇯🇵 直连-日本2-1C
-  - 🇯🇵 直连-日本6-1D
-  - 🇭🇰 直连-香港HKT-1F
-  - 🇯🇵 直连-日本5-1F
-  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本2-1E
+  - 🇩🇪 德国法兰克福-1Y
+  - 🇺🇸 美国4-1D
+  - 🇹🇼 直连-台湾3-1B
+  - 🇹🇼 直连-台湾3-1C
   - 🇹🇼 直连-台湾3-1D
-  - 🇯🇵 直连-日本7-1A
-  - 🇯🇵 直连-日本3-1B
-  - 🇯🇵 直连-日本8-1D
+  - 🇹🇼 直连-台湾3-1F
+  - 🇹🇼 直连-台湾3-1A
+  - 🇹🇼 直连-台湾4-1F
+  - 🇯🇵 直连-日本-1D
+  - 🇧🇷 巴西3-1A
+  - 🇺🇸 美国01-免费-1H
+  - 🇯🇵 直连-日本4-1B
+  - 🇯🇵 直连-日本8-1A
   - 🇯🇵 直连-日本2-1F
   - 🇯🇵 直连-日本-1C
-  - 🇯🇵 直连-日本8-1F
-  - 🇯🇵 直连-日本3-1D
-  - 🇯🇵 直连-日本-1A
-  - 🇯🇵 直连-日本-1E
-  - 🇯🇵 直连-日本8-1E
   - 🇯🇵 直连-日本4-1F
+  - 🇯🇵 直连-日本7-1A
   - 🇯🇵 直连-日本8-1C
-  - 🇯🇵 直连-日本3-1E
-  - 🇯🇵 直连-日本-1F
-  - 🇯🇵 直连-日本7-1C
-  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本5-1E
   - 🇯🇵 直连-日本4-1C
   - 🇯🇵 直连-日本4-1E
-  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本7-1B
+  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本7-1F
-  - 🇯🇵 直连-日本4-1B
-  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本6-1C
   - 🇯🇵 直连-日本5-1B
-  - 🇯🇵 直连-日本-1B
-  - 🇯🇵 直连-日本4-1D
-  - 🇯🇵 直连-日本2-1E
+  - 🇯🇵 直连-日本6-1B
+  - 🇯🇵 直连-日本8-1F
+  - 🇯🇵 直连-日本5-1F
+  - 🇯🇵 直连-日本2-1C
+  - 🇯🇵 直连-日本3-1B
+  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本6-1A
+  - 🇯🇵 直连-日本7-1E
+  - 🇯🇵 直连-日本3-1E
+  - 🇯🇵 直连-日本3-1D
+  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本7-1C
+  - 🇯🇵 直连-日本5-1D
+  - 🇧🇷 巴西2-1E
+  - 🇰🇷 直连-韩国4-1E
+  - 🇰🇷 直连-韩国4-1C
+  - 🇧🇷 巴西5-IP6-1F
+  - 🇰🇷 直连-韩国4-1A
+  - 🇰🇷 直连-韩国4-1B
+  - 🇹🇼 直连-台湾4-1C
+  - 🇭🇰 直连-香港HKT-1F
+  - 🇯🇵 直连-日本6-1E
+  - 🇭🇰 直连-香港HKT-1E
+  - 🇹🇼 直连-台湾4-1A
+  - 🇯🇵 直连-日本3-1F
   - 🇯🇵 直连-日本2-1B
   - 🇯🇵 直连-日本3-1A
+  - 🇯🇵 直连-日本4-1D
+  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本8-1E
+  - 🇯🇵 直连-日本6-1D
+  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本4-1A
-  - 🇯🇵 直连-日本5-1D
-  - 🇯🇵 直连-日本-1D
-  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本-1F
   - 🇯🇵 直连-日本5-1C
-  - 🇯🇵 直连-日本6-1E
-  - 🇯🇵 直连-日本6-1B
-  - 🇯🇵 直连-日本8-1A
-  - 🇯🇵 直连-日本5-1E
-  - 🇹🇼 直连-台湾3-1A
-  - 🇹🇼 直连-台湾3-1E
-  - 🇩🇪 德国01-免费-2O
-  - 🇯🇵 直连-日本6-1A
   - 🇰🇷 直连-韩国4-1D
-  - 🇭🇰 直连-香港HKT-1E
-  - 🇭🇰 直连-香港HKT-1B
-  - 🇭🇰 直连-香港HKT-1A
-  - 🇰🇷 直连-韩国4-1A
-  - 🇭🇰 直连-香港HKT-1D
-  - 🇯🇵 直连-日本7-1E
-  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本3-1C
-  - 🇯🇵 直连-日本3-1F
-  - 🇯🇵 直连-日本6-1C
+  - 🇹🇼 直连-台湾3-1E
+  - 🇺🇸 美国5-1F
+  - 🇯🇵 直连-日本-1E
+  - 🇯🇵 直连-日本-1B
+  - 🇯🇵 日本3-IP6-1C
+  - 🇯🇵 日本4-IP6-1D
+  - 🇯🇵 日本2-1C
+  - 🇭🇰 直连-香港HKT-1B
+  - 🇭🇰 直连-香港HKT-1D
+  - 🇯🇵 直连-日本8-1D
+  - 🇮🇳 印度4-1F
   - 🇭🇰 直连-香港HKT-1C
   - 🇰🇷 直连-韩国4-1F
-  - 🇰🇷 直连-韩国4-1C
-  - 🇰🇷 直连-韩国4-1B
+  - 🇯🇵 日本1-1F
+  - 🇭🇰 直连-香港HKT-1A
+  - 🇯🇵 直连-日本-1A
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇯🇵 直连-日本2-1C
-  - 🇯🇵 直连-日本6-1D
-  - 🇭🇰 直连-香港HKT-1F
-  - 🇯🇵 直连-日本5-1F
-  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本2-1E
+  - 🇩🇪 德国法兰克福-1Y
+  - 🇺🇸 美国4-1D
+  - 🇹🇼 直连-台湾3-1B
+  - 🇹🇼 直连-台湾3-1C
   - 🇹🇼 直连-台湾3-1D
-  - 🇯🇵 直连-日本7-1A
-  - 🇯🇵 直连-日本3-1B
-  - 🇯🇵 直连-日本8-1D
+  - 🇹🇼 直连-台湾3-1F
+  - 🇹🇼 直连-台湾3-1A
+  - 🇹🇼 直连-台湾4-1F
+  - 🇯🇵 直连-日本-1D
+  - 🇧🇷 巴西3-1A
+  - 🇺🇸 美国01-免费-1H
+  - 🇯🇵 直连-日本4-1B
+  - 🇯🇵 直连-日本8-1A
   - 🇯🇵 直连-日本2-1F
   - 🇯🇵 直连-日本-1C
-  - 🇯🇵 直连-日本8-1F
-  - 🇯🇵 直连-日本3-1D
-  - 🇯🇵 直连-日本-1A
-  - 🇯🇵 直连-日本-1E
-  - 🇯🇵 直连-日本8-1E
   - 🇯🇵 直连-日本4-1F
+  - 🇯🇵 直连-日本7-1A
   - 🇯🇵 直连-日本8-1C
-  - 🇯🇵 直连-日本3-1E
-  - 🇯🇵 直连-日本-1F
-  - 🇯🇵 直连-日本7-1C
-  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本5-1E
   - 🇯🇵 直连-日本4-1C
   - 🇯🇵 直连-日本4-1E
-  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本7-1B
+  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本7-1F
-  - 🇯🇵 直连-日本4-1B
-  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本7-1D
+  - 🇯🇵 直连-日本6-1C
   - 🇯🇵 直连-日本5-1B
-  - 🇯🇵 直连-日本-1B
-  - 🇯🇵 直连-日本4-1D
-  - 🇯🇵 直连-日本2-1E
+  - 🇯🇵 直连-日本6-1B
+  - 🇯🇵 直连-日本8-1F
+  - 🇯🇵 直连-日本5-1F
+  - 🇯🇵 直连-日本2-1C
+  - 🇯🇵 直连-日本3-1B
+  - 🇯🇵 直连-日本2-1D
+  - 🇯🇵 直连-日本6-1A
+  - 🇯🇵 直连-日本7-1E
+  - 🇯🇵 直连-日本3-1E
+  - 🇯🇵 直连-日本3-1D
+  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本7-1C
+  - 🇯🇵 直连-日本5-1D
+  - 🇧🇷 巴西2-1E
+  - 🇰🇷 直连-韩国4-1E
+  - 🇰🇷 直连-韩国4-1C
+  - 🇧🇷 巴西5-IP6-1F
+  - 🇰🇷 直连-韩国4-1A
+  - 🇰🇷 直连-韩国4-1B
+  - 🇹🇼 直连-台湾4-1C
+  - 🇭🇰 直连-香港HKT-1F
+  - 🇯🇵 直连-日本6-1E
+  - 🇭🇰 直连-香港HKT-1E
+  - 🇹🇼 直连-台湾4-1A
+  - 🇯🇵 直连-日本3-1F
   - 🇯🇵 直连-日本2-1B
   - 🇯🇵 直连-日本3-1A
+  - 🇯🇵 直连-日本4-1D
+  - 🇯🇵 直连-日本2-1A
+  - 🇯🇵 直连-日本8-1E
+  - 🇯🇵 直连-日本6-1D
+  - 🇯🇵 直连-日本5-1A
   - 🇯🇵 直连-日本4-1A
-  - 🇯🇵 直连-日本5-1D
-  - 🇯🇵 直连-日本-1D
-  - 🇯🇵 直连-日本6-1F
+  - 🇯🇵 直连-日本-1F
   - 🇯🇵 直连-日本5-1C
-  - 🇯🇵 直连-日本6-1E
-  - 🇯🇵 直连-日本6-1B
-  - 🇯🇵 直连-日本8-1A
-  - 🇯🇵 直连-日本5-1E
-  - 🇹🇼 直连-台湾3-1A
-  - 🇹🇼 直连-台湾3-1E
-  - 🇩🇪 德国01-免费-2O
-  - 🇯🇵 直连-日本6-1A
   - 🇰🇷 直连-韩国4-1D
-  - 🇭🇰 直连-香港HKT-1E
-  - 🇭🇰 直连-香港HKT-1B
-  - 🇭🇰 直连-香港HKT-1A
-  - 🇰🇷 直连-韩国4-1A
-  - 🇭🇰 直连-香港HKT-1D
-  - 🇯🇵 直连-日本7-1E
-  - 🇯🇵 直连-日本8-1B
   - 🇯🇵 直连-日本3-1C
-  - 🇯🇵 直连-日本3-1F
-  - 🇯🇵 直连-日本6-1C
+  - 🇹🇼 直连-台湾3-1E
+  - 🇺🇸 美国5-1F
+  - 🇯🇵 直连-日本-1E
+  - 🇯🇵 直连-日本-1B
+  - 🇯🇵 日本3-IP6-1C
+  - 🇯🇵 日本4-IP6-1D
+  - 🇯🇵 日本2-1C
+  - 🇭🇰 直连-香港HKT-1B
+  - 🇭🇰 直连-香港HKT-1D
+  - 🇯🇵 直连-日本8-1D
+  - 🇮🇳 印度4-1F
   - 🇭🇰 直连-香港HKT-1C
   - 🇰🇷 直连-韩国4-1F
-  - 🇰🇷 直连-韩国4-1C
-  - 🇰🇷 直连-韩国4-1B
+  - 🇯🇵 日本1-1F
+  - 🇭🇰 直连-香港HKT-1A
+  - 🇯🇵 直连-日本-1A
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
