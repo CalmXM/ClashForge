@@ -32,11 +32,23 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-1B
+- name: 🇷🇺 俄罗斯-圣彼得堡-001-1A
+  server: 195.58.49.84
+  port: 22011
+  type: vmess
+  uuid: 2d13afa2-d969-4941-bab4-7d393c95ef08
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇺🇸 美国-1O
   server: phx-plus-1ddns.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: b14d5148-fb11-4293-8c9d-b8ae7f39b215
+  uuid: ac888aad-1bce-4d45-a5ba-ddb329b30bec
   alterId: 0
   cipher: auto
   tls: false
@@ -46,11 +58,35 @@ proxies:
     headers:
       Host: phx-plus-1ddns.faforex.eu.org
   udp: true
-- name: 🇩🇪 德国法兰克福-1G
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: d5d4250a-7783-4408-973b-bcfba56e12c1
+  auth: d5d4250a-7783-4408-973b-bcfba56e12c1
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: ff9585a4-f5de-4d4f-aadf-b2764c85bb79
+  auth: ff9585a4-f5de-4d4f-aadf-b2764c85bb79
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇩🇪 德国法兰克福-1O
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: d1824663-cef1-469d-9871-59f4346db0ba
+  uuid: ac888aad-1bce-4d45-a5ba-ddb329b30bec
   alterId: 0
   cipher: auto
   tls: false
@@ -72,8 +108,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1B
+  - 🇺🇸 美国-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇩🇪 德国法兰克福-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -81,15 +120,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1B
+  - 🇺🇸 美国-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇩🇪 德国法兰克福-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1B
+  - 🇺🇸 美国-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇩🇪 德国法兰克福-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
