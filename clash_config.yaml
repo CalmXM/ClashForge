@@ -32,11 +32,37 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
+- name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  server: 45.147.201.231
+  port: 30001
+  type: hysteria2
+  password: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
+  auth: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇺🇸 美国-1C
+  server: phx-plus-1ddns.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 1429280e-e10b-4519-970f-0e7567403924
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+  udp: true
 - name: 🇩🇪 德国法兰克福-1G
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 4792eea7-083d-4e7c-b522-7260a36225ea
+  uuid: d1824663-cef1-469d-9871-59f4346db0ba
   alterId: 0
   cipher: auto
   tls: false
@@ -46,181 +72,17 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1F
-  server: sg1.yunxing.lat
-  port: 1086
+- name: 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  server: 45.147.201.231
+  port: 30001
   type: hysteria2
-  password: c214e64b-393e-4799-ad47-ae7c36caa79f
-  auth: c214e64b-393e-4799-ad47-ae7c36caa79f
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
+  password: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
+  auth: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
+  up: 100
+  down: 100
   skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1B
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 2ba24327-80b0-4a24-907c-fcd8494ab444
-  auth: 2ba24327-80b0-4a24-907c-fcd8494ab444
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1A
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: bd51f4eb-f935-4d6f-ba3a-8b8e73d9382a
-  auth: bd51f4eb-f935-4d6f-ba3a-8b8e73d9382a
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1A
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: bd51f4eb-f935-4d6f-ba3a-8b8e73d9382a
-  auth: bd51f4eb-f935-4d6f-ba3a-8b8e73d9382a
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1D
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: cbdd9720-f00d-406a-9f59-50b12dde1384
-  auth: cbdd9720-f00d-406a-9f59-50b12dde1384
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1H
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 6d6b82c6-12ff-4e4e-9f34-7d97aa42865e
-  auth: 6d6b82c6-12ff-4e4e-9f34-7d97aa42865e
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1G
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 56feb0af-9f95-4c25-96eb-0c1501c74d8e
-  auth: 56feb0af-9f95-4c25-96eb-0c1501c74d8e
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1F
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: c214e64b-393e-4799-ad47-ae7c36caa79f
-  auth: c214e64b-393e-4799-ad47-ae7c36caa79f
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1J
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: bbc93827-41f1-40e1-b169-fb44104348e5
-  auth: bbc93827-41f1-40e1-b169-fb44104348e5
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1H
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 6d6b82c6-12ff-4e4e-9f34-7d97aa42865e
-  auth: 6d6b82c6-12ff-4e4e-9f34-7d97aa42865e
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1B
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 2ba24327-80b0-4a24-907c-fcd8494ab444
-  auth: 2ba24327-80b0-4a24-907c-fcd8494ab444
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1G
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 56feb0af-9f95-4c25-96eb-0c1501c74d8e
-  auth: 56feb0af-9f95-4c25-96eb-0c1501c74d8e
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1D
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: cbdd9720-f00d-406a-9f59-50b12dde1384
-  auth: cbdd9720-f00d-406a-9f59-50b12dde1384
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1C
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 983b5fa1-b0ac-480e-9fa7-cd86854e72ad
-  auth: 983b5fa1-b0ac-480e-9fa7-cd86854e72ad
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡1 0.5x-1J
-  server: sg1.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: bbc93827-41f1-40e1-b169-fb44104348e5
-  auth: bbc93827-41f1-40e1-b169-fb44104348e5
-  sni: sg1.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 直连-新加坡2 0.5x-1C
-  server: sg2.yunxing.lat
-  port: 1086
-  type: hysteria2
-  password: 983b5fa1-b0ac-480e-9fa7-cd86854e72ad
-  auth: 983b5fa1-b0ac-480e-9fa7-cd86854e72ad
-  sni: us2.yunxing.lat
-  up: 2500
-  down: 500
-  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -235,22 +97,9 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇩🇪 德国法兰克福-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1H
-  - 🇸🇬 直连-新加坡1 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1F
-  - 🇸🇬 直连-新加坡1 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1H
-  - 🇸🇬 直连-新加坡2 0.5x-1J
-  - 🇸🇬 直连-新加坡2 0.5x-1D
-  - 🇸🇬 直连-新加坡2 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1A
-  - 🇸🇬 直连-新加坡2 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1A
-  - 🇸🇬 直连-新加坡1 0.5x-1D
-  - 🇸🇬 直连-新加坡1 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1F
-  - 🇸🇬 直连-新加坡2 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1J
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -259,44 +108,18 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇩🇪 德国法兰克福-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1H
-  - 🇸🇬 直连-新加坡1 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1F
-  - 🇸🇬 直连-新加坡1 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1H
-  - 🇸🇬 直连-新加坡2 0.5x-1J
-  - 🇸🇬 直连-新加坡2 0.5x-1D
-  - 🇸🇬 直连-新加坡2 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1A
-  - 🇸🇬 直连-新加坡2 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1A
-  - 🇸🇬 直连-新加坡1 0.5x-1D
-  - 🇸🇬 直连-新加坡1 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1F
-  - 🇸🇬 直连-新加坡2 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1J
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
   - 🇩🇪 德国法兰克福-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1H
-  - 🇸🇬 直连-新加坡1 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1F
-  - 🇸🇬 直连-新加坡1 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1H
-  - 🇸🇬 直连-新加坡2 0.5x-1J
-  - 🇸🇬 直连-新加坡2 0.5x-1D
-  - 🇸🇬 直连-新加坡2 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1A
-  - 🇸🇬 直连-新加坡2 0.5x-1B
-  - 🇸🇬 直连-新加坡1 0.5x-1A
-  - 🇸🇬 直连-新加坡1 0.5x-1D
-  - 🇸🇬 直连-新加坡1 0.5x-1G
-  - 🇸🇬 直连-新加坡2 0.5x-1F
-  - 🇸🇬 直连-新加坡2 0.5x-1C
-  - 🇸🇬 直连-新加坡1 0.5x-1J
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
