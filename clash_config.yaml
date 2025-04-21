@@ -32,37 +32,23 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  server: 45.147.201.231
-  port: 30001
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1S
+  server: 195.58.49.84
+  port: 31000
   type: hysteria2
-  password: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
-  auth: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
+  password: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
+  auth: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
   up: 100
   down: 100
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
-- name: 🇺🇸 美国-1C
-  server: phx-plus-1ddns.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: 1429280e-e10b-4519-970f-0e7567403924
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-  udp: true
-- name: 🇩🇪 德国法兰克福-1G
+- name: 🇩🇪 德国法兰克福-1H
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: d1824663-cef1-469d-9871-59f4346db0ba
+  uuid: 23ede6a2-87cb-46ce-a087-9944bfb2a413
   alterId: 0
   cipher: auto
   tls: false
@@ -72,12 +58,504 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  server: 45.147.201.231
-  port: 30001
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2N
+  server: 195.58.49.84
+  port: 31000
   type: hysteria2
-  password: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
-  auth: bf6c312f-c7b2-41e8-98d0-e2b730d7cb0e
+  password: 8829d9ee-792b-4d24-b8a2-89c9ebfba122
+  auth: 8829d9ee-792b-4d24-b8a2-89c9ebfba122
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-001-1U
+  server: 195.58.49.84
+  port: 22019
+  type: vmess
+  uuid: 26045ff5-5b4e-49c1-9668-b2007dcb5fd6
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2L
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 4131ed37-84bd-4599-9579-b74cf670ca1b
+  auth: 4131ed37-84bd-4599-9579-b74cf670ca1b
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1L
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 022d9bd9-b0c2-4425-aab1-6cd5ccc7be06
+  auth: 022d9bd9-b0c2-4425-aab1-6cd5ccc7be06
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2B
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 2f99cc5b-ea2b-4b18-adf8-7e025a554736
+  auth: 2f99cc5b-ea2b-4b18-adf8-7e025a554736
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1T
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 52ee67dc-501b-4481-bd10-781ddbb5f22c
+  auth: 52ee67dc-501b-4481-bd10-781ddbb5f22c
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: c7d20c73-fdfa-46b4-8fdb-1546b96e526a
+  auth: c7d20c73-fdfa-46b4-8fdb-1546b96e526a
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2H
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 6076f1db-c387-48b2-abf7-e50ffdcb6580
+  auth: 6076f1db-c387-48b2-abf7-e50ffdcb6580
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Q
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 93fcebc4-a59f-4c2f-8dd5-3ff7f8ad2804
+  auth: 93fcebc4-a59f-4c2f-8dd5-3ff7f8ad2804
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2I
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 87da8636-73ab-45ed-931c-3e10ce72825f
+  auth: 87da8636-73ab-45ed-931c-3e10ce72825f
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1U
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 26045ff5-5b4e-49c1-9668-b2007dcb5fd6
+  auth: 26045ff5-5b4e-49c1-9668-b2007dcb5fd6
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2G
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 4e245913-5a34-4afd-ad57-2caecf357bfe
+  auth: 4e245913-5a34-4afd-ad57-2caecf357bfe
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1J
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 0fb63d9b-7ecf-4e15-9128-02a54618986c
+  auth: 0fb63d9b-7ecf-4e15-9128-02a54618986c
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 4542bb39-9ee9-45f9-a2e9-665e79fb391d
+  auth: 4542bb39-9ee9-45f9-a2e9-665e79fb391d
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1O
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 34629533-4ab7-420e-85fd-4d040182c602
+  auth: 34629533-4ab7-420e-85fd-4d040182c602
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: e7e5efb6-e241-4c40-883f-e07399cc304c
+  auth: e7e5efb6-e241-4c40-883f-e07399cc304c
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2F
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 3bb10886-5abc-4dca-94f0-aa1d4b928345
+  auth: 3bb10886-5abc-4dca-94f0-aa1d4b928345
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Z
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: ed806505-89d0-4e99-a850-17b33a858bef
+  auth: ed806505-89d0-4e99-a850-17b33a858bef
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1H
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: b5be87ce-52fe-43c1-aa89-3f7472caa912
+  auth: b5be87ce-52fe-43c1-aa89-3f7472caa912
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2A
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: a6543069-4b57-4139-8901-83aed5b919e3
+  auth: a6543069-4b57-4139-8901-83aed5b919e3
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Y
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 3d895c6d-b9d8-49c8-9851-dab940146708
+  auth: 3d895c6d-b9d8-49c8-9851-dab940146708
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1x
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: b1ab1f38-5374-43c3-9518-6d9041f20fc5
+  auth: b1ab1f38-5374-43c3-9518-6d9041f20fc5
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2M
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 1a71825c-6b66-4267-9b5d-9fbcc30fae94
+  auth: 1a71825c-6b66-4267-9b5d-9fbcc30fae94
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2P
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: c8a9d304-01f4-40e1-b9d2-6fad01bf1c57
+  auth: c8a9d304-01f4-40e1-b9d2-6fad01bf1c57
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2D
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
+  auth: b9962cea-8f9a-4ceb-bfa6-c21dbed11d51
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 62724293-3331-4e0e-8c7f-502702bc0d55
+  auth: 62724293-3331-4e0e-8c7f-502702bc0d55
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1D
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: b7e4bac0-056d-4480-86c7-b5ad8fdffbac
+  auth: b7e4bac0-056d-4480-86c7-b5ad8fdffbac
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2J
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: e743d88e-df7f-491b-a8b8-41626743dc53
+  auth: e743d88e-df7f-491b-a8b8-41626743dc53
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2O
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: fac5f78d-f60e-463d-a265-58c7f35ab579
+  auth: fac5f78d-f60e-463d-a265-58c7f35ab579
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1G
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: e4ca27ee-0df5-4d02-b1b6-9c1b730297bf
+  auth: e4ca27ee-0df5-4d02-b1b6-9c1b730297bf
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1V
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 7eb48b04-771b-4565-9c82-29958495c893
+  auth: 7eb48b04-771b-4565-9c82-29958495c893
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1I
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: f424a1ac-0637-444f-adfd-635ebb835ff0
+  auth: f424a1ac-0637-444f-adfd-635ebb835ff0
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1M
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 5eeffd7b-214c-42bd-b67d-d3861238054e
+  auth: 5eeffd7b-214c-42bd-b67d-d3861238054e
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 391dd1c6-1399-4b63-93b9-ea7f1122e0ff
+  auth: 391dd1c6-1399-4b63-93b9-ea7f1122e0ff
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1W
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: fa2bef9b-45f6-45d5-8759-2e466d905fbb
+  auth: fa2bef9b-45f6-45d5-8759-2e466d905fbb
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2C
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 97fe7925-416c-47a8-b406-72690e2461b1
+  auth: 97fe7925-416c-47a8-b406-72690e2461b1
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2E
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: c6bf5862-79b3-4259-899f-4bba3ec64ab0
+  auth: c6bf5862-79b3-4259-899f-4bba3ec64ab0
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: b57f99cb-bee6-4052-a681-0447a3d99339
+  auth: b57f99cb-bee6-4052-a681-0447a3d99339
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-2K
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 4e406141-218b-47a1-b3a5-2df14d54e71f
+  auth: 4e406141-218b-47a1-b3a5-2df14d54e71f
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1F
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 6fa7d6a3-c377-496c-b090-5eae852215c1
+  auth: 6fa7d6a3-c377-496c-b090-5eae852215c1
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 3a394637-67bc-44ae-9746-8ae498096945
+  auth: 3a394637-67bc-44ae-9746-8ae498096945
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1N
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 7718178b-d317-4194-80bd-7acb1053824f
+  auth: 7718178b-d317-4194-80bd-7acb1053824f
   up: 100
   down: 100
   skip-cert-verify: true
@@ -96,10 +574,50 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1S
+  - 🇩🇪 德国法兰克福-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1x
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1T
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2C
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Y
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Z
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Q
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2N
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1V
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1W
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1N
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -107,19 +625,99 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1S
+  - 🇩🇪 德国法兰克福-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1x
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1T
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2C
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Y
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Z
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Q
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2N
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1V
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1W
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1N
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1S
+  - 🇩🇪 德国法兰克福-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1x
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1T
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2C
+  - 🇷🇺 俄罗斯-圣彼得堡-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2L
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Y
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Z
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1J
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1M
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1Q
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2N
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2A
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1O
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1B
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1D
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2E
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1V
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1C
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2F
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1U
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1W
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-2H
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1N
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
