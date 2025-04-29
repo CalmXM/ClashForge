@@ -32,36 +32,34 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇯🇵 日本V-1B
-  server: bookmyshow.com
-  port: 443
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: cf427c18-243b-499d-8cde-ead19ccc8971
+  auth: cf427c18-243b-499d-8cde-ead19ccc8971
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇺🇸 美国01-免费-1D
+  server: us01.sh-cloudflare.sbs
+  port: 8443
   type: vmess
-  uuid: 428209f8-46ce-4264-b157-191b24f36d8c
+  uuid: 531695f1-dad7-4888-b925-6ff81e29c144
   alterId: 0
   cipher: auto
   tls: true
-  servername: jpv.xiaoqi555.xyz
+  servername: us01.sh-cloudflare.sbs
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: jpv.xiaoqi555.xyz
+      Host: us01.sh-cloudflare.sbs
   udp: true
-- name: 🇩🇪 德国法兰克福-1D
-  server: frankfurt.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: ac888aad-1bce-4d45-a5ba-ddb329b30bec
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /itdog?ed=2560
-    headers:
-      Host: us-new03.daluquan.top
-  udp: true
-- name: 🇺🇸 圣何塞5-1E
+- name: 🇺🇸 圣何塞5-1G
   server: time.is
   port: 443
   type: vmess
@@ -76,40 +74,26 @@ proxies:
     headers:
       Host: shs111.kejixiaoqi666.store
   udp: true
-- name: 🇺🇸 圣何塞4-1B
-  server: xiaoqi.yangmie.online
+- name: 🇯🇵 日本V-1I
+  server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: 428209f8-46ce-4264-b157-191b24f36d8c
+  uuid: afca5665-487a-4f4d-9407-51383f843153
   alterId: 0
   cipher: auto
   tls: true
-  servername: shs111.kejixiaoqi666.store
+  servername: jpv.xiaoqi555.xyz
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: shs111.kejixiaoqi666.store
+      Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇺🇸 美国-1B
-  server: phx-plus-1ddns.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-  udp: true
-- name: 🇯🇵 日本VULTR1-1E
+- name: 🇯🇵 日本VULTR1-1I
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: dcfda94b-9a8f-4dee-ba56-f5c3f883cc6a
+  uuid: afca5665-487a-4f4d-9407-51383f843153
   alterId: 0
   cipher: auto
   tls: true
@@ -120,6 +104,100 @@ proxies:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇺🇸 美国-1G
+  server: phx-plus-1ddns.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 1429280e-e10b-4519-970f-0e7567403924
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: phx-plus-1ddns.faforex.eu.org
+  udp: true
+- name: 🇺🇸 圣何塞4-1G
+  server: xiaoqi.yangmie.online
+  port: 443
+  type: vmess
+  uuid: dcfda94b-9a8f-4dee-ba56-f5c3f883cc6a
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
+  udp: true
+- name: 🇩🇪 德国法兰克福-1C
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 567d21a2-e1a4-42d2-84d4-5e1b4009b7e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /itdog?ed=2560
+    headers:
+      Host: us-new03.daluquan.top
+  udp: true
+- name: 🇺🇸 圣何塞1-1H
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: 7f4a5aed-b8e1-407a-aeff-ae4b17ebc816
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: e8e98b6f-aaec-4c03-b1f3-5b2c572a50e1
+  auth: e8e98b6f-aaec-4c03-b1f3-5b2c572a50e1
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 61cbccfe-308b-43ef-9767-fc5b2534a138
+  auth: 61cbccfe-308b-43ef-9767-fc5b2534a138
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  server: 195.58.49.84
+  port: 31000
+  type: hysteria2
+  password: 5ef6636c-17c7-4f1e-b09d-9b8affa76b18
+  auth: 5ef6636c-17c7-4f1e-b09d-9b8affa76b18
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -133,12 +211,18 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇺🇸 圣何塞4-1B
-  - 🇺🇸 圣何塞5-1E
-  - 🇺🇸 美国-1B
-  - 🇯🇵 日本VULTR1-1E
-  - 🇯🇵 日本V-1B
+  - 🇺🇸 美国-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇺🇸 美国01-免费-1D
+  - 🇺🇸 圣何塞1-1H
+  - 🇺🇸 圣何塞5-1G
+  - 🇺🇸 圣何塞4-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇯🇵 日本V-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇯🇵 日本VULTR1-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -146,23 +230,35 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇺🇸 圣何塞4-1B
-  - 🇺🇸 圣何塞5-1E
-  - 🇺🇸 美国-1B
-  - 🇯🇵 日本VULTR1-1E
-  - 🇯🇵 日本V-1B
+  - 🇺🇸 美国-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇺🇸 美国01-免费-1D
+  - 🇺🇸 圣何塞1-1H
+  - 🇺🇸 圣何塞5-1G
+  - 🇺🇸 圣何塞4-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇯🇵 日本V-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇯🇵 日本VULTR1-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1D
-  - 🇺🇸 圣何塞4-1B
-  - 🇺🇸 圣何塞5-1E
-  - 🇺🇸 美国-1B
-  - 🇯🇵 日本VULTR1-1E
-  - 🇯🇵 日本V-1B
+  - 🇺🇸 美国-1G
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
+  - 🇺🇸 美国01-免费-1D
+  - 🇺🇸 圣何塞1-1H
+  - 🇺🇸 圣何塞5-1G
+  - 🇺🇸 圣何塞4-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇯🇵 日本V-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
+  - 🇯🇵 日本VULTR1-1I
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
+  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
