@@ -32,23 +32,26 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
-  server: 195.58.49.84
-  port: 31000
-  type: hysteria2
-  password: cf427c18-243b-499d-8cde-ead19ccc8971
-  auth: cf427c18-243b-499d-8cde-ead19ccc8971
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇩🇪 德国01-免费-6D
+  server: de01.sh-cloudflare.sbs
+  port: 2096
+  type: vmess
+  uuid: 1a04f00d-5541-423e-bf63-856634c70472
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: de01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de01.sh-cloudflare.sbs
   udp: true
-- name: 🇺🇸 美国01-免费-1D
+- name: 🇺🇸 美国01-免费-2E
   server: us01.sh-cloudflare.sbs
   port: 8443
   type: vmess
-  uuid: 531695f1-dad7-4888-b925-6ff81e29c144
+  uuid: 6362a54f-2c04-475f-b37a-d287e47ff44e
   alterId: 0
   cipher: auto
   tls: true
@@ -59,26 +62,11 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
   udp: true
-- name: 🇺🇸 圣何塞5-1G
-  server: time.is
-  port: 443
-  type: vmess
-  uuid: dcfda94b-9a8f-4dee-ba56-f5c3f883cc6a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
-  udp: true
-- name: 🇯🇵 日本V-1I
+- name: 🇯🇵 日本V-1H
   server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: afca5665-487a-4f4d-9407-51383f843153
+  uuid: 8cadeb6b-3e7e-4d81-8119-fba9057a8ffd
   alterId: 0
   cipher: auto
   tls: true
@@ -89,11 +77,11 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇯🇵 日本VULTR1-1I
+- name: 🇯🇵 日本VULTR1-1D
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: afca5665-487a-4f4d-9407-51383f843153
+  uuid: 7f4a5aed-b8e1-407a-aeff-ae4b17ebc816
   alterId: 0
   cipher: auto
   tls: true
@@ -105,11 +93,70 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇺🇸 美国-1G
+- name: 🇺🇸 圣何塞5-1V
+  server: time.is
+  port: 443
+  type: vmess
+  uuid: cb682729-1fa0-468c-a345-973e34cf0057
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
+  udp: true
+- name: 🇸🇬 新加坡西部-1F
+  server: sg2-west.oraclenat.cc
+  port: 23458
+  type: vmess
+  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg2-west.oraclenat.cc
+  udp: true
+- name: 🇺🇸 圣何塞1-1E
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: 07b3e451-8cbc-4d6b-a3d1-1671c0c69587
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
+  udp: true
+- name: 🇺🇸 圣何塞4-1B
+  server: xiaoqi.yangmie.online
+  port: 443
+  type: vmess
+  uuid: 5282d58d-900a-4724-8c63-5332fb14154b
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
+  udp: true
+- name: 🇺🇸 美国-1D
   server: phx-plus-1ddns.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 1429280e-e10b-4519-970f-0e7567403924
+  uuid: 0c234f14-9d02-4da8-93c3-92347ef506bf
   alterId: 0
   cipher: auto
   tls: false
@@ -119,26 +166,11 @@ proxies:
     headers:
       Host: phx-plus-1ddns.faforex.eu.org
   udp: true
-- name: 🇺🇸 圣何塞4-1G
-  server: xiaoqi.yangmie.online
-  port: 443
-  type: vmess
-  uuid: dcfda94b-9a8f-4dee-ba56-f5c3f883cc6a
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
-  udp: true
-- name: 🇩🇪 德国法兰克福-1C
+- name: 🇩🇪 德国法兰克福-1H
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: 567d21a2-e1a4-42d2-84d4-5e1b4009b7e2
+  uuid: 1429280e-e10b-4519-970f-0e7567403924
   alterId: 0
   cipher: auto
   tls: false
@@ -148,56 +180,54 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇺🇸 圣何塞1-1H
-  server: 443ip.yangmie.online
-  port: 443
-  type: vmess
-  uuid: 7f4a5aed-b8e1-407a-aeff-ae4b17ebc816
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
+- name: 🇹🇼 台湾家宽直连 20x-1P
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: a7da2c5c-1bf9-4414-b5b5-c76bd3711fa6
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
-  server: 195.58.49.84
-  port: 31000
-  type: hysteria2
-  password: e8e98b6f-aaec-4c03-b1f3-5b2c572a50e1
-  auth: e8e98b6f-aaec-4c03-b1f3-5b2c572a50e1
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇹🇼 台湾家宽直连 20x-1L
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 25ac9348-185a-4ce9-b84a-264f6d598d2e
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
-  server: 195.58.49.84
-  port: 31000
-  type: hysteria2
-  password: 61cbccfe-308b-43ef-9767-fc5b2534a138
-  auth: 61cbccfe-308b-43ef-9767-fc5b2534a138
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇹🇼 台湾家宽直连 20x-1V
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: cb682729-1fa0-468c-a345-973e34cf0057
   udp: true
-- name: 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
-  server: 195.58.49.84
-  port: 31000
-  type: hysteria2
-  password: 5ef6636c-17c7-4f1e-b09d-9b8affa76b18
-  auth: 5ef6636c-17c7-4f1e-b09d-9b8affa76b18
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇹🇼 台湾家宽直连 20x-1F
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 428209f8-46ce-4264-b157-191b24f36d8c
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1M
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1397f953-1cde-4433-8dcc-50a442470bcc
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1D
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 7f4a5aed-b8e1-407a-aeff-ae4b17ebc816
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1A
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 46bd6ff7-5b87-4ccd-9f55-f27115979e56
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -211,18 +241,23 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-1G
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
-  - 🇺🇸 美国01-免费-1D
-  - 🇺🇸 圣何塞1-1H
-  - 🇺🇸 圣何塞5-1G
-  - 🇺🇸 圣何塞4-1G
-  - 🇩🇪 德国法兰克福-1C
-  - 🇯🇵 日本V-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
-  - 🇯🇵 日本VULTR1-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇺🇸 圣何塞5-1V
+  - 🇺🇸 美国-1D
+  - 🇺🇸 圣何塞1-1E
+  - 🇺🇸 圣何塞4-1B
+  - 🇺🇸 美国01-免费-2E
+  - 🇩🇪 德国法兰克福-1H
+  - 🇯🇵 日本VULTR1-1D
+  - 🇯🇵 日本V-1H
+  - 🇸🇬 新加坡西部-1F
+  - 🇩🇪 德国01-免费-6D
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -230,35 +265,45 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-1G
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
-  - 🇺🇸 美国01-免费-1D
-  - 🇺🇸 圣何塞1-1H
-  - 🇺🇸 圣何塞5-1G
-  - 🇺🇸 圣何塞4-1G
-  - 🇩🇪 德国法兰克福-1C
-  - 🇯🇵 日本V-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
-  - 🇯🇵 日本VULTR1-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇺🇸 圣何塞5-1V
+  - 🇺🇸 美国-1D
+  - 🇺🇸 圣何塞1-1E
+  - 🇺🇸 圣何塞4-1B
+  - 🇺🇸 美国01-免费-2E
+  - 🇩🇪 德国法兰克福-1H
+  - 🇯🇵 日本VULTR1-1D
+  - 🇯🇵 日本V-1H
+  - 🇸🇬 新加坡西部-1F
+  - 🇩🇪 德国01-免费-6D
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国-1G
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1E
-  - 🇺🇸 美国01-免费-1D
-  - 🇺🇸 圣何塞1-1H
-  - 🇺🇸 圣何塞5-1G
-  - 🇺🇸 圣何塞4-1G
-  - 🇩🇪 德国法兰克福-1C
-  - 🇯🇵 日本V-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1P
-  - 🇯🇵 日本VULTR1-1I
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1R
-  - 🇷🇺 俄罗斯-圣彼得堡-HY-001-1K
+  - 🇺🇸 圣何塞5-1V
+  - 🇺🇸 美国-1D
+  - 🇺🇸 圣何塞1-1E
+  - 🇺🇸 圣何塞4-1B
+  - 🇺🇸 美国01-免费-2E
+  - 🇩🇪 德国法兰克福-1H
+  - 🇯🇵 日本VULTR1-1D
+  - 🇯🇵 日本V-1H
+  - 🇸🇬 新加坡西部-1F
+  - 🇩🇪 德国01-免费-6D
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
