@@ -32,11 +32,26 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
+- name: 🇺🇸 美国01-免费-4R
+  server: us01.sh-cloudflare.sbs
+  port: 8443
+  type: vmess
+  uuid: 93df1b59-eec0-4fee-8b4c-337b16b1498c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: us01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.sh-cloudflare.sbs
+  udp: true
 - name: 🇯🇵 日本V-1F
   server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: f962618c-0e11-4b1b-a20f-27525710741a
+  uuid: e8d2c5c7-1705-4afd-8c31-28aa27daf40e
   alterId: 0
   cipher: auto
   tls: true
@@ -47,23 +62,9 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇸🇬 新加坡西部-1C
+- name: 🇸🇬 新加坡西部-1G
   server: sg2-west.oraclenat.cc
   port: 23458
-  type: vmess
-  uuid: 1429280e-e10b-4519-970f-0e7567403924
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg2-west.oraclenat.cc
-  udp: true
-- name: 🇺🇸 美国-1P
-  server: phx-plus-1ddns.faforex.eu.org
-  port: 23451
   type: vmess
   uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
   alterId: 0
@@ -73,13 +74,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: phx-plus-1ddns.faforex.eu.org
+      Host: sg2-west.oraclenat.cc
   udp: true
-- name: 🇯🇵 日本VULTR1-1F
+- name: 🇯🇵 日本VULTR1-1G
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: f962618c-0e11-4b1b-a20f-27525710741a
+  uuid: 1cbc9ef5-be18-4f78-a5dc-dd54a3c8fff3
   alterId: 0
   cipher: auto
   tls: true
@@ -91,11 +92,32 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇩🇪 德国法兰克福-1G
+- name: 🇹🇼 台湾家宽直连 20x-1J
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5c9993c7-ec77-4788-984f-c1243241590e
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1H
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 5cf66989-733e-46f7-bde3-4c4bbcb4c17f
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1K
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 90d71db6-d2c6-409f-9b6a-fc7b3740da28
+  udp: true
+- name: 🇩🇪 德国法兰克福-1A
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
+  uuid: 36c223a5-3191-4be0-917c-59c3ba7ce34b
   alterId: 0
   cipher: auto
   tls: false
@@ -104,6 +126,27 @@ proxies:
     path: /itdog?ed=2560
     headers:
       Host: us-new03.daluquan.top
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1A
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6f2ec104-0f21-4e47-ba24-b9f7ffe7e2cd
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1C
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 92cba414-acca-4361-b2e0-1defa9fbd3d9
+  udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1D
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f962618c-0e11-4b1b-a20f-27525710741a
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -117,11 +160,17 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1P
-  - 🇸🇬 新加坡西部-1C
-  - 🇯🇵 日本VULTR1-1F
+  - 🇩🇪 德国法兰克福-1A
+  - 🇺🇸 美国01-免费-4R
   - 🇯🇵 日本V-1F
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇯🇵 日本VULTR1-1G
+  - 🇸🇬 新加坡西部-1G
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇹🇼 台湾家宽直连 20x-1K
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -129,21 +178,33 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1P
-  - 🇸🇬 新加坡西部-1C
-  - 🇯🇵 日本VULTR1-1F
+  - 🇩🇪 德国法兰克福-1A
+  - 🇺🇸 美国01-免费-4R
   - 🇯🇵 日本V-1F
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇯🇵 日本VULTR1-1G
+  - 🇸🇬 新加坡西部-1G
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇹🇼 台湾家宽直连 20x-1K
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1G
-  - 🇺🇸 美国-1P
-  - 🇸🇬 新加坡西部-1C
-  - 🇯🇵 日本VULTR1-1F
+  - 🇩🇪 德国法兰克福-1A
+  - 🇺🇸 美国01-免费-4R
   - 🇯🇵 日本V-1F
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇯🇵 日本VULTR1-1G
+  - 🇸🇬 新加坡西部-1G
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇹🇼 台湾家宽直连 20x-1K
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
