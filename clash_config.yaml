@@ -32,26 +32,41 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国01-免费-7F
-  server: us01.sh-cloudflare.sbs
-  port: 8443
+- name: 🇺🇸 美国-1J
+  server: phx-plus-1ddns.faforex.eu.org
+  port: 23451
   type: vmess
-  uuid: 61e48954-dd6b-48a1-9429-f9816609b912
+  uuid: 1429280e-e10b-4519-970f-0e7567403924
   alterId: 0
   cipher: auto
-  tls: true
-  servername: us01.sh-cloudflare.sbs
+  tls: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: us01.sh-cloudflare.sbs
+      Host: phx-plus-1ddns.faforex.eu.org
   udp: true
-- name: 🇯🇵 日本V-1U
+- name: 🇯🇵 日本VULTR1-1K
+  server: www.visa.com
+  port: 443
+  type: vmess
+  uuid: 601b0bb5-7fd6-4e0c-83c2-0f9d5b5b0209
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇯🇵 日本V-1C
   server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: 419c9e36-9dd9-49b5-b140-ef63cbe547a5
+  uuid: 9e554576-67e4-4287-87ca-e6f141e3f5da
   alterId: 0
   cipher: auto
   tls: true
@@ -62,7 +77,7 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇩🇪 德国法兰克福-1G
+- name: 🇩🇪 德国法兰克福-1F
   server: frankfurt.faforex.eu.org
   port: 23451
   type: vmess
@@ -76,27 +91,11 @@ proxies:
     headers:
       Host: us-new03.daluquan.top
   udp: true
-- name: 🇯🇵 日本VULTR1-1T
-  server: www.visa.com
-  port: 443
-  type: vmess
-  uuid: f4a86f16-9099-42ad-a27c-2317ee52f883
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇸🇬 新加坡西部-1A
+- name: 🇸🇬 新加坡西部-1E
   server: sg2-west.oraclenat.cc
   port: 23458
   type: vmess
-  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
+  uuid: 1429280e-e10b-4519-970f-0e7567403924
   alterId: 0
   cipher: auto
   tls: false
@@ -105,20 +104,6 @@ proxies:
     path: /
     headers:
       Host: sg2-west.oraclenat.cc
-  udp: true
-- name: 🇺🇸 美国-1H
-  server: phx-plus-1ddns.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: 0c234f14-9d02-4da8-93c3-92347ef506bf
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -132,12 +117,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-1H
-  - 🇩🇪 德国法兰克福-1G
-  - 🇯🇵 日本V-1U
-  - 🇺🇸 美国01-免费-7F
-  - 🇯🇵 日本VULTR1-1T
-  - 🇸🇬 新加坡西部-1A
+  - 🇩🇪 德国法兰克福-1F
+  - 🇺🇸 美国-1J
+  - 🇯🇵 日本V-1C
+  - 🇸🇬 新加坡西部-1E
+  - 🇯🇵 日本VULTR1-1K
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -145,23 +129,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-1H
-  - 🇩🇪 德国法兰克福-1G
-  - 🇯🇵 日本V-1U
-  - 🇺🇸 美国01-免费-7F
-  - 🇯🇵 日本VULTR1-1T
-  - 🇸🇬 新加坡西部-1A
+  - 🇩🇪 德国法兰克福-1F
+  - 🇺🇸 美国-1J
+  - 🇯🇵 日本V-1C
+  - 🇸🇬 新加坡西部-1E
+  - 🇯🇵 日本VULTR1-1K
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国-1H
-  - 🇩🇪 德国法兰克福-1G
-  - 🇯🇵 日本V-1U
-  - 🇺🇸 美国01-免费-7F
-  - 🇯🇵 日本VULTR1-1T
-  - 🇸🇬 新加坡西部-1A
+  - 🇩🇪 德国法兰克福-1F
+  - 🇺🇸 美国-1J
+  - 🇯🇵 日本V-1C
+  - 🇸🇬 新加坡西部-1E
+  - 🇯🇵 日本VULTR1-1K
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
