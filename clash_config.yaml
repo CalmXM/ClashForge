@@ -32,23 +32,57 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: fb3a167b-f4bd-42bc-bd04-a651176baa53
-  auth: fb3a167b-f4bd-42bc-bd04-a651176baa53
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇺🇸 美国01-免费-4D
+  server: us01.sh-cloudflare.sbs
+  port: 8443
+  type: vmess
+  uuid: ae841927-4a5f-44ea-b153-61e6fe930f44
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: us01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.sh-cloudflare.sbs
   udp: true
-- name: 🇺🇸 美国-1F
+- name: 🇯🇵 日本V-3B
+  server: bookmyshow.com
+  port: 443
+  type: vmess
+  uuid: f79ddd3c-8caa-4fe3-a4e5-58568165eb4c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇯🇵 日本VULTR1-1K
+  server: www.visa.com
+  port: 443
+  type: vmess
+  uuid: 2dfb04cb-aa60-4f46-8748-099e45a6914e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇺🇸 美国-1A
   server: phx-plus-1ddns.faforex.eu.org
   port: 23451
   type: vmess
-  uuid: ed1828a5-8c13-4473-92dd-0cc2cb901e4e
+  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
   alterId: 0
   cipher: auto
   tls: false
@@ -58,81 +92,7 @@ proxies:
     headers:
       Host: phx-plus-1ddns.faforex.eu.org
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 0ded607e-c1de-424c-b9dc-0ec7aefea0e2
-  auth: 0ded607e-c1de-424c-b9dc-0ec7aefea0e2
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: bc9654c1-f372-433d-b0ef-2318aed9748c
-  auth: bc9654c1-f372-433d-b0ef-2318aed9748c
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 5c6533c3-ea5d-4876-8a33-0389f0d959ef
-  auth: 5c6533c3-ea5d-4876-8a33-0389f0d959ef
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇩🇪 德国法兰克福-1A
-  server: frankfurt.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /itdog?ed=2560
-    headers:
-      Host: us-new03.daluquan.top
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1L
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 6fbd1bf6-a0f2-4ed2-bed9-237616e18d28
-  auth: 6fbd1bf6-a0f2-4ed2-bed9-237616e18d28
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1O
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 7d9249ec-9800-456a-9942-fb400acf8ff5
-  auth: 7d9249ec-9800-456a-9942-fb400acf8ff5
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇸🇬 新加坡西部-1D
+- name: 🇸🇬 新加坡西部-1C
   server: sg2-west.oraclenat.cc
   port: 23458
   type: vmess
@@ -146,77 +106,19 @@ proxies:
     headers:
       Host: sg2-west.oraclenat.cc
   udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1P
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 8a396239-1a21-44d0-a39d-0a812fcc2fbb
-  auth: 8a396239-1a21-44d0-a39d-0a812fcc2fbb
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1H
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 7b63b791-cc4a-45f3-964b-acf106e8a0e3
-  auth: 7b63b791-cc4a-45f3-964b-acf106e8a0e3
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: b0ff93c4-3d72-4865-884e-936e3b9821ae
-  auth: b0ff93c4-3d72-4865-884e-936e3b9821ae
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 8379b3bd-335e-451b-ab68-1f67f91ba322
-  auth: 8379b3bd-335e-451b-ab68-1f67f91ba322
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: 4d595340-d333-4e45-af5c-d2830ab6756c
-  auth: 4d595340-d333-4e45-af5c-d2830ab6756c
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  server: 45.147.201.231
-  port: 30005
-  type: hysteria2
-  password: c359e276-9e56-4946-8946-fe9905003261
-  auth: c359e276-9e56-4946-8946-fe9905003261
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+- name: 🇩🇪 德国法兰克福-1C
+  server: frankfurt.faforex.eu.org
+  port: 23451
+  type: vmess
+  uuid: 36c223a5-3191-4be0-917c-59c3ba7ce34b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /itdog?ed=2560
+    headers:
+      Host: us-new03.daluquan.top
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -230,21 +132,12 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇩🇪 德国法兰克福-1A
-  - 🇺🇸 美国-1F
-  - 🇸🇬 新加坡西部-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇺🇸 美国-1A
+  - 🇯🇵 日本V-3B
+  - 🇯🇵 日本VULTR1-1K
+  - 🇸🇬 新加坡西部-1C
+  - 🇺🇸 美国01-免费-4D
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -252,41 +145,23 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇩🇪 德国法兰克福-1A
-  - 🇺🇸 美国-1F
-  - 🇸🇬 新加坡西部-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇺🇸 美国-1A
+  - 🇯🇵 日本V-3B
+  - 🇯🇵 日本VULTR1-1K
+  - 🇸🇬 新加坡西部-1C
+  - 🇺🇸 美国01-免费-4D
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇩🇪 德国法兰克福-1A
-  - 🇺🇸 美国-1F
-  - 🇸🇬 新加坡西部-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 🇩🇪 德国法兰克福-1C
+  - 🇺🇸 美国-1A
+  - 🇯🇵 日本V-3B
+  - 🇯🇵 日本VULTR1-1K
+  - 🇸🇬 新加坡西部-1C
+  - 🇺🇸 美国01-免费-4D
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
