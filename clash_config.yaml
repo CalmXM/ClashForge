@@ -32,11 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国01-免费-4D
+- name: 🇺🇸 美国01-免费-7H
   server: us01.sh-cloudflare.sbs
   port: 8443
   type: vmess
-  uuid: ae841927-4a5f-44ea-b153-61e6fe930f44
+  uuid: c86b64b3-5222-4a36-b574-98184b4376da
   alterId: 0
   cipher: auto
   tls: true
@@ -47,11 +47,26 @@ proxies:
     headers:
       Host: us01.sh-cloudflare.sbs
   udp: true
-- name: 🇯🇵 日本V-3B
+- name: 🇩🇪 德国01-免费-7E
+  server: de01.sh-cloudflare.sbs
+  port: 2096
+  type: vmess
+  uuid: 50dee6d1-b80e-43cc-a67b-c9e8f04c2e79
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: de01.sh-cloudflare.sbs
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de01.sh-cloudflare.sbs
+  udp: true
+- name: 🇯🇵 日本V-1D
   server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: f79ddd3c-8caa-4fe3-a4e5-58568165eb4c
+  uuid: 5ec8d17d-a362-4dec-86ed-795646517a51
   alterId: 0
   cipher: auto
   tls: true
@@ -62,11 +77,11 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇯🇵 日本VULTR1-1K
+- name: 🇯🇵 日本VULTR1-1A
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: 2dfb04cb-aa60-4f46-8748-099e45a6914e
+  uuid: 50955855-6e74-449e-ab0f-5f36e4199268
   alterId: 0
   cipher: auto
   tls: true
@@ -77,48 +92,6 @@ proxies:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇺🇸 美国-1A
-  server: phx-plus-1ddns.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: a1ebb83a-4973-4d8d-bda9-5e0134efd534
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: phx-plus-1ddns.faforex.eu.org
-  udp: true
-- name: 🇸🇬 新加坡西部-1C
-  server: sg2-west.oraclenat.cc
-  port: 23458
-  type: vmess
-  uuid: 36c223a5-3191-4be0-917c-59c3ba7ce34b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg2-west.oraclenat.cc
-  udp: true
-- name: 🇩🇪 德国法兰克福-1C
-  server: frankfurt.faforex.eu.org
-  port: 23451
-  type: vmess
-  uuid: 36c223a5-3191-4be0-917c-59c3ba7ce34b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /itdog?ed=2560
-    headers:
-      Host: us-new03.daluquan.top
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -132,12 +105,10 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1C
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本V-3B
-  - 🇯🇵 日本VULTR1-1K
-  - 🇸🇬 新加坡西部-1C
-  - 🇺🇸 美国01-免费-4D
+  - 🇯🇵 日本VULTR1-1A
+  - 🇯🇵 日本V-1D
+  - 🇺🇸 美国01-免费-7H
+  - 🇩🇪 德国01-免费-7E
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -145,23 +116,19 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 德国法兰克福-1C
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本V-3B
-  - 🇯🇵 日本VULTR1-1K
-  - 🇸🇬 新加坡西部-1C
-  - 🇺🇸 美国01-免费-4D
+  - 🇯🇵 日本VULTR1-1A
+  - 🇯🇵 日本V-1D
+  - 🇺🇸 美国01-免费-7H
+  - 🇩🇪 德国01-免费-7E
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 德国法兰克福-1C
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本V-3B
-  - 🇯🇵 日本VULTR1-1K
-  - 🇸🇬 新加坡西部-1C
-  - 🇺🇸 美国01-免费-4D
+  - 🇯🇵 日本VULTR1-1A
+  - 🇯🇵 日本V-1D
+  - 🇺🇸 美国01-免费-7H
+  - 🇩🇪 德国01-免费-7E
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
