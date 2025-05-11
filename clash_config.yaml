@@ -32,56 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇺🇸 美国01-免费-7H
-  server: us01.sh-cloudflare.sbs
-  port: 8443
-  type: vmess
-  uuid: c86b64b3-5222-4a36-b574-98184b4376da
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: us01.sh-cloudflare.sbs
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us01.sh-cloudflare.sbs
-  udp: true
-- name: 🇩🇪 德国01-免费-7E
-  server: de01.sh-cloudflare.sbs
-  port: 2096
-  type: vmess
-  uuid: 50dee6d1-b80e-43cc-a67b-c9e8f04c2e79
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: de01.sh-cloudflare.sbs
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: de01.sh-cloudflare.sbs
-  udp: true
-- name: 🇯🇵 日本V-1D
-  server: bookmyshow.com
-  port: 443
-  type: vmess
-  uuid: 5ec8d17d-a362-4dec-86ed-795646517a51
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇯🇵 日本VULTR1-1A
+- name: 🇯🇵 日本VULTR1-1J
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: 50955855-6e74-449e-ab0f-5f36e4199268
+  uuid: 5ec8d17d-a362-4dec-86ed-795646517a51
   alterId: 0
   cipher: auto
   tls: true
@@ -92,6 +47,30 @@ proxies:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇺🇸 美国-纽约-HY-001-1R
+  server: 45.147.201.231
+  port: 31005
+  type: hysteria2
+  password: d4d9916d-bfe7-4d5e-8770-2094c6991772
+  auth: d4d9916d-bfe7-4d5e-8770-2094c6991772
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇺🇸 美国-纽约-HY-001-1N
+  server: 45.147.201.231
+  port: 31005
+  type: hysteria2
+  password: 69349991-3a03-4756-8e78-15f0464b8e9d
+  auth: 69349991-3a03-4756-8e78-15f0464b8e9d
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -105,10 +84,9 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇯🇵 日本VULTR1-1A
-  - 🇯🇵 日本V-1D
-  - 🇺🇸 美国01-免费-7H
-  - 🇩🇪 德国01-免费-7E
+  - 🇺🇸 美国-纽约-HY-001-1N
+  - 🇺🇸 美国-纽约-HY-001-1R
+  - 🇯🇵 日本VULTR1-1J
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -116,19 +94,17 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇯🇵 日本VULTR1-1A
-  - 🇯🇵 日本V-1D
-  - 🇺🇸 美国01-免费-7H
-  - 🇩🇪 德国01-免费-7E
+  - 🇺🇸 美国-纽约-HY-001-1N
+  - 🇺🇸 美国-纽约-HY-001-1R
+  - 🇯🇵 日本VULTR1-1J
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇯🇵 日本VULTR1-1A
-  - 🇯🇵 日本V-1D
-  - 🇺🇸 美国01-免费-7H
-  - 🇩🇪 德国01-免费-7E
+  - 🇺🇸 美国-纽约-HY-001-1N
+  - 🇺🇸 美国-纽约-HY-001-1R
+  - 🇯🇵 日本VULTR1-1J
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
