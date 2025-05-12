@@ -32,45 +32,20 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇯🇵 日本VULTR1-1J
-  server: www.visa.com
+- name: 🇯🇵 日本V-1P
+  server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: 5ec8d17d-a362-4dec-86ed-795646517a51
+  uuid: fbd625b0-52b4-476e-a05f-07896853f023
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   servername: jpv.xiaoqi555.xyz
   network: ws
   ws-opts:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1R
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: d4d9916d-bfe7-4d5e-8770-2094c6991772
-  auth: d4d9916d-bfe7-4d5e-8770-2094c6991772
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1N
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 69349991-3a03-4756-8e78-15f0464b8e9d
-  auth: 69349991-3a03-4756-8e78-15f0464b8e9d
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -84,9 +59,7 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-纽约-HY-001-1N
-  - 🇺🇸 美国-纽约-HY-001-1R
-  - 🇯🇵 日本VULTR1-1J
+  - 🇯🇵 日本V-1P
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -94,17 +67,13 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 美国-纽约-HY-001-1N
-  - 🇺🇸 美国-纽约-HY-001-1R
-  - 🇯🇵 日本VULTR1-1J
+  - 🇯🇵 日本V-1P
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 美国-纽约-HY-001-1N
-  - 🇺🇸 美国-纽约-HY-001-1R
-  - 🇯🇵 日本VULTR1-1J
+  - 🇯🇵 日本V-1P
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
