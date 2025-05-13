@@ -31,22 +31,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies:
-- name: 🇯🇵 日本V-1P
-  server: bookmyshow.com
-  port: 443
-  type: vmess
-  uuid: fbd625b0-52b4-476e-a05f-07896853f023
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
+proxies: []
 proxy-groups:
 - name: 节点选择
   type: select
@@ -58,22 +43,19 @@ proxy-groups:
 - name: 自动选择
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 🇯🇵 日本V-1P
+  proxies: []
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
 - name: 故障转移
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 🇯🇵 日本V-1P
+  proxies: []
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
-  proxies:
-  - 🇯🇵 日本V-1P
+  proxies: []
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
