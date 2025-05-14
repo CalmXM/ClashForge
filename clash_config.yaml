@@ -31,7 +31,83 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: 🇯🇵 日本V-1C
+  server: bookmyshow.com
+  port: 443
+  type: vmess
+  uuid: 50955855-6e74-449e-ab0f-5f36e4199268
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇯🇵 日本VULTR1-1U
+  server: www.visa.com
+  port: 443
+  type: vmess
+  uuid: 2e2fdc25-4add-43df-9d55-727ec88429c7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇰🇷 韩国-1A
+  server: qyhg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 0969746d-035e-4786-81e1-54463d48ecc2
+  auth: 0969746d-035e-4786-81e1-54463d48ecc2
+  sni: qyhg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡-1B
+  server: qyxjp.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 38788316-5c97-4749-9833-ba75ac73f1f3
+  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
+  sni: qyxjp.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国-1A
+  server: qyyg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 0969746d-035e-4786-81e1-54463d48ecc2
+  auth: 0969746d-035e-4786-81e1-54463d48ecc2
+  sni: qyyg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国-1B
+  server: qyyg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 38788316-5c97-4749-9833-ba75ac73f1f3
+  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
+  sni: qyyg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-1B
+  server: qyhg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 38788316-5c97-4749-9833-ba75ac73f1f3
+  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
+  sni: qyhg.qy1357.top
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -43,19 +119,40 @@ proxy-groups:
 - name: 自动选择
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
+  proxies:
+  - 🇬🇧 英国-1B
+  - 🇬🇧 英国-1A
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1U
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1A
+  - 🇰🇷 韩国-1B
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
 - name: 故障转移
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
+  proxies:
+  - 🇬🇧 英国-1B
+  - 🇬🇧 英国-1A
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1U
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1A
+  - 🇰🇷 韩国-1B
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
-  proxies: []
+  proxies:
+  - 🇬🇧 英国-1B
+  - 🇬🇧 英国-1A
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1U
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1A
+  - 🇰🇷 韩国-1B
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
