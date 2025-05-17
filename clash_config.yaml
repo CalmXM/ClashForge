@@ -32,32 +32,11 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇰🇷 韩国-1E
-  server: qyhg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 38788316-5c97-4749-9833-ba75ac73f1f3
-  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
-  sni: qyhg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-拉斯维加斯-HY-001-1N
-  server: 45.147.201.231
-  port: 30073
-  type: hysteria2
-  password: e12951f1-fe1d-4491-8a94-34c51e0b8db0
-  auth: e12951f1-fe1d-4491-8a94-34c51e0b8db0
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
 - name: 🇯🇵 日本V
   server: bookmyshow.com
   port: 443
   type: vmess
-  uuid: c17549a2-22d1-4df6-8f1c-a9c5b440bedc
+  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
   alterId: 0
   cipher: auto
   tls: true
@@ -67,57 +46,12 @@ proxies:
     path: /
     headers:
       Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 5L-ZDN
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  auth: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: YO-OCF
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 38788316-5c97-4749-9833-ba75ac73f1f3
-  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇬🇧 英国-1E
-  server: qyyg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 38788316-5c97-4749-9833-ba75ac73f1f3
-  auth: 38788316-5c97-4749-9833-ba75ac73f1f3
-  sni: qyyg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇬🇧 英国-1B
-  server: qyyg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  auth: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  sni: qyyg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: RF-ZNA
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  auth: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本VULTR1
   server: www.visa.com
   port: 443
   type: vmess
-  uuid: c17549a2-22d1-4df6-8f1c-a9c5b440bedc
+  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
   alterId: 0
   cipher: auto
   tls: true
@@ -129,104 +63,50 @@ proxies:
     headers:
       Host: jpv.xiaoqi555.xyz
   udp: true
-- name: 🇰🇷 韩国-1A
-  server: qyhg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: cc02c110-1b83-4418-bf06-79aa609367de
-  auth: cc02c110-1b83-4418-bf06-79aa609367de
-  sni: qyhg.qy1357.top
-  skip-cert-verify: true
+- name: 🇺🇸 圣何塞4
+  server: xiaoqi.yangmie.online
+  port: 443
+  type: vmess
+  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
   udp: true
-- name: 🇸🇬 新加坡-1D
-  server: qyxjp.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 0969746d-035e-4786-81e1-54463d48ecc2
-  auth: 0969746d-035e-4786-81e1-54463d48ecc2
-  sni: qyxjp.qy1357.top
-  skip-cert-verify: true
+- name: 🇺🇸 圣何塞5
+  server: time.is
+  port: 443
+  type: vmess
+  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
   udp: true
-- name: 🇬🇧 英国-1A
-  server: qyyg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: cc02c110-1b83-4418-bf06-79aa609367de
-  auth: cc02c110-1b83-4418-bf06-79aa609367de
-  sni: qyyg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-1D
-  server: qyhg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 0969746d-035e-4786-81e1-54463d48ecc2
-  auth: 0969746d-035e-4786-81e1-54463d48ecc2
-  sni: qyhg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 2x-PGJ
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 0969746d-035e-4786-81e1-54463d48ecc2
-  auth: 0969746d-035e-4786-81e1-54463d48ecc2
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡-1C
-  server: qyxjp.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  auth: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  sni: qyxjp.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: KA-EOL
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: cc02c110-1b83-4418-bf06-79aa609367de
-  auth: cc02c110-1b83-4418-bf06-79aa609367de
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-1C
-  server: qyhg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  auth: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  sni: qyhg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷 韩国-1B
-  server: qyhg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  auth: ed74b84c-c02b-4d3b-a8d1-788fe427db55
-  sni: qyhg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇬🇧 英国-1C
-  server: qyyg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  auth: d27b1141-d2c2-487b-bebf-1f0f69ba5be9
-  sni: qyyg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇬🇧 英国-1D
-  server: qyyg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 0969746d-035e-4786-81e1-54463d48ecc2
-  auth: 0969746d-035e-4786-81e1-54463d48ecc2
-  sni: qyyg.qy1357.top
-  skip-cert-verify: true
+- name: 🇺🇸 圣何塞1
+  server: 443ip.yangmie.online
+  port: 443
+  type: vmess
+  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: shs111.kejixiaoqi666.store
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shs111.kejixiaoqi666.store
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -240,26 +120,11 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇰🇷 韩国-1E
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1A
-  - 🇰🇷 韩国-1D
-  - 🇰🇷 韩国-1C
-  - 5L-ZDN
-  - KA-EOL
-  - RF-ZNA
-  - 2x-PGJ
-  - 🇬🇧 英国-1D
-  - YO-OCF
-  - 🇬🇧 英国-1E
-  - 🇬🇧 英国-1C
-  - 🇬🇧 英国-1B
-  - 🇬🇧 英国-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 圣何塞5
+  - 🇺🇸 圣何塞4
+  - 🇺🇸 圣何塞1
   - 🇯🇵 日本V
   - 🇯🇵 日本VULTR1
-  - 🇸🇬 新加坡-1D
-  - 🇸🇬 新加坡-1C
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -267,51 +132,21 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇰🇷 韩国-1E
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1A
-  - 🇰🇷 韩国-1D
-  - 🇰🇷 韩国-1C
-  - 5L-ZDN
-  - KA-EOL
-  - RF-ZNA
-  - 2x-PGJ
-  - 🇬🇧 英国-1D
-  - YO-OCF
-  - 🇬🇧 英国-1E
-  - 🇬🇧 英国-1C
-  - 🇬🇧 英国-1B
-  - 🇬🇧 英国-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 圣何塞5
+  - 🇺🇸 圣何塞4
+  - 🇺🇸 圣何塞1
   - 🇯🇵 日本V
   - 🇯🇵 日本VULTR1
-  - 🇸🇬 新加坡-1D
-  - 🇸🇬 新加坡-1C
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇰🇷 韩国-1E
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1A
-  - 🇰🇷 韩国-1D
-  - 🇰🇷 韩国-1C
-  - 5L-ZDN
-  - KA-EOL
-  - RF-ZNA
-  - 2x-PGJ
-  - 🇬🇧 英国-1D
-  - YO-OCF
-  - 🇬🇧 英国-1E
-  - 🇬🇧 英国-1C
-  - 🇬🇧 英国-1B
-  - 🇬🇧 英国-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 圣何塞5
+  - 🇺🇸 圣何塞4
+  - 🇺🇸 圣何塞1
   - 🇯🇵 日本V
   - 🇯🇵 日本VULTR1
-  - 🇸🇬 新加坡-1D
-  - 🇸🇬 新加坡-1C
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
