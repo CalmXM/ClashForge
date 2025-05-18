@@ -31,83 +31,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies:
-- name: 🇯🇵 日本V
-  server: bookmyshow.com
-  port: 443
-  type: vmess
-  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇯🇵 日本VULTR1
-  server: www.visa.com
-  port: 443
-  type: vmess
-  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇺🇸 圣何塞4
-  server: xiaoqi.yangmie.online
-  port: 443
-  type: vmess
-  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
-  udp: true
-- name: 🇺🇸 圣何塞5
-  server: time.is
-  port: 443
-  type: vmess
-  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
-  udp: true
-- name: 🇺🇸 圣何塞1
-  server: 443ip.yangmie.online
-  port: 443
-  type: vmess
-  uuid: df1d3d54-b3ba-4a88-9d9f-6223ba68fb9c
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: shs111.kejixiaoqi666.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shs111.kejixiaoqi666.store
-  udp: true
+proxies: []
 proxy-groups:
 - name: 节点选择
   type: select
@@ -119,34 +43,19 @@ proxy-groups:
 - name: 自动选择
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 🇺🇸 圣何塞5
-  - 🇺🇸 圣何塞4
-  - 🇺🇸 圣何塞1
-  - 🇯🇵 日本V
-  - 🇯🇵 日本VULTR1
+  proxies: []
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
 - name: 故障转移
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 🇺🇸 圣何塞5
-  - 🇺🇸 圣何塞4
-  - 🇺🇸 圣何塞1
-  - 🇯🇵 日本V
-  - 🇯🇵 日本VULTR1
+  proxies: []
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
-  proxies:
-  - 🇺🇸 圣何塞5
-  - 🇺🇸 圣何塞4
-  - 🇺🇸 圣何塞1
-  - 🇯🇵 日本V
-  - 🇯🇵 日本VULTR1
+  proxies: []
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
