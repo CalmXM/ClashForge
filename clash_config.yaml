@@ -31,7 +31,62 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+proxies:
+- name: 🇯🇵 日本V-1C
+  server: bookmyshow.com
+  port: 443
+  type: vmess
+  uuid: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
+- name: 🇺🇸 美国-纽约-HY-001-1E
+  server: 45.147.201.231
+  port: 31005
+  type: hysteria2
+  password: 871f56aa-a9f6-450a-ba48-261620d14099
+  auth: 871f56aa-a9f6-450a-ba48-261620d14099
+  up: 100
+  down: 100
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇺🇸 美国-纽约-HY-001-1L
+  server: 45.147.201.231
+  port: 31005
+  type: hysteria2
+  password: e8ddebf0-de4b-4d29-a16e-cdde99131064
+  auth: e8ddebf0-de4b-4d29-a16e-cdde99131064
+  up: 50
+  down: 50
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  udp: true
+- name: 🇯🇵 日本VULTR1-1F
+  server: www.visa.com
+  port: 443
+  type: vmess
+  uuid: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: jpv.xiaoqi555.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jpv.xiaoqi555.xyz
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -43,19 +98,31 @@ proxy-groups:
 - name: 自动选择
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
+  proxies:
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1F
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
 - name: 故障转移
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
+  proxies:
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1F
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
-  proxies: []
+  proxies:
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇯🇵 日本V-1C
+  - 🇯🇵 日本VULTR1-1F
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
