@@ -77,38 +77,6 @@ proxies:
   sni: jiangzhidg.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 日本VULTR1-2L
-  server: www.visa.com
-  port: 443
-  type: vmess
-  uuid: ef685861-1518-4c6b-a62d-8ecf8c875cf3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
-- name: 🇯🇵 日本VULTR3-1M
-  server: time.is
-  port: 443
-  type: vmess
-  uuid: a5fcf578-9490-4c38-9c6d-86906b1a1289
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: jpv.xiaoqi555.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpv.xiaoqi555.xyz
-  udp: true
 - name: 🇦🇪 DUBAI-1G
   server: jiangzhidb.54264944.xyz
   port: 43999
@@ -135,30 +103,6 @@ proxies:
   auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
   sni: qyhg.qy1357.top
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1A
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 025897da-9566-4814-b472-6cc4029b0a35
-  auth: 025897da-9566-4814-b472-6cc4029b0a35
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1D
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 697f627d-2030-404c-8d27-324da90683eb
-  auth: 697f627d-2030-404c-8d27-324da90683eb
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: 🇦🇪 DUBAI-1I
   server: jiangzhidb.54264944.xyz
@@ -241,18 +185,6 @@ proxies:
   sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1C
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 843c2bd9-46c8-4de7-980b-975d73da82ae
-  auth: 843c2bd9-46c8-4de7-980b-975d73da82ae
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
 - name: 🇫🇷 FRANCE-1G
   server: jiangzhifg.54264944.xyz
   port: 43999
@@ -288,18 +220,6 @@ proxies:
   auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
   sni: qymg.qy1357.top
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1E
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 6dbbf752-331a-47f8-ae56-ccda386026e3
-  auth: 6dbbf752-331a-47f8-ae56-ccda386026e3
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: 🇫🇷 FRANCE-1C
   server: jiangzhifg.54264944.xyz
@@ -417,18 +337,6 @@ proxies:
   auth: cf80defd-0f6c-44a2-baec-83178d0a869b
   sni: jiangzhidg.54264944.xyz
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1F
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
-  auth: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: IRAQ-1H
   server: jiangzhiylk.54264944.xyz
@@ -736,18 +644,6 @@ proxies:
   sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1B
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 249f4998-c07e-4e6b-890c-dcba8c626259
-  auth: 249f4998-c07e-4e6b-890c-dcba8c626259
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
 - name: 🇮🇳 INDIA-1H
   server: jiangzhiyd.54264944.xyz
   port: 43999
@@ -769,83 +665,75 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 GERMANY-1B
-  - 🇩🇪 GERMANY-1I
-  - 🇩🇪 GERMANY-1G
   - 🇦🇪 DUBAI-1G
   - 🇩🇪 GERMANY-1A
-  - 🇸🇬 SINGAPORE-1I
-  - 🇬🇧 英国-1C
-  - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1E
-  - 🇩🇪 德国-1B
-  - 🇩🇪 GERMANY-1C
-  - 🇫🇷 FRANCE-1I
-  - 🇫🇷 FRANCE-1G
-  - 🇬🇧 英国-1A
+  - 🇩🇪 GERMANY-1B
   - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 GERMANY-1E
   - 🇦🇪 DUBAI-1H
-  - IRAQ-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1D
-  - 🇩🇪 德国-1C
-  - 🇫🇷 FRANCE-1F
-  - IRAQ-1I
-  - 🇫🇷 FRANCE-1A
   - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1G
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1D
-  - 🇬🇧 英国-1B
-  - 🇦🇪 DUBAI-1I
-  - 🇩🇪 德国-1A
+  - 🇸🇬 SINGAPORE-1I
   - 🇺🇸 US-NLK
-  - IRAQ-1D
+  - 🇦🇪 DUBAI-1E
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
+  - 🇬🇧 英国-1C
+  - 🇩🇪 GERMANY-1I
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 德国-1B
+  - IRAQ-1E
+  - 🇩🇪 GERMANY-1F
+  - 🇫🇷 FRANCE-1I
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1E
+  - 🇬🇧 英国-1A
+  - 🇩🇪 德国-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1G
+  - 🇫🇷 FRANCE-1B
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1H
+  - IRAQ-1F
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1A
+  - 🇫🇷 FRANCE-1F
   - 🇰🇷 韩国-1A
-  - 🇩🇪 GERMANY-1D
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 新加坡-1A
+  - 🇩🇪 德国-1A
+  - 🇸🇬 新加坡-1C
   - 🇸🇬 SINGAPORE-1B
   - 🇸🇬 SINGAPORE-1H
-  - 🇸🇬 SINGAPORE-1F
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡-1A
   - 🇸🇬 SINGAPORE-1D
-  - 🇮🇳 INDIA-1G
-  - 🇮🇳 INDIA-1H
-  - 🇯🇵 日本VULTR1-2L
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇩🇪 GERMANY-1F
-  - IRAQ-1C
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇩🇪 GERMANY-1H
-  - 🇸🇬 SINGAPORE-1G
-  - 🇮🇳 INDIA-1D
-  - 🇮🇳 INDIA-1C
-  - IRAQ-1E
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
   - 🇸🇬 SINGAPORE-1E
-  - 🇮🇳 INDIA-1I
+  - 🇸🇬 SINGAPORE-1F
+  - 🇸🇬 SINGAPORE-1G
+  - 🇸🇬 SINGAPORE-1A
+  - 🇰🇷 韩国-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇩🇪 GERMANY-1D
   - 🇮🇳 INDIA-1B
-  - 🇸🇬 新加坡-1B
-  - 🇯🇵 日本VULTR3-1M
-  - 🇰🇷 韩国-1C
-  - 🇮🇳 INDIA-1A
-  - 🇮🇳 INDIA-1F
-  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1C
+  - 🇮🇳 INDIA-1I
+  - IRAQ-1I
+  - 🇩🇪 GERMANY-1H
   - IRAQ-1A
-  - IRAQ-1F
-  - IRAQ-1H
+  - IRAQ-1C
+  - IRAQ-1D
+  - 🇮🇳 INDIA-1G
+  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1F
+  - 🇮🇳 INDIA-1H
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1C
+  - IRAQ-1G
+  - 🇮🇳 INDIA-1D
+  - 🇮🇳 INDIA-1A
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -853,165 +741,149 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇩🇪 GERMANY-1B
-  - 🇩🇪 GERMANY-1I
-  - 🇩🇪 GERMANY-1G
   - 🇦🇪 DUBAI-1G
   - 🇩🇪 GERMANY-1A
-  - 🇸🇬 SINGAPORE-1I
-  - 🇬🇧 英国-1C
-  - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1E
-  - 🇩🇪 德国-1B
-  - 🇩🇪 GERMANY-1C
-  - 🇫🇷 FRANCE-1I
-  - 🇫🇷 FRANCE-1G
-  - 🇬🇧 英国-1A
+  - 🇩🇪 GERMANY-1B
   - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 GERMANY-1E
   - 🇦🇪 DUBAI-1H
-  - IRAQ-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1D
-  - 🇩🇪 德国-1C
-  - 🇫🇷 FRANCE-1F
-  - IRAQ-1I
-  - 🇫🇷 FRANCE-1A
   - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1G
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1D
-  - 🇬🇧 英国-1B
-  - 🇦🇪 DUBAI-1I
-  - 🇩🇪 德国-1A
+  - 🇸🇬 SINGAPORE-1I
   - 🇺🇸 US-NLK
-  - IRAQ-1D
+  - 🇦🇪 DUBAI-1E
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
+  - 🇬🇧 英国-1C
+  - 🇩🇪 GERMANY-1I
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 德国-1B
+  - IRAQ-1E
+  - 🇩🇪 GERMANY-1F
+  - 🇫🇷 FRANCE-1I
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1E
+  - 🇬🇧 英国-1A
+  - 🇩🇪 德国-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1G
+  - 🇫🇷 FRANCE-1B
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1H
+  - IRAQ-1F
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1A
+  - 🇫🇷 FRANCE-1F
   - 🇰🇷 韩国-1A
-  - 🇩🇪 GERMANY-1D
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 新加坡-1A
+  - 🇩🇪 德国-1A
+  - 🇸🇬 新加坡-1C
   - 🇸🇬 SINGAPORE-1B
   - 🇸🇬 SINGAPORE-1H
-  - 🇸🇬 SINGAPORE-1F
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡-1A
   - 🇸🇬 SINGAPORE-1D
-  - 🇮🇳 INDIA-1G
-  - 🇮🇳 INDIA-1H
-  - 🇯🇵 日本VULTR1-2L
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇩🇪 GERMANY-1F
-  - IRAQ-1C
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇩🇪 GERMANY-1H
-  - 🇸🇬 SINGAPORE-1G
-  - 🇮🇳 INDIA-1D
-  - 🇮🇳 INDIA-1C
-  - IRAQ-1E
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
   - 🇸🇬 SINGAPORE-1E
-  - 🇮🇳 INDIA-1I
+  - 🇸🇬 SINGAPORE-1F
+  - 🇸🇬 SINGAPORE-1G
+  - 🇸🇬 SINGAPORE-1A
+  - 🇰🇷 韩国-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇩🇪 GERMANY-1D
   - 🇮🇳 INDIA-1B
-  - 🇸🇬 新加坡-1B
-  - 🇯🇵 日本VULTR3-1M
-  - 🇰🇷 韩国-1C
-  - 🇮🇳 INDIA-1A
-  - 🇮🇳 INDIA-1F
-  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1C
+  - 🇮🇳 INDIA-1I
+  - IRAQ-1I
+  - 🇩🇪 GERMANY-1H
   - IRAQ-1A
-  - IRAQ-1F
-  - IRAQ-1H
+  - IRAQ-1C
+  - IRAQ-1D
+  - 🇮🇳 INDIA-1G
+  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1F
+  - 🇮🇳 INDIA-1H
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1C
+  - IRAQ-1G
+  - 🇮🇳 INDIA-1D
+  - 🇮🇳 INDIA-1A
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇩🇪 GERMANY-1B
-  - 🇩🇪 GERMANY-1I
-  - 🇩🇪 GERMANY-1G
   - 🇦🇪 DUBAI-1G
   - 🇩🇪 GERMANY-1A
-  - 🇸🇬 SINGAPORE-1I
-  - 🇬🇧 英国-1C
-  - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1E
-  - 🇩🇪 德国-1B
-  - 🇩🇪 GERMANY-1C
-  - 🇫🇷 FRANCE-1I
-  - 🇫🇷 FRANCE-1G
-  - 🇬🇧 英国-1A
+  - 🇩🇪 GERMANY-1B
   - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 GERMANY-1E
   - 🇦🇪 DUBAI-1H
-  - IRAQ-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1D
-  - 🇩🇪 德国-1C
-  - 🇫🇷 FRANCE-1F
-  - IRAQ-1I
-  - 🇫🇷 FRANCE-1A
   - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1G
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1D
-  - 🇬🇧 英国-1B
-  - 🇦🇪 DUBAI-1I
-  - 🇩🇪 德国-1A
+  - 🇸🇬 SINGAPORE-1I
   - 🇺🇸 US-NLK
-  - IRAQ-1D
+  - 🇦🇪 DUBAI-1E
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
+  - 🇬🇧 英国-1C
+  - 🇩🇪 GERMANY-1I
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 德国-1B
+  - IRAQ-1E
+  - 🇩🇪 GERMANY-1F
+  - 🇫🇷 FRANCE-1I
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1E
+  - 🇬🇧 英国-1A
+  - 🇩🇪 德国-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1G
+  - 🇫🇷 FRANCE-1B
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1H
+  - IRAQ-1F
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1A
+  - 🇫🇷 FRANCE-1F
   - 🇰🇷 韩国-1A
-  - 🇩🇪 GERMANY-1D
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 新加坡-1A
+  - 🇩🇪 德国-1A
+  - 🇸🇬 新加坡-1C
   - 🇸🇬 SINGAPORE-1B
   - 🇸🇬 SINGAPORE-1H
-  - 🇸🇬 SINGAPORE-1F
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡-1A
   - 🇸🇬 SINGAPORE-1D
-  - 🇮🇳 INDIA-1G
-  - 🇮🇳 INDIA-1H
-  - 🇯🇵 日本VULTR1-2L
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇩🇪 GERMANY-1F
-  - IRAQ-1C
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇩🇪 GERMANY-1H
-  - 🇸🇬 SINGAPORE-1G
-  - 🇮🇳 INDIA-1D
-  - 🇮🇳 INDIA-1C
-  - IRAQ-1E
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
   - 🇸🇬 SINGAPORE-1E
-  - 🇮🇳 INDIA-1I
+  - 🇸🇬 SINGAPORE-1F
+  - 🇸🇬 SINGAPORE-1G
+  - 🇸🇬 SINGAPORE-1A
+  - 🇰🇷 韩国-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇩🇪 GERMANY-1D
   - 🇮🇳 INDIA-1B
-  - 🇸🇬 新加坡-1B
-  - 🇯🇵 日本VULTR3-1M
-  - 🇰🇷 韩国-1C
-  - 🇮🇳 INDIA-1A
-  - 🇮🇳 INDIA-1F
-  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1C
+  - 🇮🇳 INDIA-1I
+  - IRAQ-1I
+  - 🇩🇪 GERMANY-1H
   - IRAQ-1A
-  - IRAQ-1F
-  - IRAQ-1H
+  - IRAQ-1C
+  - IRAQ-1D
+  - 🇮🇳 INDIA-1G
+  - 🇮🇳 INDIA-1E
+  - 🇮🇳 INDIA-1F
+  - 🇮🇳 INDIA-1H
+  - 🇸🇬 新加坡-1B
+  - 🇰🇷 韩国-1C
+  - IRAQ-1G
+  - 🇮🇳 INDIA-1D
+  - 🇮🇳 INDIA-1A
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
