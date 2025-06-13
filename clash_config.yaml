@@ -32,15 +32,6 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇦🇪 DUBAI-1G
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 68f98bf7-fc96-43df-b254-4ee52130a405
-  auth: 68f98bf7-fc96-43df-b254-4ee52130a405
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸 美国-纽约-HY-001-1A
   server: 45.147.201.231
   port: 31005
@@ -52,54 +43,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1D
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 697f627d-2030-404c-8d27-324da90683eb
-  auth: 697f627d-2030-404c-8d27-324da90683eb
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: 🇦🇪 DUBAI-1I
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SINGAPORE-1E
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  sni: jiangzhixjp.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪 DUBAI-1A
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
-  auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪 DUBAI-1D
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
   udp: true
 - name: 🇫🇷 FRANCE-1H
   server: jiangzhifg.54264944.xyz
@@ -128,18 +71,6 @@ proxies:
   sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1C
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 843c2bd9-46c8-4de7-980b-975d73da82ae
-  auth: 843c2bd9-46c8-4de7-980b-975d73da82ae
-  up: 100
-  down: 100
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
 - name: 🇫🇷 FRANCE-1G
   server: jiangzhifg.54264944.xyz
   port: 43999
@@ -157,27 +88,6 @@ proxies:
   auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
   sni: qyyg.qy1357.top
   skip-cert-verify: true
-  udp: true
-- name: A6-GNR
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
-  auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1E
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 6dbbf752-331a-47f8-ae56-ccda386026e3
-  auth: 6dbbf752-331a-47f8-ae56-ccda386026e3
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   udp: true
 - name: 🇫🇷 FRANCE-1C
   server: jiangzhifg.54264944.xyz
@@ -197,22 +107,13 @@ proxies:
   sni: jiangzhifr.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪 DUBAI-1H
-  server: jiangzhidb.54264944.xyz
+- name: 🇸🇬 SINGAPORE-1A
+  server: jiangzhixjp.54264944.xyz
   port: 43999
   type: hysteria2
-  password: f602404d-38b3-4018-8022-f90fbb162ccd
-  auth: f602404d-38b3-4018-8022-f90fbb162ccd
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国-1A
-  server: qydg.qy1357.top
-  port: 33003
-  type: hysteria2
-  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  sni: qydg.qy1357.top
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: 🇫🇷 FRANCE-1A
@@ -242,36 +143,6 @@ proxies:
   sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: GJ-YLD
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
-  auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国-纽约-HY-001-1F
-  server: 45.147.201.231
-  port: 31005
-  type: hysteria2
-  password: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
-  auth: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
-  up: 50
-  down: 50
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  udp: true
-- name: IRAQ-1H
-  server: jiangzhiylk.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: f602404d-38b3-4018-8022-f90fbb162ccd
-  auth: f602404d-38b3-4018-8022-f90fbb162ccd
-  sni: jiangzhiylk.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇬🇧 英国-1B
   server: qyyg.qy1357.top
   port: 30003
@@ -281,33 +152,6 @@ proxies:
   sni: qyyg.qy1357.top
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪 DUBAI-1B
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
-  auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 US-NLK
-  server: qymg.qy1357.top
-  port: 30003
-  type: hysteria2
-  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  sni: qymg.qy1357.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪 DUBAI-1E
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇩🇪 德国-1C
   server: qydg.qy1357.top
   port: 33003
@@ -315,6 +159,15 @@ proxies:
   password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
   auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
   sni: qydg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SINGAPORE-1C
+  server: jiangzhixjp.54264944.xyz
+  port: 43999
+  type: hysteria2
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: IRAQ-1B
@@ -333,15 +186,6 @@ proxies:
   password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
   auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
   sni: jiangzhifr.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪 DUBAI-1C
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 086b1665-8d18-438b-a083-8861ec1b164a
-  auth: 086b1665-8d18-438b-a083-8861ec1b164a
-  sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: 🇫🇷 FRANCE-1E
@@ -371,13 +215,13 @@ proxies:
   sni: qydg.qy1357.top
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪 DUBAI-1F
-  server: jiangzhidb.54264944.xyz
+- name: 🇸🇬 SINGAPORE-1H
+  server: jiangzhixjp.54264944.xyz
   port: 43999
   type: hysteria2
-  password: cf80defd-0f6c-44a2-baec-83178d0a869b
-  auth: cf80defd-0f6c-44a2-baec-83178d0a869b
-  sni: jiangzhidb.54264944.xyz
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: IRAQ-1E
@@ -396,15 +240,6 @@ proxies:
   password: cf80defd-0f6c-44a2-baec-83178d0a869b
   auth: cf80defd-0f6c-44a2-baec-83178d0a869b
   sni: jiangzhifr.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: IRAQ-1F
-  server: jiangzhiylk.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: cf80defd-0f6c-44a2-baec-83178d0a869b
-  auth: cf80defd-0f6c-44a2-baec-83178d0a869b
-  sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: 🇫🇷 FRANCE-1D
@@ -449,49 +284,32 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇬🇧 英国-1C
   - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
   - 🇫🇷 FRANCE-1E
-  - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1G
-  - 🇩🇪 德国-1B
   - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 德国-1C
-  - IRAQ-1C
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1I
-  - 🇬🇧 英国-1B
-  - IRAQ-1G
-  - IRAQ-1F
-  - A6-GNR
-  - 🇫🇷 FRANCE-1D
-  - 🇦🇪 DUBAI-1G
-  - IRAQ-1A
-  - 🇦🇪 DUBAI-1C
-  - 🇫🇷 FRANCE-1A
-  - 🇫🇷 FRANCE-1F
-  - 🇦🇪 DUBAI-1H
-  - 🇺🇸 US-NLK
-  - 🇦🇪 DUBAI-1F
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1D
-  - GJ-YLD
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1I
+  - 🇫🇷 FRANCE-1I
   - IRAQ-1B
-  - 🇩🇪 德国-1A
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 SINGAPORE-1E
+  - 🇩🇪 德国-1B
+  - 🇫🇷 FRANCE-1C
+  - IRAQ-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1H
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇫🇷 FRANCE-1A
+  - IRAQ-1A
   - IRAQ-1D
-  - IRAQ-1H
   - IRAQ-1E
+  - 🇸🇬 SINGAPORE-1C
+  - 🇸🇬 SINGAPORE-1H
+  - IRAQ-1I
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - IRAQ-1G
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇸🇬 SINGAPORE-1A
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -499,97 +317,63 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇬🇧 英国-1C
   - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
   - 🇫🇷 FRANCE-1E
-  - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1G
-  - 🇩🇪 德国-1B
   - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 德国-1C
-  - IRAQ-1C
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1I
-  - 🇬🇧 英国-1B
-  - IRAQ-1G
-  - IRAQ-1F
-  - A6-GNR
-  - 🇫🇷 FRANCE-1D
-  - 🇦🇪 DUBAI-1G
-  - IRAQ-1A
-  - 🇦🇪 DUBAI-1C
-  - 🇫🇷 FRANCE-1A
-  - 🇫🇷 FRANCE-1F
-  - 🇦🇪 DUBAI-1H
-  - 🇺🇸 US-NLK
-  - 🇦🇪 DUBAI-1F
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1D
-  - GJ-YLD
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1I
+  - 🇫🇷 FRANCE-1I
   - IRAQ-1B
-  - 🇩🇪 德国-1A
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 SINGAPORE-1E
+  - 🇩🇪 德国-1B
+  - 🇫🇷 FRANCE-1C
+  - IRAQ-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1H
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇫🇷 FRANCE-1A
+  - IRAQ-1A
   - IRAQ-1D
-  - IRAQ-1H
   - IRAQ-1E
+  - 🇸🇬 SINGAPORE-1C
+  - 🇸🇬 SINGAPORE-1H
+  - IRAQ-1I
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - IRAQ-1G
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇸🇬 SINGAPORE-1A
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇬🇧 英国-1C
   - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
   - 🇫🇷 FRANCE-1E
-  - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1G
-  - 🇩🇪 德国-1B
   - 🇫🇷 FRANCE-1B
-  - 🇫🇷 FRANCE-1C
-  - 🇩🇪 德国-1C
-  - IRAQ-1C
-  - 🇫🇷 FRANCE-1H
-  - IRAQ-1I
-  - 🇬🇧 英国-1B
-  - IRAQ-1G
-  - IRAQ-1F
-  - A6-GNR
-  - 🇫🇷 FRANCE-1D
-  - 🇦🇪 DUBAI-1G
-  - IRAQ-1A
-  - 🇦🇪 DUBAI-1C
-  - 🇫🇷 FRANCE-1A
-  - 🇫🇷 FRANCE-1F
-  - 🇦🇪 DUBAI-1H
-  - 🇺🇸 US-NLK
-  - 🇦🇪 DUBAI-1F
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1D
-  - GJ-YLD
-  - 🇦🇪 DUBAI-1A
-  - 🇦🇪 DUBAI-1I
+  - 🇫🇷 FRANCE-1I
   - IRAQ-1B
-  - 🇩🇪 德国-1A
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇸🇬 SINGAPORE-1E
+  - 🇩🇪 德国-1B
+  - 🇫🇷 FRANCE-1C
+  - IRAQ-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇫🇷 FRANCE-1H
+  - 🇫🇷 FRANCE-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇫🇷 FRANCE-1A
+  - IRAQ-1A
   - IRAQ-1D
-  - IRAQ-1H
   - IRAQ-1E
+  - 🇸🇬 SINGAPORE-1C
+  - 🇸🇬 SINGAPORE-1H
+  - IRAQ-1I
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - IRAQ-1G
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇸🇬 SINGAPORE-1A
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
