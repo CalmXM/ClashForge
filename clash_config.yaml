@@ -50,6 +50,13 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
+- name: 🇹🇼 台湾家宽直连 20x-1J
+  server: hinetiw0k.yooddns.stream
+  port: 26900
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  udp: true
 - name: 🇦🇪 DUBAI-1I
   server: jiangzhidb.54264944.xyz
   port: 43999
@@ -122,6 +129,15 @@ proxies:
   sni: qyyg.qy1357.top
   skip-cert-verify: true
   udp: true
+- name: 🇸🇬 SINGAPORE-1B
+  server: jiangzhixjp.54264944.xyz
+  port: 43999
+  type: hysteria2
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  sni: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  udp: true
 - name: A6-GNR
   server: qymg.qy1357.top
   port: 30003
@@ -158,13 +174,13 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国-1A
-  server: qydg.qy1357.top
-  port: 33003
+- name: 🇸🇬 SINGAPORE-1A
+  server: jiangzhixjp.54264944.xyz
+  port: 43999
   type: hysteria2
-  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
-  sni: qydg.qy1357.top
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: 🇫🇷 FRANCE-1A
@@ -248,15 +264,6 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SINGAPORE-1C
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 086b1665-8d18-438b-a083-8861ec1b164a
-  auth: 086b1665-8d18-438b-a083-8861ec1b164a
-  sni: jiangzhixjp.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: IRAQ-1B
   server: jiangzhiylk.54264944.xyz
   port: 43999
@@ -311,13 +318,13 @@ proxies:
   sni: qyyg.qy1357.top
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SINGAPORE-1H
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
+- name: 🇩🇪 德国-1B
+  server: qydg.qy1357.top
+  port: 33003
   type: hysteria2
-  password: f602404d-38b3-4018-8022-f90fbb162ccd
-  auth: f602404d-38b3-4018-8022-f90fbb162ccd
-  sni: jiangzhixjp.54264944.xyz
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  sni: qydg.qy1357.top
   skip-cert-verify: true
   udp: true
 - name: 🇦🇪 DUBAI-1F
@@ -345,15 +352,6 @@ proxies:
   password: cf80defd-0f6c-44a2-baec-83178d0a869b
   auth: cf80defd-0f6c-44a2-baec-83178d0a869b
   sni: jiangzhifr.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SINGAPORE-1F
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: cf80defd-0f6c-44a2-baec-83178d0a869b
-  auth: cf80defd-0f6c-44a2-baec-83178d0a869b
-  sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: IRAQ-1F
@@ -395,45 +393,45 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 US-NLK
-  - A6-GNR
-  - 🇦🇪 DUBAI-1H
   - 🇦🇪 DUBAI-1G
   - 🇦🇪 DUBAI-1F
+  - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1H
-  - 🇬🇧 英国-1A
-  - IRAQ-1B
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1C
+  - 🇩🇪 德国-1B
+  - A6-GNR
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - GJ-YLD
+  - 🇦🇪 DUBAI-1I
   - 🇬🇧 英国-1C
+  - 🇬🇧 英国-1A
+  - IRAQ-1C
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1I
+  - IRAQ-1B
   - 🇫🇷 FRANCE-1B
   - 🇫🇷 FRANCE-1G
-  - 🇦🇪 DUBAI-1C
-  - IRAQ-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇸🇬 SINGAPORE-1H
   - 🇫🇷 FRANCE-1D
   - IRAQ-1D
-  - 🇸🇬 SINGAPORE-1D
-  - 🇦🇪 DUBAI-1D
-  - IRAQ-1I
+  - IRAQ-1G
+  - 🇫🇷 FRANCE-1F
+  - IRAQ-1A
+  - 🇫🇷 FRANCE-1A
+  - 🇬🇧 英国-1B
+  - 🇸🇬 SINGAPORE-1I
   - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1C
-  - 🇸🇬 SINGAPORE-1F
   - 🇫🇷 FRANCE-1E
-  - IRAQ-1G
-  - 🇸🇬 SINGAPORE-1I
-  - 🇸🇬 SINGAPORE-1C
-  - GJ-YLD
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 SINGAPORE-1B
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇸🇬 SINGAPORE-1D
   - IRAQ-1H
   - IRAQ-1F
-  - 🇦🇪 DUBAI-1A
-  - IRAQ-1A
-  - 🇩🇪 德国-1A
-  - 🇦🇪 DUBAI-1I
-  - 🇬🇧 英国-1B
-  - 🇫🇷 FRANCE-1A
-  - IRAQ-1E
-  - 🇫🇷 FRANCE-1F
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -441,89 +439,89 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 🇺🇸 US-NLK
-  - A6-GNR
-  - 🇦🇪 DUBAI-1H
   - 🇦🇪 DUBAI-1G
   - 🇦🇪 DUBAI-1F
+  - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1H
-  - 🇬🇧 英国-1A
-  - IRAQ-1B
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1C
+  - 🇩🇪 德国-1B
+  - A6-GNR
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - GJ-YLD
+  - 🇦🇪 DUBAI-1I
   - 🇬🇧 英国-1C
+  - 🇬🇧 英国-1A
+  - IRAQ-1C
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1I
+  - IRAQ-1B
   - 🇫🇷 FRANCE-1B
   - 🇫🇷 FRANCE-1G
-  - 🇦🇪 DUBAI-1C
-  - IRAQ-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇸🇬 SINGAPORE-1H
   - 🇫🇷 FRANCE-1D
   - IRAQ-1D
-  - 🇸🇬 SINGAPORE-1D
-  - 🇦🇪 DUBAI-1D
-  - IRAQ-1I
+  - IRAQ-1G
+  - 🇫🇷 FRANCE-1F
+  - IRAQ-1A
+  - 🇫🇷 FRANCE-1A
+  - 🇬🇧 英国-1B
+  - 🇸🇬 SINGAPORE-1I
   - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1C
-  - 🇸🇬 SINGAPORE-1F
   - 🇫🇷 FRANCE-1E
-  - IRAQ-1G
-  - 🇸🇬 SINGAPORE-1I
-  - 🇸🇬 SINGAPORE-1C
-  - GJ-YLD
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 SINGAPORE-1B
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇸🇬 SINGAPORE-1D
   - IRAQ-1H
   - IRAQ-1F
-  - 🇦🇪 DUBAI-1A
-  - IRAQ-1A
-  - 🇩🇪 德国-1A
-  - 🇦🇪 DUBAI-1I
-  - 🇬🇧 英国-1B
-  - 🇫🇷 FRANCE-1A
-  - IRAQ-1E
-  - 🇫🇷 FRANCE-1F
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 US-NLK
-  - A6-GNR
-  - 🇦🇪 DUBAI-1H
   - 🇦🇪 DUBAI-1G
   - 🇦🇪 DUBAI-1F
+  - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1E
-  - 🇫🇷 FRANCE-1H
-  - 🇬🇧 英国-1A
-  - IRAQ-1B
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1C
+  - 🇩🇪 德国-1B
+  - A6-GNR
+  - 🇦🇪 DUBAI-1B
+  - 🇦🇪 DUBAI-1D
+  - 🇦🇪 DUBAI-1A
+  - GJ-YLD
+  - 🇦🇪 DUBAI-1I
   - 🇬🇧 英国-1C
+  - 🇬🇧 英国-1A
+  - IRAQ-1C
+  - 🇫🇷 FRANCE-1H
+  - IRAQ-1I
+  - IRAQ-1B
   - 🇫🇷 FRANCE-1B
   - 🇫🇷 FRANCE-1G
-  - 🇦🇪 DUBAI-1C
-  - IRAQ-1C
-  - 🇦🇪 DUBAI-1B
-  - 🇸🇬 SINGAPORE-1H
   - 🇫🇷 FRANCE-1D
   - IRAQ-1D
-  - 🇸🇬 SINGAPORE-1D
-  - 🇦🇪 DUBAI-1D
-  - IRAQ-1I
+  - IRAQ-1G
+  - 🇫🇷 FRANCE-1F
+  - IRAQ-1A
+  - 🇫🇷 FRANCE-1A
+  - 🇬🇧 英国-1B
+  - 🇸🇬 SINGAPORE-1I
   - 🇫🇷 FRANCE-1I
   - 🇫🇷 FRANCE-1C
-  - 🇸🇬 SINGAPORE-1F
   - 🇫🇷 FRANCE-1E
-  - IRAQ-1G
-  - 🇸🇬 SINGAPORE-1I
-  - 🇸🇬 SINGAPORE-1C
-  - GJ-YLD
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 SINGAPORE-1B
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇸🇬 SINGAPORE-1D
   - IRAQ-1H
   - IRAQ-1F
-  - 🇦🇪 DUBAI-1A
-  - IRAQ-1A
-  - 🇩🇪 德国-1A
-  - 🇦🇪 DUBAI-1I
-  - 🇬🇧 英国-1B
-  - 🇫🇷 FRANCE-1A
-  - IRAQ-1E
-  - 🇫🇷 FRANCE-1F
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
