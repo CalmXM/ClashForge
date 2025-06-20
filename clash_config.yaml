@@ -32,21 +32,21 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇸🇬 SINGAPORE-1I
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  sni: jiangzhixjp.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇦🇪 DUBAI-1G
   server: jiangzhidb.54264944.xyz
   port: 43999
   type: hysteria2
   password: 68f98bf7-fc96-43df-b254-4ee52130a405
   auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  sni: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🇦🇪 DUBAI-1I
+  server: jiangzhidb.54264944.xyz
+  port: 43999
+  type: hysteria2
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
@@ -66,6 +66,15 @@ proxies:
   password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
   auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
   sni: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国-1A
+  server: qyyg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  sni: qyyg.qy1357.top
   skip-cert-verify: true
   udp: true
 - name: A6-GNR
@@ -102,6 +111,15 @@ proxies:
   password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
   auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
   sni: qymg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国-1B
+  server: qyyg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  sni: qyyg.qy1357.top
   skip-cert-verify: true
   udp: true
 - name: 🇦🇪 DUBAI-1B
@@ -176,6 +194,15 @@ proxies:
   sni: jiangzhixjp.54264944.xyz
   skip-cert-verify: true
   udp: true
+- name: 🇬🇧 英国-1C
+  server: qyyg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  sni: qyyg.qy1357.top
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国-1B
   server: qydg.qy1357.top
   port: 33003
@@ -183,6 +210,15 @@ proxies:
   password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
   auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
   sni: qydg.qy1357.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国-1A
+  server: qyhg.qy1357.top
+  port: 30003
+  type: hysteria2
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  sni: qyhg.qy1357.top
   skip-cert-verify: true
   udp: true
 - name: 🇦🇪 DUBAI-1F
@@ -206,24 +242,28 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - A6-GNR
-  - 🇦🇪 DUBAI-1C
   - 🇦🇪 DUBAI-1H
-  - 🇩🇪 德国-1B
-  - 🇦🇪 DUBAI-1G
+  - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇩🇪 德国-1C
-  - 🇸🇬 SINGAPORE-1I
+  - 🇦🇪 DUBAI-1G
+  - 🇦🇪 DUBAI-1C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
+  - 🇦🇪 DUBAI-1E
   - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
-  - 🇩🇪 德国-1A
   - 🇦🇪 DUBAI-1D
+  - 🇩🇪 德国-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
-  - 🇸🇬 SINGAPORE-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇩🇪 德国-1A
   - 🇸🇬 SINGAPORE-1D
+  - 🇰🇷 韩国-1A
   - IRAQ-1B
+  - 🇸🇬 SINGAPORE-1C
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -231,47 +271,55 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - A6-GNR
-  - 🇦🇪 DUBAI-1C
   - 🇦🇪 DUBAI-1H
-  - 🇩🇪 德国-1B
-  - 🇦🇪 DUBAI-1G
+  - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇩🇪 德国-1C
-  - 🇸🇬 SINGAPORE-1I
+  - 🇦🇪 DUBAI-1G
+  - 🇦🇪 DUBAI-1C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
+  - 🇦🇪 DUBAI-1E
   - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
-  - 🇩🇪 德国-1A
   - 🇦🇪 DUBAI-1D
+  - 🇩🇪 德国-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
-  - 🇸🇬 SINGAPORE-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇩🇪 德国-1A
   - 🇸🇬 SINGAPORE-1D
+  - 🇰🇷 韩国-1A
   - IRAQ-1B
+  - 🇸🇬 SINGAPORE-1C
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - A6-GNR
-  - 🇦🇪 DUBAI-1C
   - 🇦🇪 DUBAI-1H
-  - 🇩🇪 德国-1B
-  - 🇦🇪 DUBAI-1G
+  - A6-GNR
   - 🇦🇪 DUBAI-1F
-  - 🇩🇪 德国-1C
-  - 🇸🇬 SINGAPORE-1I
+  - 🇦🇪 DUBAI-1G
+  - 🇦🇪 DUBAI-1C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国-1C
+  - 🇦🇪 DUBAI-1E
   - 🇺🇸 US-NLK
   - 🇦🇪 DUBAI-1B
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
-  - 🇩🇪 德国-1A
   - 🇦🇪 DUBAI-1D
+  - 🇩🇪 德国-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇦🇪 DUBAI-1I
   - GJ-YLD
-  - 🇸🇬 SINGAPORE-1C
+  - 🇩🇪 德国-1C
+  - 🇬🇧 英国-1B
+  - 🇩🇪 德国-1A
   - 🇸🇬 SINGAPORE-1D
+  - 🇰🇷 韩国-1A
   - IRAQ-1B
+  - 🇸🇬 SINGAPORE-1C
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
