@@ -32,15 +32,6 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 🇸🇬 SINGAPORE-1I
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
-  sni: jiangzhixjp.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇦🇪 DUBAI-1I
   server: jiangzhidb.54264944.xyz
   port: 43999
@@ -59,24 +50,6 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪 DUBAI-1D
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: IRAQ-1C
-  server: jiangzhiylk.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 086b1665-8d18-438b-a083-8861ec1b164a
-  auth: 086b1665-8d18-438b-a083-8861ec1b164a
-  sni: jiangzhiylk.54264944.xyz
-  skip-cert-verify: true
-  udp: true
 - name: 🇦🇪 DUBAI-1H
   server: jiangzhidb.54264944.xyz
   port: 43999
@@ -86,40 +59,22 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇦🇪 DUBAI-1E
-  server: jiangzhidb.54264944.xyz
+- name: IRAQ-1A
+  server: jiangzhiylk.54264944.xyz
   port: 43999
   type: hysteria2
-  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  sni: jiangzhidb.54264944.xyz
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 SINGAPORE-1C
-  server: jiangzhixjp.54264944.xyz
+- name: IRAQ-1H
+  server: jiangzhiylk.54264944.xyz
   port: 43999
   type: hysteria2
-  password: 086b1665-8d18-438b-a083-8861ec1b164a
-  auth: 086b1665-8d18-438b-a083-8861ec1b164a
-  sni: jiangzhixjp.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇦🇪 DUBAI-1C
-  server: jiangzhidb.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 086b1665-8d18-438b-a083-8861ec1b164a
-  auth: 086b1665-8d18-438b-a083-8861ec1b164a
-  sni: jiangzhidb.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SINGAPORE-1D
-  server: jiangzhixjp.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
-  sni: jiangzhixjp.54264944.xyz
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
 - name: 🇦🇪 DUBAI-1F
@@ -131,22 +86,13 @@ proxies:
   sni: jiangzhidb.54264944.xyz
   skip-cert-verify: true
   udp: true
-- name: IRAQ-1E
+- name: IRAQ-1F
   server: jiangzhiylk.54264944.xyz
-  port: 43999
-  type: hysteria2
-  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
-  sni: jiangzhiylk.54264944.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 SINGAPORE-1F
-  server: jiangzhixjp.54264944.xyz
   port: 43999
   type: hysteria2
   password: cf80defd-0f6c-44a2-baec-83178d0a869b
   auth: cf80defd-0f6c-44a2-baec-83178d0a869b
-  sni: jiangzhixjp.54264944.xyz
+  sni: jiangzhiylk.54264944.xyz
   skip-cert-verify: true
   udp: true
 proxy-groups:
@@ -162,18 +108,12 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇦🇪 DUBAI-1F
-  - 🇸🇬 SINGAPORE-1I
-  - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1H
-  - 🇦🇪 DUBAI-1D
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
   - 🇦🇪 DUBAI-1I
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 SINGAPORE-1D
-  - IRAQ-1E
-  - IRAQ-1C
-  - 🇸🇬 SINGAPORE-1F
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1A
+  - IRAQ-1F
+  - IRAQ-1A
+  - IRAQ-1H
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -182,36 +122,24 @@ proxy-groups:
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
   - 🇦🇪 DUBAI-1F
-  - 🇸🇬 SINGAPORE-1I
-  - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1H
-  - 🇦🇪 DUBAI-1D
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
   - 🇦🇪 DUBAI-1I
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 SINGAPORE-1D
-  - IRAQ-1E
-  - IRAQ-1C
-  - 🇸🇬 SINGAPORE-1F
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1A
+  - IRAQ-1F
+  - IRAQ-1A
+  - IRAQ-1H
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 手动选择
   type: select
   proxies:
   - 🇦🇪 DUBAI-1F
-  - 🇸🇬 SINGAPORE-1I
-  - 🇦🇪 DUBAI-1C
-  - 🇦🇪 DUBAI-1H
-  - 🇦🇪 DUBAI-1D
-  - 🇦🇪 DUBAI-1E
-  - 🇦🇪 DUBAI-1A
   - 🇦🇪 DUBAI-1I
-  - 🇸🇬 SINGAPORE-1C
-  - 🇸🇬 SINGAPORE-1D
-  - IRAQ-1E
-  - IRAQ-1C
-  - 🇸🇬 SINGAPORE-1F
+  - 🇦🇪 DUBAI-1H
+  - 🇦🇪 DUBAI-1A
+  - IRAQ-1F
+  - IRAQ-1A
+  - IRAQ-1H
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
