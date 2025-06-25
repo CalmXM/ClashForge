@@ -1,26 +1,11 @@
-port: 7890
-socks-port: 7891
-redir-port: 7892
 allow-lan: true
-mode: rule
-log-level: info
-external-controller: 127.0.0.1:9090
-geodata-mode: true
-geox-url:
-  geoip: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
-  mmdb: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
 dns:
-  enable: true
-  ipv6: false
   default-nameserver:
   - 223.5.5.5
   - 119.29.29.29
+  enable: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  nameserver:
-  - https://doh.pub/dns-query
-  - https://dns.alidns.com/dns-query
   fallback:
   - https://doh.dns.sb/dns-query
   - https://dns.cloudflare.com/dns-query
@@ -31,31 +16,2508 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies: []
+  ipv6: false
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  use-hosts: true
+external-controller: 127.0.0.1:9090
+geodata-mode: true
+geox-url:
+  geoip: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat
+  mmdb: https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 圣何塞2-1L
+  network: ws
+  port: 80
+  server: bestcf.mfwl.art
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2F
+  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-001-1D
+  network: ws
+  port: 20035
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 697f627d-2030-404c-8d27-324da90683eb
+  ws-opts:
+    path: /
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: 🇩🇪 GERMANY-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1A
+  port: 45053
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1L
+  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 圣何塞1-2D
+  network: ws
+  port: 80
+  server: cf.090227.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d760771e-3201-49ad-9d83-7c52b493f381
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 圣何塞3-2B
+  network: ws
+  port: 80
+  server: bestcf.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: 🇸🇬 SINGAPORE-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1D
+  password: 6f642bf7-9803-4be1-a094-03055dd0772d
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: 🇩🇪 GERMANY-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1G
+  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2J
+  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国中转-2J
+  network: ws
+  port: 10001
+  server: zz.xiao666666.site
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  ws-opts:
+    headers:
+      Host: by.xiao666666.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本V-1x
+  network: ws
+  port: 443
+  server: bookmyshow.com
+  servername: jpv.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: 🇩🇪 GERMANY-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: 🇩🇪 GERMANY-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2A
+  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本VULTR1-2L
+  network: ws
+  port: 443
+  server: www.visa.com
+  servername: jpv.xiaoqi555.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ef685861-1518-4c6b-a62d-8ecf8c875cf3
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇳🇱 荷兰-FREE优化-CDN | 2x-1A
+  network: ws
+  port: 80
+  server: tiamo1.tiamocloud.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cbd9857-bc78-418d-b2e7-c1739304dbab
+  ws-opts:
+    headers:
+      Host: tiamo1.tiamocloud.us.kg
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1Q
+  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港家宽HKT 10x-1B
+  network: ws
+  port: 443
+  server: bevent.bilibili.tv
+  servername: hkt.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  ws-opts:
+    headers:
+      Host: hkt.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 圣何塞4-1Q
+  network: ws
+  port: 80
+  server: time.is
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  ws-opts:
+    headers:
+      Host: shs111.kejixiaoqi666.store
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本V6-1V
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W959HKDLJPaAhQbTLSfP3oMxEeNk0JRJxvDZRrjFeRU
+    short-id: 0b8881d0
+  server: 2001:19f0:7001:4c24:5400:5ff:fe2b:b8af
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本VULTR3-1M
+  network: ws
+  port: 443
+  server: time.is
+  servername: jpv.xiaoqi555.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  ws-opts:
+    headers:
+      Host: jpv.xiaoqi555.xyz
+    path: /
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: 🇦🇪 DUBAI-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1J
+  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO1-1A
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: 🇮🇳 INDIA-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1-1A
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1G
+  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1C
+  network: ws
+  port: 23087
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1R
+  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1Z
+  password: d8c5733b-6697-490b-901c-0c99f8700b63
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: 🇰🇷 韩国-1C
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 30003
+  server: qyhg.qy1357.top
+  skip-cert-verify: true
+  sni: qyhg.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1A
+  password: 15aa848d-a140-4729-a117-32b7ec56754b
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 025897da-9566-4814-b472-6cc4029b0a35
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 025897da-9566-4814-b472-6cc4029b0a35
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2K
+  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO2-1B
+  port: 45061
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2L
+  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 697f627d-2030-404c-8d27-324da90683eb
+  down: 50
+  name: 🇺🇸 美国-纽约-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 697f627d-2030-404c-8d27-324da90683eb
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大2-1B
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1C
+  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: 🇦🇪 DUBAI-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: 🇸🇬 SINGAPORE-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO2-1B
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: 🇦🇪 DUBAI-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO2-1B
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2F
+  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1K
+  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: 🇦🇪 DUBAI-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1V
+  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 697f627d-2030-404c-8d27-324da90683eb
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 697f627d-2030-404c-8d27-324da90683eb
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- auth: 249f4998-c07e-4e6b-890c-dcba8c626259
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 249f4998-c07e-4e6b-890c-dcba8c626259
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- alterId: 0
+  cipher: auto
+  name: 🇧🇷 巴西-FREE优化-CDN | 2x-1B
+  network: ws
+  port: 80
+  server: tiamo3.tiamocloud.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04aa4e5d-ad26-46ac-932c-a6376d1ff0d4
+  ws-opts:
+    headers:
+      Host: tiamo3.tiamocloud.us.kg
+    path: /
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: 🇩🇪 GERMANY-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: 🇫🇷 FRANCE-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: 🇮🇳 INDIA-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: IRAQ-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: IRAQ-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1M
+  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1A
+  password: 15aa848d-a140-4729-a117-32b7ec56754b
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1S
+  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1B
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1R
+  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO1-1B
+  port: 45076
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1F
+  password: 1b908560-417f-4373-b9d3-7d36ee532998
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: 🇫🇷 FRANCE-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2A
+  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO1-1B
+  port: 45060
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2C
+  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2C
+  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇬🇧 英国-1A
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 30003
+  server: qyyg.qy1357.top
+  skip-cert-verify: true
+  sni: qyyg.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1A
+  port: 45067
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: 🇸🇬 新加坡2-1B
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 30003
+  server: qyxjp2.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp2.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1P
+  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: 🇸🇬 SINGAPORE-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 025897da-9566-4814-b472-6cc4029b0a35
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 025897da-9566-4814-b472-6cc4029b0a35
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 025897da-9566-4814-b472-6cc4029b0a35
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 025897da-9566-4814-b472-6cc4029b0a35
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡-FREE优化-CDN | 2x-1A
+  network: ws
+  port: 80
+  server: tiamo2.tiamocloud.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7cbd9857-bc78-418d-b2e7-c1739304dbab
+  ws-opts:
+    headers:
+      Host: tiamo2.tiamocloud.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港-1A
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇸🇬 新加坡2-1A
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 30003
+  server: qyxjp2.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp2.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1B
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: A6-GNR
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 30003
+  server: qymg.qy1357.top
+  skip-cert-verify: true
+  sni: qymg.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1V
+  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  down: 50
+  name: 🇺🇸 美国-纽约-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1S
+  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  port: 30073
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: 🇫🇷 FRANCE-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: 🇫🇷 FRANCE-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: 🇦🇪 DUBAI-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2I
+  password: aca6587e-a938-4914-86b8-32d281c91b78
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: 🇸🇬 新加坡-1C
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 30003
+  server: qyxjp.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1B
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇸🇬 新加坡-1A
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 30003
+  server: qyxjp.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2J
+  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1E
+  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大1-1A
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇩🇪 德国-1A
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 33003
+  server: qydg.qy1357.top
+  skip-cert-verify: true
+  sni: qydg.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾1-1B
+  port: 45078
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: 🇸🇬 SINGAPORE-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: 🇸🇬 新加坡2-1C
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 30003
+  server: qyxjp2.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp2.qy1357.top
+  type: hysteria2
+  udp: true
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: 🇫🇷 FRANCE-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1W
+  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: IRAQ-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2G
+  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1L
+  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  name: IRAQ-1A
+  password: d96e0c9f-9adc-4876-9eef-b425abbe972a
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: GJ-YLD
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 30003
+  server: qymg.qy1357.top
+  skip-cert-verify: true
+  sni: qymg.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港NO.2-1B
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: 🇩🇪 GERMANY-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2E
+  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: 🇩🇪 GERMANY-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  down: 50
+  name: 🇺🇸 美国-纽约-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1J
+  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国2-1B
+  port: 45071
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: IRAQ-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1T
+  password: 916132b9-f983-4730-8db9-a0462c938848
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1N
+  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: 🇮🇳 INDIA-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: 🇬🇧 英国-1B
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 30003
+  server: qyyg.qy1357.top
+  skip-cert-verify: true
+  sni: qyyg.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1U
+  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 249f4998-c07e-4e6b-890c-dcba8c626259
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 249f4998-c07e-4e6b-890c-dcba8c626259
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: 🇦🇪 DUBAI-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: 🇮🇳 INDIA-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1N
+  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.1-1B
+  port: 45056
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇺🇸 US-NLK
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 30003
+  server: qymg.qy1357.top
+  skip-cert-verify: true
+  sni: qymg.qy1357.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国1-1B
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1B
+  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国1-1A
+  port: 45066
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: 🇦🇪 DUBAI-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1x
+  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: 🇩🇪 德国-1C
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 33003
+  server: qydg.qy1357.top
+  skip-cert-verify: true
+  sni: qydg.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2D
+  password: d760771e-3201-49ad-9d83-7c52b493f381
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1O
+  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: 🇩🇪 GERMANY-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: 🇸🇬 SINGAPORE-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: IRAQ-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: 🇫🇷 FRANCE-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  name: 🇮🇳 INDIA-1I
+  password: e8eacb24-110b-4fe5-b73b-f375bac23d01
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1Y
+  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2K
+  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: 🇦🇪 DUBAI-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1C
+  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1H
+  password: 1d36644f-e829-4137-9f02-0088e8a7d802
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度2-1B
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1E
+  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 086b1665-8d18-438b-a083-8861ec1b164a
+  name: 🇮🇳 INDIA-1C
+  password: 086b1665-8d18-438b-a083-8861ec1b164a
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: 🇸🇬 SINGAPORE-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1T
+  password: 916132b9-f983-4730-8db9-a0462c938848
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1P
+  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: 🇫🇷 FRANCE-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 697f627d-2030-404c-8d27-324da90683eb
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 697f627d-2030-404c-8d27-324da90683eb
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2I
+  password: aca6587e-a938-4914-86b8-32d281c91b78
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  name: 🇬🇧 英国-1C
+  password: 6baf88e8-c16a-4629-991f-2c45df9a2d9b
+  port: 30003
+  server: qyyg.qy1357.top
+  skip-cert-verify: true
+  sni: qyyg.qy1357.top
+  type: hysteria2
+  udp: true
+- auth: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  name: 🇮🇳 INDIA-1B
+  password: e1591344-f7f7-4ba9-89cf-c9e593a2a999
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: 🇩🇪 德国-1B
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 33003
+  server: qydg.qy1357.top
+  skip-cert-verify: true
+  sni: qydg.qy1357.top
+  type: hysteria2
+  udp: true
+- auth: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  name: 🇰🇷 韩国-1A
+  password: 76152be2-20a5-4a79-8e06-a57c18f7375f
+  port: 30003
+  server: qyhg.qy1357.top
+  skip-cert-verify: true
+  sni: qyhg.qy1357.top
+  type: hysteria2
+  udp: true
+- auth: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 843c2bd9-46c8-4de7-980b-975d73da82ae
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: 🇸🇬 SINGAPORE-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: 🇦🇪 DUBAI-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhidb.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidb.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1A
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1Y
+  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1U
+  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2E
+  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1Z
+  password: d8c5733b-6697-490b-901c-0c99f8700b63
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1K
+  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1I
+  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  name: IRAQ-1E
+  password: 4ebb44cb-e6f0-4977-ae53-e1fb874b22a1
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1F
+  password: 1b908560-417f-4373-b9d3-7d36ee532998
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2H
+  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1D
+  password: 6f642bf7-9803-4be1-a094-03055dd0772d
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2-1B
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: 🇸🇬 SINGAPORE-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1B
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1558d4c3-af2e-481e-aa22-5390ba2d3477
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1I
+  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: 🇩🇪 GERMANY-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhidg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhidg.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: 🇫🇷 FRANCE-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: 🇸🇬 SINGAPORE-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhixjp.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhixjp.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: 🇮🇳 INDIA-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.1-1A
+  port: 45054
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 62652254-cfc2-4af4-b56f-570459eeafaa
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: 🇸🇬 新加坡-1B
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 30003
+  server: qyxjp.qy1357.top
+  skip-cert-verify: true
+  sni: qyxjp.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2G
+  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1O
+  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1x
+  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-2B
+  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- auth: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 6dbbf752-331a-47f8-ae56-ccda386026e3
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- auth: cf80defd-0f6c-44a2-baec-83178d0a869b
+  name: IRAQ-1F
+  password: cf80defd-0f6c-44a2-baec-83178d0a869b
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- auth: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  name: 🇰🇷 韩国-1B
+  password: 1bb8197f-4805-4f39-8d7c-f0f3c5302908
+  port: 30003
+  server: qyhg.qy1357.top
+  skip-cert-verify: true
+  sni: qyhg.qy1357.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2H
+  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  name: 🇫🇷 FRANCE-1D
+  password: d2a3d754-8851-4c69-b63f-d0774a7ac75f
+  port: 43999
+  server: jiangzhifg.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhifr.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2D
+  password: d760771e-3201-49ad-9d83-7c52b493f381
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1H
+  password: 1d36644f-e829-4137-9f02-0088e8a7d802
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2L
+  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 68f98bf7-fc96-43df-b254-4ee52130a405
+  name: IRAQ-1G
+  password: 68f98bf7-fc96-43df-b254-4ee52130a405
+  port: 43999
+  server: jiangzhiylk.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiylk.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 台湾家宽直连 20x-1Q
+  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  port: 26900
+  server: hinetiw0k.yooddns.stream
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1B
+  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 249f4998-c07e-4e6b-890c-dcba8c626259
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 249f4998-c07e-4e6b-890c-dcba8c626259
+  port: 31005
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1W
+  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-2B
+  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
+- auth: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  down: 50
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8a95a151-3cbe-4071-bffe-3f987d0b80f1
+  port: 33076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 50
+- auth: f602404d-38b3-4018-8022-f90fbb162ccd
+  name: 🇮🇳 INDIA-1H
+  password: f602404d-38b3-4018-8022-f90fbb162ccd
+  port: 43999
+  server: jiangzhiyd.54264944.xyz
+  skip-cert-verify: true
+  sni: jiangzhiyd.54264944.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本极速 50x-1M
+  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  port: 45679
+  server: 1c4.bulldognet-dstat.uk
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
-  type: select
   proxies:
   - 自动选择
   - 故障转移
   - DIRECT
   - 手动选择
-- name: 自动选择
-  type: url-test
-  exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
-  url: http://www.pinterest.com
-  interval: 300
-  tolerance: 50
-- name: 故障转移
-  type: fallback
-  exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies: []
-  url: http://www.gstatic.com/generate_204
-  interval: 300
-- name: 手动选择
   type: select
-  proxies: []
+- exclude-filter: (?i)中国|China|CN|电信|移动|联通
+  interval: 300
+  name: 自动选择
+  proxies:
+  - 🇺🇸 圣何塞2-1L
+  - 🇯🇵 日本极速 50x-2F
+  - 🇺🇸 美国-拉斯维加斯-001-1D
+  - 🇩🇪 GERMANY-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
+  - 🇺🇸 圣何塞1-2D
+  - 🇺🇸 圣何塞3-2B
+  - 🇸🇬 SINGAPORE-1I
+  - 🇯🇵 日本极速 50x-1D
+  - 🇩🇪 GERMANY-1I
+  - 🇹🇼 台湾家宽直连 20x-1G
+  - 🇹🇼 台湾家宽直连 20x-2J
+  - 🇺🇸 美国中转-2J
+  - 🇯🇵 日本V-1x
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 GERMANY-1A
+  - 🇯🇵 日本极速 50x-2A
+  - 🇯🇵 日本VULTR1-2L
+  - 🇳🇱 荷兰-FREE优化-CDN | 2x-1A
+  - 🇯🇵 日本极速 50x-1Q
+  - 🇭🇰 香港家宽HKT 10x-1B
+  - 🇺🇸 圣何塞4-1Q
+  - 🇯🇵 日本V6-1V
+  - 🇯🇵 日本VULTR3-1M
+  - 🇦🇪 DUBAI-1G
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇮🇳 INDIA-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇯🇵 日本极速 50x-1G
+  - 🇺🇸 美国-拉斯维加斯-002-1C
+  - 🇹🇼 台湾家宽直连 20x-1R
+  - 🇯🇵 日本极速 50x-1Z
+  - 🇰🇷 韩国-1C
+  - 🇯🇵 日本极速 50x-1A
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇹🇼 台湾家宽直连 20x-2K
+  - 🇹🇭 泰国NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2L
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇨🇦 加拿大2-1B
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇦🇪 DUBAI-1I
+  - 🇸🇬 SINGAPORE-1E
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2F
+  - 🇯🇵 日本极速 50x-1K
+  - 🇦🇪 DUBAI-1D
+  - 🇯🇵 日本极速 50x-1V
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇧🇷 巴西-FREE优化-CDN | 2x-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇫🇷 FRANCE-1H
+  - 🇮🇳 INDIA-1E
+  - IRAQ-1C
+  - IRAQ-1I
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇯🇵 日本极速 50x-1S
+  - 🇮🇳 印度1-1B
+  - 🇯🇵 日本极速 50x-1R
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 日本极速 50x-1F
+  - 🇫🇷 FRANCE-1G
+  - 🇹🇼 台湾家宽直连 20x-2A
+  - 🇹🇭 泰国NO1-1B
+  - 🇹🇼 台湾家宽直连 20x-2C
+  - 🇯🇵 日本极速 50x-2C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国2-1A
+  - 🇸🇬 新加坡2-1B
+  - 🇯🇵 日本极速 50x-1P
+  - 🇸🇬 SINGAPORE-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇸🇬 新加坡-FREE优化-CDN | 2x-1A
+  - 🇭🇰 香港-1A
+  - 🇸🇬 新加坡2-1A
+  - 🇯🇵 日本NO.2-1B
+  - A6-GNR
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇹🇼 台湾家宽直连 20x-1S
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1I
+  - 🇦🇪 DUBAI-1H
+  - 🇯🇵 日本极速 50x-2I
+  - 🇸🇬 新加坡-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡-1A
+  - 🇯🇵 日本极速 50x-2J
+  - 🇹🇼 台湾家宽直连 20x-1E
+  - 🇨🇦 加拿大1-1A
+  - 🇩🇪 德国-1A
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡2-1C
+  - 🇫🇷 FRANCE-1A
+  - 🇹🇼 台湾家宽直连 20x-1W
+  - IRAQ-1D
+  - 🇹🇼 台湾家宽直连 20x-2G
+  - 🇯🇵 日本极速 50x-1L
+  - IRAQ-1A
+  - GJ-YLD
+  - 🇭🇰 香港NO.2-1B
+  - 🇩🇪 GERMANY-1H
+  - 🇯🇵 日本极速 50x-2E
+  - 🇩🇪 GERMANY-1F
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇯🇵 日本极速 50x-1J
+  - 🇫🇷 法国2-1B
+  - IRAQ-1H
+  - 🇯🇵 日本极速 50x-1T
+  - 🇹🇼 台湾家宽直连 20x-1N
+  - 🇮🇳 INDIA-1F
+  - 🇬🇧 英国-1B
+  - 🇯🇵 日本极速 50x-1U
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇦🇪 DUBAI-1B
+  - 🇮🇳 INDIA-1G
+  - 🇯🇵 日本极速 50x-1N
+  - 🇯🇵 日本NO.1-1B
+  - 🇺🇸 US-NLK
+  - 🇫🇷 法国1-1B
+  - 🇹🇼 台湾家宽直连 20x-1B
+  - 🇬🇧 英国1-1A
+  - 🇦🇪 DUBAI-1E
+  - 🇹🇼 台湾家宽直连 20x-1x
+  - 🇩🇪 德国-1C
+  - 🇹🇼 台湾家宽直连 20x-2D
+  - 🇯🇵 日本极速 50x-1O
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1B
+  - 🇮🇳 INDIA-1I
+  - 🇯🇵 日本极速 50x-1Y
+  - 🇯🇵 日本极速 50x-2K
+  - 🇦🇪 DUBAI-1C
+  - 🇯🇵 日本极速 50x-1C
+  - 🇯🇵 日本极速 50x-1H
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本极速 50x-1E
+  - 🇮🇳 INDIA-1C
+  - 🇸🇬 SINGAPORE-1D
+  - 🇹🇼 台湾家宽直连 20x-1T
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇫🇷 FRANCE-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇹🇼 台湾家宽直连 20x-2I
+  - 🇬🇧 英国-1C
+  - 🇮🇳 INDIA-1B
+  - 🇩🇪 德国-1B
+  - 🇰🇷 韩国-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇸🇬 SINGAPORE-1H
+  - 🇦🇪 DUBAI-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇹🇼 台湾家宽直连 20x-1Y
+  - 🇹🇼 台湾家宽直连 20x-1U
+  - 🇹🇼 台湾家宽直连 20x-2E
+  - 🇹🇼 台湾家宽直连 20x-1Z
+  - 🇹🇼 台湾家宽直连 20x-1K
+  - 🇯🇵 日本极速 50x-1I
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-2H
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇸🇬 SINGAPORE-1G
+  - 🇹🇼 台湾2-1B
+  - 🇹🇼 台湾家宽直连 20x-1I
+  - 🇩🇪 GERMANY-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇸🇬 SINGAPORE-1F
+  - 🇮🇳 INDIA-1D
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇸🇬 新加坡-1B
+  - 🇯🇵 日本极速 50x-2G
+  - 🇹🇼 台湾家宽直连 20x-1O
+  - 🇯🇵 日本极速 50x-1x
+  - 🇹🇼 台湾家宽直连 20x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - IRAQ-1F
+  - 🇰🇷 韩国-1B
+  - 🇯🇵 日本极速 50x-2H
+  - 🇫🇷 FRANCE-1D
+  - 🇯🇵 日本极速 50x-2D
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇯🇵 日本极速 50x-2L
+  - IRAQ-1G
+  - 🇹🇼 台湾家宽直连 20x-1Q
+  - 🇯🇵 日本极速 50x-1B
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇯🇵 日本极速 50x-1W
+  - 🇯🇵 日本极速 50x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇮🇳 INDIA-1H
+  - 🇯🇵 日本极速 50x-1M
+  tolerance: 50
+  type: url-test
+  url: http://www.pinterest.com
+- exclude-filter: (?i)中国|China|CN|电信|移动|联通
+  interval: 300
+  name: 故障转移
+  proxies:
+  - 🇺🇸 圣何塞2-1L
+  - 🇯🇵 日本极速 50x-2F
+  - 🇺🇸 美国-拉斯维加斯-001-1D
+  - 🇩🇪 GERMANY-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
+  - 🇺🇸 圣何塞1-2D
+  - 🇺🇸 圣何塞3-2B
+  - 🇸🇬 SINGAPORE-1I
+  - 🇯🇵 日本极速 50x-1D
+  - 🇩🇪 GERMANY-1I
+  - 🇹🇼 台湾家宽直连 20x-1G
+  - 🇹🇼 台湾家宽直连 20x-2J
+  - 🇺🇸 美国中转-2J
+  - 🇯🇵 日本V-1x
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 GERMANY-1A
+  - 🇯🇵 日本极速 50x-2A
+  - 🇯🇵 日本VULTR1-2L
+  - 🇳🇱 荷兰-FREE优化-CDN | 2x-1A
+  - 🇯🇵 日本极速 50x-1Q
+  - 🇭🇰 香港家宽HKT 10x-1B
+  - 🇺🇸 圣何塞4-1Q
+  - 🇯🇵 日本V6-1V
+  - 🇯🇵 日本VULTR3-1M
+  - 🇦🇪 DUBAI-1G
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇮🇳 INDIA-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇯🇵 日本极速 50x-1G
+  - 🇺🇸 美国-拉斯维加斯-002-1C
+  - 🇹🇼 台湾家宽直连 20x-1R
+  - 🇯🇵 日本极速 50x-1Z
+  - 🇰🇷 韩国-1C
+  - 🇯🇵 日本极速 50x-1A
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇹🇼 台湾家宽直连 20x-2K
+  - 🇹🇭 泰国NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2L
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇨🇦 加拿大2-1B
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇦🇪 DUBAI-1I
+  - 🇸🇬 SINGAPORE-1E
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2F
+  - 🇯🇵 日本极速 50x-1K
+  - 🇦🇪 DUBAI-1D
+  - 🇯🇵 日本极速 50x-1V
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇧🇷 巴西-FREE优化-CDN | 2x-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇫🇷 FRANCE-1H
+  - 🇮🇳 INDIA-1E
+  - IRAQ-1C
+  - IRAQ-1I
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇯🇵 日本极速 50x-1S
+  - 🇮🇳 印度1-1B
+  - 🇯🇵 日本极速 50x-1R
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 日本极速 50x-1F
+  - 🇫🇷 FRANCE-1G
+  - 🇹🇼 台湾家宽直连 20x-2A
+  - 🇹🇭 泰国NO1-1B
+  - 🇹🇼 台湾家宽直连 20x-2C
+  - 🇯🇵 日本极速 50x-2C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国2-1A
+  - 🇸🇬 新加坡2-1B
+  - 🇯🇵 日本极速 50x-1P
+  - 🇸🇬 SINGAPORE-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇸🇬 新加坡-FREE优化-CDN | 2x-1A
+  - 🇭🇰 香港-1A
+  - 🇸🇬 新加坡2-1A
+  - 🇯🇵 日本NO.2-1B
+  - A6-GNR
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇹🇼 台湾家宽直连 20x-1S
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1I
+  - 🇦🇪 DUBAI-1H
+  - 🇯🇵 日本极速 50x-2I
+  - 🇸🇬 新加坡-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡-1A
+  - 🇯🇵 日本极速 50x-2J
+  - 🇹🇼 台湾家宽直连 20x-1E
+  - 🇨🇦 加拿大1-1A
+  - 🇩🇪 德国-1A
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡2-1C
+  - 🇫🇷 FRANCE-1A
+  - 🇹🇼 台湾家宽直连 20x-1W
+  - IRAQ-1D
+  - 🇹🇼 台湾家宽直连 20x-2G
+  - 🇯🇵 日本极速 50x-1L
+  - IRAQ-1A
+  - GJ-YLD
+  - 🇭🇰 香港NO.2-1B
+  - 🇩🇪 GERMANY-1H
+  - 🇯🇵 日本极速 50x-2E
+  - 🇩🇪 GERMANY-1F
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇯🇵 日本极速 50x-1J
+  - 🇫🇷 法国2-1B
+  - IRAQ-1H
+  - 🇯🇵 日本极速 50x-1T
+  - 🇹🇼 台湾家宽直连 20x-1N
+  - 🇮🇳 INDIA-1F
+  - 🇬🇧 英国-1B
+  - 🇯🇵 日本极速 50x-1U
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇦🇪 DUBAI-1B
+  - 🇮🇳 INDIA-1G
+  - 🇯🇵 日本极速 50x-1N
+  - 🇯🇵 日本NO.1-1B
+  - 🇺🇸 US-NLK
+  - 🇫🇷 法国1-1B
+  - 🇹🇼 台湾家宽直连 20x-1B
+  - 🇬🇧 英国1-1A
+  - 🇦🇪 DUBAI-1E
+  - 🇹🇼 台湾家宽直连 20x-1x
+  - 🇩🇪 德国-1C
+  - 🇹🇼 台湾家宽直连 20x-2D
+  - 🇯🇵 日本极速 50x-1O
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1B
+  - 🇮🇳 INDIA-1I
+  - 🇯🇵 日本极速 50x-1Y
+  - 🇯🇵 日本极速 50x-2K
+  - 🇦🇪 DUBAI-1C
+  - 🇯🇵 日本极速 50x-1C
+  - 🇯🇵 日本极速 50x-1H
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本极速 50x-1E
+  - 🇮🇳 INDIA-1C
+  - 🇸🇬 SINGAPORE-1D
+  - 🇹🇼 台湾家宽直连 20x-1T
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇫🇷 FRANCE-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇹🇼 台湾家宽直连 20x-2I
+  - 🇬🇧 英国-1C
+  - 🇮🇳 INDIA-1B
+  - 🇩🇪 德国-1B
+  - 🇰🇷 韩国-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇸🇬 SINGAPORE-1H
+  - 🇦🇪 DUBAI-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇹🇼 台湾家宽直连 20x-1Y
+  - 🇹🇼 台湾家宽直连 20x-1U
+  - 🇹🇼 台湾家宽直连 20x-2E
+  - 🇹🇼 台湾家宽直连 20x-1Z
+  - 🇹🇼 台湾家宽直连 20x-1K
+  - 🇯🇵 日本极速 50x-1I
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-2H
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇸🇬 SINGAPORE-1G
+  - 🇹🇼 台湾2-1B
+  - 🇹🇼 台湾家宽直连 20x-1I
+  - 🇩🇪 GERMANY-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇸🇬 SINGAPORE-1F
+  - 🇮🇳 INDIA-1D
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇸🇬 新加坡-1B
+  - 🇯🇵 日本极速 50x-2G
+  - 🇹🇼 台湾家宽直连 20x-1O
+  - 🇯🇵 日本极速 50x-1x
+  - 🇹🇼 台湾家宽直连 20x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - IRAQ-1F
+  - 🇰🇷 韩国-1B
+  - 🇯🇵 日本极速 50x-2H
+  - 🇫🇷 FRANCE-1D
+  - 🇯🇵 日本极速 50x-2D
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇯🇵 日本极速 50x-2L
+  - IRAQ-1G
+  - 🇹🇼 台湾家宽直连 20x-1Q
+  - 🇯🇵 日本极速 50x-1B
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇯🇵 日本极速 50x-1W
+  - 🇯🇵 日本极速 50x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇮🇳 INDIA-1H
+  - 🇯🇵 日本极速 50x-1M
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+- name: 手动选择
+  proxies:
+  - 🇺🇸 圣何塞2-1L
+  - 🇯🇵 日本极速 50x-2F
+  - 🇺🇸 美国-拉斯维加斯-001-1D
+  - 🇩🇪 GERMANY-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇹🇼 台湾家宽直连 20x-1L
+  - 🇺🇸 圣何塞1-2D
+  - 🇺🇸 圣何塞3-2B
+  - 🇸🇬 SINGAPORE-1I
+  - 🇯🇵 日本极速 50x-1D
+  - 🇩🇪 GERMANY-1I
+  - 🇹🇼 台湾家宽直连 20x-1G
+  - 🇹🇼 台湾家宽直连 20x-2J
+  - 🇺🇸 美国中转-2J
+  - 🇯🇵 日本V-1x
+  - 🇩🇪 GERMANY-1G
+  - 🇩🇪 GERMANY-1A
+  - 🇯🇵 日本极速 50x-2A
+  - 🇯🇵 日本VULTR1-2L
+  - 🇳🇱 荷兰-FREE优化-CDN | 2x-1A
+  - 🇯🇵 日本极速 50x-1Q
+  - 🇭🇰 香港家宽HKT 10x-1B
+  - 🇺🇸 圣何塞4-1Q
+  - 🇯🇵 日本V6-1V
+  - 🇯🇵 日本VULTR3-1M
+  - 🇦🇪 DUBAI-1G
+  - 🇹🇼 台湾家宽直连 20x-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇮🇳 INDIA-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇯🇵 日本极速 50x-1G
+  - 🇺🇸 美国-拉斯维加斯-002-1C
+  - 🇹🇼 台湾家宽直连 20x-1R
+  - 🇯🇵 日本极速 50x-1Z
+  - 🇰🇷 韩国-1C
+  - 🇯🇵 日本极速 50x-1A
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇹🇼 台湾家宽直连 20x-2K
+  - 🇹🇭 泰国NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2L
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇨🇦 加拿大2-1B
+  - 🇹🇼 台湾家宽直连 20x-1C
+  - 🇦🇪 DUBAI-1I
+  - 🇸🇬 SINGAPORE-1E
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇦🇪 DUBAI-1A
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇼 台湾家宽直连 20x-2F
+  - 🇯🇵 日本极速 50x-1K
+  - 🇦🇪 DUBAI-1D
+  - 🇯🇵 日本极速 50x-1V
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇧🇷 巴西-FREE优化-CDN | 2x-1B
+  - 🇩🇪 GERMANY-1C
+  - 🇫🇷 FRANCE-1H
+  - 🇮🇳 INDIA-1E
+  - IRAQ-1C
+  - IRAQ-1I
+  - 🇹🇼 台湾家宽直连 20x-1M
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇹🇼 台湾家宽直连 20x-1A
+  - 🇯🇵 日本极速 50x-1S
+  - 🇮🇳 印度1-1B
+  - 🇯🇵 日本极速 50x-1R
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 日本极速 50x-1F
+  - 🇫🇷 FRANCE-1G
+  - 🇹🇼 台湾家宽直连 20x-2A
+  - 🇹🇭 泰国NO1-1B
+  - 🇹🇼 台湾家宽直连 20x-2C
+  - 🇯🇵 日本极速 50x-2C
+  - 🇬🇧 英国-1A
+  - 🇬🇧 英国2-1A
+  - 🇸🇬 新加坡2-1B
+  - 🇯🇵 日本极速 50x-1P
+  - 🇸🇬 SINGAPORE-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇸🇬 新加坡-FREE优化-CDN | 2x-1A
+  - 🇭🇰 香港-1A
+  - 🇸🇬 新加坡2-1A
+  - 🇯🇵 日本NO.2-1B
+  - A6-GNR
+  - 🇹🇼 台湾家宽直连 20x-1V
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇹🇼 台湾家宽直连 20x-1S
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇫🇷 FRANCE-1C
+  - 🇫🇷 FRANCE-1I
+  - 🇦🇪 DUBAI-1H
+  - 🇯🇵 日本极速 50x-2I
+  - 🇸🇬 新加坡-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡-1A
+  - 🇯🇵 日本极速 50x-2J
+  - 🇹🇼 台湾家宽直连 20x-1E
+  - 🇨🇦 加拿大1-1A
+  - 🇩🇪 德国-1A
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SINGAPORE-1A
+  - 🇸🇬 新加坡2-1C
+  - 🇫🇷 FRANCE-1A
+  - 🇹🇼 台湾家宽直连 20x-1W
+  - IRAQ-1D
+  - 🇹🇼 台湾家宽直连 20x-2G
+  - 🇯🇵 日本极速 50x-1L
+  - IRAQ-1A
+  - GJ-YLD
+  - 🇭🇰 香港NO.2-1B
+  - 🇩🇪 GERMANY-1H
+  - 🇯🇵 日本极速 50x-2E
+  - 🇩🇪 GERMANY-1F
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇯🇵 日本极速 50x-1J
+  - 🇫🇷 法国2-1B
+  - IRAQ-1H
+  - 🇯🇵 日本极速 50x-1T
+  - 🇹🇼 台湾家宽直连 20x-1N
+  - 🇮🇳 INDIA-1F
+  - 🇬🇧 英国-1B
+  - 🇯🇵 日本极速 50x-1U
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇦🇪 DUBAI-1B
+  - 🇮🇳 INDIA-1G
+  - 🇯🇵 日本极速 50x-1N
+  - 🇯🇵 日本NO.1-1B
+  - 🇺🇸 US-NLK
+  - 🇫🇷 法国1-1B
+  - 🇹🇼 台湾家宽直连 20x-1B
+  - 🇬🇧 英国1-1A
+  - 🇦🇪 DUBAI-1E
+  - 🇹🇼 台湾家宽直连 20x-1x
+  - 🇩🇪 德国-1C
+  - 🇹🇼 台湾家宽直连 20x-2D
+  - 🇯🇵 日本极速 50x-1O
+  - 🇩🇪 GERMANY-1E
+  - 🇸🇬 SINGAPORE-1C
+  - IRAQ-1B
+  - 🇫🇷 FRANCE-1B
+  - 🇮🇳 INDIA-1I
+  - 🇯🇵 日本极速 50x-1Y
+  - 🇯🇵 日本极速 50x-2K
+  - 🇦🇪 DUBAI-1C
+  - 🇯🇵 日本极速 50x-1C
+  - 🇯🇵 日本极速 50x-1H
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本极速 50x-1E
+  - 🇮🇳 INDIA-1C
+  - 🇸🇬 SINGAPORE-1D
+  - 🇹🇼 台湾家宽直连 20x-1T
+  - 🇹🇼 台湾家宽直连 20x-1P
+  - 🇫🇷 FRANCE-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇹🇼 台湾家宽直连 20x-2I
+  - 🇬🇧 英国-1C
+  - 🇮🇳 INDIA-1B
+  - 🇩🇪 德国-1B
+  - 🇰🇷 韩国-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇸🇬 SINGAPORE-1H
+  - 🇦🇪 DUBAI-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇹🇼 台湾家宽直连 20x-1Y
+  - 🇹🇼 台湾家宽直连 20x-1U
+  - 🇹🇼 台湾家宽直连 20x-2E
+  - 🇹🇼 台湾家宽直连 20x-1Z
+  - 🇹🇼 台湾家宽直连 20x-1K
+  - 🇯🇵 日本极速 50x-1I
+  - IRAQ-1E
+  - 🇹🇼 台湾家宽直连 20x-1F
+  - 🇹🇼 台湾家宽直连 20x-2H
+  - 🇹🇼 台湾家宽直连 20x-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇸🇬 SINGAPORE-1G
+  - 🇹🇼 台湾2-1B
+  - 🇹🇼 台湾家宽直连 20x-1I
+  - 🇩🇪 GERMANY-1D
+  - 🇫🇷 FRANCE-1F
+  - 🇸🇬 SINGAPORE-1F
+  - 🇮🇳 INDIA-1D
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇸🇬 新加坡-1B
+  - 🇯🇵 日本极速 50x-2G
+  - 🇹🇼 台湾家宽直连 20x-1O
+  - 🇯🇵 日本极速 50x-1x
+  - 🇹🇼 台湾家宽直连 20x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - IRAQ-1F
+  - 🇰🇷 韩国-1B
+  - 🇯🇵 日本极速 50x-2H
+  - 🇫🇷 FRANCE-1D
+  - 🇯🇵 日本极速 50x-2D
+  - 🇹🇼 台湾家宽直连 20x-1H
+  - 🇯🇵 日本极速 50x-2L
+  - IRAQ-1G
+  - 🇹🇼 台湾家宽直连 20x-1Q
+  - 🇯🇵 日本极速 50x-1B
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇯🇵 日本极速 50x-1W
+  - 🇯🇵 日本极速 50x-2B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇮🇳 INDIA-1H
+  - 🇯🇵 日本极速 50x-1M
+  type: select
+redir-port: 7892
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
@@ -1152,3 +3614,4 @@ rules:
 - IP-CIDR6,fd00::/8,DIRECT,no-resolve
 - GEOIP,CN,DIRECT
 - MATCH,节点选择
+socks-port: 7891
