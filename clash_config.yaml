@@ -30,70 +30,9 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- auth: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
-  down: 150
-  name: 🇺🇸 美国-2C
-  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
-  down: 150
-  name: 🇺🇸 美国-2G
-  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 6a027602-868e-4e9e-b1b8-a69aa44ee692
-  down: 150
-  name: 🇺🇸 美国-2F
-  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 亚马逊 0x-1P
-  network: ws
-  port: 443
-  server: 18.167.172.112
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 916132b9-f983-4730-8db9-a0462c938848
-  ws-opts:
-    headers:
-      Host: aws.ansh.top
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡2VL-1O
-  network: tcp
-  port: 55650
-  reality-opts:
-    public-key: sECJIqBXlQf4NRj6TvgohkfAIPKayRlHGhELj7Pdd2w
-    short-id: 9e13dd9f
-  server: xjp2vl.xiao666666.site
-  servername: main.m.taobao.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef685861-1518-4c6b-a62d-8ecf8c875cf3
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡3VL-2H
+  name: 🇸🇬 新加坡3VL-1K
   network: tcp
   port: 46350
   reality-opts:
@@ -104,11 +43,63 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 136a8817-d8c2-4380-b6c1-0641e308dffc
-- auth: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  uuid: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+- auth: 1b908560-417f-4373-b9d3-7d36ee532998
   down: 150
-  name: 家宽-HY2-1I
-  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  name: 🇺🇸 美国-1M
+  password: 1b908560-417f-4373-b9d3-7d36ee532998
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡2VL-2L
+  network: tcp
+  port: 55650
+  reality-opts:
+    public-key: sECJIqBXlQf4NRj6TvgohkfAIPKayRlHGhELj7Pdd2w
+    short-id: 9e13dd9f
+  server: xjp2vl.xiao666666.site
+  servername: main.m.taobao.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+- name: 🇩🇪 德国CF-2G
+  network: ws
+  port: 80
+  server: 23.227.38.18
+  tls: false
+  type: vless
+  udp: true
+  uuid: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  ws-opts:
+    headers:
+      Host: dg.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港家宽HKT 10x-1D
+  network: ws
+  port: 443
+  server: bevent.bilibili.tv
+  servername: hkt.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  ws-opts:
+    headers:
+      Host: hkt.xiaoqi555.xyz
+    path: /
+- auth: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  down: 150
+  name: 家宽-HY2-2G
+  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
@@ -118,16 +109,1958 @@ proxies:
   up: 150
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 英国1-1B
+  name: 🇺🇸 美国-拉斯维加斯-001-1I
+  network: ws
+  port: 20067
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 亚马逊 0x-1W
+  network: ws
+  port: 443
+  server: 18.167.172.112
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aca6587e-a938-4914-86b8-32d281c91b78
+  ws-opts:
+    headers:
+      Host: aws.ansh.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO2-1A
+  port: 45061
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 烏克蘭 1 IPV6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 2435
+  server: wkl.pddwdf.store
+  skip-cert-verify: false
+  sni: wkl.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 冰島 1 直连
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 23614
+  server: is.pddwdf.store
+  skip-cert-verify: false
+  sni: is.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 081ca89b-2fa3-4492-bda0-d6d7e784f714
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1K
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 081ca89b-2fa3-4492-bda0-d6d7e784f714
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- name: 🇩🇪 德国稳定-1Q
+  network: ws
+  port: 80
+  server: 104.17.186.73
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  ws-opts:
+    headers:
+      Host: dg.xiaoqi555.xyz
+    path: /
+- auth: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  down: 150
+  name: 家宽-HY2-1E
+  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇨🇦 加拿大 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 19238
+  server: naone-ca.pddwdf.store
+  skip-cert-verify: false
+  sni: naone-ca.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  down: 150
+  name: 家宽-HY2-2E
+  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: e0fa2320-18f7-477a-9448-9c756ca01b08
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: e0fa2320-18f7-477a-9448-9c756ca01b08
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  down: 150
+  name: 家宽-HY2-1Q
+  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  down: 150
+  name: 🇺🇸 美国-2E
+  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港家宽HKBN 10x-1x
+  network: ws
+  port: 443
+  server: time.is
+  servername: hkbn.xiaoqi555.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d760771e-3201-49ad-9d83-7c52b493f381
+  ws-opts:
+    headers:
+      Host: hkbn.xiaoqi555.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO2-1B
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  down: 150
+  name: 🇺🇸 美国-1F
+  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  down: 150
+  name: 家宽-HY2-1D
+  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-拉斯维加斯-002-1B
+  network: ws
+  port: 23108
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e0fa2320-18f7-477a-9448-9c756ca01b08
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 美國 5
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 18006
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  down: 150
+  name: 家宽-HY2-2K
+  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1I
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国1-1A
   port: 45066
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1P
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦 加拿大 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 25916
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇸🇬 新加坡 3 直连 原生
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 29362
+  server: sg5.pddwdf.store
+  skip-cert-verify: false
+  sni: sg5.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇰🇷 韓國 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10119
+  server: kor.pddwdf.store
+  skip-cert-verify: false
+  sni: kor.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  down: 150
+  name: 家宽-HY2-1U
+  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  down: 150
+  name: 🇺🇸 美国-2C
+  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1J
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 5
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 33227
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度2-1B
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  down: 150
+  name: 🇺🇸 美国-1H
+  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  down: 150
+  name: 🇺🇸 美国-2J
+  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本 4 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 28485
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1-1B
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.1-1A
+  port: 45056
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 荷蘭 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 15974
+  server: helan.pddwdf.store
+  skip-cert-verify: false
+  sni: helan.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  down: 150
+  name: 🇺🇸 美国-1P
+  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇸🇬 新加坡 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10115
+  server: sg2.pddwdf.store
+  skip-cert-verify: false
+  sni: sg2.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: e0fa2320-18f7-477a-9448-9c756ca01b08
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: e0fa2320-18f7-477a-9448-9c756ca01b08
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: ef685861-1518-4c6b-a62d-8ecf8c875cf3
+  down: 150
+  name: 🇺🇸 美国-2A
+  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 冰島 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 36086
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  down: 150
+  name: 家宽-HY2-2D
+  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: d3b14e3b-273e-42b7-823b-b070a2146db1
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d3b14e3b-273e-42b7-823b-b070a2146db1
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  down: 150
+  name: 🇺🇸 美国-1L
+  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
 - auth: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 6f642bf7-9803-4be1-a094-03055dd0772d
+  down: 150
+  name: 家宽-HY2-1S
+  password: 6f642bf7-9803-4be1-a094-03055dd0772d
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  down: 150
+  name: 🇺🇸 美国-2D
+  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.1-1A
+  port: 45054
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- cipher: chacha20-ietf-poly1305
+  name: 馬來西亞 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 44105
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 081ca89b-2fa3-4492-bda0-d6d7e784f714
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1K
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 081ca89b-2fa3-4492-bda0-d6d7e784f714
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 916132b9-f983-4730-8db9-a0462c938848
+  down: 150
+  name: 🇺🇸 美国-2H
+  password: 916132b9-f983-4730-8db9-a0462c938848
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  down: 150
+  name: 🇺🇸 美国-2F
+  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 4
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 39367
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 1d36644f-e829-4137-9f02-0088e8a7d802
+  down: 150
+  name: 🇺🇸 美国-1Z
+  password: 1d36644f-e829-4137-9f02-0088e8a7d802
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 韓國 4
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 11315
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 阿聯酋 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 49831
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇻🇳 越南 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 58043
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇯🇵 日本 2 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10269
+  server: jp7.pddwdf.store
+  skip-cert-verify: false
+  sni: jp7.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 台灣 3 直连
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 17899
+  server: twphy.pddwdf.store
+  skip-cert-verify: false
+  sni: twphy.pddwdf.store
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德國 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 22455
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇭🇰 香港 1 直连 原生
+  obfs: salamander
+  obfs-password: ZjFjZTA2MzlmYWExYzJkMg==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 36111
+  server: hk2.pddwdf.store
+  skip-cert-verify: false
+  sni: hk2.pddwdf.store
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大2-1A
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾1-1B
+  port: 45078
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1Q
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: TOR网络高匿名性速度慢
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 12034
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1P
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港 5
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 39707
+  server: sh.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1A
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港NO.2-1A
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1A
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本 6 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 48973
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 8667f292-1514-4e98-ad97-1c59323b0282
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8667f292-1514-4e98-ad97-1c59323b0282
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1P
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 78396d2c-248d-4575-8314-7250f2ab7fd7
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  down: 150
+  name: 🇺🇸 美国-1R
+  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 9c99320a-48ff-4b4b-a8bf-ed754698481f
+  down: 150
+  name: 🇺🇸 美国-1A
+  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 台灣 4
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 50971
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 8667f292-1514-4e98-ad97-1c59323b0282
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8667f292-1514-4e98-ad97-1c59323b0282
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: b92af125-42f7-472c-a8a3-7a7b23b02033
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1L
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: b92af125-42f7-472c-a8a3-7a7b23b02033
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇮🇳 印度 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 12345
+  server: in.pddwdf.store
+  skip-cert-verify: true
+  sni: in.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 德國 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 42586
+  server: de.pddwdf.store
+  skip-cert-verify: false
+  sni: de.pddwdf.store
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇬 埃及 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 52461
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1B
+  port: 45067
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 日本 5
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 47431
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: d8c5733b-6697-490b-901c-0c99f8700b63
+  down: 150
+  name: 🇺🇸 美国-2I
+  password: d8c5733b-6697-490b-901c-0c99f8700b63
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇰🇷 韓國 3
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 44081
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 印度尼西亞 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 22327
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 1d36644f-e829-4137-9f02-0088e8a7d802
+  down: 150
+  name: 家宽-HY2-1Z
+  password: 1d36644f-e829-4137-9f02-0088e8a7d802
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1M
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1M
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  down: 150
+  name: 家宽-HY2-1T
+  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1Q
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: d760771e-3201-49ad-9d83-7c52b493f381
+  down: 150
+  name: 🇺🇸 美国-1x
+  password: d760771e-3201-49ad-9d83-7c52b493f381
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  down: 150
+  name: 家宽-HY2-2L
+  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  down: 150
+  name: 家宽-HY2-1R
+  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 澳大利亞 1 直连
+  obfs: salamander
+  obfs-password: ZmJlYzA1ZTUxMjk1NDA0Nw==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 17296
+  server: au0.pddwdf.store
+  skip-cert-verify: false
+  sni: au0.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: d3b14e3b-273e-42b7-823b-b070a2146db1
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1N
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d3b14e3b-273e-42b7-823b-b070a2146db1
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇹🇷 土耳其 1 直连 原生
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10963
+  server: tr.pddwdf.store
+  skip-cert-verify: false
+  sni: tr.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 台灣 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 11309
+  server: tw.pddwdf.store
+  skip-cert-verify: false
+  sni: tw.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  down: 150
+  name: 家宽-HY2-1B
+  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 澳門 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 50921
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇻🇳 越南 1 IPV6
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10567
+  server: vn.pddwdf.store
+  skip-cert-verify: false
+  sni: vn.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  down: 150
+  name: 🇺🇸 美国-1T
+  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 阿聯酋 1 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 20362
+  server: alian.pddwdf.store
+  skip-cert-verify: true
+  sni: alian.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇰🇷 韓國 2 直连
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 17523
+  server: kor-2.pddwdf.store
+  skip-cert-verify: false
+  sni: kor-2.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 台灣 2 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 15963
+  server: ww.pddwdf.store
+  skip-cert-verify: false
+  sni: ww.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1J
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 8667f292-1514-4e98-ad97-1c59323b0282
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8667f292-1514-4e98-ad97-1c59323b0282
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 8625c185-a402-4a5e-879c-00ef014b8344
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8625c185-a402-4a5e-879c-00ef014b8344
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港 6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 14941
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 8625c185-a402-4a5e-879c-00ef014b8344
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8625c185-a402-4a5e-879c-00ef014b8344
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 英國 1 直连
+  obfs: salamander
+  obfs-password: YTY3MWZiMDdiYzJjN2UwOQ==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 36225
+  server: uk.pddwdf.store
+  skip-cert-verify: false
+  sni: uk.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  down: 150
+  name: 🇺🇸 美国-2G
+  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: b92af125-42f7-472c-a8a3-7a7b23b02033
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1L
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: b92af125-42f7-472c-a8a3-7a7b23b02033
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  down: 150
+  name: 家宽-HY2-1H
+  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 台灣 5
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 42980
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: aca6587e-a938-4914-86b8-32d281c91b78
+  down: 150
+  name: 🇺🇸 美国-1W
+  password: aca6587e-a938-4914-86b8-32d281c91b78
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 泰國 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 51881
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1B
+  port: 45053
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  down: 150
+  name: 🇺🇸 美国-1D
+  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  down: 150
+  name: 🇺🇸 美国-1V
+  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 5be87b37-db9c-4b9d-8e09-856b51c633ba
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1O
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 5be87b37-db9c-4b9d-8e09-856b51c633ba
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 美國 6 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 39723
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 菲律賓 1 IPV6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 13695
+  server: phl.pddwdf.store
+  skip-cert-verify: false
+  sni: phl.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  down: 150
+  name: 家宽-HY2-1V
+  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1B
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: 5be87b37-db9c-4b9d-8e09-856b51c633ba
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 5be87b37-db9c-4b9d-8e09-856b51c633ba
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  down: 150
+  name: 🇺🇸 美国-1N
+  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大1-1B
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  down: 150
+  name: 🇺🇸 美国-1U
+  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国2-1A
+  port: 45071
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 缅甸 1 IPV6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10365
+  server: miandian.pddwdf.store
+  skip-cert-verify: false
+  sni: miandian.pddwdf.store
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美國 8 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 33143
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  down: 150
+  name: 🇺🇸 美国-1K
+  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇯🇵 日本 1 直连 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 11225
+  server: dj.pddwdf.store
+  skip-cert-verify: false
+  sni: dj.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1Q
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f397acd9-2fd1-4bf3-8d75-05e259b2802b
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  down: 150
+  name: 🇺🇸 美国-2K
+  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 土耳其 2 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 33476
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 巴西 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 11270
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2-1A
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1A
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 40b57a53-214f-4d85-9cd1-d074924ef3b2
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  down: 150
+  name: 🇺🇸 美国-1E
+  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  down: 150
+  name: 家宽-HY2-2J
+  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 荷蘭 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 14193
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO1-1A
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  down: 150
+  name: 🇺🇸 美国-1J
+  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇭🇰 香港 3 直连
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10866
+  server: hk3.pddwdf.store
+  skip-cert-verify: false
+  sni: hk3.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 15aa848d-a140-4729-a117-32b7ec56754b
+  down: 150
+  name: 🇺🇸 美国-2B
+  password: 15aa848d-a140-4729-a117-32b7ec56754b
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 泰國 1 IPV6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 23652
+  server: naone-tha.pddwdf.store
+  skip-cert-verify: false
+  sni: naone-tha.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: aca6587e-a938-4914-86b8-32d281c91b78
+  down: 150
+  name: 家宽-HY2-1W
+  password: aca6587e-a938-4914-86b8-32d281c91b78
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO1-1A
+  port: 45060
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- cipher: chacha20-ietf-poly1305
+  name: 菲律賓 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 38733
+  server: sh.pddwdf.store
+  type: ss
+  udp: true
+- auth: 4be9d3f6-fbab-4d72-aec5-1094cc898912
+  down: 150
+  name: 🇺🇸 美国-1Y
+  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO1-1A
+  port: 45076
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国1-1A
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- cipher: chacha20-ietf-poly1305
+  name: 烏克蘭 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 53177
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台灣 6 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 14867
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 法國 1 直连
+  obfs: salamander
+  obfs-password: ZjlmNDQ0MzAwNDgwMTUxMQ==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 26399
+  server: fr.pddwdf.store
+  skip-cert-verify: false
+  sni: fr.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  down: 150
+  name: 🇺🇸 美国-2L
+  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 62164d90-f588-4066-b512-8ceb09ebdd99
+  down: 150
+  name: 家宽-HY2-1I
+  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇯🇵 日本3 直连 原生
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 19725
+  server: jp3.pddwdf.store
+  skip-cert-verify: false
+  sni: jp3.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  down: 150
+  name: 家宽-HY2-2C
+  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 缅甸 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 42722
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1M
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 0cc54e51-26e8-45f8-aaa5-b4f1f090e58f
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  down: 150
+  name: 家宽-HY2-1P
+  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港 4 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 36137
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  down: 150
+  name: 家宽-HY2-2F
+  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  down: 150
+  name: 🇺🇸 美国-1B
+  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  down: 150
+  name: 家宽-HY2-1L
+  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 義大利 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 46253
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  down: 150
+  name: 家宽-HY2-1J
+  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  down: 150
+  name: 家宽-HY2-1N
+  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 15aa848d-a140-4729-a117-32b7ec56754b
+  down: 150
+  name: 家宽-HY2-2B
+  password: 15aa848d-a140-4729-a117-32b7ec56754b
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  down: 150
+  name: 🇺🇸 美国-1O
+  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 印度 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 43611
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英國 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 31032
+  server: sh.pddwdf.store
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1B
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  down: 150
+  name: 🇺🇸 美国-1C
+  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  down: 150
+  name: 家宽-HY2-1O
+  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  down: 150
+  name: 家宽-HY2-1C
+  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: e0fa2320-18f7-477a-9448-9c756ca01b08
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: e0fa2320-18f7-477a-9448-9c756ca01b08
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  down: 150
+  name: 🇺🇸 美国-1Q
+  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1H
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
   password: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
@@ -137,34 +2070,281 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇧🇷 巴西 1 直连
+  obfs: salamander
+  obfs-password: MTg2NzdlZGU5NzY2MWE1NA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 19052
+  server: brv.pddwdf.store
+  skip-cert-verify: false
+  sni: brv.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 澳門 1 IPV6
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 42564
+  server: ai.pddwdf.store
+  skip-cert-verify: false
+  sni: ai.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  down: 150
+  name: 家宽-HY2-1K
+  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 法国2-1A
-  port: 45071
+  name: 🇲🇾 马来西亚专线NO2-1A
+  port: 45059
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
+  uuid: cb720602-6389-4366-8a30-4930c3997b14
+- auth: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1H
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 美國 4 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 11515
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  down: 150
+  name: 家宽-HY2-1G
+  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  down: 150
+  name: 家宽-HY2-1F
+  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 美國 2 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 10822
+  server: mxdx.pddwdf.store
+  skip-cert-verify: false
+  sni: mxdx.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 8625c185-a402-4a5e-879c-00ef014b8344
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 8625c185-a402-4a5e-879c-00ef014b8344
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 62164d90-f588-4066-b512-8ceb09ebdd99
+  down: 150
+  name: 🇺🇸 美国-1I
+  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  down: 150
+  name: 🇺🇸 美国-1G
+  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
+  port: 443
+  server: by.xiaoqi666.xyz
+  skip-cert-verify: true
+  sni: by.xiaoqi666.xyz
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d04b636b-c4c2-47c1-a740-c129f2b0a979
+  port: 33079
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港家宽HKBN 10x-2D
-  network: ws
-  port: 443
-  server: time.is
-  servername: hkbn.xiaoqi555.xyz
-  tls: true
+  name: 🇭🇰 香港-1B
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
   type: vmess
   udp: true
-  uuid: 4be80a7d-e8b3-4e73-9812-f74413a0348d
-  ws-opts:
-    headers:
-      Host: hkbn.xiaoqi555.xyz
-    path: /
-- auth: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  uuid: c4f75215-e260-4a36-9111-2c70804d64a0
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇸🇬 新加坡 2 直连
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 20362
+  server: sg1t.pddwdf.store
+  skip-cert-verify: false
+  sni: sg1t.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: d3b14e3b-273e-42b7-823b-b070a2146db1
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1N
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d3b14e3b-273e-42b7-823b-b070a2146db1
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 🇪🇬 埃及 IPV6
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 14725
+  server: eg.pddwdf.store
+  skip-cert-verify: false
+  sni: eg.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: d8c5733b-6697-490b-901c-0c99f8700b63
   down: 150
-  name: 家宽-HY2-1L
-  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
+  name: 家宽-HY2-2I
+  password: d8c5733b-6697-490b-901c-0c99f8700b63
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- auth: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  name: 義大利 1 直连
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 14852
+  server: ita.pddwdf.store
+  skip-cert-verify: false
+  sni: ita.pddwdf.store
+  type: hysteria2
+  udp: true
+- auth: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1J
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 21920ee2-94c9-4208-8d5d-cfe12a947640
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: d760771e-3201-49ad-9d83-7c52b493f381
+  down: 150
+  name: 家宽-HY2-1x
+  password: d760771e-3201-49ad-9d83-7c52b493f381
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亞 2
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 15783
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-001-1I
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 1e5f97a3-39d2-4c54-8e6a-c623c95cff96
+  port: 30076
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 1b908560-417f-4373-b9d3-7d36ee532998
+  down: 150
+  name: 家宽-HY2-1M
+  password: 1b908560-417f-4373-b9d3-7d36ee532998
+  port: 26900
+  server: tw.xiao666666.site
+  skip-cert-verify: false
+  sni: tw.xiao666666.site
+  type: hysteria2
+  udp: true
+  up: 150
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 新加坡 6 原生
+  password: 7e534f0f-47f0-4059-b54d-7ab623c7cba2
+  port: 20692
+  server: gz.pddwdf.store
+  type: ss
+  udp: true
+- auth: 916132b9-f983-4730-8db9-a0462c938848
+  down: 150
+  name: 家宽-HY2-2H
+  password: 916132b9-f983-4730-8db9-a0462c938848
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
@@ -183,449 +2363,10 @@ proxies:
   type: hysteria2
   udp: true
   up: 150
-- auth: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1D
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大1-1B
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- name: 🇩🇪 德国CF-2E
-  network: ws
-  port: 80
-  server: 23.227.38.18
-  tls: false
-  type: vless
-  udp: true
-  uuid: 15aa848d-a140-4729-a117-32b7ec56754b
-  ws-opts:
-    headers:
-      Host: dg.xiaoqi555.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 缅甸 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 42722
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 4 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 36137
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 1b908560-417f-4373-b9d3-7d36ee532998
-  down: 150
-  name: 🇺🇸 美国-1Q
-  password: 1b908560-417f-4373-b9d3-7d36ee532998
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- name: 🇩🇪 德国稳定-2J
-  network: ws
-  port: 80
-  server: 104.17.186.73
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
-  ws-opts:
-    headers:
-      Host: dg.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-001-1D
-  network: ws
-  port: 20066
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  ws-opts:
-    path: /
-- auth: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
-  down: 150
-  name: 家宽-HY2-2A
-  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港家宽HKT 10x-2L
-  network: ws
-  port: 443
-  server: bevent.bilibili.tv
-  servername: hkt.xiaoqi555.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8a19de71-1ac5-430e-b152-c4fdd083aae4
-  ws-opts:
-    headers:
-      Host: hkt.xiaoqi555.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭 泰国NO2-1A
-  port: 45061
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: a5fcf578-9490-4c38-9c6d-86906b1a1289
-  down: 150
-  name: 🇺🇸 美国-1R
-  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 台灣 4
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 50971
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO2-1A
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1J
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
-  down: 150
-  name: 家宽-HY2-1J
-  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 6 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 48973
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO2-1A
-  port: 45075
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 澳門 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 50921
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-002-1D
-  network: ws
-  port: 23108
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度2-1B
-  port: 45073
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
-  down: 150
-  name: 🇺🇸 美国-1F
-  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 1b908560-417f-4373-b9d3-7d36ee532998
-  down: 150
-  name: 家宽-HY2-1Q
-  password: 1b908560-417f-4373-b9d3-7d36ee532998
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 4be80a7d-e8b3-4e73-9812-f74413a0348d
-  down: 150
-  name: 🇺🇸 美国-2D
-  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO1-1B
-  port: 45076
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇭🇰 香港 1 直连 原生
-  obfs: salamander
-  obfs-password: ZjFjZTA2MzlmYWExYzJkMg==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 36111
-  server: hk2.pddwdf.store
-  skip-cert-verify: false
-  sni: hk2.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: ddf1d972-156f-49a4-a76e-3e3e35864085
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1H
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ddf1d972-156f-49a4-a76e-3e3e35864085
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇸🇬 新加坡 2 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 20362
-  server: sg1t.pddwdf.store
-  skip-cert-verify: false
-  sni: sg1t.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 美國 2 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10822
-  server: mxdx.pddwdf.store
-  skip-cert-verify: false
-  sni: mxdx.pddwdf.store
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.2-1B
-  port: 45055
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇰🇷 韓國 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10119
-  server: kor.pddwdf.store
-  skip-cert-verify: false
-  sni: kor.pddwdf.store
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生2-1A
-  port: 45063
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
-  down: 150
-  name: 家宽-HY2-2K
-  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 2ed31423-d698-45f8-a3b0-676d0992f66e
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1K
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 2ed31423-d698-45f8-a3b0-676d0992f66e
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: TOR网络高匿名性速度慢
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 12034
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d8c5733b-6697-490b-901c-0c99f8700b63
-  down: 150
-  name: 家宽-HY2-1x
-  password: d8c5733b-6697-490b-901c-0c99f8700b63
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇯🇵 日本 2 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10269
-  server: jp7.pddwdf.store
-  skip-cert-verify: false
-  sni: jp7.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 8a19de71-1ac5-430e-b152-c4fdd083aae4
-  down: 150
-  name: 家宽-HY2-2L
-  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 15aa848d-a140-4729-a117-32b7ec56754b
-  down: 150
-  name: 家宽-HY2-2E
-  password: 15aa848d-a140-4729-a117-32b7ec56754b
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 48ab9583-c413-4754-8c49-03f24f6a70bc
-  down: 150
-  name: 家宽-HY2-1B
-  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
-  down: 150
-  name: 家宽-HY2-2B
-  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+- auth: 9c99320a-48ff-4b4b-a8bf-ed754698481f
   down: 150
   name: 家宽-HY2-1A
-  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
+  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
@@ -633,19 +2374,10 @@ proxies:
   type: hysteria2
   udp: true
   up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国1-1A
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: 62164d90-f588-4066-b512-8ceb09ebdd99
+- auth: ef685861-1518-4c6b-a62d-8ecf8c875cf3
   down: 150
-  name: 家宽-HY2-1M
-  password: 62164d90-f588-4066-b512-8ceb09ebdd99
+  name: 家宽-HY2-2A
+  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
@@ -653,1566 +2385,50 @@ proxies:
   type: hysteria2
   udp: true
   up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 美國 6 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 39723
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 冰島 1 直连
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 23614
-  server: is.pddwdf.store
-  skip-cert-verify: false
-  sni: is.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 916132b9-f983-4730-8db9-a0462c938848
-  down: 150
-  name: 家宽-HY2-1P
-  password: 916132b9-f983-4730-8db9-a0462c938848
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: a5418274-7bf3-433c-bcc8-36e28d9d972a
-  down: 150
-  name: 家宽-HY2-1E
-  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 阿聯酋 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 20362
-  server: alian.pddwdf.store
-  skip-cert-verify: true
-  sni: alian.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇹🇷 土耳其 1 直连 原生
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10963
-  server: tr.pddwdf.store
-  skip-cert-verify: false
-  sni: tr.pddwdf.store
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 冰島 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 36086
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港NO.2-1A
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾2-1B
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 9de8713f-ebcf-428a-9960-ae117fb1f751
-  down: 150
-  name: 🇺🇸 美国-1C
-  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1J
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: bf8a2a08-fe29-4994-8c98-ad866169ccb0
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 136a8817-d8c2-4380-b6c1-0641e308dffc
-  down: 150
-  name: 家宽-HY2-2H
-  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 烏克蘭 1 IPV6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 2435
-  server: wkl.pddwdf.store
-  skip-cert-verify: false
-  sni: wkl.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 台灣 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 11309
-  server: tw.pddwdf.store
-  skip-cert-verify: false
-  sni: tw.pddwdf.store
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 烏克蘭 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 53177
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美國 5
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 18006
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d760771e-3201-49ad-9d83-7c52b493f381
-  down: 150
-  name: 家宽-HY2-2I
-  password: d760771e-3201-49ad-9d83-7c52b493f381
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度1-1A
-  port: 45074
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- cipher: chacha20-ietf-poly1305
-  name: 菲律賓 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 38733
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇭🇰 香港 3 直连
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10866
-  server: hk3.pddwdf.store
-  skip-cert-verify: false
-  sni: hk3.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 義大利 1 直连
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 14852
-  server: ita.pddwdf.store
-  skip-cert-verify: false
-  sni: ita.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 菲律賓 1 IPV6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 13695
-  server: phl.pddwdf.store
-  skip-cert-verify: false
-  sni: phl.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 泰國 1 IPV6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 23652
-  server: naone-tha.pddwdf.store
-  skip-cert-verify: false
-  sni: naone-tha.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: ac3d2f87-d35c-44e2-a177-9463d7b3c695
-  down: 150
-  name: 家宽-HY2-1N
-  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
-  down: 150
-  name: 🇺🇸 美国-2K
-  password: bc668587-a5c9-4aa7-a27c-e0e84ad5aaeb
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 14941
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 5
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 47431
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO1-1B
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
-  down: 150
-  name: 🇺🇸 美国-1A
-  password: 92e6974a-cea5-4ffd-b6e2-82160e7e1afd
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大2-1A
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亞 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 15783
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d8c5733b-6697-490b-901c-0c99f8700b63
-  down: 150
-  name: 🇺🇸 美国-1x
-  password: d8c5733b-6697-490b-901c-0c99f8700b63
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 9de8713f-ebcf-428a-9960-ae117fb1f751
-  down: 150
-  name: 家宽-HY2-1C
-  password: 9de8713f-ebcf-428a-9960-ae117fb1f751
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: b2d8338e-5a5c-4875-ac99-ea16953b148c
-  down: 150
-  name: 🇺🇸 美国-1L
-  password: b2d8338e-5a5c-4875-ac99-ea16953b148c
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: a5fcf578-9490-4c38-9c6d-86906b1a1289
-  down: 150
-  name: 家宽-HY2-1R
-  password: a5fcf578-9490-4c38-9c6d-86906b1a1289
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 台灣 5
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 42980
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d70909bc-bf69-42cf-bbdf-87677d0e8a36
-  down: 150
-  name: 家宽-HY2-1Z
-  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 8625c185-a402-4a5e-879c-00ef014b8344
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 8625c185-a402-4a5e-879c-00ef014b8344
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韓國 4
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 11315
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 澳門 1 IPV6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 42564
-  server: ai.pddwdf.store
-  skip-cert-verify: false
-  sni: ai.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: aca6587e-a938-4914-86b8-32d281c91b78
-  down: 150
-  name: 家宽-HY2-1K
-  password: aca6587e-a938-4914-86b8-32d281c91b78
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1F
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b2f4758e-b77a-4077-92a9-3ee60d26c956
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇪🇬 埃及 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 52461
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.2-1B
-  port: 45057
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇮🇳 印度 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 12345
-  server: in.pddwdf.store
-  skip-cert-verify: true
-  sni: in.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
-  down: 150
-  name: 🇺🇸 美国-1I
-  password: dcfe55a2-2b01-4df5-8315-3d2c3456a0e5
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 馬來西亞 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 44105
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1I
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 62164d90-f588-4066-b512-8ceb09ebdd99
-  down: 150
-  name: 🇺🇸 美国-1M
-  password: 62164d90-f588-4066-b512-8ceb09ebdd99
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 德國 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 22455
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1I
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 8a19de71-1ac5-430e-b152-c4fdd083aae4
-  down: 150
-  name: 🇺🇸 美国-2L
-  password: 8a19de71-1ac5-430e-b152-c4fdd083aae4
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇻🇳 越南 1 IPV6
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10567
-  server: vn.pddwdf.store
-  skip-cert-verify: false
-  sni: vn.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 8625c185-a402-4a5e-879c-00ef014b8344
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1G
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 8625c185-a402-4a5e-879c-00ef014b8344
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 2ed31423-d698-45f8-a3b0-676d0992f66e
+- auth: 081ca89b-2fa3-4492-bda0-d6d7e784f714
   down: 100
   name: 🇺🇸 美国-拉斯维加斯-HY-001-1K
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 2ed31423-d698-45f8-a3b0-676d0992f66e
+  password: 081ca89b-2fa3-4492-bda0-d6d7e784f714
   port: 30076
   server: 45.147.201.231
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 德國 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 42586
-  server: de.pddwdf.store
-  skip-cert-verify: false
-  sni: de.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 台灣 2 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 15963
-  server: ww.pddwdf.store
-  skip-cert-verify: false
-  sni: ww.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
-  down: 150
-  name: 🇺🇸 美国-2B
-  password: 4162e974-b0ce-4c0e-95f0-b639ca59b6be
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 4 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 28485
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 9c99320a-48ff-4b4b-a8bf-ed754698481f
-  down: 150
-  name: 🇺🇸 美国-1W
-  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 5
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 33227
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: b2f4758e-b77a-4077-92a9-3ee60d26c956
+- auth: b92af125-42f7-472c-a8a3-7a7b23b02033
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  name: 🇺🇸 美国-纽约-HY-001-1L
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b2f4758e-b77a-4077-92a9-3ee60d26c956
+  password: b92af125-42f7-472c-a8a3-7a7b23b02033
+  port: 31007
+  server: 45.147.201.231
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 5be87b37-db9c-4b9d-8e09-856b51c633ba
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1O
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 5be87b37-db9c-4b9d-8e09-856b51c633ba
   port: 33079
   server: 45.147.201.231
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: f886b52e-2ac8-4476-b6c9-d1d812968fd2
-  down: 150
-  name: 🇺🇸 美国-1V
-  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 5
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 39707
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
-- auth: ac3d2f87-d35c-44e2-a177-9463d7b3c695
-  down: 150
-  name: 🇺🇸 美国-1N
-  password: ac3d2f87-d35c-44e2-a177-9463d7b3c695
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
 - auth: 4be9d3f6-fbab-4d72-aec5-1094cc898912
-  down: 150
-  name: 🇺🇸 美国-1G
-  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
-  down: 150
-  name: 🇺🇸 美国-2A
-  password: e8ee659d-0ae4-4d29-9bbf-ae180a0350fa
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
-  down: 150
-  name: 🇺🇸 美国-1D
-  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 荷蘭 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 15974
-  server: helan.pddwdf.store
-  skip-cert-verify: false
-  sni: helan.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: dbc50aec-057e-495e-8909-00b60a62f8c4
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: dbc50aec-057e-495e-8909-00b60a62f8c4
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1A
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- cipher: chacha20-ietf-poly1305
-  name: 義大利 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 46253
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: dbc50aec-057e-495e-8909-00b60a62f8c4
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: dbc50aec-057e-495e-8909-00b60a62f8c4
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: ef685861-1518-4c6b-a62d-8ecf8c875cf3
-  down: 150
-  name: 家宽-HY2-1O
-  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: d70909bc-bf69-42cf-bbdf-87677d0e8a36
-  down: 150
-  name: 🇺🇸 美国-1Z
-  password: d70909bc-bf69-42cf-bbdf-87677d0e8a36
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 印度 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 43611
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇻🇳 越南 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 58043
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美國 8 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 33143
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.1-1B
-  port: 45054
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 法國 1 直连
-  obfs: salamander
-  obfs-password: ZjlmNDQ0MzAwNDgwMTUxMQ==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 26399
-  server: fr.pddwdf.store
-  skip-cert-verify: false
-  sni: fr.pddwdf.store
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港-1B
-  port: 19901
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 土耳其 2 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 33476
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国2-1B
-  port: 45067
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d8c18f34-2277-4ce1-9668-82ca73cde27f
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇧🇷 巴西 1 直连
-  obfs: salamander
-  obfs-password: MTg2NzdlZGU5NzY2MWE1NA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 19052
-  server: brv.pddwdf.store
-  skip-cert-verify: false
-  sni: brv.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: b7e8b96e-5401-41b1-80db-f314a45e7f32
-  down: 150
-  name: 家宽-HY2-1H
-  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇸🇬 新加坡 3 直连 原生
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 29362
-  server: sg5.pddwdf.store
-  skip-cert-verify: false
-  sni: sg5.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: ef685861-1518-4c6b-a62d-8ecf8c875cf3
-  down: 150
-  name: 🇺🇸 美国-1O
-  password: ef685861-1518-4c6b-a62d-8ecf8c875cf3
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 136a8817-d8c2-4380-b6c1-0641e308dffc
-  down: 150
-  name: 🇺🇸 美国-2H
-  password: 136a8817-d8c2-4380-b6c1-0641e308dffc
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 697b42c5-ea65-4519-9d0a-45d2647a4b51
-  down: 150
-  name: 家宽-HY2-1T
-  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.1-1B
-  port: 45056
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05e67f72-67a1-457e-b57a-29ab28981865
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 英國 1 直连
-  obfs: salamander
-  obfs-password: YTY3MWZiMDdiYzJjN2UwOQ==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 36225
-  server: uk.pddwdf.store
-  skip-cert-verify: false
-  sni: uk.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: b7e8b96e-5401-41b1-80db-f314a45e7f32
-  down: 150
-  name: 🇺🇸 美国-1H
-  password: b7e8b96e-5401-41b1-80db-f314a45e7f32
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 9c99320a-48ff-4b4b-a8bf-ed754698481f
-  down: 150
-  name: 家宽-HY2-1W
-  password: 9c99320a-48ff-4b4b-a8bf-ed754698481f
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 英國 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 31032
-  server: sh.pddwdf.store
-  type: ss
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇯🇵 日本3 直连 原生
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 19725
-  server: jp3.pddwdf.store
-  skip-cert-verify: false
-  sni: jp3.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 澳大利亞 1 直连
-  obfs: salamander
-  obfs-password: ZmJlYzA1ZTUxMjk1NDA0Nw==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 17296
-  server: au0.pddwdf.store
-  skip-cert-verify: false
-  sni: au0.pddwdf.store
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 阿聯酋 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 49831
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
-  down: 150
-  name: 🇺🇸 美国-1J
-  password: d4f50df2-f0d5-42b8-b7bc-9f08c92069b5
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 4be9d3f6-fbab-4d72-aec5-1094cc898912
-  down: 150
-  name: 家宽-HY2-1G
-  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
-  down: 150
-  name: 家宽-HY2-2G
-  password: a76b1e64-9766-41d3-bc31-7b0a4ce6d942
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: d760771e-3201-49ad-9d83-7c52b493f381
-  down: 150
-  name: 🇺🇸 美国-2I
-  password: d760771e-3201-49ad-9d83-7c52b493f381
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 台灣 3 直连
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 17899
-  server: twphy.pddwdf.store
-  skip-cert-verify: false
-  sni: twphy.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 1d36644f-e829-4137-9f02-0088e8a7d802
-  down: 150
-  name: 家宽-HY2-1U
-  password: 1d36644f-e829-4137-9f02-0088e8a7d802
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 缅甸 1 IPV6
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10365
-  server: miandian.pddwdf.store
-  skip-cert-verify: false
-  sni: miandian.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 泰國 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 51881
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1A
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 美國 4 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 11515
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭 泰国NO1-1A
-  port: 45060
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: dbc50aec-057e-495e-8909-00b60a62f8c4
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: dbc50aec-057e-495e-8909-00b60a62f8c4
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 8625c185-a402-4a5e-879c-00ef014b8344
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1G
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 8625c185-a402-4a5e-879c-00ef014b8344
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇨🇦 加拿大 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 19238
-  server: naone-ca.pddwdf.store
-  skip-cert-verify: false
-  sni: naone-ca.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
-  down: 150
-  name: 🇺🇸 美国-1Y
-  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇯🇵 日本 1 直连 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 11225
-  server: dj.pddwdf.store
-  skip-cert-verify: false
-  sni: dj.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: a5418274-7bf3-433c-bcc8-36e28d9d972a
-  down: 150
-  name: 🇺🇸 美国-1E
-  password: a5418274-7bf3-433c-bcc8-36e28d9d972a
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生1-1A
-  port: 45062
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- cipher: chacha20-ietf-poly1305
-  name: 台灣 6 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 14867
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2-1A
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 6 原生
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 20692
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 48ab9583-c413-4754-8c49-03f24f6a70bc
-  down: 150
-  name: 🇺🇸 美国-1B
-  password: 48ab9583-c413-4754-8c49-03f24f6a70bc
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: ddf1d972-156f-49a4-a76e-3e3e35864085
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1H
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ddf1d972-156f-49a4-a76e-3e3e35864085
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 15aa848d-a140-4729-a117-32b7ec56754b
-  down: 150
-  name: 🇺🇸 美国-2E
-  password: 15aa848d-a140-4729-a117-32b7ec56754b
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 印度尼西亞 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 22327
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 916132b9-f983-4730-8db9-a0462c938848
-  down: 150
-  name: 🇺🇸 美国-1P
-  password: 916132b9-f983-4730-8db9-a0462c938848
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 2ed31423-d698-45f8-a3b0-676d0992f66e
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1K
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 2ed31423-d698-45f8-a3b0-676d0992f66e
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 6f642bf7-9803-4be1-a094-03055dd0772d
-  down: 150
-  name: 家宽-HY2-1S
-  password: 6f642bf7-9803-4be1-a094-03055dd0772d
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: f418ebf6-b72b-49af-855b-0cdedb7d31e3
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 4be80a7d-e8b3-4e73-9812-f74413a0348d
-  down: 150
-  name: 家宽-HY2-2D
-  password: 4be80a7d-e8b3-4e73-9812-f74413a0348d
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: ddf1d972-156f-49a4-a76e-3e3e35864085
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1H
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ddf1d972-156f-49a4-a76e-3e3e35864085
-  port: 33079
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇸🇬 新加坡 1 直连
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 10115
-  server: sg2.pddwdf.store
-  skip-cert-verify: false
-  sni: sg2.pddwdf.store
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 4
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 39367
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷 巴西 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 11270
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: f886b52e-2ac8-4476-b6c9-d1d812968fd2
-  down: 150
-  name: 家宽-HY2-1V
-  password: f886b52e-2ac8-4476-b6c9-d1d812968fd2
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1A
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 3a4fcdaa-a243-4619-b3cb-8754a3f31638
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇰🇷 韓國 2 直连
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 17523
-  server: kor-2.pddwdf.store
-  skip-cert-verify: false
-  sni: kor-2.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
-  down: 150
-  name: 家宽-HY2-2C
-  password: 9a191404-ed5c-4c24-8b47-f8c5f62a32b5
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-001-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 1ead6f2a-8f99-4099-bdf3-45a6efca71be
-  port: 30076
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 1d36644f-e829-4137-9f02-0088e8a7d802
-  down: 150
-  name: 🇺🇸 美国-1U
-  password: 1d36644f-e829-4137-9f02-0088e8a7d802
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 6a027602-868e-4e9e-b1b8-a69aa44ee692
-  down: 150
-  name: 家宽-HY2-2F
-  password: 6a027602-868e-4e9e-b1b8-a69aa44ee692
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
-  down: 150
-  name: 家宽-HY2-2J
-  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 荷蘭 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 14193
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾1-1A
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 826c3c73-c28b-424f-a0a7-a43526f973d2
-- auth: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
   down: 150
   name: 家宽-HY2-1Y
-  password: f2ba199f-a6ce-4cc9-ae52-a8a2e11b3a13
+  password: 4be9d3f6-fbab-4d72-aec5-1094cc898912
   port: 26900
   server: tw.xiao666666.site
   skip-cert-verify: false
   sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 697b42c5-ea65-4519-9d0a-45d2647a4b51
-  down: 150
-  name: 🇺🇸 美国-1T
-  password: 697b42c5-ea65-4519-9d0a-45d2647a4b51
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
-  down: 150
-  name: 家宽-HY2-1F
-  password: 8405daa7-cd63-4737-a918-2b7cfcdd23d1
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韓國 3
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 44081
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦 加拿大 2
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 25916
-  server: gz.pddwdf.store
-  type: ss
-  udp: true
-- auth: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
-  down: 150
-  name: 🇺🇸 美国-2J
-  password: 86fd0a07-7f3d-409d-ac46-a3e0069c3a5e
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1F
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 798776f5-3444-4bf7-b108-8dc15c147a8c
-  port: 31007
-  server: 45.147.201.231
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
-  down: 150
-  name: 家宽-HY2-1D
-  password: 4dcfed58-5608-4a8f-9351-5d5b36de1ed9
-  port: 26900
-  server: tw.xiao666666.site
-  skip-cert-verify: false
-  sni: tw.xiao666666.site
-  type: hysteria2
-  udp: true
-  up: 150
-- auth: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  name: 🇪🇬 埃及 IPV6
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 5f6c06e1-64d8-4c37-ba2c-83033e3219c3
-  port: 14725
-  server: eg.pddwdf.store
-  skip-cert-verify: false
-  sni: eg.pddwdf.store
-  type: hysteria2
-  udp: true
-- auth: aca6587e-a938-4914-86b8-32d281c91b78
-  down: 150
-  name: 🇺🇸 美国-1K
-  password: aca6587e-a938-4914-86b8-32d281c91b78
-  port: 443
-  server: by.xiaoqi666.xyz
-  skip-cert-verify: true
-  sni: by.xiaoqi666.xyz
   type: hysteria2
   udp: true
   up: 150
@@ -2228,222 +2444,240 @@ proxy-groups:
   interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸 美国-2C
-  - 🇺🇸 美国-2G
-  - 🇺🇸 美国-2F
-  - 🇭🇰 香港 亚马逊 0x-1P
-  - 🇸🇬 新加坡2VL-1O
-  - 🇸🇬 新加坡3VL-2H
-  - 家宽-HY2-1I
-  - 🇬🇧 英国1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇫🇷 法国2-1A
-  - 🇭🇰 香港家宽HKBN 10x-2D
-  - 家宽-HY2-1L
-  - 🇺🇸 美国-1S
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇩🇪 德国CF-2E
-  - 缅甸 2
-  - 🇭🇰 香港 4 原生
-  - 🇺🇸 美国-1Q
-  - 🇩🇪 德国稳定-2J
-  - 🇺🇸 美国-拉斯维加斯-001-1D
-  - 家宽-HY2-2A
-  - 🇭🇰 香港家宽HKT 10x-2L
-  - 🇹🇭 泰国NO2-1A
-  - 🇺🇸 美国-1R
-  - 台灣 4
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
-  - 家宽-HY2-1J
-  - 🇯🇵 日本 6 原生
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 澳門 2
-  - 🇺🇸 美国-拉斯维加斯-002-1D
-  - 🇮🇳 印度2-1B
-  - 🇺🇸 美国-1F
-  - 家宽-HY2-1Q
-  - 🇺🇸 美国-2D
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港 1 直连 原生
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇸🇬 新加坡 2 直连
-  - 美國 2 直连
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韓國 1 直连
-  - 🇦🇺 澳大利亚原生2-1A
-  - 家宽-HY2-2K
-  - 🇺🇸 美国-纽约-HY-001-1K
-  - TOR网络高匿名性速度慢
-  - 家宽-HY2-1x
-  - 🇯🇵 日本 2 直连
-  - 家宽-HY2-2L
-  - 家宽-HY2-2E
-  - 家宽-HY2-1B
-  - 家宽-HY2-2B
-  - 家宽-HY2-1A
-  - 🇫🇷 法国1-1A
-  - 家宽-HY2-1M
-  - 美國 6 原生
-  - 冰島 1 直连
-  - 家宽-HY2-1P
-  - 家宽-HY2-1E
-  - 阿聯酋 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇹🇷 土耳其 1 直连 原生
-  - 冰島 2
-  - 🇭🇰 香港NO.2-1A
-  - 🇹🇼 台湾2-1B
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-纽约-HY-001-1J
-  - 家宽-HY2-2H
-  - 烏克蘭 1 IPV6
-  - 台灣 1 直连
-  - 烏克蘭 2
-  - 美國 5
-  - 家宽-HY2-2I
-  - 🇮🇳 印度1-1A
-  - 菲律賓 2
-  - 🇭🇰 香港 3 直连
-  - 義大利 1 直连
-  - 菲律賓 1 IPV6
-  - 泰國 1 IPV6
-  - 家宽-HY2-1N
-  - 🇺🇸 美国-2K
-  - 🇭🇰 香港 6
-  - 🇯🇵 日本 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇲🇾 马来西亚专线NO1-1B
-  - 🇺🇸 美国-1A
-  - 🇨🇦 加拿大2-1A
-  - 澳大利亞 2
-  - 🇺🇸 美国-1x
-  - 家宽-HY2-1C
-  - 🇺🇸 美国-1L
-  - 家宽-HY2-1R
-  - 台灣 5
-  - 家宽-HY2-1Z
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇰🇷 韓國 4
-  - 澳門 1 IPV6
-  - 家宽-HY2-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇪🇬 埃及 2
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇳 印度 1 直连
-  - 🇺🇸 美国-1I
-  - 馬來西亞 2
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇸🇬 新加坡3VL-1K
   - 🇺🇸 美国-1M
-  - 德國 2
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇺🇸 美国-2L
-  - 🇻🇳 越南 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 德國 1 直连
-  - 台灣 2 直连
-  - 🇺🇸 美国-2B
-  - 🇯🇵 日本 4 原生
-  - 🇺🇸 美国-1W
-  - 🇸🇬 新加坡 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇺🇸 美国-1V
-  - 🇭🇰 香港 5
-  - 🇺🇸 美国-1N
-  - 🇺🇸 美国-1G
-  - 🇺🇸 美国-2A
-  - 🇺🇸 美国-1D
-  - 荷蘭 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇺🇸 美国NO.1-1A
-  - 義大利 2
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 家宽-HY2-1O
-  - 🇺🇸 美国-1Z
-  - 🇮🇳 印度 2
-  - 🇻🇳 越南 2
-  - 美國 8 原生
-  - 🇸🇬 新加坡NO.1-1B
-  - 法國 1 直连
-  - 🇭🇰 香港-1B
-  - 🇹🇷 土耳其 2 原生
-  - 🇬🇧 英国2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇧🇷 巴西 1 直连
-  - 家宽-HY2-1H
-  - 🇸🇬 新加坡 3 直连 原生
-  - 🇺🇸 美国-1O
-  - 🇺🇸 美国-2H
-  - 家宽-HY2-1T
-  - 🇯🇵 日本NO.1-1B
-  - 英國 1 直连
-  - 🇺🇸 美国-1H
-  - 家宽-HY2-1W
-  - 英國 2
-  - 🇯🇵 日本3 直连 原生
-  - 澳大利亞 1 直连
-  - 阿聯酋 2
-  - 🇺🇸 美国-1J
-  - 家宽-HY2-1G
+  - 🇸🇬 新加坡2VL-2L
+  - 🇩🇪 德国CF-2G
+  - 🇭🇰 香港家宽HKT 10x-1D
   - 家宽-HY2-2G
-  - 🇺🇸 美国-2I
-  - 台灣 3 直连
-  - 家宽-HY2-1U
-  - 缅甸 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 泰國 2
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-  - 美國 4 原生
-  - 🇹🇭 泰国NO1-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇺🇸 美国-拉斯维加斯-001-1I
+  - 🇭🇰 香港 亚马逊 0x-1W
+  - 🇹🇭 泰国NO2-1A
+  - 烏克蘭 1 IPV6
+  - 冰島 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1K
+  - 🇩🇪 德国稳定-1Q
+  - 家宽-HY2-1E
   - 🇨🇦 加拿大 1 直连
-  - 🇺🇸 美国-1Y
-  - 🇯🇵 日本 1 直连 原生
-  - 🇺🇸 美国-1E
-  - 🇦🇺 澳大利亚原生1-1A
-  - 台灣 6 原生
-  - 🇺🇸 美国NO.2-1A
-  - 🇸🇬 新加坡 6 原生
-  - 🇺🇸 美国-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-2E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 家宽-HY2-1Q
   - 🇺🇸 美国-2E
-  - 🇮🇳 印度尼西亞 2
+  - 🇭🇰 香港家宽HKBN 10x-1x
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇺🇸 美国-1F
+  - 家宽-HY2-1D
+  - 🇺🇸 美国-拉斯维加斯-002-1B
+  - 美國 5
+  - 家宽-HY2-2K
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇬🇧 英国1-1A
+  - 🇺🇸 美国-纽约-HY-001-1P
+  - 🇨🇦 加拿大 2
+  - 🇸🇬 新加坡 3 直连 原生
+  - 🇰🇷 韓國 1 直连
+  - 家宽-HY2-1U
+  - 🇺🇸 美国-2C
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
+  - 🇸🇬 新加坡 5
+  - 🇮🇳 印度2-1B
+  - 🇺🇸 美国-1H
+  - 🇺🇸 美国-2J
+  - 🇯🇵 日本 4 原生
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇯🇵 日本NO.1-1A
+  - 荷蘭 1 直连
   - 🇺🇸 美国-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
-  - 家宽-HY2-1S
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 家宽-HY2-2D
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
   - 🇸🇬 新加坡 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇺🇸 美国-2A
+  - 冰島 2
+  - 家宽-HY2-2D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 美国-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-1S
+  - 🇺🇸 美国-2D
+  - 🇸🇬 新加坡NO.1-1A
+  - 馬來西亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
+  - 🇺🇸 美国-2H
+  - 🇺🇸 美国-2F
   - 🇸🇬 新加坡 4
-  - 🇧🇷 巴西 2
-  - 家宽-HY2-1V
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇺🇸 美国-1Z
+  - 🇰🇷 韓國 4
+  - 阿聯酋 2
+  - 🇻🇳 越南 2
+  - 🇯🇵 日本 2 直连
+  - 台灣 3 直连
+  - 德國 2
+  - 🇭🇰 香港 1 直连 原生
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1Q
+  - TOR网络高匿名性速度慢
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇭🇰 香港 5
+  - 🇮🇳 印度1-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇯🇵 日本NO.2-1A
+  - 🇯🇵 日本 6 原生
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1P
+  - 🇺🇸 美国-1R
+  - 🇺🇸 美国-1A
+  - 台灣 4
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
+  - 🇮🇳 印度 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 德國 1 直连
+  - 🇪🇬 埃及 2
+  - 🇬🇧 英国2-1B
+  - 🇯🇵 日本 5
+  - 🇺🇸 美国-2I
+  - 🇰🇷 韓國 3
+  - 🇮🇳 印度尼西亞 2
+  - 家宽-HY2-1Z
+  - 🇺🇸 美国-纽约-HY-001-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 家宽-HY2-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1Q
+  - 🇺🇸 美国-1x
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 家宽-HY2-2L
+  - 家宽-HY2-1R
+  - 澳大利亞 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1N
+  - 🇹🇷 土耳其 1 直连 原生
+  - 台灣 1 直连
+  - 家宽-HY2-1B
+  - 澳門 2
+  - 🇻🇳 越南 1 IPV6
+  - 🇺🇸 美国-1T
+  - 阿聯酋 1 直连
   - 🇰🇷 韓國 2 直连
-  - 家宽-HY2-2C
+  - 台灣 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇭🇰 香港 6
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 英國 1 直连
+  - 🇺🇸 美国-2G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1L
+  - 家宽-HY2-1H
+  - 台灣 5
+  - 🇺🇸 美国-1W
+  - 泰國 2
+  - 🇺🇸 美国NO.2-1B
+  - 🇺🇸 美国-1D
+  - 🇺🇸 美国-1V
+  - 🇺🇸 美国-纽约-HY-001-1O
+  - 美國 6 原生
+  - 菲律賓 1 IPV6
+  - 家宽-HY2-1V
   - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇺🇸 美国NO.1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  - 🇺🇸 美国-1N
+  - 🇨🇦 加拿大1-1B
   - 🇺🇸 美国-1U
-  - 家宽-HY2-2F
+  - 🇫🇷 法国2-1A
+  - 缅甸 1 IPV6
+  - 美國 8 原生
+  - 🇺🇸 美国-1K
+  - 🇯🇵 日本 1 直连 原生
+  - 🇺🇸 美国-纽约-HY-001-1Q
+  - 🇺🇸 美国-2K
+  - 🇹🇷 土耳其 2 原生
+  - 🇧🇷 巴西 2
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇺🇸 美国-1E
   - 家宽-HY2-2J
   - 荷蘭 2
-  - 🇹🇼 台湾1-1A
-  - 家宽-HY2-1Y
-  - 🇺🇸 美国-1T
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇺🇸 美国-1J
+  - 🇭🇰 香港 3 直连
+  - 🇺🇸 美国-2B
+  - 泰國 1 IPV6
+  - 家宽-HY2-1W
+  - 🇹🇭 泰国NO1-1A
+  - 菲律賓 2
+  - 🇺🇸 美国-1Y
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇫🇷 法国1-1A
+  - 烏克蘭 2
+  - 台灣 6 原生
+  - 法國 1 直连
+  - 🇺🇸 美国-2L
+  - 家宽-HY2-1I
+  - 🇯🇵 日本3 直连 原生
+  - 家宽-HY2-2C
+  - 缅甸 2
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1M
+  - 家宽-HY2-1P
+  - 🇭🇰 香港 4 原生
+  - 家宽-HY2-2F
+  - 🇺🇸 美国-1B
+  - 家宽-HY2-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 義大利 2
+  - 家宽-HY2-1J
+  - 家宽-HY2-1N
+  - 家宽-HY2-2B
+  - 🇺🇸 美国-1O
+  - 🇮🇳 印度 2
+  - 英國 2
+  - 🇹🇼 台湾2-1B
+  - 🇺🇸 美国-1C
+  - 家宽-HY2-1O
+  - 家宽-HY2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-1Q
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇧🇷 巴西 1 直连
+  - 澳門 1 IPV6
+  - 家宽-HY2-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 美國 4 原生
+  - 家宽-HY2-1G
   - 家宽-HY2-1F
-  - 🇰🇷 韓國 3
-  - 🇨🇦 加拿大 2
-  - 🇺🇸 美国-2J
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 家宽-HY2-1D
+  - 美國 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇺🇸 美国-1I
+  - 🇺🇸 美国-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇭🇰 香港-1B
+  - 🇸🇬 新加坡 2 直连
+  - 🇺🇸 美国-纽约-HY-001-1N
   - 🇪🇬 埃及 IPV6
-  - 🇺🇸 美国-1K
+  - 家宽-HY2-2I
+  - 義大利 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1J
+  - 家宽-HY2-1x
+  - 澳大利亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
+  - 家宽-HY2-1M
+  - 🇸🇬 新加坡 6 原生
+  - 家宽-HY2-2H
+  - 🇺🇸 美国-1S
+  - 家宽-HY2-1A
+  - 家宽-HY2-2A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1O
+  - 家宽-HY2-1Y
   tolerance: 50
   type: url-test
   url: http://www.pinterest.com
@@ -2451,442 +2685,478 @@ proxy-groups:
   interval: 300
   name: 故障转移
   proxies:
-  - 🇺🇸 美国-2C
-  - 🇺🇸 美国-2G
-  - 🇺🇸 美国-2F
-  - 🇭🇰 香港 亚马逊 0x-1P
-  - 🇸🇬 新加坡2VL-1O
-  - 🇸🇬 新加坡3VL-2H
-  - 家宽-HY2-1I
-  - 🇬🇧 英国1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇫🇷 法国2-1A
-  - 🇭🇰 香港家宽HKBN 10x-2D
-  - 家宽-HY2-1L
-  - 🇺🇸 美国-1S
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇩🇪 德国CF-2E
-  - 缅甸 2
-  - 🇭🇰 香港 4 原生
-  - 🇺🇸 美国-1Q
-  - 🇩🇪 德国稳定-2J
-  - 🇺🇸 美国-拉斯维加斯-001-1D
-  - 家宽-HY2-2A
-  - 🇭🇰 香港家宽HKT 10x-2L
-  - 🇹🇭 泰国NO2-1A
-  - 🇺🇸 美国-1R
-  - 台灣 4
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
-  - 家宽-HY2-1J
-  - 🇯🇵 日本 6 原生
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 澳門 2
-  - 🇺🇸 美国-拉斯维加斯-002-1D
-  - 🇮🇳 印度2-1B
-  - 🇺🇸 美国-1F
-  - 家宽-HY2-1Q
-  - 🇺🇸 美国-2D
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港 1 直连 原生
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇸🇬 新加坡 2 直连
-  - 美國 2 直连
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韓國 1 直连
-  - 🇦🇺 澳大利亚原生2-1A
-  - 家宽-HY2-2K
-  - 🇺🇸 美国-纽约-HY-001-1K
-  - TOR网络高匿名性速度慢
-  - 家宽-HY2-1x
-  - 🇯🇵 日本 2 直连
-  - 家宽-HY2-2L
-  - 家宽-HY2-2E
-  - 家宽-HY2-1B
-  - 家宽-HY2-2B
-  - 家宽-HY2-1A
-  - 🇫🇷 法国1-1A
-  - 家宽-HY2-1M
-  - 美國 6 原生
-  - 冰島 1 直连
-  - 家宽-HY2-1P
-  - 家宽-HY2-1E
-  - 阿聯酋 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇹🇷 土耳其 1 直连 原生
-  - 冰島 2
-  - 🇭🇰 香港NO.2-1A
-  - 🇹🇼 台湾2-1B
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-纽约-HY-001-1J
-  - 家宽-HY2-2H
-  - 烏克蘭 1 IPV6
-  - 台灣 1 直连
-  - 烏克蘭 2
-  - 美國 5
-  - 家宽-HY2-2I
-  - 🇮🇳 印度1-1A
-  - 菲律賓 2
-  - 🇭🇰 香港 3 直连
-  - 義大利 1 直连
-  - 菲律賓 1 IPV6
-  - 泰國 1 IPV6
-  - 家宽-HY2-1N
-  - 🇺🇸 美国-2K
-  - 🇭🇰 香港 6
-  - 🇯🇵 日本 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇲🇾 马来西亚专线NO1-1B
-  - 🇺🇸 美国-1A
-  - 🇨🇦 加拿大2-1A
-  - 澳大利亞 2
-  - 🇺🇸 美国-1x
-  - 家宽-HY2-1C
-  - 🇺🇸 美国-1L
-  - 家宽-HY2-1R
-  - 台灣 5
-  - 家宽-HY2-1Z
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇰🇷 韓國 4
-  - 澳門 1 IPV6
-  - 家宽-HY2-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇪🇬 埃及 2
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇳 印度 1 直连
-  - 🇺🇸 美国-1I
-  - 馬來西亞 2
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇸🇬 新加坡3VL-1K
   - 🇺🇸 美国-1M
-  - 德國 2
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇺🇸 美国-2L
-  - 🇻🇳 越南 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 德國 1 直连
-  - 台灣 2 直连
-  - 🇺🇸 美国-2B
-  - 🇯🇵 日本 4 原生
-  - 🇺🇸 美国-1W
-  - 🇸🇬 新加坡 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇺🇸 美国-1V
-  - 🇭🇰 香港 5
-  - 🇺🇸 美国-1N
-  - 🇺🇸 美国-1G
-  - 🇺🇸 美国-2A
-  - 🇺🇸 美国-1D
-  - 荷蘭 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇺🇸 美国NO.1-1A
-  - 義大利 2
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 家宽-HY2-1O
-  - 🇺🇸 美国-1Z
-  - 🇮🇳 印度 2
-  - 🇻🇳 越南 2
-  - 美國 8 原生
-  - 🇸🇬 新加坡NO.1-1B
-  - 法國 1 直连
-  - 🇭🇰 香港-1B
-  - 🇹🇷 土耳其 2 原生
-  - 🇬🇧 英国2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇧🇷 巴西 1 直连
-  - 家宽-HY2-1H
-  - 🇸🇬 新加坡 3 直连 原生
-  - 🇺🇸 美国-1O
-  - 🇺🇸 美国-2H
-  - 家宽-HY2-1T
-  - 🇯🇵 日本NO.1-1B
-  - 英國 1 直连
-  - 🇺🇸 美国-1H
-  - 家宽-HY2-1W
-  - 英國 2
-  - 🇯🇵 日本3 直连 原生
-  - 澳大利亞 1 直连
-  - 阿聯酋 2
-  - 🇺🇸 美国-1J
-  - 家宽-HY2-1G
+  - 🇸🇬 新加坡2VL-2L
+  - 🇩🇪 德国CF-2G
+  - 🇭🇰 香港家宽HKT 10x-1D
   - 家宽-HY2-2G
-  - 🇺🇸 美国-2I
-  - 台灣 3 直连
-  - 家宽-HY2-1U
-  - 缅甸 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 泰國 2
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-  - 美國 4 原生
-  - 🇹🇭 泰国NO1-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇺🇸 美国-拉斯维加斯-001-1I
+  - 🇭🇰 香港 亚马逊 0x-1W
+  - 🇹🇭 泰国NO2-1A
+  - 烏克蘭 1 IPV6
+  - 冰島 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1K
+  - 🇩🇪 德国稳定-1Q
+  - 家宽-HY2-1E
   - 🇨🇦 加拿大 1 直连
-  - 🇺🇸 美国-1Y
-  - 🇯🇵 日本 1 直连 原生
-  - 🇺🇸 美国-1E
-  - 🇦🇺 澳大利亚原生1-1A
-  - 台灣 6 原生
-  - 🇺🇸 美国NO.2-1A
-  - 🇸🇬 新加坡 6 原生
-  - 🇺🇸 美国-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-2E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 家宽-HY2-1Q
   - 🇺🇸 美国-2E
-  - 🇮🇳 印度尼西亞 2
+  - 🇭🇰 香港家宽HKBN 10x-1x
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇺🇸 美国-1F
+  - 家宽-HY2-1D
+  - 🇺🇸 美国-拉斯维加斯-002-1B
+  - 美國 5
+  - 家宽-HY2-2K
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇬🇧 英国1-1A
+  - 🇺🇸 美国-纽约-HY-001-1P
+  - 🇨🇦 加拿大 2
+  - 🇸🇬 新加坡 3 直连 原生
+  - 🇰🇷 韓國 1 直连
+  - 家宽-HY2-1U
+  - 🇺🇸 美国-2C
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
+  - 🇸🇬 新加坡 5
+  - 🇮🇳 印度2-1B
+  - 🇺🇸 美国-1H
+  - 🇺🇸 美国-2J
+  - 🇯🇵 日本 4 原生
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇯🇵 日本NO.1-1A
+  - 荷蘭 1 直连
   - 🇺🇸 美国-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
-  - 家宽-HY2-1S
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 家宽-HY2-2D
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
   - 🇸🇬 新加坡 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇺🇸 美国-2A
+  - 冰島 2
+  - 家宽-HY2-2D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 美国-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-1S
+  - 🇺🇸 美国-2D
+  - 🇸🇬 新加坡NO.1-1A
+  - 馬來西亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
+  - 🇺🇸 美国-2H
+  - 🇺🇸 美国-2F
   - 🇸🇬 新加坡 4
-  - 🇧🇷 巴西 2
-  - 家宽-HY2-1V
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇺🇸 美国-1Z
+  - 🇰🇷 韓國 4
+  - 阿聯酋 2
+  - 🇻🇳 越南 2
+  - 🇯🇵 日本 2 直连
+  - 台灣 3 直连
+  - 德國 2
+  - 🇭🇰 香港 1 直连 原生
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1Q
+  - TOR网络高匿名性速度慢
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇭🇰 香港 5
+  - 🇮🇳 印度1-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇯🇵 日本NO.2-1A
+  - 🇯🇵 日本 6 原生
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1P
+  - 🇺🇸 美国-1R
+  - 🇺🇸 美国-1A
+  - 台灣 4
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
+  - 🇮🇳 印度 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 德國 1 直连
+  - 🇪🇬 埃及 2
+  - 🇬🇧 英国2-1B
+  - 🇯🇵 日本 5
+  - 🇺🇸 美国-2I
+  - 🇰🇷 韓國 3
+  - 🇮🇳 印度尼西亞 2
+  - 家宽-HY2-1Z
+  - 🇺🇸 美国-纽约-HY-001-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 家宽-HY2-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1Q
+  - 🇺🇸 美国-1x
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 家宽-HY2-2L
+  - 家宽-HY2-1R
+  - 澳大利亞 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1N
+  - 🇹🇷 土耳其 1 直连 原生
+  - 台灣 1 直连
+  - 家宽-HY2-1B
+  - 澳門 2
+  - 🇻🇳 越南 1 IPV6
+  - 🇺🇸 美国-1T
+  - 阿聯酋 1 直连
   - 🇰🇷 韓國 2 直连
-  - 家宽-HY2-2C
+  - 台灣 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇭🇰 香港 6
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 英國 1 直连
+  - 🇺🇸 美国-2G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1L
+  - 家宽-HY2-1H
+  - 台灣 5
+  - 🇺🇸 美国-1W
+  - 泰國 2
+  - 🇺🇸 美国NO.2-1B
+  - 🇺🇸 美国-1D
+  - 🇺🇸 美国-1V
+  - 🇺🇸 美国-纽约-HY-001-1O
+  - 美國 6 原生
+  - 菲律賓 1 IPV6
+  - 家宽-HY2-1V
   - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇺🇸 美国NO.1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  - 🇺🇸 美国-1N
+  - 🇨🇦 加拿大1-1B
   - 🇺🇸 美国-1U
-  - 家宽-HY2-2F
+  - 🇫🇷 法国2-1A
+  - 缅甸 1 IPV6
+  - 美國 8 原生
+  - 🇺🇸 美国-1K
+  - 🇯🇵 日本 1 直连 原生
+  - 🇺🇸 美国-纽约-HY-001-1Q
+  - 🇺🇸 美国-2K
+  - 🇹🇷 土耳其 2 原生
+  - 🇧🇷 巴西 2
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇺🇸 美国-1E
   - 家宽-HY2-2J
   - 荷蘭 2
-  - 🇹🇼 台湾1-1A
-  - 家宽-HY2-1Y
-  - 🇺🇸 美国-1T
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇺🇸 美国-1J
+  - 🇭🇰 香港 3 直连
+  - 🇺🇸 美国-2B
+  - 泰國 1 IPV6
+  - 家宽-HY2-1W
+  - 🇹🇭 泰国NO1-1A
+  - 菲律賓 2
+  - 🇺🇸 美国-1Y
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇫🇷 法国1-1A
+  - 烏克蘭 2
+  - 台灣 6 原生
+  - 法國 1 直连
+  - 🇺🇸 美国-2L
+  - 家宽-HY2-1I
+  - 🇯🇵 日本3 直连 原生
+  - 家宽-HY2-2C
+  - 缅甸 2
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1M
+  - 家宽-HY2-1P
+  - 🇭🇰 香港 4 原生
+  - 家宽-HY2-2F
+  - 🇺🇸 美国-1B
+  - 家宽-HY2-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 義大利 2
+  - 家宽-HY2-1J
+  - 家宽-HY2-1N
+  - 家宽-HY2-2B
+  - 🇺🇸 美国-1O
+  - 🇮🇳 印度 2
+  - 英國 2
+  - 🇹🇼 台湾2-1B
+  - 🇺🇸 美国-1C
+  - 家宽-HY2-1O
+  - 家宽-HY2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-1Q
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇧🇷 巴西 1 直连
+  - 澳門 1 IPV6
+  - 家宽-HY2-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 美國 4 原生
+  - 家宽-HY2-1G
   - 家宽-HY2-1F
-  - 🇰🇷 韓國 3
-  - 🇨🇦 加拿大 2
-  - 🇺🇸 美国-2J
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 家宽-HY2-1D
+  - 美國 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇺🇸 美国-1I
+  - 🇺🇸 美国-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇭🇰 香港-1B
+  - 🇸🇬 新加坡 2 直连
+  - 🇺🇸 美国-纽约-HY-001-1N
   - 🇪🇬 埃及 IPV6
-  - 🇺🇸 美国-1K
+  - 家宽-HY2-2I
+  - 義大利 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1J
+  - 家宽-HY2-1x
+  - 澳大利亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
+  - 家宽-HY2-1M
+  - 🇸🇬 新加坡 6 原生
+  - 家宽-HY2-2H
+  - 🇺🇸 美国-1S
+  - 家宽-HY2-1A
+  - 家宽-HY2-2A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1O
+  - 家宽-HY2-1Y
   type: fallback
   url: http://www.gstatic.com/generate_204
 - name: 手动选择
   proxies:
-  - 🇺🇸 美国-2C
-  - 🇺🇸 美国-2G
-  - 🇺🇸 美国-2F
-  - 🇭🇰 香港 亚马逊 0x-1P
-  - 🇸🇬 新加坡2VL-1O
-  - 🇸🇬 新加坡3VL-2H
-  - 家宽-HY2-1I
-  - 🇬🇧 英国1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇫🇷 法国2-1A
-  - 🇭🇰 香港家宽HKBN 10x-2D
-  - 家宽-HY2-1L
-  - 🇺🇸 美国-1S
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇩🇪 德国CF-2E
-  - 缅甸 2
-  - 🇭🇰 香港 4 原生
-  - 🇺🇸 美国-1Q
-  - 🇩🇪 德国稳定-2J
-  - 🇺🇸 美国-拉斯维加斯-001-1D
-  - 家宽-HY2-2A
-  - 🇭🇰 香港家宽HKT 10x-2L
-  - 🇹🇭 泰国NO2-1A
-  - 🇺🇸 美国-1R
-  - 台灣 4
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
-  - 家宽-HY2-1J
-  - 🇯🇵 日本 6 原生
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
-  - 澳門 2
-  - 🇺🇸 美国-拉斯维加斯-002-1D
-  - 🇮🇳 印度2-1B
-  - 🇺🇸 美国-1F
-  - 家宽-HY2-1Q
-  - 🇺🇸 美国-2D
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港 1 直连 原生
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇸🇬 新加坡 2 直连
-  - 美國 2 直连
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韓國 1 直连
-  - 🇦🇺 澳大利亚原生2-1A
-  - 家宽-HY2-2K
-  - 🇺🇸 美国-纽约-HY-001-1K
-  - TOR网络高匿名性速度慢
-  - 家宽-HY2-1x
-  - 🇯🇵 日本 2 直连
-  - 家宽-HY2-2L
-  - 家宽-HY2-2E
-  - 家宽-HY2-1B
-  - 家宽-HY2-2B
-  - 家宽-HY2-1A
-  - 🇫🇷 法国1-1A
-  - 家宽-HY2-1M
-  - 美國 6 原生
-  - 冰島 1 直连
-  - 家宽-HY2-1P
-  - 家宽-HY2-1E
-  - 阿聯酋 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
-  - 🇹🇷 土耳其 1 直连 原生
-  - 冰島 2
-  - 🇭🇰 香港NO.2-1A
-  - 🇹🇼 台湾2-1B
-  - 🇺🇸 美国-1C
-  - 🇺🇸 美国-纽约-HY-001-1J
-  - 家宽-HY2-2H
-  - 烏克蘭 1 IPV6
-  - 台灣 1 直连
-  - 烏克蘭 2
-  - 美國 5
-  - 家宽-HY2-2I
-  - 🇮🇳 印度1-1A
-  - 菲律賓 2
-  - 🇭🇰 香港 3 直连
-  - 義大利 1 直连
-  - 菲律賓 1 IPV6
-  - 泰國 1 IPV6
-  - 家宽-HY2-1N
-  - 🇺🇸 美国-2K
-  - 🇭🇰 香港 6
-  - 🇯🇵 日本 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇲🇾 马来西亚专线NO1-1B
-  - 🇺🇸 美国-1A
-  - 🇨🇦 加拿大2-1A
-  - 澳大利亞 2
-  - 🇺🇸 美国-1x
-  - 家宽-HY2-1C
-  - 🇺🇸 美国-1L
-  - 家宽-HY2-1R
-  - 台灣 5
-  - 家宽-HY2-1Z
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
-  - 🇰🇷 韓國 4
-  - 澳門 1 IPV6
-  - 家宽-HY2-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
-  - 🇪🇬 埃及 2
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇳 印度 1 直连
-  - 🇺🇸 美国-1I
-  - 馬來西亞 2
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇸🇬 新加坡3VL-1K
   - 🇺🇸 美国-1M
-  - 德國 2
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇺🇸 美国-2L
-  - 🇻🇳 越南 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
-  - 德國 1 直连
-  - 台灣 2 直连
-  - 🇺🇸 美国-2B
-  - 🇯🇵 日本 4 原生
-  - 🇺🇸 美国-1W
-  - 🇸🇬 新加坡 5
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇺🇸 美国-1V
-  - 🇭🇰 香港 5
-  - 🇺🇸 美国-1N
-  - 🇺🇸 美国-1G
-  - 🇺🇸 美国-2A
-  - 🇺🇸 美国-1D
-  - 荷蘭 1 直连
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇺🇸 美国NO.1-1A
-  - 義大利 2
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 家宽-HY2-1O
-  - 🇺🇸 美国-1Z
-  - 🇮🇳 印度 2
-  - 🇻🇳 越南 2
-  - 美國 8 原生
-  - 🇸🇬 新加坡NO.1-1B
-  - 法國 1 直连
-  - 🇭🇰 香港-1B
-  - 🇹🇷 土耳其 2 原生
-  - 🇬🇧 英国2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
-  - 🇧🇷 巴西 1 直连
-  - 家宽-HY2-1H
-  - 🇸🇬 新加坡 3 直连 原生
-  - 🇺🇸 美国-1O
-  - 🇺🇸 美国-2H
-  - 家宽-HY2-1T
-  - 🇯🇵 日本NO.1-1B
-  - 英國 1 直连
-  - 🇺🇸 美国-1H
-  - 家宽-HY2-1W
-  - 英國 2
-  - 🇯🇵 日本3 直连 原生
-  - 澳大利亞 1 直连
-  - 阿聯酋 2
-  - 🇺🇸 美国-1J
-  - 家宽-HY2-1G
+  - 🇸🇬 新加坡2VL-2L
+  - 🇩🇪 德国CF-2G
+  - 🇭🇰 香港家宽HKT 10x-1D
   - 家宽-HY2-2G
-  - 🇺🇸 美国-2I
-  - 台灣 3 直连
-  - 家宽-HY2-1U
-  - 缅甸 1 IPV6
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 泰國 2
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
-  - 美國 4 原生
-  - 🇹🇭 泰国NO1-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇺🇸 美国-拉斯维加斯-001-1I
+  - 🇭🇰 香港 亚马逊 0x-1W
+  - 🇹🇭 泰国NO2-1A
+  - 烏克蘭 1 IPV6
+  - 冰島 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1K
+  - 🇩🇪 德国稳定-1Q
+  - 家宽-HY2-1E
   - 🇨🇦 加拿大 1 直连
-  - 🇺🇸 美国-1Y
-  - 🇯🇵 日本 1 直连 原生
-  - 🇺🇸 美国-1E
-  - 🇦🇺 澳大利亚原生1-1A
-  - 台灣 6 原生
-  - 🇺🇸 美国NO.2-1A
-  - 🇸🇬 新加坡 6 原生
-  - 🇺🇸 美国-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-2E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 家宽-HY2-1Q
   - 🇺🇸 美国-2E
-  - 🇮🇳 印度尼西亞 2
+  - 🇭🇰 香港家宽HKBN 10x-1x
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇺🇸 美国-1F
+  - 家宽-HY2-1D
+  - 🇺🇸 美国-拉斯维加斯-002-1B
+  - 美國 5
+  - 家宽-HY2-2K
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇬🇧 英国1-1A
+  - 🇺🇸 美国-纽约-HY-001-1P
+  - 🇨🇦 加拿大 2
+  - 🇸🇬 新加坡 3 直连 原生
+  - 🇰🇷 韓國 1 直连
+  - 家宽-HY2-1U
+  - 🇺🇸 美国-2C
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1J
+  - 🇸🇬 新加坡 5
+  - 🇮🇳 印度2-1B
+  - 🇺🇸 美国-1H
+  - 🇺🇸 美国-2J
+  - 🇯🇵 日本 4 原生
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇯🇵 日本NO.1-1A
+  - 荷蘭 1 直连
   - 🇺🇸 美国-1P
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
-  - 家宽-HY2-1S
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 家宽-HY2-2D
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
   - 🇸🇬 新加坡 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇺🇸 美国-2A
+  - 冰島 2
+  - 家宽-HY2-2D
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1N
+  - 🇺🇸 美国-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1H
+  - 家宽-HY2-1S
+  - 🇺🇸 美国-2D
+  - 🇸🇬 新加坡NO.1-1A
+  - 馬來西亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1K
+  - 🇺🇸 美国-2H
+  - 🇺🇸 美国-2F
   - 🇸🇬 新加坡 4
-  - 🇧🇷 巴西 2
-  - 家宽-HY2-1V
-  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇺🇸 美国-1Z
+  - 🇰🇷 韓國 4
+  - 阿聯酋 2
+  - 🇻🇳 越南 2
+  - 🇯🇵 日本 2 直连
+  - 台灣 3 直连
+  - 德國 2
+  - 🇭🇰 香港 1 直连 原生
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1Q
+  - TOR网络高匿名性速度慢
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1P
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1F
+  - 🇭🇰 香港 5
+  - 🇮🇳 印度1-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1D
+  - 🇯🇵 日本NO.2-1A
+  - 🇯🇵 日本 6 原生
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1P
+  - 🇺🇸 美国-1R
+  - 🇺🇸 美国-1A
+  - 台灣 4
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1L
+  - 🇮🇳 印度 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1G
+  - 德國 1 直连
+  - 🇪🇬 埃及 2
+  - 🇬🇧 英国2-1B
+  - 🇯🇵 日本 5
+  - 🇺🇸 美国-2I
+  - 🇰🇷 韓國 3
+  - 🇮🇳 印度尼西亞 2
+  - 家宽-HY2-1Z
+  - 🇺🇸 美国-纽约-HY-001-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 家宽-HY2-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1Q
+  - 🇺🇸 美国-1x
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 家宽-HY2-2L
+  - 家宽-HY2-1R
+  - 澳大利亞 1 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1N
+  - 🇹🇷 土耳其 1 直连 原生
+  - 台灣 1 直连
+  - 家宽-HY2-1B
+  - 澳門 2
+  - 🇻🇳 越南 1 IPV6
+  - 🇺🇸 美国-1T
+  - 阿聯酋 1 直连
   - 🇰🇷 韓國 2 直连
-  - 家宽-HY2-2C
+  - 台灣 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1J
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇭🇰 香港 6
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1A
+  - 英國 1 直连
+  - 🇺🇸 美国-2G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1L
+  - 家宽-HY2-1H
+  - 台灣 5
+  - 🇺🇸 美国-1W
+  - 泰國 2
+  - 🇺🇸 美国NO.2-1B
+  - 🇺🇸 美国-1D
+  - 🇺🇸 美国-1V
+  - 🇺🇸 美国-纽约-HY-001-1O
+  - 美國 6 原生
+  - 菲律賓 1 IPV6
+  - 家宽-HY2-1V
   - 🇺🇸 美国-拉斯维加斯-HY-001-1C
+  - 🇺🇸 美国NO.1-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1O
+  - 🇺🇸 美国-1N
+  - 🇨🇦 加拿大1-1B
   - 🇺🇸 美国-1U
-  - 家宽-HY2-2F
+  - 🇫🇷 法国2-1A
+  - 缅甸 1 IPV6
+  - 美國 8 原生
+  - 🇺🇸 美国-1K
+  - 🇯🇵 日本 1 直连 原生
+  - 🇺🇸 美国-纽约-HY-001-1Q
+  - 🇺🇸 美国-2K
+  - 🇹🇷 土耳其 2 原生
+  - 🇧🇷 巴西 2
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇺🇸 美国-1E
   - 家宽-HY2-2J
   - 荷蘭 2
-  - 🇹🇼 台湾1-1A
-  - 家宽-HY2-1Y
-  - 🇺🇸 美国-1T
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇺🇸 美国-1J
+  - 🇭🇰 香港 3 直连
+  - 🇺🇸 美国-2B
+  - 泰國 1 IPV6
+  - 家宽-HY2-1W
+  - 🇹🇭 泰国NO1-1A
+  - 菲律賓 2
+  - 🇺🇸 美国-1Y
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇫🇷 法国1-1A
+  - 烏克蘭 2
+  - 台灣 6 原生
+  - 法國 1 直连
+  - 🇺🇸 美国-2L
+  - 家宽-HY2-1I
+  - 🇯🇵 日本3 直连 原生
+  - 家宽-HY2-2C
+  - 缅甸 2
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1M
+  - 家宽-HY2-1P
+  - 🇭🇰 香港 4 原生
+  - 家宽-HY2-2F
+  - 🇺🇸 美国-1B
+  - 家宽-HY2-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 義大利 2
+  - 家宽-HY2-1J
+  - 家宽-HY2-1N
+  - 家宽-HY2-2B
+  - 🇺🇸 美国-1O
+  - 🇮🇳 印度 2
+  - 英國 2
+  - 🇹🇼 台湾2-1B
+  - 🇺🇸 美国-1C
+  - 家宽-HY2-1O
+  - 家宽-HY2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1B
+  - 🇺🇸 美国-1Q
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇧🇷 巴西 1 直连
+  - 澳門 1 IPV6
+  - 家宽-HY2-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 美國 4 原生
+  - 家宽-HY2-1G
   - 家宽-HY2-1F
-  - 🇰🇷 韓國 3
-  - 🇨🇦 加拿大 2
-  - 🇺🇸 美国-2J
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 家宽-HY2-1D
+  - 美國 2 直连
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇺🇸 美国-1I
+  - 🇺🇸 美国-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1G
+  - 🇭🇰 香港-1B
+  - 🇸🇬 新加坡 2 直连
+  - 🇺🇸 美国-纽约-HY-001-1N
   - 🇪🇬 埃及 IPV6
-  - 🇺🇸 美国-1K
+  - 家宽-HY2-2I
+  - 義大利 1 直连
+  - 🇺🇸 美国-纽约-HY-001-1J
+  - 家宽-HY2-1x
+  - 澳大利亞 2
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1I
+  - 家宽-HY2-1M
+  - 🇸🇬 新加坡 6 原生
+  - 家宽-HY2-2H
+  - 🇺🇸 美国-1S
+  - 家宽-HY2-1A
+  - 家宽-HY2-2A
+  - 🇺🇸 美国-拉斯维加斯-HY-001-1K
+  - 🇺🇸 美国-纽约-HY-001-1L
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1O
+  - 家宽-HY2-1Y
   type: select
 redir-port: 7892
 rules:
