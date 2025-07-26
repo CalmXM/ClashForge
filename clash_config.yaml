@@ -30,31 +30,21 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1L
-  password: 97747bb2-10be-4542-aba7-a831a4f7a2c0
-  port: 22800
-  server: 107.175.187.181
-  type: ss
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇰🇷 韩国-1G
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26723
+  server: yjjdhg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhg.yunjijd.xyz
+  type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-纽约-001-1H
-  network: ws
-  port: 22081
-  server: 45.136.245.177
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  ws-opts:
-    path: /
-- auth: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+- auth: 7fa07e83-b6a0-46d1-991d-f7a83671f016
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1G
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+  password: 7fa07e83-b6a0-46d1-991d-f7a83671f016
   port: 33079
   server: 45.136.245.177
   skip-cert-verify: true
@@ -62,54 +52,114 @@ proxies:
   udp: true
   up: 100
 - auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇩🇪 德国-1B
+  name: 🇯🇵 日本-1G
   password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26823
-  server: yjjddg.yunjijd.xyz
+  port: 26423
+  server: yjjdrb.yunjijd.xyz
   skip-cert-verify: true
-  sni: yjjddg.yunjijd.xyz
+  sni: yjjdrb.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇮🇸 冰岛-1C
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdbd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇺🇸 美国-1G
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26223
+  server: yjjdmg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdmg.yunjijd.xyz
   type: hysteria2
   udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 香港-1H
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 32975
+  name: 🇹🇭 泰国-1A
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 48494
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1T
-  password: 37abbcea-4118-437a-91ff-37ab8e0cf416
-  port: 22800
-  server: 156.224.77.215
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1B
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- auth: 785c2575-931f-418a-861f-f8c0845119d0
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇷🇺 俄罗斯-1I
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20757
+  server: nexiaels.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaels.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  name: 🇺🇸 美国-纽约-HY-001-1I
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 785c2575-931f-418a-861f-f8c0845119d0
-  port: 33079
+  password: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
+  port: 31008
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇩🇪 德国-1C
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1-1A
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇭🇰 香港-1F
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdxg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇷🇺 俄罗斯-1C
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20557
-  server: nexiadg.688997.xyz
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20757
+  server: nexiaels.688997.xyz
   skip-cert-verify: true
-  sni: nexiadg.688997.xyz
+  sni: nexiaels.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇺🇸 美国-1H
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20157
+  server: nexiamg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiamg.688997.xyz
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1H
-  password: 2e899c2c-4770-4d46-9642-ce3d64a692bb
+  name: 🇮🇪 爱尔兰-都柏林-1J
+  password: 76ae7e6f-cbf2-4f6d-a937-f941bd9ea373
   port: 22800
   server: 107.175.187.181
   type: ss
@@ -122,120 +172,237 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
 - alterId: 0
   cipher: auto
-  name: 🇦🇺 澳大利亚原生2-1A
-  port: 45063
+  name: 🇹🇼 台湾1-1B
+  port: 45078
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1B
+  port: 45053
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇳🇱 NL-阿姆斯特丹-1A
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇰🇷 韩国-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26723
+  server: yjjdhg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇩 印度尼西亚-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 22665
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇩🇪 德国-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26823
+  server: yjjddg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjddg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇯🇵 日本-1I
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33856
-  server: nlnl.yinheyz.cfd
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20257
+  server: nexiarb.688997.xyz
   skip-cert-verify: true
-  sni: nlnl.yinheyz.cfd
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇯🇵 日本-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇬🇧 英国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20657
+  server: nexiayg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiayg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇩🇪 德国-1G
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26823
+  server: yjjddg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjddg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇩🇪 德国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1R
-  password: 8136654c-26b1-4e0a-84ba-448ce64897a7
+  name: 🇭🇰 香港-线路1-1O
+  password: 3efd4d54-cd7c-4b82-a4a5-42895c8dc662
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇨🇦 加拿大-1A
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26523
-  server: yjjdjnd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdjnd.yunjijd.xyz
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1T
+  password: 1740b389-b5ea-4c05-a029-8c3c2fff24ac
+  port: 22800
+  server: 107.175.187.181
+  type: ss
   udp: true
-- auth: 4f42cab6-0e8e-4431-bb7b-2374d221d445
+- auth: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
   down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1G
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 4f42cab6-0e8e-4431-bb7b-2374d221d445
-  port: 31008
+  password: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
+  port: 33079
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
 - auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇺🇸 美国-1J
+  name: 🇧🇷 巴西-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20157
-  server: nexiamg.688997.xyz
+  port: 20857
+  server: nexiabx.688997.xyz
   skip-cert-verify: true
-  sni: nexiamg.688997.xyz
+  sni: nexiabx.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇬🇧 英国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20657
+  server: nexiayg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiayg.688997.xyz
   type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国-拉斯维加斯-003-1A
+  name: 🇺🇸 美国-拉斯维加斯-003-1H
   network: ws
   port: 25015
   server: 45.136.245.177
   tls: false
   type: vmess
   udp: true
-  uuid: 785c2575-931f-418a-861f-f8c0845119d0
+  uuid: 21875152-c990-4d00-b8db-ec6131a9589e
   ws-opts:
     path: /
-- auth: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1F
+  password: b1895c9a-0206-438c-a59f-eebc24156e4c
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1A
+  password: c1bdfc09-40b6-4de3-853a-b29afad5bff7
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇷🇺 俄罗斯-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26123
+  server: yjjdels.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdels.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
   down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1I
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
-  port: 31008
+  password: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
+  port: 33079
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1H
-  password: 2e899c2c-4770-4d46-9642-ce3d64a692bb
-  port: 22800
-  server: 156.224.77.215
-  type: ss
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇷🇺 俄罗斯-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26123
+  server: yjjdels.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdels.yunjijd.xyz
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港NO.2-1B
-  port: 45051
+  name: 🇲🇾 马来西亚专线NO1-1A
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO2-1A
+  port: 45075
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇨🇦 加拿大-1D
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26523
-  server: yjjdjnd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdjnd.yunjijd.xyz
-  type: hysteria2
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- cipher: aes-256-gcm
+  name: 🇰🇷 韩国-1M
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 30967
+  server: ddns.kuaiyun1.cn
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1G
-  password: 97c04590-154a-41e1-b52a-5cfc7acdc865
+  name: 🇮🇪 爱尔兰-都柏林-1N
+  password: 3483f6c3-e3f3-4768-a674-84e384e234da
   port: 22800
-  server: 156.224.77.215
+  server: 107.175.187.181
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -245,555 +412,78 @@ proxies:
   server: kt5.naichachong.top
   type: ss
   udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇷🇺 俄罗斯-1A
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇳🇱 荷兰-1I
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20757
-  server: nexiaels.688997.xyz
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20457
+  server: nexiahl.688997.xyz
   skip-cert-verify: true
-  sni: nexiaels.688997.xyz
+  sni: nexiahl.688997.xyz
   type: hysteria2
   udp: true
-- auth: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
+- auth: 7fa07e83-b6a0-46d1-991d-f7a83671f016
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1I
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1G
   obfs: salamander
   obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
+  password: 7fa07e83-b6a0-46d1-991d-f7a83671f016
   port: 80
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1N
-  password: 7cea3e07-526f-4427-848e-e25a20bda565
-  port: 22800
-  server: 156.224.77.215
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.1-1A
+  port: 45056
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇯🇵 日本-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇬🇧 GB-伦敦-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33996
-  server: gbgb.yinheyz.cfd
-  skip-cert-verify: true
-  sni: gbgb.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 4f42cab6-0e8e-4431-bb7b-2374d221d445
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1G
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 4f42cab6-0e8e-4431-bb7b-2374d221d445
-  port: 33079
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1N
-  password: 7cea3e07-526f-4427-848e-e25a20bda565
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇺🇸 美国-1I
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26223
-  server: yjjdmg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdmg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇨🇦 加拿大-1E
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇨🇦 加拿大-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
   port: 26523
   server: yjjdjnd.yunjijd.xyz
   skip-cert-verify: true
   sni: yjjdjnd.yunjijd.xyz
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1I
-  password: cec41873-2ff7-4fc2-ae97-897439c81471
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇺🇸 美国-1G
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26223
-  server: yjjdmg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdmg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 5e55ac54-f022-4da5-a514-7422af9a45b6
+- auth: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1E
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: 5e55ac54-f022-4da5-a514-7422af9a45b6
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇯🇵 日本-1I
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26423
-  server: yjjdrb.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdrb.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇷🇺 俄罗斯-1B
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26123
-  server: yjjdels.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdels.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港-1I
-  port: 19901
-  server: xg.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1C
-  password: 1a031759-07be-451a-a36e-39a372e4be60
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Q
-  password: 2575399b-ced2-493b-8451-fdcfa1d86dc8
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.2-1B
-  port: 45057
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1K
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国1-1B
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国1-1B
-  port: 45066
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇭🇰 香港-1G
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26323
-  server: yjjdxg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdxg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇩🇪 德国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾2-1A
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- auth: 5e55ac54-f022-4da5-a514-7422af9a45b6
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 5e55ac54-f022-4da5-a514-7422af9a45b6
+  password: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
   port: 33079
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇳🇱 荷兰-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇸🇬 SG-新加坡-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33686
-  server: sgsg.yinheyz.cfd
-  skip-cert-verify: true
-  sni: sgsg.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2-1A
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1B
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1R
-  password: 8136654c-26b1-4e0a-84ba-448ce64897a7
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
 - auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇩🇪 德国-1H
+  name: 🇷🇺 俄罗斯-1F
   password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26823
-  server: yjjddg.yunjijd.xyz
+  port: 26123
+  server: yjjdels.yunjijd.xyz
   skip-cert-verify: true
-  sni: yjjddg.yunjijd.xyz
+  sni: yjjdels.yunjijd.xyz
   type: hysteria2
   udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇯🇵 日本-1G
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26423
-  server: yjjdrb.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdrb.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇮🇸 冰岛-1A
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26623
-  server: yjjdbd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdbd.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1B
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾1-1B
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 香港-线路1-1W
-  password: 7c6590a6-096a-449c-b616-ea93c35dcdf6
+  password: a825a7d3-99fb-4856-90c6-598d60263d05
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1A
-  password: 00c423b0-3247-4390-b0da-af8aa22ce099
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇨🇦 CA-多伦多-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33756
-  server: caca.yinheyz.cfd
-  skip-cert-verify: true
-  sni: caca.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇳🇱 荷兰-1B
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇹🇷 土耳其-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1H
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇭🇰 香港-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26323
-  server: yjjdxg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdxg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国2-1B
-  port: 45067
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO2-1A
-  port: 45075
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇷🇺 俄罗斯-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1D
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度2-1A
-  port: 45073
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇧🇷 巴西-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1T
-  password: 37abbcea-4118-437a-91ff-37ab8e0cf416
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇳🇱 荷兰-1G
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
-  type: hysteria2
-  udp: true
 - auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇰🇷 韩国-1I
+  name: 🇩🇪 德国-1F
   password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26723
-  server: yjjdhg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇩🇪 德国-1J
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20557
-  server: nexiadg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiadg.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇹🇷 土耳其-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇳🇱 荷兰-1J
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇩🇪 德国-1I
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
   port: 26823
   server: yjjddg.yunjijd.xyz
   skip-cert-verify: true
@@ -808,61 +498,139 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1B
-  password: 3efd4d54-cd7c-4b82-a4a5-42895c8dc662
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
 - auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇧🇷 巴西-1A
+  name: 🇹🇷 土耳其-1A
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20857
-  server: nexiabx.688997.xyz
+  port: 20957
+  server: nexiateq.688997.xyz
   skip-cert-verify: true
-  sni: nexiabx.688997.xyz
+  sni: nexiateq.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1U
+  password: 2a361de2-ad20-4fc9-ae81-474448f7e2c7
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇺🇸 美国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20157
+  server: nexiamg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiamg.688997.xyz
   type: hysteria2
   udp: true
 - cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1C
+  name: 🇺🇸 美国1-1D
   password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
   port: 29760
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇳🇱 荷兰-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇺🇸 美国-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26223
+  server: yjjdmg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdmg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇹🇭 泰国-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 48494
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-纽约-001-1A
+  network: ws
+  port: 22082
+  server: 45.136.245.177
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a95aa186-929a-46a2-865f-8d4402d01d13
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大1-1A
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡-1A
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 17869
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国1-1A
+  port: 45066
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇨🇦 加拿大-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26523
+  server: yjjdjnd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdjnd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇳🇱 荷兰-1G
+  password: 5575e77b-e825-457a-bf37-220df8524199
   port: 26923
   server: yjjdhl.yunjijd.xyz
   skip-cert-verify: true
   sni: yjjdhl.yunjijd.xyz
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO2-1B
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1x
+  password: 20d8011d-f08d-4f6d-b7e4-21097bdd1d6c
+  port: 22800
+  server: 156.224.77.215
+  type: ss
   udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.1-1A
-  port: 45056
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇩🇪 德国-1J
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26823
+  server: yjjddg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjddg.yunjijd.xyz
+  type: hysteria2
   udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1C
+  password: 2e899c2c-4770-4d46-9642-ce3d64a692bb
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
 - auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇩🇪 德国-1F
+  name: 🇩🇪 德国-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 66f6f768-5829-4675-8a52-37120525ab5b
@@ -873,136 +641,109 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇰🇷 韩国-1E
+  name: 🇳🇱 荷兰-1B
   password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26723
-  server: yjjdhg.yunjijd.xyz
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
   skip-cert-verify: true
-  sni: yjjdhg.yunjijd.xyz
+  sni: yjjdhl.yunjijd.xyz
   type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1D
-  password: d49d89df-e620-4fc8-87d6-964ce6a7091c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡NO.2-1B
-  port: 45055
+  name: 🇫🇷 法国2-1A
+  port: 45071
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇨🇦 加拿大-1B
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26523
-  server: yjjdjnd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdjnd.yunjijd.xyz
-  type: hysteria2
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1V
+  password: 27aa1773-8903-4cea-929c-54a750135c36
+  port: 22800
+  server: 156.224.77.215
+  type: ss
   udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇮🇳 IN-班加罗尔-1B
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇩🇪 德国-1I
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33756
-  server: inin.yinheyz.cfd
-  skip-cert-verify: true
-  sni: inin.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇮🇳 IN-班加罗尔-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33756
-  server: inin.yinheyz.cfd
-  skip-cert-verify: true
-  sni: inin.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1F
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇰🇷 韩国-1J
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26723
-  server: yjjdhg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇩🇪 德国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
   port: 20557
   server: nexiadg.688997.xyz
   skip-cert-verify: true
   sni: nexiadg.688997.xyz
   type: hysteria2
   udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇧🇷 巴西-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20857
-  server: nexiabx.688997.xyz
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇩🇪 德国-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26823
+  server: yjjddg.yunjijd.xyz
   skip-cert-verify: true
-  sni: nexiabx.688997.xyz
+  sni: yjjddg.yunjijd.xyz
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1S
+  name: 🇭🇰 香港-线路1-1T
   password: 1740b389-b5ea-4c05-a029-8c3c2fff24ac
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇺🇸 美国-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26223
+  server: yjjdmg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdmg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1A
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇮🇸 冰岛-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdbd.yunjijd.xyz
+  type: hysteria2
+  udp: true
 - cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 48494
+  name: 🇰🇷 韩国-1I
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 30967
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇯🇵 日本-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20257
-  server: nexiarb.688997.xyz
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇳🇱 荷兰-1F
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
   skip-cert-verify: true
-  sni: nexiarb.688997.xyz
+  sni: yjjdhl.yunjijd.xyz
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1A
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
 - alterId: 0
   cipher: auto
   name: 🇰🇷 韩国 专线NO1-1A
@@ -1011,596 +752,32 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1P
-  password: 051726ed-ad2c-4876-8d2c-ba57893f9d0b
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1M
-  password: c1bdfc09-40b6-4de3-853a-b29afad5bff7
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭 泰国NO2-1B
-  port: 45061
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇹🇷 土耳其-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇮🇸 冰岛-1C
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26623
-  server: yjjdbd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdbd.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇳🇱 NL-阿姆斯特丹-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33856
-  server: nlnl.yinheyz.cfd
-  skip-cert-verify: true
-  sni: nlnl.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇧🇷 巴西-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 美国1-1B
-  network: ws
-  port: 8080
-  server: us1.naichachong.top
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5a4a9db7-12a3-424c-b5cf-127d3ad7ae33
-  ws-opts:
-    headers:
-      Host: US1.naichachong.top
-    path: /zip
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇯🇵 日本-1H
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26423
-  server: yjjdrb.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdrb.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭 泰国NO1-1B
-  port: 45060
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1H
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  port: 33079
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1C
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1K
-  password: 08d12ebc-7f5e-4bd4-9b27-0ea0aaf39ddc
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1E
-  password: 2889e410-d705-4041-a74f-f314d0e21058
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇷🇺 俄罗斯-1H
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26123
-  server: yjjdels.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdels.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇬🇧 GB-伦敦-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33996
-  server: gbgb.yinheyz.cfd
-  skip-cert-verify: true
-  sni: gbgb.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
   down: 100
   name: 🇺🇸 美国-拉斯维加斯-HY-003-1F
   obfs: salamander
   obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
+  password: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
   port: 80
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇺🇸 美国-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26223
-  server: yjjdmg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdmg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇭🇰 香港-1E
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26323
-  server: yjjdxg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdxg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇳🇱 荷兰-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20457
-  server: nexiahl.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahl.688997.xyz
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1U
-  password: 76ae7e6f-cbf2-4f6d-a937-f941bd9ea373
+  name: 🇮🇪 爱尔兰-都柏林-1V
+  password: 27aa1773-8903-4cea-929c-54a750135c36
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇨🇦 加拿大-1C
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26523
-  server: yjjdjnd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdjnd.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇰🇷 韩国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生1-1A
-  port: 45062
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 253b8754-2a3c-4ea5-b06a-051db71bff9e
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1G
-  password: 97c04590-154a-41e1-b52a-5cfc7acdc865
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇹🇷 土耳其-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇯🇵 日本-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26423
-  server: yjjdrb.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdrb.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇬🇧 英国-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1I
-  password: cec41873-2ff7-4fc2-ae97-897439c81471
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇷🇺 俄罗斯-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 785c2575-931f-418a-861f-f8c0845119d0
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1A
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: 785c2575-931f-418a-861f-f8c0845119d0
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大1-1B
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇯🇵 日本-1J
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇬🇧 英国-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇳🇱 荷兰-1I
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇭🇰 香港-1F
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26323
-  server: yjjdxg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdxg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1B
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇧🇷 巴西-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20857
-  server: nexiabx.688997.xyz
-  skip-cert-verify: true
-  sni: nexiabx.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇺🇸 美国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇰🇷 韩国-1L
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1J
-  password: 466dd6a4-93d8-4faf-a48d-6b7b8bae7890
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1C
-  password: 1a031759-07be-451a-a36e-39a372e4be60
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇷🇺 俄罗斯-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1K
-  password: 08d12ebc-7f5e-4bd4-9b27-0ea0aaf39ddc
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1H
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: d18bc1b1-a092-4b61-b6ff-66c451f518cd
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
 - cipher: aes-256-gcm
   name: 🇮🇩 印度尼西亚-1A
   password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
   port: 22665
   server: ddns.kuaiyun1.cn
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国2-1B
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇮🇸 冰岛-1E
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26623
-  server: yjjdbd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdbd.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO1-1B
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- auth: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 80841e6a-da76-4d06-a881-c2aaaefa9f1f
-  port: 33079
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇰🇷 韩国-1H
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26723
-  server: yjjdhg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇬🇧 英国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇺🇸 美国-1B
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26223
-  server: yjjdmg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdmg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇰🇷 韩国-1G
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇺🇸 美国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1O
-  password: b1895c9a-0206-438c-a59f-eebc24156e4c
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇯🇵 日本-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20257
-  server: nexiarb.688997.xyz
-  skip-cert-verify: true
-  sni: nexiarb.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇺🇸 美国-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
-  port: 20157
-  server: nexiamg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiamg.688997.xyz
-  type: hysteria2
   udp: true
 - auth: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
   down: 100
@@ -1614,153 +791,64 @@ proxies:
   type: hysteria2
   udp: true
   up: 100
-- auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇭🇰 香港-1C
-  password: 5575e77b-e825-457a-bf37-220df8524199
-  port: 26323
-  server: yjjdxg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdxg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 4f42cab6-0e8e-4431-bb7b-2374d221d445
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-003-1G
-  obfs: salamander
-  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
-  password: 4f42cab6-0e8e-4431-bb7b-2374d221d445
-  port: 80
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 5e55ac54-f022-4da5-a514-7422af9a45b6
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1E
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 5e55ac54-f022-4da5-a514-7422af9a45b6
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇺🇸 US-纽约-1A
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇳🇱 荷兰-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33856
-  server: usus.yinheyz.cfd
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20457
+  server: nexiahl.688997.xyz
   skip-cert-verify: true
-  sni: usus.yinheyz.cfd
+  sni: nexiahl.688997.xyz
   type: hysteria2
   udp: true
-- auth: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本2-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 39030
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1K
+  password: 7cea3e07-526f-4427-848e-e25a20bda565
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 21875152-c990-4d00-b8db-ec6131a9589e
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1H
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 71c7353f-5217-4214-ae7f-b31f3b12d2f4
+  password: 21875152-c990-4d00-b8db-ec6131a9589e
   port: 33079
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇩🇪 德国-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26823
-  server: yjjddg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjddg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1S
-  password: 1740b389-b5ea-4c05-a029-8c3c2fff24ac
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 785c2575-931f-418a-861f-f8c0845119d0
-  down: 100
-  name: 🇺🇸 美国-纽约-HY-001-1A
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 785c2575-931f-418a-861f-f8c0845119d0
-  port: 31008
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇳🇱 荷兰-1H
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇰🇷 韩国-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  type: hysteria2
-  udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 香港-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 32975
+  name: 🇮🇩 印度尼西亚-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 22665
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度1-1B
-  port: 45074
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇭🇰 香港-1H
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdxg.yunjijd.xyz
+  type: hysteria2
   udp: true
-  uuid: 1afc740d-45c1-44c7-8acd-fd212be11a9b
 - auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  name: 🇰🇷 韩国-1D
+  name: 🇺🇸 美国-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: a42ddf1e-3d72-4675-a590-5ffaf4066873
-  port: 20357
-  server: nexiahg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiahg.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇨🇦 CA-多伦多-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33756
-  server: caca.yinheyz.cfd
-  skip-cert-verify: true
-  sni: caca.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇺🇸 美国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
   port: 20157
   server: nexiamg.688997.xyz
   skip-cert-verify: true
@@ -1768,137 +856,88 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1U
-  password: 76ae7e6f-cbf2-4f6d-a937-f941bd9ea373
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇬🇧 英国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20657
-  server: nexiayg.688997.xyz
-  skip-cert-verify: true
-  sni: nexiayg.688997.xyz
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1E
-  password: 2889e410-d705-4041-a74f-f314d0e21058
+  name: 🇮🇪 爱尔兰-都柏林-1U
+  password: 2a361de2-ad20-4fc9-ae81-474448f7e2c7
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1A
+  name: 🇭🇰 香港-线路1-1D
   password: 00c423b0-3247-4390-b0da-af8aa22ce099
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  name: 🇯🇵 日本-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
-  port: 20257
-  server: nexiarb.688997.xyz
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇮🇸 冰岛-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
   skip-cert-verify: true
-  sni: nexiarb.688997.xyz
+  sni: yjjdbd.yunjijd.xyz
   type: hysteria2
   udp: true
-- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  name: 🇷🇺 俄罗斯-1J
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
-  port: 20757
-  server: nexiaels.688997.xyz
-  skip-cert-verify: true
-  sni: nexiaels.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ff4cd029-3056-4268-8fb3-9ac073d45b78
-  port: 33079
-  server: 45.136.245.177
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
 - cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1B
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 30967
+  name: 🇭🇰 香港-1G
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 32975
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1M
-  password: c1bdfc09-40b6-4de3-853a-b29afad5bff7
-  port: 22800
-  server: 107.175.187.181
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO2-1A
+  port: 45061
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1B
-  password: 3efd4d54-cd7c-4b82-a4a5-42895c8dc662
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1J
-  password: 466dd6a4-93d8-4faf-a48d-6b7b8bae7890
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1O
-  password: b1895c9a-0206-438c-a59f-eebc24156e4c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
 - cipher: aes-256-gcm
   name: 🇸🇬 新加坡-1B
-  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
   port: 17869
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  name: 🇷🇺 俄罗斯-1I
-  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
-  port: 26123
-  server: yjjdels.yunjijd.xyz
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇹🇷 土耳其-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20957
+  server: nexiateq.688997.xyz
   skip-cert-verify: true
-  sni: yjjdels.yunjijd.xyz
+  sni: nexiateq.688997.xyz
   type: hysteria2
   udp: true
-- auth: 5575e77b-e825-457a-bf37-220df8524199
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇳🇱 荷兰-1H
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20457
+  server: nexiahl.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahl.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1J
+  password: 76ae7e6f-cbf2-4f6d-a937-f941bd9ea373
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
   name: 🇯🇵 日本-1B
-  password: 5575e77b-e825-457a-bf37-220df8524199
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
   port: 26423
   server: yjjdrb.yunjijd.xyz
   skip-cert-verify: true
   sni: yjjdrb.yunjijd.xyz
   type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1W
-  password: 7c6590a6-096a-449c-b616-ea93c35dcdf6
-  port: 22800
-  server: 107.175.187.181
-  type: ss
   udp: true
 - auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
   name: 🇬🇧 英国-1A
@@ -1911,55 +950,121 @@ proxies:
   sni: nexiayg.688997.xyz
   type: hysteria2
   udp: true
+- auth: 21875152-c990-4d00-b8db-ec6131a9589e
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1H
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 21875152-c990-4d00-b8db-ec6131a9589e
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1A
+  port: 45067
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇨🇦 加拿大-1C
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26523
+  server: yjjdjnd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdjnd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 7fa07e83-b6a0-46d1-991d-f7a83671f016
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1G
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 7fa07e83-b6a0-46d1-991d-f7a83671f016
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇰🇷 韩国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1L
-  password: 97747bb2-10be-4542-aba7-a831a4f7a2c0
+  name: 🇭🇰 香港-线路1-1N
+  password: 3483f6c3-e3f3-4768-a674-84e384e234da
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇫🇷 FR-巴黎-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33426
-  server: frfr.yinheyz.cfd
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇷🇺 俄罗斯-1J
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26123
+  server: yjjdels.yunjijd.xyz
   skip-cert-verify: true
-  sni: frfr.yinheyz.cfd
+  sni: yjjdels.yunjijd.xyz
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Q
+  name: 🇮🇪 爱尔兰-都柏林-1W
+  password: a825a7d3-99fb-4856-90c6-598d60263d05
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇰🇷 韩国-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1A
+  password: c1bdfc09-40b6-4de3-853a-b29afad5bff7
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1P
   password: 2575399b-ced2-493b-8451-fdcfa1d86dc8
   port: 22800
-  server: 156.224.77.215
+  server: 107.175.187.181
   type: ss
   udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇫🇷 FR-巴黎-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33426
-  server: frfr.yinheyz.cfd
-  skip-cert-verify: true
-  sni: frfr.yinheyz.cfd
-  type: hysteria2
-  udp: true
-- auth: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  name: 🇸🇬 SG-新加坡-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 024f55ec-0879-426f-b29d-c203ac7b9e1c
-  port: 33686
-  server: sgsg.yinheyz.cfd
-  skip-cert-verify: true
-  sni: sgsg.yinheyz.cfd
-  type: hysteria2
-  udp: true
 - auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇺🇸 美国-1H
+  name: 🇺🇸 美国-1F
   password: b5156567-0eb4-47ad-9ad6-58718a6cae54
   port: 26223
   server: yjjdmg.yunjijd.xyz
@@ -1967,67 +1072,687 @@ proxies:
   sni: yjjdmg.yunjijd.xyz
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1F
-  password: c7b93052-c81a-449c-89d9-5b4d8b76ecc7
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1A
-  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
-  port: 17869
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1D
-  password: d49d89df-e620-4fc8-87d6-964ce6a7091c
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇷🇺 俄罗斯-1D
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26123
-  server: yjjdels.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdels.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  name: 🇹🇷 土耳其-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
-  port: 20957
-  server: nexiateq.688997.xyz
-  skip-cert-verify: true
-  sni: nexiateq.688997.xyz
-  type: hysteria2
-  udp: true
-- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
   name: 🇳🇱 荷兰-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
   port: 20457
   server: nexiahl.688997.xyz
   skip-cert-verify: true
   sni: nexiahl.688997.xyz
   type: hysteria2
   udp: true
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇰🇷 韩国-1L
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26723
+  server: yjjdhg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇰🇷 韩国-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26723
+  server: yjjdhg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhg.yunjijd.xyz
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1V
-  password: d039db63-b21b-4da6-8df7-302b52820553
+  name: 🇭🇰 香港-线路1-1G
+  password: 7c6590a6-096a-449c-b616-ea93c35dcdf6
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1K
+  password: 7cea3e07-526f-4427-848e-e25a20bda565
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港NO.2-1A
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1P
+  password: 2575399b-ced2-493b-8451-fdcfa1d86dc8
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1G
+  password: 7c6590a6-096a-449c-b616-ea93c35dcdf6
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
+- auth: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1C
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1M
+  password: 2889e410-d705-4041-a74f-f314d0e21058
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1H
+  password: 08d12ebc-7f5e-4bd4-9b27-0ea0aaf39ddc
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: a95aa186-929a-46a2-865f-8d4402d01d13
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: a95aa186-929a-46a2-865f-8d4402d01d13
+  port: 33079
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1B
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇷🇺 俄罗斯-1H
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20757
+  server: nexiaels.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaels.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
+  port: 33079
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 - auth: 5575e77b-e825-457a-bf37-220df8524199
-  name: 🇰🇷 韩国-1C
+  name: 🇷🇺 俄罗斯-1G
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26123
+  server: yjjdels.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdels.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇧🇷 巴西-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20857
+  server: nexiabx.688997.xyz
+  skip-cert-verify: true
+  sni: nexiabx.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1L
+  password: 97c04590-154a-41e1-b52a-5cfc7acdc865
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 17869
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1x
+  password: 20d8011d-f08d-4f6d-b7e4-21097bdd1d6c
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港2-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 15815
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇯🇵 日本-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 美国1-1C
+  network: ws
+  port: 8080
+  server: cloudflare.182682.xyz
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5a4a9db7-12a3-424c-b5cf-127d3ad7ae33
+  ws-opts:
+    headers:
+      Host: US1.naichachong.top
+    path: /zip
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇺🇸 美国-1I
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20157
+  server: nexiamg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiamg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇯🇵 日本-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26423
+  server: yjjdrb.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdrb.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1R
+  password: 8136654c-26b1-4e0a-84ba-448ce64897a7
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1S
+  password: cec41873-2ff7-4fc2-ae97-897439c81471
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国1-1A
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO1-1A
+  port: 45060
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇺🇸 美国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20157
+  server: nexiamg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiamg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇮🇸 冰岛-1E
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdbd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇰🇷 韩国-1J
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇳🇱 荷兰-1J
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhl.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1S
+  password: cec41873-2ff7-4fc2-ae97-897439c81471
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇮🇸 冰岛-1D
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26623
+  server: yjjdbd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdbd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇧🇷 巴西-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20857
+  server: nexiabx.688997.xyz
+  skip-cert-verify: true
+  sni: nexiabx.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇬🇧 英国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20657
+  server: nexiayg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiayg.688997.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2-1B
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- cipher: aes-256-gcm
+  name: 🇺🇸 美国1-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 29760
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇧🇷 巴西-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20857
+  server: nexiabx.688997.xyz
+  skip-cert-verify: true
+  sni: nexiabx.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1E
+  password: c2432e2a-5dea-497d-bbac-517d5be6896d
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇭🇰 香港-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdxg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1C
+  password: 2e899c2c-4770-4d46-9642-ce3d64a692bb
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1Q
+  password: 466dd6a4-93d8-4faf-a48d-6b7b8bae7890
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡2-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: a95aa186-929a-46a2-865f-8d4402d01d13
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1A
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: a95aa186-929a-46a2-865f-8d4402d01d13
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1B
+  password: a34bd167-89a7-416d-a0e7-00e4f77fe301
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本2-1B
+  password: b757e72a-3feb-4573-8c2e-bd868438b610
+  port: 39030
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇯🇵 日本-1J
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26423
+  server: yjjdrb.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdrb.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇷🇺 俄罗斯-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20757
+  server: nexiaels.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaels.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1D
+  password: 00c423b0-3247-4390-b0da-af8aa22ce099
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1C
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 73f3cae3-e6cb-48d4-be4a-a5acf2db8801
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1B
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇩🇪 德国-1H
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1L
+  password: 97c04590-154a-41e1-b52a-5cfc7acdc865
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇰🇷 韩国-1K
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港-1J
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1I
+  password: c98d986c-8ed2-4340-bc5e-a011a3c62df7
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1H
+  password: 08d12ebc-7f5e-4bd4-9b27-0ea0aaf39ddc
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1F
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 1a84013a-1873-4f1e-8111-8d0c4b0d4fd9
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度2-1B
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- auth: 66f6f768-5829-4675-8a52-37120525ab5b
+  name: 🇯🇵 日本-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1A
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3ab55d34-32ba-4107-951f-87cf454392df
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇯🇵 日本-1H
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20257
+  server: nexiarb.688997.xyz
+  skip-cert-verify: true
+  sni: nexiarb.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇨🇦 加拿大-1D
+  password: 5575e77b-e825-457a-bf37-220df8524199
+  port: 26523
+  server: yjjdjnd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdjnd.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1I
+  password: c98d986c-8ed2-4340-bc5e-a011a3c62df7
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港2-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 15815
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1B
+  password: a34bd167-89a7-416d-a0e7-00e4f77fe301
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港2-1A
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 15815
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  name: 🇭🇰 香港-1B
+  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdxg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港-1D
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 32975
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1Q
+  password: 466dd6a4-93d8-4faf-a48d-6b7b8bae7890
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵 日本2-1A
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 39030
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡2-1A
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇷🇺 俄罗斯-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20757
+  server: nexiaels.688997.xyz
+  skip-cert-verify: true
+  sni: nexiaels.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+  port: 33079
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 5575e77b-e825-457a-bf37-220df8524199
+  name: 🇰🇷 韩国-1H
   password: 5575e77b-e825-457a-bf37-220df8524199
   port: 26723
   server: yjjdhg.yunjijd.xyz
@@ -2035,30 +1760,94 @@ proxies:
   sni: yjjdhg.yunjijd.xyz
   type: hysteria2
   udp: true
-- auth: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  name: 🇮🇸 冰岛-1B
-  password: 2c700024-d0bf-46b0-b1f5-bc93c99f5391
-  port: 26623
-  server: yjjdbd.yunjijd.xyz
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO2-1B
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 84edecb2-148c-4907-bdfc-6b5c6a41f858
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇹🇷 土耳其-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20957
+  server: nexiateq.688997.xyz
   skip-cert-verify: true
-  sni: yjjdbd.yunjijd.xyz
+  sni: nexiateq.688997.xyz
   type: hysteria2
   udp: true
-- auth: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
+- auth: a95aa186-929a-46a2-865f-8d4402d01d13
   down: 100
-  name: 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  name: 🇺🇸 美国-纽约-HY-001-1A
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: b4a7082d-abf1-42eb-97e3-4b48ff6a2061
-  port: 33079
+  password: a95aa186-929a-46a2-865f-8d4402d01d13
+  port: 31008
   server: 45.136.245.177
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 100
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1F
-  password: c7b93052-c81a-449c-89d9-5b4d8b76ecc7
+  name: 🇮🇪 爱尔兰-都柏林-1R
+  password: 8136654c-26b1-4e0a-84ba-448ce64897a7
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1M
+  password: 2889e410-d705-4041-a74f-f314d0e21058
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  name: 🇬🇧 英国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3f5bd020-9d94-44ea-ab54-bbb14b8458da
+  port: 20657
+  server: nexiayg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiayg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1I
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: f486c9bd-1d0b-45af-ad5f-862d4ca1436c
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1O
+  password: 3efd4d54-cd7c-4b82-a4a5-42895c8dc662
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  name: 🇳🇱 荷兰-1A
+  password: 4df35ceb-3387-418e-bdad-c7eaadd76bda
+  port: 26923
+  server: yjjdhl.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdhl.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1E
+  password: c2432e2a-5dea-497d-bbac-517d5be6896d
   port: 22800
   server: 107.175.187.181
   type: ss
@@ -2070,69 +1859,203 @@ proxies:
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇨🇦 加拿大-1E
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26523
+  server: yjjdjnd.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdjnd.yunjijd.xyz
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1V
-  password: d039db63-b21b-4da6-8df7-302b52820553
+  name: 🇮🇪 爱尔兰-都柏林-1F
+  password: b1895c9a-0206-438c-a59f-eebc24156e4c
   port: 22800
-  server: 156.224.77.215
+  server: 107.175.187.181
   type: ss
   udp: true
-- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  name: 🇮🇸 冰岛-1D
-  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
-  port: 26623
-  server: yjjdbd.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdbd.yunjijd.xyz
-  type: hysteria2
+- cipher: aes-256-gcm
+  name: 🇰🇷 韩国-1C
+  password: 6b73b384-565b-4bd5-8d1f-97c94f018c2f
+  port: 30967
+  server: ddns.kuaiyun1.cn
+  type: ss
   udp: true
-- auth: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  name: 🇺🇸 US-纽约-1B
+- auth: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  name: 🇹🇷 土耳其-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: decc9450-3f22-4e10-adf8-9ccb3a176ef4
-  port: 33856
-  server: usus.yinheyz.cfd
+  password: 356b1d71-085b-4aab-9060-ccaddb3feecd
+  port: 20957
+  server: nexiateq.688997.xyz
   skip-cert-verify: true
-  sni: usus.yinheyz.cfd
+  sni: nexiateq.688997.xyz
   type: hysteria2
   udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇩🇪 德国-1G
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26823
-  server: yjjddg.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjddg.yunjijd.xyz
-  type: hysteria2
-  udp: true
-- auth: 66f6f768-5829-4675-8a52-37120525ab5b
-  name: 🇳🇱 荷兰-1F
+- auth: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  name: 🇹🇷 土耳其-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 66f6f768-5829-4675-8a52-37120525ab5b
+  password: a42ddf1e-3d72-4675-a590-5ffaf4066873
+  port: 20957
+  server: nexiateq.688997.xyz
+  skip-cert-verify: true
+  sni: nexiateq.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇩🇪 德国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20557
+  server: nexiadg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiadg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇳🇱 荷兰-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
   port: 20457
   server: nexiahl.688997.xyz
   skip-cert-verify: true
   sni: nexiahl.688997.xyz
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1P
-  password: 051726ed-ad2c-4876-8d2c-ba57893f9d0b
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  name: 🇷🇺 俄罗斯-1G
-  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
-  port: 26123
-  server: yjjdels.yunjijd.xyz
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇭🇰 香港-1E
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26323
+  server: yjjdxg.yunjijd.xyz
   skip-cert-verify: true
-  sni: yjjdels.yunjijd.xyz
+  sni: yjjdxg.yunjijd.xyz
   type: hysteria2
   udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港-1I
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 32975
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇹🇭 泰国-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 48494
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇧🇷 巴西-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20857
+  server: nexiabx.688997.xyz
+  skip-cert-verify: true
+  sni: nexiabx.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  name: 🇯🇵 日本-1F
+  password: b5156567-0eb4-47ad-9ad6-58718a6cae54
+  port: 26423
+  server: yjjdrb.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdrb.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  name: 🇰🇷 韩国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: ee740382-e33d-4ea7-a53e-7f15963fdda3
+  port: 20357
+  server: nexiahg.688997.xyz
+  skip-cert-verify: true
+  sni: nexiahg.688997.xyz
+  type: hysteria2
+  udp: true
+- auth: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1D
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 0f6b3e6e-7d54-4e8d-b849-699eee7198a2
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  name: 🇺🇸 美国-1J
+  password: 5c15c507-94c0-42bf-a5ba-5d053f910f85
+  port: 26223
+  server: yjjdmg.yunjijd.xyz
+  skip-cert-verify: true
+  sni: yjjdmg.yunjijd.xyz
+  type: hysteria2
+  udp: true
+- auth: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  port: 33079
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
+  down: 100
+  name: 🇺🇸 美国-纽约-HY-001-1B
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 99cc3fe3-a112-4202-9e87-6fc420f1c4f8
+  port: 31008
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡2-1C
+  password: 5b4efb7c-ea97-4535-ad8b-72d0c840a64f
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- auth: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: 545bfeb5-d870-4313-a698-2f6a8cd11ff6
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
+- auth: 21875152-c990-4d00-b8db-ec6131a9589e
+  down: 100
+  name: 🇺🇸 美国-拉斯维加斯-HY-003-1H
+  obfs: salamander
+  obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==
+  password: 21875152-c990-4d00-b8db-ec6131a9589e
+  port: 80
+  server: 45.136.245.177
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 100
 proxy-groups:
 - name: 节点选择
   proxies:
@@ -2145,231 +2068,228 @@ proxy-groups:
   interval: 300
   name: 自动选择
   proxies:
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇺🇸 美国-纽约-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇩🇪 德国-1B
-  - 🇭🇰 香港-1H
-  - 🇭🇰 香港-线路1-1T
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇩🇪 德国-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇨🇦 加拿大2-1A
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇳🇱 NL-阿姆斯特丹-1A
-  - 🇭🇰 香港-线路1-1R
-  - 🇨🇦 加拿大-1A
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-1J
-  - 🇺🇸 美国-拉斯维加斯-003-1A
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港NO.2-1B
-  - 🇨🇦 加拿大-1D
-  - 🇭🇰 香港-线路1-1G
-  - 🇰🇷 韩国2
-  - 🇷🇺 俄罗斯-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
-  - 🇭🇰 香港-线路1-1N
-  - 🇯🇵 日本-1F
-  - 🇬🇧 GB-伦敦-1A
+  - 🇰🇷 韩国-1G
   - 🇺🇸 美国-拉斯维加斯-HY-002-1G
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国-1I
-  - 🇨🇦 加拿大-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1G
+  - 🇮🇸 冰岛-1C
   - 🇺🇸 美国-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇹🇭 泰国-1A
+  - 🇮🇳 印度1-1B
+  - 🇷🇺 俄罗斯-1I
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-1F
+  - 🇷🇺 俄罗斯-1C
+  - 🇺🇸 美国-1H
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇰🇷 韩国-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇩🇪 德国-1A
   - 🇯🇵 日本-1I
+  - 🇯🇵 日本-1D
+  - 🇬🇧 英国-1C
+  - 🇩🇪 德国-1G
+  - 🇩🇪 德国-1D
+  - 🇭🇰 香港-线路1-1O
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇧🇷 巴西-1D
+  - 🇬🇧 英国-1B
+  - 🇺🇸 美国-拉斯维加斯-003-1H
+  - 🇭🇰 香港-线路1-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
   - 🇷🇺 俄罗斯-1B
-  - 🇭🇰 香港-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇷🇺 俄罗斯-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇰🇷 韩国-1M
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇰🇷 韩国2
+  - 🇳🇱 荷兰-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇷🇺 俄罗斯-1F
+  - 🇭🇰 香港-线路1-1W
+  - 🇩🇪 德国-1F
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇷 土耳其-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国1-1D
+  - 🇺🇸 美国-1A
+  - 🇹🇭 泰国-1B
+  - 🇺🇸 美国-纽约-001-1A
+  - 🇨🇦 加拿大1-1A
+  - 🇸🇬 新加坡-1A
+  - 🇬🇧 英国1-1A
+  - 🇨🇦 加拿大-1A
+  - 🇳🇱 荷兰-1G
+  - 🇭🇰 香港-线路1-1x
+  - 🇩🇪 德国-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1E
+  - 🇳🇱 荷兰-1B
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1V
+  - 🇩🇪 德国-1I
+  - 🇩🇪 德国-1B
+  - 🇭🇰 香港-线路1-1T
+  - 🇺🇸 美国-1B
+  - 🇹🇼 台湾2-1A
+  - 🇮🇸 冰岛-1B
+  - 🇰🇷 韩国-1I
+  - 🇳🇱 荷兰-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇮🇩 印度尼西亚-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
+  - 🇳🇱 荷兰-1D
+  - 🇯🇵 日本2-1C
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇮🇩 印度尼西亚-1C
+  - 🇭🇰 香港-1H
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇸 冰岛-1A
+  - 🇭🇰 香港-1G
+  - 🇹🇭 泰国NO2-1A
+  - 🇸🇬 新加坡-1B
+  - 🇹🇷 土耳其-1C
+  - 🇳🇱 荷兰-1H
+  - 🇭🇰 香港-线路1-1J
+  - 🇯🇵 日本-1B
+  - 🇬🇧 英国-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 🇬🇧 英国2-1A
+  - 🇨🇦 加拿大-1C
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇰🇷 韩国-1E
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇭🇰 香港-线路1-1N
+  - 🇷🇺 俄罗斯-1J
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1A
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇺🇸 美国-1F
+  - 🇳🇱 荷兰-1E
+  - 🇰🇷 韩国-1L
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1K
+  - 🇭🇰 香港NO.2-1A
+  - 🇭🇰 香港-线路1-1P
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇭🇰 香港-线路1-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
+  - 🇷🇺 俄罗斯-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇷🇺 俄罗斯-1G
+  - 🇧🇷 巴西-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇸🇬 新加坡-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇭🇰 香港2-1B
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国1-1C
+  - 🇺🇸 美国-1I
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1R
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇫🇷 法国1-1A
+  - 🇹🇭 泰国NO1-1A
+  - 🇺🇸 美国-1E
+  - 🇮🇸 冰岛-1E
+  - 🇰🇷 韩国-1J
+  - 🇳🇱 荷兰-1J
+  - 🇭🇰 香港-线路1-1S
+  - 🇮🇸 冰岛-1D
+  - 🇧🇷 巴西-1B
+  - 🇬🇧 英国-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇺🇸 美国1-1B
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-1A
   - 🇮🇪 爱尔兰-都柏林-1C
   - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇯🇵 日本NO.2-1B
-  - 🇰🇷 韩国-1K
-  - 🇫🇷 法国1-1B
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇭🇰 香港-1G
-  - 🇩🇪 德国-1E
-  - 🇹🇼 台湾2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SG-新加坡-1B
-  - 🇺🇸 美国NO.2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1H
-  - 🇯🇵 日本-1G
-  - 🇮🇸 冰岛-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
-  - 🇹🇼 台湾1-1B
-  - 🇭🇰 香港-线路1-1W
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇨🇦 CA-多伦多-1A
-  - 🇳🇱 荷兰-1B
-  - 🇹🇷 土耳其-1D
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇭🇰 香港-1D
-  - 🇬🇧 英国2-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 香港2-1A
-  - 🇷🇺 俄罗斯-1E
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇮🇳 印度2-1A
-  - 🇧🇷 巴西-1C
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇯🇵 日本2-1A
-  - 🇳🇱 荷兰-1G
-  - 🇰🇷 韩国-1I
-  - 🇩🇪 德国-1J
-  - 🇹🇷 土耳其-1B
-  - 🇳🇱 荷兰-1J
-  - 🇩🇪 德国-1I
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇧🇷 巴西-1A
-  - 🇺🇸 美国1-1C
-  - 🇳🇱 荷兰-1D
-  - 🇲🇾 马来西亚专线NO2-1B
-  - 🇯🇵 日本NO.1-1A
-  - 🇩🇪 德国-1F
-  - 🇰🇷 韩国-1E
-  - 🇹🇭 泰国-1B
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇨🇦 加拿大-1B
-  - 🇮🇳 IN-班加罗尔-1B
-  - 🇮🇳 IN-班加罗尔-1A
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇰🇷 韩国-1J
-  - 🇩🇪 德国-1A
-  - 🇧🇷 巴西-1E
-  - 🇭🇰 香港-线路1-1S
-  - 🇹🇭 泰国-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇭 泰国NO2-1B
-  - 🇹🇷 土耳其-1C
-  - 🇮🇸 冰岛-1C
-  - 🇳🇱 NL-阿姆斯特丹-1B
-  - 🇧🇷 巴西-1B
-  - 🇺🇸 美国1-1B
-  - 🇯🇵 日本-1H
-  - 🇹🇭 泰国NO1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇯🇵 日本2-1B
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1B
-  - 🇷🇺 俄罗斯-1H
-  - 🇬🇧 GB-伦敦-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-1E
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇨🇦 加拿大-1C
-  - 🇰🇷 韩国-1A
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇷 土耳其-1E
-  - 🇯🇵 日本-1D
-  - 🇬🇧 英国-1B
-  - 🇭🇰 香港-线路1-1I
-  - 🇷🇺 俄罗斯-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
-  - 🇨🇦 加拿大1-1B
-  - 🇯🇵 日本-1J
-  - 🇬🇧 英国-1D
-  - 🇳🇱 荷兰-1I
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇧🇷 巴西-1D
-  - 🇺🇸 美国-1A
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1L
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1C
-  - 🇷🇺 俄罗斯-1F
-  - 🇭🇰 香港-线路1-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
-  - 🇮🇩 印度尼西亚-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇸 冰岛-1E
-  - 🇲🇾 马来西亚专线NO1-1B
   - 🇸🇬 新加坡2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韩国-1H
-  - 🇬🇧 英国-1E
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1G
-  - 🇺🇸 美国-1C
-  - 🇭🇰 香港-线路1-1O
-  - 🇯🇵 日本-1A
-  - 🇺🇸 美国-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
-  - 🇭🇰 香港-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 US-纽约-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
-  - 🇩🇪 德国-1D
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇳🇱 荷兰-1H
-  - 🇰🇷 韩国-1F
-  - 🇭🇰 香港-1A
-  - 🇮🇳 印度1-1B
-  - 🇰🇷 韩国-1D
-  - 🇨🇦 CA-多伦多-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1U
-  - 🇬🇧 英国-1C
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港-线路1-1A
-  - 🇯🇵 日本-1E
-  - 🇷🇺 俄罗斯-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇰🇷 韩国-1B
-  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
   - 🇭🇰 香港-线路1-1B
-  - 🇭🇰 香港-线路1-1J
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇸🇬 新加坡-1B
-  - 🇷🇺 俄罗斯-1I
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇬🇧 英国-1A
-  - 🇭🇰 香港-线路1-1L
-  - 🇫🇷 FR-巴黎-1A
+  - 🇯🇵 日本2-1B
+  - 🇯🇵 日本-1J
+  - 🇷🇺 俄罗斯-1E
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇯🇵 日本NO.2-1B
+  - 🇩🇪 德国-1H
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇰🇷 韩国-1K
+  - 🇭🇰 香港-1J
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇯🇵 日本-1H
+  - 🇨🇦 加拿大-1D
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港2-1C
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港2-1A
+  - 🇭🇰 香港-1B
+  - 🇭🇰 香港-1D
   - 🇭🇰 香港-线路1-1Q
-  - 🇫🇷 FR-巴黎-1B
-  - 🇸🇬 SG-新加坡-1A
-  - 🇺🇸 美国-1H
-  - 🇭🇰 香港-线路1-1F
-  - 🇸🇬 新加坡-1A
-  - 🇭🇰 香港-线路1-1D
+  - 🇯🇵 日本2-1A
+  - 🇸🇬 新加坡2-1A
   - 🇷🇺 俄罗斯-1D
-  - 🇹🇷 土耳其-1A
-  - 🇳🇱 荷兰-1E
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇰🇷 韩国-1C
-  - 🇮🇸 冰岛-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇰🇷 韩国-1H
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇭🇰 香港-线路1-1M
+  - 🇬🇧 英国-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇳🇱 荷兰-1A
+  - 🇮🇪 爱尔兰-都柏林-1E
   - 🇺🇸 美国1-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇮🇸 冰岛-1D
-  - 🇺🇸 US-纽约-1B
-  - 🇩🇪 德国-1G
-  - 🇳🇱 荷兰-1F
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇷🇺 俄罗斯-1G
+  - 🇨🇦 加拿大-1E
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国-1C
+  - 🇹🇷 土耳其-1D
+  - 🇹🇷 土耳其-1B
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1C
+  - 🇭🇰 香港-1E
+  - 🇭🇰 香港-1I
+  - 🇹🇭 泰国-1C
+  - 🇧🇷 巴西-1A
+  - 🇯🇵 日本-1F
+  - 🇰🇷 韩国-1D
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇺🇸 美国-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇸🇬 新加坡2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
   tolerance: 50
   type: url-test
   url: http://www.pinterest.com
@@ -2377,460 +2297,454 @@ proxy-groups:
   interval: 300
   name: 故障转移
   proxies:
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇺🇸 美国-纽约-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇩🇪 德国-1B
-  - 🇭🇰 香港-1H
-  - 🇭🇰 香港-线路1-1T
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇩🇪 德国-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇨🇦 加拿大2-1A
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇳🇱 NL-阿姆斯特丹-1A
-  - 🇭🇰 香港-线路1-1R
-  - 🇨🇦 加拿大-1A
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-1J
-  - 🇺🇸 美国-拉斯维加斯-003-1A
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港NO.2-1B
-  - 🇨🇦 加拿大-1D
-  - 🇭🇰 香港-线路1-1G
-  - 🇰🇷 韩国2
-  - 🇷🇺 俄罗斯-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
-  - 🇭🇰 香港-线路1-1N
-  - 🇯🇵 日本-1F
-  - 🇬🇧 GB-伦敦-1A
+  - 🇰🇷 韩国-1G
   - 🇺🇸 美国-拉斯维加斯-HY-002-1G
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国-1I
-  - 🇨🇦 加拿大-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1G
+  - 🇮🇸 冰岛-1C
   - 🇺🇸 美国-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇹🇭 泰国-1A
+  - 🇮🇳 印度1-1B
+  - 🇷🇺 俄罗斯-1I
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-1F
+  - 🇷🇺 俄罗斯-1C
+  - 🇺🇸 美国-1H
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇰🇷 韩国-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇩🇪 德国-1A
   - 🇯🇵 日本-1I
+  - 🇯🇵 日本-1D
+  - 🇬🇧 英国-1C
+  - 🇩🇪 德国-1G
+  - 🇩🇪 德国-1D
+  - 🇭🇰 香港-线路1-1O
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇧🇷 巴西-1D
+  - 🇬🇧 英国-1B
+  - 🇺🇸 美国-拉斯维加斯-003-1H
+  - 🇭🇰 香港-线路1-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
   - 🇷🇺 俄罗斯-1B
-  - 🇭🇰 香港-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇷🇺 俄罗斯-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇰🇷 韩国-1M
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇰🇷 韩国2
+  - 🇳🇱 荷兰-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇷🇺 俄罗斯-1F
+  - 🇭🇰 香港-线路1-1W
+  - 🇩🇪 德国-1F
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇷 土耳其-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国1-1D
+  - 🇺🇸 美国-1A
+  - 🇹🇭 泰国-1B
+  - 🇺🇸 美国-纽约-001-1A
+  - 🇨🇦 加拿大1-1A
+  - 🇸🇬 新加坡-1A
+  - 🇬🇧 英国1-1A
+  - 🇨🇦 加拿大-1A
+  - 🇳🇱 荷兰-1G
+  - 🇭🇰 香港-线路1-1x
+  - 🇩🇪 德国-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1E
+  - 🇳🇱 荷兰-1B
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1V
+  - 🇩🇪 德国-1I
+  - 🇩🇪 德国-1B
+  - 🇭🇰 香港-线路1-1T
+  - 🇺🇸 美国-1B
+  - 🇹🇼 台湾2-1A
+  - 🇮🇸 冰岛-1B
+  - 🇰🇷 韩国-1I
+  - 🇳🇱 荷兰-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇮🇩 印度尼西亚-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
+  - 🇳🇱 荷兰-1D
+  - 🇯🇵 日本2-1C
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇮🇩 印度尼西亚-1C
+  - 🇭🇰 香港-1H
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇸 冰岛-1A
+  - 🇭🇰 香港-1G
+  - 🇹🇭 泰国NO2-1A
+  - 🇸🇬 新加坡-1B
+  - 🇹🇷 土耳其-1C
+  - 🇳🇱 荷兰-1H
+  - 🇭🇰 香港-线路1-1J
+  - 🇯🇵 日本-1B
+  - 🇬🇧 英国-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 🇬🇧 英国2-1A
+  - 🇨🇦 加拿大-1C
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇰🇷 韩国-1E
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇭🇰 香港-线路1-1N
+  - 🇷🇺 俄罗斯-1J
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1A
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇺🇸 美国-1F
+  - 🇳🇱 荷兰-1E
+  - 🇰🇷 韩国-1L
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1K
+  - 🇭🇰 香港NO.2-1A
+  - 🇭🇰 香港-线路1-1P
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇭🇰 香港-线路1-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
+  - 🇷🇺 俄罗斯-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇷🇺 俄罗斯-1G
+  - 🇧🇷 巴西-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇸🇬 新加坡-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇭🇰 香港2-1B
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国1-1C
+  - 🇺🇸 美国-1I
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1R
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇫🇷 法国1-1A
+  - 🇹🇭 泰国NO1-1A
+  - 🇺🇸 美国-1E
+  - 🇮🇸 冰岛-1E
+  - 🇰🇷 韩国-1J
+  - 🇳🇱 荷兰-1J
+  - 🇭🇰 香港-线路1-1S
+  - 🇮🇸 冰岛-1D
+  - 🇧🇷 巴西-1B
+  - 🇬🇧 英国-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇺🇸 美国1-1B
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-1A
   - 🇮🇪 爱尔兰-都柏林-1C
   - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇯🇵 日本NO.2-1B
-  - 🇰🇷 韩国-1K
-  - 🇫🇷 法国1-1B
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇭🇰 香港-1G
-  - 🇩🇪 德国-1E
-  - 🇹🇼 台湾2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SG-新加坡-1B
-  - 🇺🇸 美国NO.2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1H
-  - 🇯🇵 日本-1G
-  - 🇮🇸 冰岛-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
-  - 🇹🇼 台湾1-1B
-  - 🇭🇰 香港-线路1-1W
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇨🇦 CA-多伦多-1A
-  - 🇳🇱 荷兰-1B
-  - 🇹🇷 土耳其-1D
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇭🇰 香港-1D
-  - 🇬🇧 英国2-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 香港2-1A
-  - 🇷🇺 俄罗斯-1E
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇮🇳 印度2-1A
-  - 🇧🇷 巴西-1C
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇯🇵 日本2-1A
-  - 🇳🇱 荷兰-1G
-  - 🇰🇷 韩国-1I
-  - 🇩🇪 德国-1J
-  - 🇹🇷 土耳其-1B
-  - 🇳🇱 荷兰-1J
-  - 🇩🇪 德国-1I
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇧🇷 巴西-1A
-  - 🇺🇸 美国1-1C
-  - 🇳🇱 荷兰-1D
-  - 🇲🇾 马来西亚专线NO2-1B
-  - 🇯🇵 日本NO.1-1A
-  - 🇩🇪 德国-1F
-  - 🇰🇷 韩国-1E
-  - 🇹🇭 泰国-1B
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇨🇦 加拿大-1B
-  - 🇮🇳 IN-班加罗尔-1B
-  - 🇮🇳 IN-班加罗尔-1A
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇰🇷 韩国-1J
-  - 🇩🇪 德国-1A
-  - 🇧🇷 巴西-1E
-  - 🇭🇰 香港-线路1-1S
-  - 🇹🇭 泰国-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇭 泰国NO2-1B
-  - 🇹🇷 土耳其-1C
-  - 🇮🇸 冰岛-1C
-  - 🇳🇱 NL-阿姆斯特丹-1B
-  - 🇧🇷 巴西-1B
-  - 🇺🇸 美国1-1B
-  - 🇯🇵 日本-1H
-  - 🇹🇭 泰国NO1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇯🇵 日本2-1B
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1B
-  - 🇷🇺 俄罗斯-1H
-  - 🇬🇧 GB-伦敦-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-1E
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇨🇦 加拿大-1C
-  - 🇰🇷 韩国-1A
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇷 土耳其-1E
-  - 🇯🇵 日本-1D
-  - 🇬🇧 英国-1B
-  - 🇭🇰 香港-线路1-1I
-  - 🇷🇺 俄罗斯-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
-  - 🇨🇦 加拿大1-1B
-  - 🇯🇵 日本-1J
-  - 🇬🇧 英国-1D
-  - 🇳🇱 荷兰-1I
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇧🇷 巴西-1D
-  - 🇺🇸 美国-1A
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1L
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1C
-  - 🇷🇺 俄罗斯-1F
-  - 🇭🇰 香港-线路1-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
-  - 🇮🇩 印度尼西亚-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇸 冰岛-1E
-  - 🇲🇾 马来西亚专线NO1-1B
   - 🇸🇬 新加坡2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韩国-1H
-  - 🇬🇧 英国-1E
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1G
-  - 🇺🇸 美国-1C
-  - 🇭🇰 香港-线路1-1O
-  - 🇯🇵 日本-1A
-  - 🇺🇸 美国-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
-  - 🇭🇰 香港-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 US-纽约-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
-  - 🇩🇪 德国-1D
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇳🇱 荷兰-1H
-  - 🇰🇷 韩国-1F
-  - 🇭🇰 香港-1A
-  - 🇮🇳 印度1-1B
-  - 🇰🇷 韩国-1D
-  - 🇨🇦 CA-多伦多-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1U
-  - 🇬🇧 英国-1C
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港-线路1-1A
-  - 🇯🇵 日本-1E
-  - 🇷🇺 俄罗斯-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇰🇷 韩国-1B
-  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
   - 🇭🇰 香港-线路1-1B
-  - 🇭🇰 香港-线路1-1J
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇸🇬 新加坡-1B
-  - 🇷🇺 俄罗斯-1I
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇬🇧 英国-1A
-  - 🇭🇰 香港-线路1-1L
-  - 🇫🇷 FR-巴黎-1A
+  - 🇯🇵 日本2-1B
+  - 🇯🇵 日本-1J
+  - 🇷🇺 俄罗斯-1E
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇯🇵 日本NO.2-1B
+  - 🇩🇪 德国-1H
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇰🇷 韩国-1K
+  - 🇭🇰 香港-1J
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇯🇵 日本-1H
+  - 🇨🇦 加拿大-1D
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港2-1C
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港2-1A
+  - 🇭🇰 香港-1B
+  - 🇭🇰 香港-1D
   - 🇭🇰 香港-线路1-1Q
-  - 🇫🇷 FR-巴黎-1B
-  - 🇸🇬 SG-新加坡-1A
-  - 🇺🇸 美国-1H
-  - 🇭🇰 香港-线路1-1F
-  - 🇸🇬 新加坡-1A
-  - 🇭🇰 香港-线路1-1D
+  - 🇯🇵 日本2-1A
+  - 🇸🇬 新加坡2-1A
   - 🇷🇺 俄罗斯-1D
-  - 🇹🇷 土耳其-1A
-  - 🇳🇱 荷兰-1E
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇰🇷 韩国-1C
-  - 🇮🇸 冰岛-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇰🇷 韩国-1H
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇭🇰 香港-线路1-1M
+  - 🇬🇧 英国-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇳🇱 荷兰-1A
+  - 🇮🇪 爱尔兰-都柏林-1E
   - 🇺🇸 美国1-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇮🇸 冰岛-1D
-  - 🇺🇸 US-纽约-1B
-  - 🇩🇪 德国-1G
-  - 🇳🇱 荷兰-1F
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇷🇺 俄罗斯-1G
+  - 🇨🇦 加拿大-1E
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国-1C
+  - 🇹🇷 土耳其-1D
+  - 🇹🇷 土耳其-1B
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1C
+  - 🇭🇰 香港-1E
+  - 🇭🇰 香港-1I
+  - 🇹🇭 泰国-1C
+  - 🇧🇷 巴西-1A
+  - 🇯🇵 日本-1F
+  - 🇰🇷 韩国-1D
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇺🇸 美国-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇸🇬 新加坡2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
   type: fallback
   url: http://www.gstatic.com/generate_204
 - name: 手动选择
   proxies:
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇺🇸 美国-纽约-001-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
-  - 🇩🇪 德国-1B
-  - 🇭🇰 香港-1H
-  - 🇭🇰 香港-线路1-1T
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
-  - 🇩🇪 德国-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇨🇦 加拿大2-1A
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇳🇱 NL-阿姆斯特丹-1A
-  - 🇭🇰 香港-线路1-1R
-  - 🇨🇦 加拿大-1A
-  - 🇺🇸 美国-纽约-HY-001-1G
-  - 🇺🇸 美国-1J
-  - 🇺🇸 美国-拉斯维加斯-003-1A
-  - 🇺🇸 美国-纽约-HY-001-1I
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港NO.2-1B
-  - 🇨🇦 加拿大-1D
-  - 🇭🇰 香港-线路1-1G
-  - 🇰🇷 韩国2
-  - 🇷🇺 俄罗斯-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
-  - 🇭🇰 香港-线路1-1N
-  - 🇯🇵 日本-1F
-  - 🇬🇧 GB-伦敦-1A
+  - 🇰🇷 韩国-1G
   - 🇺🇸 美国-拉斯维加斯-HY-002-1G
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国-1I
-  - 🇨🇦 加拿大-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1G
+  - 🇮🇸 冰岛-1C
   - 🇺🇸 美国-1G
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇹🇭 泰国-1A
+  - 🇮🇳 印度1-1B
+  - 🇷🇺 俄罗斯-1I
+  - 🇺🇸 美国-纽约-HY-001-1I
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-1F
+  - 🇷🇺 俄罗斯-1C
+  - 🇺🇸 美国-1H
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇨🇦 加拿大2-1A
+  - 🇹🇼 台湾1-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇰🇷 韩国-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇩🇪 德国-1A
   - 🇯🇵 日本-1I
+  - 🇯🇵 日本-1D
+  - 🇬🇧 英国-1C
+  - 🇩🇪 德国-1G
+  - 🇩🇪 德国-1D
+  - 🇭🇰 香港-线路1-1O
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
+  - 🇧🇷 巴西-1D
+  - 🇬🇧 英国-1B
+  - 🇺🇸 美国-拉斯维加斯-003-1H
+  - 🇭🇰 香港-线路1-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
   - 🇷🇺 俄罗斯-1B
-  - 🇭🇰 香港-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
+  - 🇷🇺 俄罗斯-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇰🇷 韩国-1M
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇰🇷 韩国2
+  - 🇳🇱 荷兰-1I
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大-1B
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
+  - 🇷🇺 俄罗斯-1F
+  - 🇭🇰 香港-线路1-1W
+  - 🇩🇪 德国-1F
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇷 土耳其-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇺🇸 美国-1C
+  - 🇺🇸 美国1-1D
+  - 🇺🇸 美国-1A
+  - 🇹🇭 泰国-1B
+  - 🇺🇸 美国-纽约-001-1A
+  - 🇨🇦 加拿大1-1A
+  - 🇸🇬 新加坡-1A
+  - 🇬🇧 英国1-1A
+  - 🇨🇦 加拿大-1A
+  - 🇳🇱 荷兰-1G
+  - 🇭🇰 香港-线路1-1x
+  - 🇩🇪 德国-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1E
+  - 🇳🇱 荷兰-1B
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1V
+  - 🇩🇪 德国-1I
+  - 🇩🇪 德国-1B
+  - 🇭🇰 香港-线路1-1T
+  - 🇺🇸 美国-1B
+  - 🇹🇼 台湾2-1A
+  - 🇮🇸 冰岛-1B
+  - 🇰🇷 韩国-1I
+  - 🇳🇱 荷兰-1F
+  - 🇺🇸 美国NO.1-1A
+  - 🇰🇷 韩国 专线NO1-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇮🇩 印度尼西亚-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
+  - 🇳🇱 荷兰-1D
+  - 🇯🇵 日本2-1C
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
+  - 🇮🇩 印度尼西亚-1C
+  - 🇭🇰 香港-1H
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇸 冰岛-1A
+  - 🇭🇰 香港-1G
+  - 🇹🇭 泰国NO2-1A
+  - 🇸🇬 新加坡-1B
+  - 🇹🇷 土耳其-1C
+  - 🇳🇱 荷兰-1H
+  - 🇭🇰 香港-线路1-1J
+  - 🇯🇵 日本-1B
+  - 🇬🇧 英国-1A
+  - 🇺🇸 美国-纽约-HY-001-1H
+  - 🇬🇧 英国2-1A
+  - 🇨🇦 加拿大-1C
+  - 🇺🇸 美国-纽约-HY-001-1G
+  - 🇰🇷 韩国-1E
+  - 🇺🇸 美国-纽约-HY-001-1E
+  - 🇭🇰 香港-线路1-1N
+  - 🇷🇺 俄罗斯-1J
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1A
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇺🇸 美国-1F
+  - 🇳🇱 荷兰-1E
+  - 🇰🇷 韩国-1L
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1K
+  - 🇭🇰 香港NO.2-1A
+  - 🇭🇰 香港-线路1-1P
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇭🇰 香港-线路1-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1A
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
+  - 🇷🇺 俄罗斯-1H
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
+  - 🇷🇺 俄罗斯-1G
+  - 🇧🇷 巴西-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇸🇬 新加坡-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇭🇰 香港2-1B
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国1-1C
+  - 🇺🇸 美国-1I
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1R
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇫🇷 法国1-1A
+  - 🇹🇭 泰国NO1-1A
+  - 🇺🇸 美国-1E
+  - 🇮🇸 冰岛-1E
+  - 🇰🇷 韩国-1J
+  - 🇳🇱 荷兰-1J
+  - 🇭🇰 香港-线路1-1S
+  - 🇮🇸 冰岛-1D
+  - 🇧🇷 巴西-1B
+  - 🇬🇧 英国-1D
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇺🇸 美国1-1B
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-1A
   - 🇮🇪 爱尔兰-都柏林-1C
   - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇯🇵 日本NO.2-1B
-  - 🇰🇷 韩国-1K
-  - 🇫🇷 法国1-1B
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇭🇰 香港-1G
-  - 🇩🇪 德国-1E
-  - 🇹🇼 台湾2-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SG-新加坡-1B
-  - 🇺🇸 美国NO.2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1H
-  - 🇯🇵 日本-1G
-  - 🇮🇸 冰岛-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1B
-  - 🇹🇼 台湾1-1B
-  - 🇭🇰 香港-线路1-1W
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇨🇦 CA-多伦多-1A
-  - 🇳🇱 荷兰-1B
-  - 🇹🇷 土耳其-1D
-  - 🇺🇸 美国-纽约-HY-001-1H
-  - 🇭🇰 香港-1D
-  - 🇬🇧 英国2-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 香港2-1A
-  - 🇷🇺 俄罗斯-1E
-  - 🇺🇸 美国-纽约-HY-001-1D
-  - 🇮🇳 印度2-1A
-  - 🇧🇷 巴西-1C
-  - 🇺🇸 美国-纽约-HY-001-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇯🇵 日本2-1A
-  - 🇳🇱 荷兰-1G
-  - 🇰🇷 韩国-1I
-  - 🇩🇪 德国-1J
-  - 🇹🇷 土耳其-1B
-  - 🇳🇱 荷兰-1J
-  - 🇩🇪 德国-1I
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇧🇷 巴西-1A
-  - 🇺🇸 美国1-1C
-  - 🇳🇱 荷兰-1D
-  - 🇲🇾 马来西亚专线NO2-1B
-  - 🇯🇵 日本NO.1-1A
-  - 🇩🇪 德国-1F
-  - 🇰🇷 韩国-1E
-  - 🇹🇭 泰国-1B
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇨🇦 加拿大-1B
-  - 🇮🇳 IN-班加罗尔-1B
-  - 🇮🇳 IN-班加罗尔-1A
-  - 🇺🇸 美国-纽约-HY-001-1F
-  - 🇰🇷 韩国-1J
-  - 🇩🇪 德国-1A
-  - 🇧🇷 巴西-1E
-  - 🇭🇰 香港-线路1-1S
-  - 🇹🇭 泰国-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇭 泰国NO2-1B
-  - 🇹🇷 土耳其-1C
-  - 🇮🇸 冰岛-1C
-  - 🇳🇱 NL-阿姆斯特丹-1B
-  - 🇧🇷 巴西-1B
-  - 🇺🇸 美国1-1B
-  - 🇯🇵 日本-1H
-  - 🇹🇭 泰国NO1-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1H
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1C
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇯🇵 日本2-1B
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1B
-  - 🇷🇺 俄罗斯-1H
-  - 🇬🇧 GB-伦敦-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1F
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-1E
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇨🇦 加拿大-1C
-  - 🇰🇷 韩国-1A
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇷 土耳其-1E
-  - 🇯🇵 日本-1D
-  - 🇬🇧 英国-1B
-  - 🇭🇰 香港-线路1-1I
-  - 🇷🇺 俄罗斯-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
-  - 🇨🇦 加拿大1-1B
-  - 🇯🇵 日本-1J
-  - 🇬🇧 英国-1D
-  - 🇳🇱 荷兰-1I
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国-纽约-HY-001-1B
-  - 🇧🇷 巴西-1D
-  - 🇺🇸 美国-1A
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1L
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1C
-  - 🇷🇺 俄罗斯-1F
-  - 🇭🇰 香港-线路1-1K
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
-  - 🇮🇩 印度尼西亚-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇸 冰岛-1E
-  - 🇲🇾 马来西亚专线NO1-1B
   - 🇸🇬 新加坡2-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1F
-  - 🇰🇷 韩国-1H
-  - 🇬🇧 英国-1E
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1G
-  - 🇺🇸 美国-1C
-  - 🇭🇰 香港-线路1-1O
-  - 🇯🇵 日本-1A
-  - 🇺🇸 美国-1F
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1D
-  - 🇭🇰 香港-1C
-  - 🇺🇸 美国-拉斯维加斯-HY-003-1G
-  - 🇺🇸 美国-纽约-HY-001-1E
-  - 🇺🇸 US-纽约-1A
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1I
-  - 🇩🇪 德国-1D
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇺🇸 美国-纽约-HY-001-1A
-  - 🇳🇱 荷兰-1H
-  - 🇰🇷 韩国-1F
-  - 🇭🇰 香港-1A
-  - 🇮🇳 印度1-1B
-  - 🇰🇷 韩国-1D
-  - 🇨🇦 CA-多伦多-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1U
-  - 🇬🇧 英国-1C
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港-线路1-1A
-  - 🇯🇵 日本-1E
-  - 🇷🇺 俄罗斯-1J
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1C
-  - 🇰🇷 韩国-1B
-  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1A
   - 🇭🇰 香港-线路1-1B
-  - 🇭🇰 香港-线路1-1J
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇸🇬 新加坡-1B
-  - 🇷🇺 俄罗斯-1I
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇬🇧 英国-1A
-  - 🇭🇰 香港-线路1-1L
-  - 🇫🇷 FR-巴黎-1A
+  - 🇯🇵 日本2-1B
+  - 🇯🇵 日本-1J
+  - 🇷🇺 俄罗斯-1E
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇺🇸 美国-纽约-HY-001-1C
+  - 🇯🇵 日本NO.2-1B
+  - 🇩🇪 德国-1H
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇰🇷 韩国-1K
+  - 🇭🇰 香港-1J
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇺🇸 美国-纽约-HY-001-1F
+  - 🇮🇳 印度2-1B
+  - 🇯🇵 日本-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇯🇵 日本-1H
+  - 🇨🇦 加拿大-1D
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港2-1C
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港2-1A
+  - 🇭🇰 香港-1B
+  - 🇭🇰 香港-1D
   - 🇭🇰 香港-线路1-1Q
-  - 🇫🇷 FR-巴黎-1B
-  - 🇸🇬 SG-新加坡-1A
-  - 🇺🇸 美国-1H
-  - 🇭🇰 香港-线路1-1F
-  - 🇸🇬 新加坡-1A
-  - 🇭🇰 香港-线路1-1D
+  - 🇯🇵 日本2-1A
+  - 🇸🇬 新加坡2-1A
   - 🇷🇺 俄罗斯-1D
-  - 🇹🇷 土耳其-1A
-  - 🇳🇱 荷兰-1E
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇰🇷 韩国-1C
-  - 🇮🇸 冰岛-1B
-  - 🇺🇸 美国-拉斯维加斯-HY-002-1B
-  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1D
+  - 🇰🇷 韩国-1H
+  - 🇲🇾 马来西亚专线NO2-1B
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国-纽约-HY-001-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇭🇰 香港-线路1-1M
+  - 🇬🇧 英国-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1I
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇳🇱 荷兰-1A
+  - 🇮🇪 爱尔兰-都柏林-1E
   - 🇺🇸 美国1-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇮🇸 冰岛-1D
-  - 🇺🇸 US-纽约-1B
-  - 🇩🇪 德国-1G
-  - 🇳🇱 荷兰-1F
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇷🇺 俄罗斯-1G
+  - 🇨🇦 加拿大-1E
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国-1C
+  - 🇹🇷 土耳其-1D
+  - 🇹🇷 土耳其-1B
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1C
+  - 🇭🇰 香港-1E
+  - 🇭🇰 香港-1I
+  - 🇹🇭 泰国-1C
+  - 🇧🇷 巴西-1A
+  - 🇯🇵 日本-1F
+  - 🇰🇷 韩国-1D
+  - 🇺🇸 美国-纽约-HY-001-1D
+  - 🇺🇸 美国-1J
+  - 🇺🇸 美国-拉斯维加斯-HY-002-1E
+  - 🇺🇸 美国-纽约-HY-001-1B
+  - 🇸🇬 新加坡2-1C
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1E
+  - 🇺🇸 美国-拉斯维加斯-HY-003-1H
   type: select
 redir-port: 7892
 rules:
