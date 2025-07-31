@@ -30,87 +30,82 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 17869
-  server: ddns.kuaiyun1.cn
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1E
+  password: 81e316cf-8967-4887-acd8-3dffd03128e2
+  port: 22800
+  server: 107.175.187.181
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大1-1B
-  port: 45064
+  name: 🇬🇧 英国1-1A
+  port: 45066
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1G
+  password: c2bebd1c-a34f-412a-982c-5f1540d5d82e
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港-1G
+  name: 🇭🇰 香港-1D
   port: 19901
   server: xg.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
 - cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 17869
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 17869
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.2-1B
-  port: 45055
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
+  name: 🇭🇰 香港2-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
   port: 15815
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本01 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 28443
-  server: cm33-zz.moonwang.xyz
+  name: 🇮🇪 爱尔兰-都柏林-1R
+  password: 1fcd0b17-d405-4c9b-b70f-8b346110ef90
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO2-1B
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1J
+  password: 26e95440-d5e3-4e1c-b76b-fc030d4ffde4
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1A
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: aes-256-gcm
+  name: 🇹🇭 泰国-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
+  port: 48494
+  server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - alterId: 0
@@ -121,70 +116,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1K
-  password: 26e1c7e6-b749-4773-b9ed-c2dd57e7bec8
+  name: 🇮🇪 爱尔兰-都柏林-1V
+  password: e4acc616-f6dc-476c-bb6f-ade6c6368cc3
   port: 22800
-  server: 156.224.77.215
+  server: 107.175.187.181
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1I
-  password: 7efaa878-429d-403c-a47a-de9d91fb78dc
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2-1A
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 NETFLIX03 HK-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 38445
-  server: cu1-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Q
-  password: afa36730-61ee-4f66-9eef-52fa5a47dc4c
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生1-1A
-  port: 45062
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港04 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 48443
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1M
-  password: b4809584-b9cd-46cc-b719-f7d8689607ec
+  name: 🇭🇰 香港-线路1-1x
+  password: 5f17f127-1cc4-431c-b3c7-6d439e7cea2a
   port: 22800
   server: 156.224.77.215
   type: ss
@@ -197,321 +139,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1N
-  password: c2bebd1c-a34f-412a-982c-5f1540d5d82e
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40001
-  server: cu1-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港03 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40008
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1N
-  password: c2bebd1c-a34f-412a-982c-5f1540d5d82e
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40003
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1P
-  password: e1de3e1d-151b-45ea-bd23-0d0b864e124a
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40012
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
 - alterId: 0
   cipher: auto
-  name: 🇹🇭 泰国NO2-1B
-  port: 45061
+  name: 🇺🇸 美国NO.2-1A
+  port: 45053
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1B
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1A
-  password: 1fcd0b17-d405-4c9b-b70f-8b346110ef90
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1P
-  password: e1de3e1d-151b-45ea-bd23-0d0b864e124a
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO1-1A
-  port: 45058
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国2-1B
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1B
-  password: e4acc616-f6dc-476c-bb6f-ade6c6368cc3
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度1-1A
-  port: 45074
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本03 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 18443
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.1-1B
-  port: 45054
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- alterId: 0
-  cipher: auto
-  name: 🇲🇾 马来西亚专线NO2-1A
-  port: 45059
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国2-1A
-  port: 45067
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1D
-  password: 0f6c274e-8118-42dd-b434-7cd2ef62bd1e
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国06 国外专用-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 28443
-  server: us4.moon6.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40001
-  server: cu1-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.2-1B
-  port: 45057
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度2-1A
-  port: 45073
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- alterId: 0
-  cipher: auto
-  name: 🇹🇭 泰国NO1-1A
-  port: 45060
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1J
-  password: 6c21638c-1f3b-426b-9e9d-4f0a94f4cec5
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 32975
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1H
+  name: 🇭🇰 香港-线路1-1E
   password: 81e316cf-8967-4887-acd8-3dffd03128e2
   port: 22800
-  server: 107.175.187.181
+  server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1C
-  password: bcc625a5-f718-40cc-bea2-f0bdfa1d39c5
+  name: 🇭🇰 香港-线路1-1L
+  password: fd5e2630-953b-4729-b870-78deb6d52c27
   port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 17869
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 15815
-  server: ddns.kuaiyun1.cn
+  server: 156.224.77.215
   type: ss
   udp: true
 - alterId: 0
@@ -522,186 +171,65 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港02 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 48446
-  server: cm33-zz.moonwang.xyz
+  name: 🇭🇰 香港-线路1-1O
+  password: 9c7d2466-0067-4136-949a-0d32a86e5072
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
+  name: 🇭🇰 香港2-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
   port: 15815
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国1-1B
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1R
-  password: 9ce5edba-87c0-490f-8c4b-0caad8e63457
+  name: 🇭🇰 香港-线路1-1B
+  password: ea202f75-cf99-4011-a183-0542df618da2
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Q
-  password: afa36730-61ee-4f66-9eef-52fa5a47dc4c
+  name: 🇮🇪 爱尔兰-都柏林-1B
+  password: ea202f75-cf99-4011-a183-0542df618da2
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 32975
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 NETFLIX02 HK-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 38444
-  server: cm33-zz.moonwang.xyz
+  name: 🇭🇰 香港-线路1-1H
+  password: e1de3e1d-151b-45ea-bd23-0d0b864e124a
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 台湾2-1A
-  port: 45077
+  name: 🇹🇭 泰国NO2-1B
+  port: 45061
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 英国1-1B
-  port: 45066
-  server: haa.dashuai.cyou
+  name: 🇭🇰 香港NO.2-1A
+  port: 45051
+  server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 8b8a2989-4a1a-40c5-ac87-98e97fa80310
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40002
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1L
-  password: b9aeeab8-be11-46a5-9b1a-aed752fbe4d2
+  name: 🇮🇪 爱尔兰-都柏林-1G
+  password: c2bebd1c-a34f-412a-982c-5f1540d5d82e
   port: 22800
   server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1E
-  password: 61d0685c-c4fc-454c-9838-b2ab844093d2
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾01 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 34111
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港05 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40007
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1K
-  password: 26e1c7e6-b749-4773-b9ed-c2dd57e7bec8
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1A
-  password: 1fcd0b17-d405-4c9b-b70f-8b346110ef90
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港03 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40008
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾01 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 34111
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 17869
-  server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - alterId: 0
@@ -712,184 +240,12 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港-1H
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 32975
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 NETFLIX02 HK-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 38444
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40002
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1R
-  password: 9ce5edba-87c0-490f-8c4b-0caad8e63457
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 NETFLIX03 HK-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 38445
-  server: cu1-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 22665
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO2-1A
-  port: 45075
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国07 国外专用-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 28443
-  server: us5.moon6.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1D
-  password: 0f6c274e-8118-42dd-b434-7cd2ef62bd1e
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1G
+  name: 🇭🇰 香港-线路1-1A
   password: f4bd0611-caf7-4827-897e-8b1c3a06b8f4
   port: 22800
   server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1F
-  password: a8a5e1a9-ffcd-413d-8fa6-5ea446d661f5
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港NO.2-1A
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1G
-  password: f4bd0611-caf7-4827-897e-8b1c3a06b8f4
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1I
-  password: 7efaa878-429d-403c-a47a-de9d91fb78dc
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港02 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 48446
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 32975
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 48494
-  server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - alterId: 0
@@ -900,355 +256,474 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 93b26df0-766b-4dd3-95ca-8a1987c6d038
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
+  name: 🇯🇵 日本2-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
   port: 39030
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 NETFLIX01 TW-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 48444
-  server: cm33-zz.moonwang.xyz
+  name: 🇮🇪 爱尔兰-都柏林-1A
+  password: f4bd0611-caf7-4827-897e-8b1c3a06b8f4
+  port: 22800
+  server: 107.175.187.181
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 17869
-  server: ddns.kuaiyun1.cn
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO1-1A
+  port: 45058
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大1-1B
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40003
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷 韩国-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
-  port: 30967
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本02 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 28444
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1C
-  password: 8bc2b301-02c3-49ad-999b-559bb9c6726a
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本04 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 28445
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1B
+  name: 🇭🇰 香港-线路1-1V
   password: e4acc616-f6dc-476c-bb6f-ade6c6368cc3
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇹🇭 泰国-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 48494
-  server: ddns.kuaiyun1.cn
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度2-1A
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本03 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 18443
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港05 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40007
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡01 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40013
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡01 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40013
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本01 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 28443
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1H
-  password: 81e316cf-8967-4887-acd8-3dffd03128e2
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1J
-  password: 6c21638c-1f3b-426b-9e9d-4f0a94f4cec5
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1L
-  password: b9aeeab8-be11-46a5-9b1a-aed752fbe4d2
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 43147
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本02 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 28444
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1M
-  password: b4809584-b9cd-46cc-b719-f7d8689607ec
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1C
+  name: 🇮🇪 爱尔兰-都柏林-1U
   password: bcc625a5-f718-40cc-bea2-f0bdfa1d39c5
   port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1F
-  password: a8a5e1a9-ffcd-413d-8fa6-5ea446d661f5
-  port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1B
+  port: 45067
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
 - cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1D
-  password: 3bc961ad-f74f-42f8-9fbf-7a27da21b2e0
+  name: 🇮🇩 印度尼西亚-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
   port: 22665
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1E
-  password: 846c50cb-2e3e-4b0b-815d-7b95987b5d31
-  port: 39030
+  name: 🇰🇷 韩国-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 30967
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇸🇬 新加坡2-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 43147
+  name: 🇺🇸 美国1-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 29760
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国06 国外专用-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 28443
-  server: us4.moon6.xyz
+  name: 🇮🇪 爱尔兰-都柏林-1x
+  password: 5f17f127-1cc4-431c-b3c7-6d439e7cea2a
+  port: 22800
+  server: 107.175.187.181
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1E
+  name: 🇮🇪 爱尔兰-都柏林-1M
+  password: 241e9306-dba7-4a82-b374-1d1b3b50c647
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇭 泰国NO1-1A
+  port: 45060
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1K
+  password: a8a5e1a9-ffcd-413d-8fa6-5ea446d661f5
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1A
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1H
+  password: e1de3e1d-151b-45ea-bd23-0d0b864e124a
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1O
+  password: 9c7d2466-0067-4136-949a-0d32a86e5072
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1C
   password: 61d0685c-c4fc-454c-9838-b2ab844093d2
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 香港2-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
-  port: 15815
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇭🇰 香港-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 32975
+  name: 🇮🇩 印度尼西亚-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 22665
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国05 专线-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 40006
-  server: cu1-zz.moonwang.xyz
+  name: 🇮🇪 爱尔兰-都柏林-1D
+  password: 0083ed15-358b-48f1-8420-8375f9e1261b
+  port: 22800
+  server: 107.175.187.181
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1A
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1A
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 NETFLIX01 TW-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 48444
-  server: cm33-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40012
-  server: cm22-zz.moonwang.xyz
+  name: 🇭🇰 香港-线路1-1T
+  password: 6c21638c-1f3b-426b-9e9d-4f0a94f4cec5
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇯🇵 日本2-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 39030
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬 新加坡-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
+  name: 🇸🇬 新加坡-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
   port: 17869
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 🇭🇰 香港-1A
-  password: c50e7d7f-d9c0-42f6-b5ce-18131922e2b5
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
   port: 32975
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本04 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 28445
-  server: cm22-zz.moonwang.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1-1A
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: 🇺🇸 美国1-1G
-  password: 98d64f93-ef33-47b3-8bf2-ff5faf8ac861
-  port: 29760
-  server: ddns.kuaiyun1.cn
-  type: ss
-  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 NETFLIX04 SG-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 38446
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1O
-  password: 241e9306-dba7-4a82-b374-1d1b3b50c647
+  name: 🇭🇰 香港-线路1-1S
+  password: b9aeeab8-be11-46a5-9b1a-aed752fbe4d2
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 NETFLIX04 SG-1A
-  password: 2b6b47d2-c304-4b6e-927f-261abedd7978
-  port: 38446
-  server: cm22-zz.moonwang.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港04 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 48443
-  server: cm33-zz.moonwang.xyz
+  name: 🇭🇰 香港-线路1-1F
+  password: 3c53f4fc-a75a-47e4-9b04-6c926aca0d6e
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇩 印度尼西亚-1F
-  password: 92628b44-9311-44d1-8e48-6d25083a89ee
-  port: 22665
+  name: 🇹🇭 泰国-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 48494
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国05 专线-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 40006
-  server: cu1-zz.moonwang.xyz
+  name: 🇭🇰 香港-线路1-1D
+  password: 0083ed15-358b-48f1-8420-8375f9e1261b
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1O
-  password: 241e9306-dba7-4a82-b374-1d1b3b50c647
+  name: 🇮🇪 爱尔兰-都柏林-1Q
+  password: 26e1c7e6-b749-4773-b9ed-c2dd57e7bec8
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇭🇰 香港-1B
-  password: 13215cb5-f347-4bb7-83ea-171b51545aa0
+  name: 🇯🇵 日本2-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 39030
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1I
+  password: 7efaa878-429d-403c-a47a-de9d91fb78dc
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1W
+  password: 18db7192-18a5-43c7-915f-9dcb206792a1
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.1-1B
+  port: 45054
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1K
+  password: a8a5e1a9-ffcd-413d-8fa6-5ea446d661f5
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇲🇾 马来西亚专线NO2-1A
+  port: 45059
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国2-1A
+  port: 45071
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1Q
+  password: 26e1c7e6-b749-4773-b9ed-c2dd57e7bec8
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1A
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 54e00f0e-c464-4f68-974c-619c70c4ee2b
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1N
+  password: 9ce5edba-87c0-490f-8c4b-0caad8e63457
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1T
+  password: 6c21638c-1f3b-426b-9e9d-4f0a94f4cec5
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷 韩国-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
+  port: 30967
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1J
+  password: 26e95440-d5e3-4e1c-b76b-fc030d4ffde4
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1F
+  password: 3c53f4fc-a75a-47e4-9b04-6c926aca0d6e
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1W
+  password: 18db7192-18a5-43c7-915f-9dcb206792a1
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1C
+  password: 61d0685c-c4fc-454c-9838-b2ab844093d2
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1I
+  password: 7efaa878-429d-403c-a47a-de9d91fb78dc
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1N
+  password: 9ce5edba-87c0-490f-8c4b-0caad8e63457
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡2-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡2-1A
+  password: 143fcc00-9e43-4d10-9748-a4db4e95fa1e
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1U
+  password: bcc625a5-f718-40cc-bea2-f0bdfa1d39c5
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1S
+  password: b9aeeab8-be11-46a5-9b1a-aed752fbe4d2
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港-1C
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
   port: 32975
   server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国07 国外专用-1B
-  password: 47e8436d-ae7d-44dd-b7ca-83de1689de84
-  port: 28443
-  server: us5.moon6.xyz
+  name: 🇮🇪 爱尔兰-都柏林-1P
+  password: b4809584-b9cd-46cc-b719-f7d8689607ec
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1L
+  password: fd5e2630-953b-4729-b870-78deb6d52c27
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1R
+  password: 1fcd0b17-d405-4c9b-b70f-8b346110ef90
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国1-1B
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9dbc9568-c137-4d9e-9ce4-5a7bc6b1f5e8
+- cipher: aes-256-gcm
+  name: 🇸🇬 新加坡-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
+  port: 17869
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1M
+  password: 241e9306-dba7-4a82-b374-1d1b3b50c647
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇺🇸 美国1-1B
+  password: 8250f985-5695-412d-8e54-edc6af6e1744
+  port: 29760
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1P
+  password: b4809584-b9cd-46cc-b719-f7d8689607ec
+  port: 22800
+  server: 156.224.77.215
   type: ss
   udp: true
 proxy-groups:
@@ -1263,173 +738,98 @@ proxy-groups:
   interval: 300
   name: 自动选择
   proxies:
-  - 🇮🇩 印度尼西亚-1A
-  - 🇸🇬 新加坡-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 香港-1G
-  - 🇸🇬 新加坡-1F
-  - 🇯🇵 日本2-1B
-  - 🇸🇬 新加坡2-1C
-  - 🇸🇬 新加坡-1A
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇭🇰 香港2-1D
-  - 🇯🇵 日本01 专线-1B
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇭🇰 香港-线路1-1I
-  - 🇺🇸 美国NO.2-1A
-  - 🇭🇰 NETFLIX03 HK-1B
-  - 🇭🇰 香港-线路1-1Q
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇭🇰 香港04 专线-1A
-  - 🇰🇷 韩国-1G
-  - 🇭🇰 香港-线路1-1M
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国03 专线-1A
-  - 🇭🇰 香港03 专线-1B
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国02 专线-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇺🇸 美国04 专线-1A
-  - 🇹🇭 泰国NO2-1B
-  - 🇯🇵 日本2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇺🇸 美国1-1B
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇩 印度尼西亚-1E
-  - 🇲🇾 马来西亚专线NO1-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇰🇷 韩国-1A
-  - 🇮🇳 印度1-1A
-  - 🇯🇵 日本03 专线-1A
-  - 🇸🇬 新加坡NO.1-1B
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇬🇧 英国2-1A
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇩 印度尼西亚-1C
-  - 🇺🇸 美国06 国外专用-1B
-  - 🇺🇸 美国03 专线-1B
-  - 🇰🇷 韩国-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇹🇭 泰国-1F
-  - 🇸🇬 新加坡2-1B
-  - 🇮🇳 印度2-1A
-  - 🇹🇭 泰国NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇸🇬 新加坡2-1D
-  - 🇯🇵 日本2-1G
-  - 🇺🇸 美国1-1E
-  - 🇸🇬 新加坡-1E
-  - 🇭🇰 香港2-1F
-  - 🇯🇵 日本NO.1-1A
-  - 🇭🇰 香港02 专线-1B
-  - 🇭🇰 香港2-1A
-  - 🇺🇸 美国1-1D
-  - 🇭🇰 香港2-1C
-  - 🇫🇷 法国1-1B
-  - 🇭🇰 香港-线路1-1R
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-1E
-  - 🇭🇰 NETFLIX02 HK-1A
-  - 🇹🇼 台湾2-1A
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇺🇸 美国01 专线-1B
-  - 🇹🇭 泰国-1G
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1E
-  - 🇹🇼 台湾01 专线-1A
-  - 🇭🇰 香港05 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇭🇰 香港-线路1-1A
-  - 🇰🇷 韩国-1C
-  - 🇭🇰 香港03 专线-1A
-  - 🇹🇼 台湾01 专线-1B
-  - 🇸🇬 新加坡-1G
-  - 🇹🇼 台湾1-1A
-  - 🇭🇰 香港-1H
-  - 🇭🇰 NETFLIX02 HK-1B
-  - 🇯🇵 日本2-1C
-  - 🇺🇸 美国01 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇭🇰 NETFLIX03 HK-1A
-  - 🇮🇩 印度尼西亚-1G
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国1-1C
-  - 🇹🇭 泰国-1D
-  - 🇺🇸 美国07 国外专用-1A
-  - 🇺🇸 美国1-1F
-  - 🇭🇰 香港-线路1-1D
-  - 🇸🇬 新加坡2-1E
-  - 🇹🇭 泰国-1E
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇬🇧 英国1-1A
   - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 香港-线路1-1F
+  - 🇭🇰 香港-1D
+  - 🇭🇰 香港2-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇭🇰 香港-线路1-1J
+  - 🇹🇼 台湾2-1A
+  - 🇹🇭 泰国-1B
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港-线路1-1x
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-线路1-1L
+  - 🇯🇵 日本NO.1-1A
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港-线路1-1H
+  - 🇹🇭 泰国NO2-1B
   - 🇭🇰 香港NO.2-1A
   - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇭🇰 香港02 专线-1A
-  - 🇭🇰 香港-1D
-  - 🇹🇭 泰国-1A
+  - 🇹🇼 台湾1-1A
+  - 🇭🇰 香港-线路1-1A
   - 🇨🇦 加拿大2-1A
-  - 🇯🇵 日本2-1D
-  - 🇹🇼 NETFLIX01 TW-1A
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇺🇸 美国02 专线-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本02 专线-1B
-  - 🇹🇭 泰国-1C
-  - 🇯🇵 日本04 专线-1A
-  - 🇭🇰 香港-线路1-1B
-  - 🇹🇭 泰国-1B
-  - 🇯🇵 日本03 专线-1B
-  - 🇭🇰 香港05 专线-1B
-  - 🇸🇬 新加坡01 专线-1A
-  - 🇸🇬 新加坡01 专线-1B
-  - 🇭🇰 香港2-1G
-  - 🇯🇵 日本01 专线-1A
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1L
-  - 🇸🇬 新加坡2-1G
-  - 🇯🇵 日本02 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇮🇩 印度尼西亚-1D
-  - 🇯🇵 日本2-1E
-  - 🇸🇬 新加坡2-1F
-  - 🇺🇸 美国06 国外专用-1A
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港2-1B
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国05 专线-1A
-  - 🇹🇼 NETFLIX01 TW-1B
-  - 🇺🇸 美国04 专线-1B
-  - 🇯🇵 日本2-1F
+  - 🇯🇵 日本2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇨🇦 加拿大1-1B
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇳 印度2-1A
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇬🇧 英国2-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇰🇷 韩国-1A
   - 🇺🇸 美国1-1A
-  - 🇸🇬 新加坡-1B
-  - 🇭🇰 香港-1A
-  - 🇯🇵 日本04 专线-1B
-  - 🇺🇸 美国1-1G
-  - 🇸🇬 NETFLIX04 SG-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇸🇬 NETFLIX04 SG-1A
-  - 🇭🇰 香港04 专线-1B
-  - 🇮🇩 印度尼西亚-1F
-  - 🇺🇸 美国05 专线-1B
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇹🇭 泰国NO1-1A
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇯🇵 日本NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1H
   - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇭🇰 香港-1B
-  - 🇺🇸 美国07 国外专用-1B
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇮🇩 印度尼西亚-1A
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1T
+  - 🇸🇬 新加坡-1A
+  - 🇭🇰 香港-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇭🇰 香港-线路1-1F
+  - 🇹🇭 泰国-1A
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇯🇵 日本2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港-线路1-1W
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇭🇰 香港-线路1-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1C
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇭🇰 香港-线路1-1N
+  - 🇸🇬 新加坡2-1B
+  - 🇸🇬 新加坡2-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇭🇰 香港-1C
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇭🇰 香港-线路1-1R
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡-1B
+  - 🇭🇰 香港-线路1-1M
+  - 🇺🇸 美国1-1B
+  - 🇭🇰 香港-线路1-1P
   tolerance: 50
   type: url-test
   url: http://www.pinterest.com
@@ -1437,344 +837,194 @@ proxy-groups:
   interval: 300
   name: 故障转移
   proxies:
-  - 🇮🇩 印度尼西亚-1A
-  - 🇸🇬 新加坡-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 香港-1G
-  - 🇸🇬 新加坡-1F
-  - 🇯🇵 日本2-1B
-  - 🇸🇬 新加坡2-1C
-  - 🇸🇬 新加坡-1A
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇭🇰 香港2-1D
-  - 🇯🇵 日本01 专线-1B
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇭🇰 香港-线路1-1I
-  - 🇺🇸 美国NO.2-1A
-  - 🇭🇰 NETFLIX03 HK-1B
-  - 🇭🇰 香港-线路1-1Q
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇭🇰 香港04 专线-1A
-  - 🇰🇷 韩国-1G
-  - 🇭🇰 香港-线路1-1M
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国03 专线-1A
-  - 🇭🇰 香港03 专线-1B
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国02 专线-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇺🇸 美国04 专线-1A
-  - 🇹🇭 泰国NO2-1B
-  - 🇯🇵 日本2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇺🇸 美国1-1B
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇩 印度尼西亚-1E
-  - 🇲🇾 马来西亚专线NO1-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇰🇷 韩国-1A
-  - 🇮🇳 印度1-1A
-  - 🇯🇵 日本03 专线-1A
-  - 🇸🇬 新加坡NO.1-1B
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇬🇧 英国2-1A
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇩 印度尼西亚-1C
-  - 🇺🇸 美国06 国外专用-1B
-  - 🇺🇸 美国03 专线-1B
-  - 🇰🇷 韩国-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇹🇭 泰国-1F
-  - 🇸🇬 新加坡2-1B
-  - 🇮🇳 印度2-1A
-  - 🇹🇭 泰国NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇸🇬 新加坡2-1D
-  - 🇯🇵 日本2-1G
-  - 🇺🇸 美国1-1E
-  - 🇸🇬 新加坡-1E
-  - 🇭🇰 香港2-1F
-  - 🇯🇵 日本NO.1-1A
-  - 🇭🇰 香港02 专线-1B
-  - 🇭🇰 香港2-1A
-  - 🇺🇸 美国1-1D
-  - 🇭🇰 香港2-1C
-  - 🇫🇷 法国1-1B
-  - 🇭🇰 香港-线路1-1R
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-1E
-  - 🇭🇰 NETFLIX02 HK-1A
-  - 🇹🇼 台湾2-1A
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇺🇸 美国01 专线-1B
-  - 🇹🇭 泰国-1G
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1E
-  - 🇹🇼 台湾01 专线-1A
-  - 🇭🇰 香港05 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇭🇰 香港-线路1-1A
-  - 🇰🇷 韩国-1C
-  - 🇭🇰 香港03 专线-1A
-  - 🇹🇼 台湾01 专线-1B
-  - 🇸🇬 新加坡-1G
-  - 🇹🇼 台湾1-1A
-  - 🇭🇰 香港-1H
-  - 🇭🇰 NETFLIX02 HK-1B
-  - 🇯🇵 日本2-1C
-  - 🇺🇸 美国01 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇭🇰 NETFLIX03 HK-1A
-  - 🇮🇩 印度尼西亚-1G
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国1-1C
-  - 🇹🇭 泰国-1D
-  - 🇺🇸 美国07 国外专用-1A
-  - 🇺🇸 美国1-1F
-  - 🇭🇰 香港-线路1-1D
-  - 🇸🇬 新加坡2-1E
-  - 🇹🇭 泰国-1E
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇬🇧 英国1-1A
   - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 香港-线路1-1F
+  - 🇭🇰 香港-1D
+  - 🇭🇰 香港2-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇭🇰 香港-线路1-1J
+  - 🇹🇼 台湾2-1A
+  - 🇹🇭 泰国-1B
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港-线路1-1x
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-线路1-1L
+  - 🇯🇵 日本NO.1-1A
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港-线路1-1H
+  - 🇹🇭 泰国NO2-1B
   - 🇭🇰 香港NO.2-1A
   - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇭🇰 香港02 专线-1A
-  - 🇭🇰 香港-1D
-  - 🇹🇭 泰国-1A
+  - 🇹🇼 台湾1-1A
+  - 🇭🇰 香港-线路1-1A
   - 🇨🇦 加拿大2-1A
-  - 🇯🇵 日本2-1D
-  - 🇹🇼 NETFLIX01 TW-1A
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇺🇸 美国02 专线-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本02 专线-1B
-  - 🇹🇭 泰国-1C
-  - 🇯🇵 日本04 专线-1A
-  - 🇭🇰 香港-线路1-1B
-  - 🇹🇭 泰国-1B
-  - 🇯🇵 日本03 专线-1B
-  - 🇭🇰 香港05 专线-1B
-  - 🇸🇬 新加坡01 专线-1A
-  - 🇸🇬 新加坡01 专线-1B
-  - 🇭🇰 香港2-1G
-  - 🇯🇵 日本01 专线-1A
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1L
-  - 🇸🇬 新加坡2-1G
-  - 🇯🇵 日本02 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇮🇩 印度尼西亚-1D
-  - 🇯🇵 日本2-1E
-  - 🇸🇬 新加坡2-1F
-  - 🇺🇸 美国06 国外专用-1A
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港2-1B
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国05 专线-1A
-  - 🇹🇼 NETFLIX01 TW-1B
-  - 🇺🇸 美国04 专线-1B
-  - 🇯🇵 日本2-1F
+  - 🇯🇵 日本2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇨🇦 加拿大1-1B
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇳 印度2-1A
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇬🇧 英国2-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇰🇷 韩国-1A
   - 🇺🇸 美国1-1A
-  - 🇸🇬 新加坡-1B
-  - 🇭🇰 香港-1A
-  - 🇯🇵 日本04 专线-1B
-  - 🇺🇸 美国1-1G
-  - 🇸🇬 NETFLIX04 SG-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇸🇬 NETFLIX04 SG-1A
-  - 🇭🇰 香港04 专线-1B
-  - 🇮🇩 印度尼西亚-1F
-  - 🇺🇸 美国05 专线-1B
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇹🇭 泰国NO1-1A
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇯🇵 日本NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1H
   - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇭🇰 香港-1B
-  - 🇺🇸 美国07 国外专用-1B
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇮🇩 印度尼西亚-1A
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1T
+  - 🇸🇬 新加坡-1A
+  - 🇭🇰 香港-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇭🇰 香港-线路1-1F
+  - 🇹🇭 泰国-1A
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇯🇵 日本2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港-线路1-1W
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇭🇰 香港-线路1-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1C
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇭🇰 香港-线路1-1N
+  - 🇸🇬 新加坡2-1B
+  - 🇸🇬 新加坡2-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇭🇰 香港-1C
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇭🇰 香港-线路1-1R
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡-1B
+  - 🇭🇰 香港-线路1-1M
+  - 🇺🇸 美国1-1B
+  - 🇭🇰 香港-线路1-1P
   type: fallback
   url: http://www.gstatic.com/generate_204
 - name: 手动选择
   proxies:
-  - 🇮🇩 印度尼西亚-1A
-  - 🇸🇬 新加坡-1D
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 香港-1G
-  - 🇸🇬 新加坡-1F
-  - 🇯🇵 日本2-1B
-  - 🇸🇬 新加坡2-1C
-  - 🇸🇬 新加坡-1A
-  - 🇸🇬 新加坡NO.2-1B
-  - 🇭🇰 香港2-1D
-  - 🇯🇵 日本01 专线-1B
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇭🇰 香港-线路1-1I
-  - 🇺🇸 美国NO.2-1A
-  - 🇭🇰 NETFLIX03 HK-1B
-  - 🇭🇰 香港-线路1-1Q
-  - 🇦🇺 澳大利亚原生1-1A
-  - 🇭🇰 香港04 专线-1A
-  - 🇰🇷 韩国-1G
-  - 🇭🇰 香港-线路1-1M
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国03 专线-1A
-  - 🇭🇰 香港03 专线-1B
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇺🇸 美国02 专线-1A
-  - 🇭🇰 香港-线路1-1P
-  - 🇺🇸 美国04 专线-1A
-  - 🇹🇭 泰国NO2-1B
-  - 🇯🇵 日本2-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇺🇸 美国1-1B
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇩 印度尼西亚-1E
-  - 🇲🇾 马来西亚专线NO1-1A
-  - 🇫🇷 法国2-1B
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇰🇷 韩国-1A
-  - 🇮🇳 印度1-1A
-  - 🇯🇵 日本03 专线-1A
-  - 🇸🇬 新加坡NO.1-1B
-  - 🇲🇾 马来西亚专线NO2-1A
-  - 🇬🇧 英国2-1A
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇩 印度尼西亚-1C
-  - 🇺🇸 美国06 国外专用-1B
-  - 🇺🇸 美国03 专线-1B
-  - 🇰🇷 韩国-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇹🇭 泰国-1F
-  - 🇸🇬 新加坡2-1B
-  - 🇮🇳 印度2-1A
-  - 🇹🇭 泰国NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-1C
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇸🇬 新加坡2-1D
-  - 🇯🇵 日本2-1G
-  - 🇺🇸 美国1-1E
-  - 🇸🇬 新加坡-1E
-  - 🇭🇰 香港2-1F
-  - 🇯🇵 日本NO.1-1A
-  - 🇭🇰 香港02 专线-1B
-  - 🇭🇰 香港2-1A
-  - 🇺🇸 美国1-1D
-  - 🇭🇰 香港2-1C
-  - 🇫🇷 法国1-1B
-  - 🇭🇰 香港-线路1-1R
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-1E
-  - 🇭🇰 NETFLIX02 HK-1A
-  - 🇹🇼 台湾2-1A
-  - 🇬🇧 英国1-1B
-  - 🇮🇩 印度尼西亚-1B
-  - 🇺🇸 美国01 专线-1B
-  - 🇹🇭 泰国-1G
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇭🇰 香港-线路1-1E
-  - 🇭🇰 香港2-1E
-  - 🇹🇼 台湾01 专线-1A
-  - 🇭🇰 香港05 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇭🇰 香港-线路1-1A
-  - 🇰🇷 韩国-1C
-  - 🇭🇰 香港03 专线-1A
-  - 🇹🇼 台湾01 专线-1B
-  - 🇸🇬 新加坡-1G
-  - 🇹🇼 台湾1-1A
-  - 🇭🇰 香港-1H
-  - 🇭🇰 NETFLIX02 HK-1B
-  - 🇯🇵 日本2-1C
-  - 🇺🇸 美国01 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇭🇰 NETFLIX03 HK-1A
-  - 🇮🇩 印度尼西亚-1G
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇺🇸 美国1-1C
-  - 🇹🇭 泰国-1D
-  - 🇺🇸 美国07 国外专用-1A
-  - 🇺🇸 美国1-1F
-  - 🇭🇰 香港-线路1-1D
-  - 🇸🇬 新加坡2-1E
-  - 🇹🇭 泰国-1E
-  - 🇸🇬 新加坡2-1A
-  - 🇰🇷 韩国-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇬🇧 英国1-1A
   - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 香港-线路1-1F
+  - 🇭🇰 香港-1D
+  - 🇭🇰 香港2-1A
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇰🇷 韩国 专线NO2-1B
+  - 🇭🇰 香港-线路1-1J
+  - 🇹🇼 台湾2-1A
+  - 🇹🇭 泰国-1B
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港-线路1-1x
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港-线路1-1E
+  - 🇭🇰 香港-线路1-1L
+  - 🇯🇵 日本NO.1-1A
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇭🇰 香港-线路1-1H
+  - 🇹🇭 泰国NO2-1B
   - 🇭🇰 香港NO.2-1A
   - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇭🇰 香港02 专线-1A
-  - 🇭🇰 香港-1D
-  - 🇹🇭 泰国-1A
+  - 🇹🇼 台湾1-1A
+  - 🇭🇰 香港-线路1-1A
   - 🇨🇦 加拿大2-1A
-  - 🇯🇵 日本2-1D
-  - 🇹🇼 NETFLIX01 TW-1A
-  - 🇸🇬 新加坡-1C
-  - 🇰🇷 韩国-1B
-  - 🇺🇸 美国02 专线-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本02 专线-1B
-  - 🇹🇭 泰国-1C
-  - 🇯🇵 日本04 专线-1A
-  - 🇭🇰 香港-线路1-1B
-  - 🇹🇭 泰国-1B
-  - 🇯🇵 日本03 专线-1B
-  - 🇭🇰 香港05 专线-1B
-  - 🇸🇬 新加坡01 专线-1A
-  - 🇸🇬 新加坡01 专线-1B
-  - 🇭🇰 香港2-1G
-  - 🇯🇵 日本01 专线-1A
-  - 🇭🇰 香港-线路1-1H
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1L
-  - 🇸🇬 新加坡2-1G
-  - 🇯🇵 日本02 专线-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇮🇩 印度尼西亚-1D
-  - 🇯🇵 日本2-1E
-  - 🇸🇬 新加坡2-1F
-  - 🇺🇸 美国06 国外专用-1A
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇭🇰 香港2-1B
-  - 🇭🇰 香港-1F
-  - 🇺🇸 美国05 专线-1A
-  - 🇹🇼 NETFLIX01 TW-1B
-  - 🇺🇸 美国04 专线-1B
-  - 🇯🇵 日本2-1F
+  - 🇯🇵 日本2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇲🇾 马来西亚专线NO1-1A
+  - 🇨🇦 加拿大1-1B
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇳 印度2-1A
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇬🇧 英国2-1B
+  - 🇮🇩 印度尼西亚-1B
+  - 🇰🇷 韩国-1A
   - 🇺🇸 美国1-1A
-  - 🇸🇬 新加坡-1B
-  - 🇭🇰 香港-1A
-  - 🇯🇵 日本04 专线-1B
-  - 🇺🇸 美国1-1G
-  - 🇸🇬 NETFLIX04 SG-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇸🇬 NETFLIX04 SG-1A
-  - 🇭🇰 香港04 专线-1B
-  - 🇮🇩 印度尼西亚-1F
-  - 🇺🇸 美国05 专线-1B
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇹🇭 泰国NO1-1A
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇯🇵 日本NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1H
   - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇭🇰 香港-1B
-  - 🇺🇸 美国07 国外专用-1B
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇮🇩 印度尼西亚-1A
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1T
+  - 🇸🇬 新加坡-1A
+  - 🇭🇰 香港-1A
+  - 🇦🇺 澳大利亚原生1-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇭🇰 香港-线路1-1F
+  - 🇹🇭 泰国-1A
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇯🇵 日本2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇭🇰 香港-线路1-1W
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇭🇰 香港-线路1-1K
+  - 🇲🇾 马来西亚专线NO2-1A
+  - 🇫🇷 法国2-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1C
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇭🇰 香港-线路1-1N
+  - 🇸🇬 新加坡2-1B
+  - 🇸🇬 新加坡2-1A
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇭🇰 香港-1C
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇭🇰 香港-线路1-1R
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡-1B
+  - 🇭🇰 香港-线路1-1M
+  - 🇺🇸 美国1-1B
+  - 🇭🇰 香港-线路1-1P
   type: select
 redir-port: 7892
 rules:
