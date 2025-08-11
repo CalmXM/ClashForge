@@ -30,74 +30,163 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1N
-  password: 1b486649-be4a-4d65-90b9-962ee96e95f6
-  port: 22800
-  server: 156.224.77.215
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速03|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30033
+  server: node.cloudss77.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1B
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度2-1A
-  port: 45073
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
 - auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇯🇵 日本-1F
+  name: 🇳🇱 荷兰-1A
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇳🇱 荷兰-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
   port: 33659
   server: hl.dport.top
   skip-cert-verify: true
   sni: hl.dport.top
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生1-1B
-  port: 45062
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速03|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30011
+  server: node.cloudss77.xyz
+  type: ss
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大1-1A
-  port: 45064
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1K
-  password: 36393f69-b093-4825-9a41-f1e94ca0b55f
+  name: 🇮🇪 爱尔兰-都柏林-1T
+  password: ab120400-6d8c-4e56-bed0-46ff812f5920
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速02|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30031
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇹🇷 土耳其-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  port: 33658
+  server: teq.dport.top
+  skip-cert-verify: true
+  sni: teq.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1R
+  password: 94c575b3-d4b2-45b2-bdd8-544357f3b94e
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇩🇪 德国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO1-1B
+  port: 45076
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速02|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30006
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国1-1B
+  port: 45066
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1A
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港NO.2-1B
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇺🇸 美国-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1A
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1C
+  password: 04b42383-bcb5-43a3-b6b7-f03586083d84
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国高速01|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30039
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1B
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1Q
+  password: 2b93a949-c1c5-4e03-97c6-4c15d0d202f6
   port: 22800
   server: 156.224.77.215
   type: ss
@@ -110,140 +199,28 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇰🇷 韩国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇧🇷 巴西-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇰🇷 韩国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇩🇪 德国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇰🇷 韩国-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇹🇷 土耳其-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  type: hysteria2
-  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 台湾2-1B
-  port: 45077
+  name: 🇫🇷 法国2-1A
+  port: 45071
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1C
-  password: cf053677-6276-482e-871d-9e2d61575f68
-  port: 22800
-  server: 107.175.187.181
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速01|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30013
+  server: node.cloudss77.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1T
-  password: a6787e83-c62f-4b23-845e-9570f390428c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1A
-  password: f0528191-ad39-4f26-8f4f-5824133dad18
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1G
-  password: 59746566-f1f3-4645-9bf9-4720ff0f4009
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1B
-  password: 4d013fa0-d1a1-431b-b94e-7bb8b511bc73
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港NO.2-1B
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度1-1B
-  port: 45074
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1S
-  password: 04b42383-bcb5-43a3-b6b7-f03586083d84
-  port: 22800
-  server: 156.224.77.215
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速02|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30004
+  server: node.cloudss77.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -254,91 +231,43 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1M
-  password: b4e94464-c000-4fa6-a503-3243e86376e3
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1O
-  password: dfa98282-de71-4b0d-9a70-c8a2bdc257d3
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇺🇸 美国-1D
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇯🇵 日本-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33650
-  server: mg.dport.top
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33657
+  server: rb.dport.top
   skip-cert-verify: true
-  sni: mg.dport.top
+  sni: rb.dport.top
   type: hysteria2
   udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇫🇷 法国-1B
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇯🇵 日本-1A
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33652
-  server: fg.dport.top
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33657
+  server: rb.dport.top
   skip-cert-verify: true
-  sni: fg.dport.top
+  sni: rb.dport.top
   type: hysteria2
-  udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇺🇸 美国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1O
-  password: dfa98282-de71-4b0d-9a70-c8a2bdc257d3
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1x
-  password: 50d65577-e3f2-461d-9ae8-aab0893f0b73
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1L
-  password: 3d69fcb4-8a43-45cd-89c0-de401ff840db
-  port: 22800
-  server: 156.224.77.215
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 香港-线路1-1I
-  password: 2d50f333-293c-4ea9-9094-ee78f3da2f2c
+  password: 59746566-f1f3-4645-9bf9-4720ff0f4009
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国2-1B
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速02|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30047
+  server: node.cloudss77.xyz
+  type: ss
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
 - alterId: 0
   cipher: auto
   name: 🇹🇼 台湾1-1B
@@ -347,12 +276,86 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇳🇱 荷兰-1E
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速02|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30028
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1M
+  password: 8cb0f95b-565f-4610-bbd5-53485a4aba78
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1H
+  password: 2d50f333-293c-4ea9-9094-ee78f3da2f2c
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1W
+  password: 1b486649-be4a-4d65-90b9-962ee96e95f6
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1L
+  password: ecdfd35e-e092-4426-a907-f6d466b9c086
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇫🇷 法国-1F
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  port: 33652
+  server: fg.dport.top
+  skip-cert-verify: true
+  sni: fg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1A
+  password: 3ea9353f-805a-4a31-8ace-1093ee8aff14
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1G
+  password: 4d013fa0-d1a1-431b-b94e-7bb8b511bc73
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速01|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30024
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速02|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30007
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇳🇱 荷兰-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
   port: 33659
   server: hl.dport.top
   skip-cert-verify: true
@@ -361,54 +364,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇦🇺 澳大利亚原生2-1A
-  port: 45063
+  name: 🇮🇳 印度2-1A
+  port: 45073
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1R
-  password: 38284106-80d3-44a0-aac1-cdc6f84ff1a8
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1U
-  password: 14b6a235-bdd6-4f2c-aaaa-3e1366e433f9
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1D
-  password: 27715071-3ac0-4d9a-b2f1-bd5e5f57fa2b
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1A
-  password: f0528191-ad39-4f26-8f4f-5824133dad18
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇯🇵 日本-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
 - auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇰🇷 韩国-1B
+  name: 🇰🇷 韩国-1F
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
@@ -418,425 +382,336 @@ proxies:
   sni: hg.dport.top
   type: hysteria2
   udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇳🇱 荷兰-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1E
-  password: 07b83594-ec14-424b-9103-32d46968ae29
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1P
-  password: 57f41c79-c5da-4183-8068-c238e4900c47
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1L
-  password: 3d69fcb4-8a43-45cd-89c0-de401ff840db
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇧🇷 巴西-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1E
-  password: 07b83594-ec14-424b-9103-32d46968ae29
+  name: 🇭🇰 香港-线路1-1Y
+  password: 2c65c31b-b4a7-4eaa-b2c9-92107c53abcb
   port: 22800
   server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1I
-  password: 2d50f333-293c-4ea9-9094-ee78f3da2f2c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国1-1A
-  port: 45066
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO1-1B
-  port: 45076
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇧🇷 巴西-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Q
-  password: a9aafcab-83db-4743-926d-914bcfed682b
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇧🇷 巴西-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇧🇷 巴西-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1H
-  password: a2494051-832c-47f0-9330-93deab88a2e2
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇳🇱 荷兰-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1R
-  password: 38284106-80d3-44a0-aac1-cdc6f84ff1a8
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇹🇷 土耳其-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1W
-  password: 94c575b3-d4b2-45b2-bdd8-544357f3b94e
-  port: 22800
-  server: 107.175.187.181
   type: ss
   udp: true
 - auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇧🇷 巴西-1E
+  name: 🇹🇷 土耳其-1C
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33654
-  server: bx.dport.top
-  skip-cert-verify: true
-  sni: bx.dport.top
-  type: hysteria2
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇺🇸 美国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇫🇷 法国-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33652
-  server: fg.dport.top
-  skip-cert-verify: true
-  sni: fg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1S
-  password: 04b42383-bcb5-43a3-b6b7-f03586083d84
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1F
-  password: d1ac8d12-aa87-41e6-9f31-16c0908c62d8
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇫🇷 法国-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33652
-  server: fg.dport.top
-  skip-cert-verify: true
-  sni: fg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1F
-  password: d1ac8d12-aa87-41e6-9f31-16c0908c62d8
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇳🇱 荷兰-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇯🇵 日本-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇹🇷 土耳其-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
   port: 33658
   server: teq.dport.top
   skip-cert-verify: true
   sni: teq.dport.top
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.2-1B
-  port: 45057
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Y
-  password: 5f824264-999e-4c07-8eef-459d22952c9a
-  port: 22800
-  server: 107.175.187.181
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速01|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30003
+  server: node.cloudss77.xyz
   type: ss
   udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇯🇵 日本-1B
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇹🇷 土耳其-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33657
-  server: rb.dport.top
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33658
+  server: teq.dport.top
   skip-cert-verify: true
-  sni: rb.dport.top
+  sni: teq.dport.top
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1V
-  password: ab120400-6d8c-4e56-bed0-46ff812f5920
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1G
-  password: 59746566-f1f3-4645-9bf9-4720ff0f4009
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Y
-  password: 5f824264-999e-4c07-8eef-459d22952c9a
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO2-1B
-  port: 45075
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2-1B
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.1-1A
-  port: 45054
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Q
-  password: a9aafcab-83db-4743-926d-914bcfed682b
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1J
-  password: df188f0e-c21c-4d1a-84de-34e64c2b60ea
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1D
-  password: 27715071-3ac0-4d9a-b2f1-bd5e5f57fa2b
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇫🇷 法国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33652
-  server: fg.dport.top
-  skip-cert-verify: true
-  sni: fg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1J
-  password: df188f0e-c21c-4d1a-84de-34e64c2b60ea
-  port: 22800
-  server: 107.175.187.181
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速02|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30030
+  server: node.cloudss77.xyz
   type: ss
   udp: true
 - auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇯🇵 日本-1D
+  name: 🇩🇪 德国-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1H
-  password: a2494051-832c-47f0-9330-93deab88a2e2
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇩🇪 德国-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
   port: 33653
   server: dg.dport.top
   skip-cert-verify: true
   sni: dg.dport.top
   type: hysteria2
   udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇯🇵 日本-1E
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1A
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇧🇷 巴西-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1D
+  password: cf053677-6276-482e-871d-9e2d61575f68
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇳🇱 荷兰-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.1-1B
+  port: 45054
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇯🇵 日本-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
   port: 33657
   server: rb.dport.top
   skip-cert-verify: true
   sni: rb.dport.top
   type: hysteria2
   udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速03|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30010
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1H
+  password: 2d50f333-293c-4ea9-9094-ee78f3da2f2c
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1U
+  password: 50d65577-e3f2-461d-9ae8-aab0893f0b73
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1V
+  password: ed3cca88-e49b-49f0-a138-ccb567443f21
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速02|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30005
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1S
+  password: e8802d75-8031-4d20-a43d-405ca4cfc8bc
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇧🇷 巴西-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇩🇪 德国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇳🇱 荷兰-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速02|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30016
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1J
+  password: a6787e83-c62f-4b23-845e-9570f390428c
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速01|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30040
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 英国2-1B
+  name: 🇰🇷 韩国 专线NO2-1A
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1A
   port: 45067
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇫🇷 法国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33652
+  server: fg.dport.top
+  skip-cert-verify: true
+  sni: fg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1A
+  port: 45053
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速01|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30001
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1K
+  password: 5f824264-999e-4c07-8eef-459d22952c9a
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大1-1A
+  port: 45064
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 14cb9647-5787-49a7-b1e6-268a2b135c0c
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速01|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30043
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速03|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30009
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇧🇷 巴西-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇰🇷 韩国-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1M
+  password: 8cb0f95b-565f-4610-bbd5-53485a4aba78
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇧🇷 巴西-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1S
+  password: e8802d75-8031-4d20-a43d-405ca4cfc8bc
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇫🇷 法国1-1B
@@ -845,83 +720,495 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0fc59690-190e-4756-97ac-2fe2f0eea965
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇫🇷 法国-1C
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速02|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30019
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇰🇷 韩国-1C
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33652
-  server: fg.dport.top
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33656
+  server: hg.dport.top
   skip-cert-verify: true
-  sni: fg.dport.top
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1B
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速03|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30021
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速01|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30012
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇺🇸 美国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1W
-  password: 94c575b3-d4b2-45b2-bdd8-544357f3b94e
+  name: 🇮🇪 爱尔兰-都柏林-1F
+  password: 57f41c79-c5da-4183-8068-c238e4900c47
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速01|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30042
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速02|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30029
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速03|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30032
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1x
+  password: a2494051-832c-47f0-9330-93deab88a2e2
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1B
-  password: 4d013fa0-d1a1-431b-b94e-7bb8b511bc73
+  name: 🇭🇰 香港-线路1-1O
+  password: 27715071-3ac0-4d9a-b2f1-bd5e5f57fa2b
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1K
-  password: 36393f69-b093-4825-9a41-f1e94ca0b55f
+  name: 🇭🇰 香港-线路1-1N
+  password: a4a59672-1d71-43c3-af7d-f2bc262a8423
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇺🇸 美国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
+  type: hysteria2
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇹🇷 土耳其-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33658
+  server: teq.dport.top
+  skip-cert-verify: true
+  sni: teq.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速03|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30035
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速01|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30015
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速01|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30027
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1O
+  password: 27715071-3ac0-4d9a-b2f1-bd5e5f57fa2b
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡NO.2-1A
-  port: 45055
+  name: 🇦🇺 澳大利亚原生1-1B
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速03|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30020
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速01|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30000
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1F
+  password: 57f41c79-c5da-4183-8068-c238e4900c47
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速01|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30041
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1U
+  password: 50d65577-e3f2-461d-9ae8-aab0893f0b73
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇰🇷 韩国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1I
+  password: 59746566-f1f3-4645-9bf9-4720ff0f4009
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇯🇵 日本-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1T
+  password: ab120400-6d8c-4e56-bed0-46ff812f5920
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2-1B
+  port: 45063
   server: xdd.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 38fa6aaf-f37e-45bd-8b7d-5bb386724021
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇹🇷 土耳其-1A
+  uuid: da1e6c89-943f-4cbe-8256-e596fd58b587
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇫🇷 法国-1A
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33652
+  server: fg.dport.top
+  skip-cert-verify: true
+  sni: fg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速03|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30022
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速01|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30002
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速01|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30026
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇹🇷 土耳其-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
   port: 33658
   server: teq.dport.top
   skip-cert-verify: true
   sni: teq.dport.top
   type: hysteria2
   udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇩🇪 德国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国高速01|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30038
+  server: node.cloudss77.xyz
+  type: ss
   udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇺🇸 美国-1F
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1x
+  password: a2494051-832c-47f0-9330-93deab88a2e2
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速02|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30017
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇺🇸 美国-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
   port: 33650
   server: mg.dport.top
   skip-cert-verify: true
   sni: mg.dport.top
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1R
+  password: 94c575b3-d4b2-45b2-bdd8-544357f3b94e
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1P
+  password: f0528191-ad39-4f26-8f4f-5824133dad18
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇰🇷 韩国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速03|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30034
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1C
+  password: 04b42383-bcb5-43a3-b6b7-f03586083d84
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1L
+  password: ecdfd35e-e092-4426-a907-f6d466b9c086
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国高速01|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30037
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1W
+  password: 1b486649-be4a-4d65-90b9-962ee96e95f6
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1E
+  password: a9aafcab-83db-4743-926d-914bcfed682b
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1E
+  password: a9aafcab-83db-4743-926d-914bcfed682b
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速02|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30018
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇩🇪 德国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇯🇵 日本-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇩🇪 德国-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇯🇵 日本-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国高速01|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30036
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速01|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30014
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1J
+  password: a6787e83-c62f-4b23-845e-9570f390428c
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇯🇵 日本高速01|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30025
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇭🇰 香港高速03|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30008
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇳🇱 荷兰-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
 - auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇩🇪 德国-1B
+  name: 🇩🇪 德国-1F
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
@@ -931,8 +1218,72 @@ proxies:
   sni: dg.dport.top
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1G
+  password: 4d013fa0-d1a1-431b-b94e-7bb8b511bc73
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1D
+  password: cf053677-6276-482e-871d-9e2d61575f68
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速02|BGP|流媒体-1C
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30046
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1Q
+  password: 2b93a949-c1c5-4e03-97c6-4c15d0d202f6
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇧🇷 巴西-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1V
+  password: ed3cca88-e49b-49f0-a138-ccb567443f21
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1P
+  password: f0528191-ad39-4f26-8f4f-5824133dad18
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
 - auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇫🇷 法国-1E
+  name: 🇳🇱 荷兰-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇫🇷 法国-1C
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
@@ -942,123 +1293,8 @@ proxies:
   sni: fg.dport.top
   type: hysteria2
   udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇹🇷 土耳其-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1T
-  password: a6787e83-c62f-4b23-845e-9570f390428c
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇰🇷 韩国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1N
-  password: 1b486649-be4a-4d65-90b9-962ee96e95f6
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1V
-  password: ab120400-6d8c-4e56-bed0-46ff812f5920
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇩🇪 德国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇳🇱 荷兰-1F
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇹🇷 土耳其-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33658
-  server: teq.dport.top
-  skip-cert-verify: true
-  sni: teq.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1x
-  password: 50d65577-e3f2-461d-9ae8-aab0893f0b73
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1P
-  password: 57f41c79-c5da-4183-8068-c238e4900c47
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1C
-  password: cf053677-6276-482e-871d-9e2d61575f68
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1M
-  password: b4e94464-c000-4fa6-a503-3243e86376e3
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  name: 🇺🇸 美国-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
 - auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇰🇷 韩国-1D
+  name: 🇰🇷 韩国-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
@@ -1069,33 +1305,133 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇺🇸 美国-1A
+  name: 🇹🇷 土耳其-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33658
+  server: teq.dport.top
+  skip-cert-verify: true
+  sni: teq.dport.top
+  type: hysteria2
+  udp: true
+- auth: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
+  name: 🇺🇸 美国-1F
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: e1ffc52a-eb33-47a3-b588-fd3ae778f41d
   port: 33650
   server: mg.dport.top
   skip-cert-verify: true
   sni: mg.dport.top
   type: hysteria2
   udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇫🇷 法国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33652
+  server: fg.dport.top
+  skip-cert-verify: true
+  sni: fg.dport.top
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1U
-  password: 14b6a235-bdd6-4f2c-aaaa-3e1366e433f9
+  name: 🇭🇰 香港-线路1-1B
+  password: b4e94464-c000-4fa6-a503-3243e86376e3
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1Y
+  password: 2c65c31b-b4a7-4eaa-b2c9-92107c53abcb
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
 - auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇩🇪 德国-1D
+  name: 🇺🇸 美国-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33653
-  server: dg.dport.top
+  port: 33650
+  server: mg.dport.top
   skip-cert-verify: true
-  sni: dg.dport.top
+  sni: mg.dport.top
   type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速02|BGP|流媒体-1A
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30044
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇫🇷 法国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33652
+  server: fg.dport.top
+  skip-cert-verify: true
+  sni: fg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1A
+  password: 3ea9353f-805a-4a31-8ace-1093ee8aff14
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇧🇷 巴西-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33654
+  server: bx.dport.top
+  skip-cert-verify: true
+  sni: bx.dport.top
+  type: hysteria2
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 新加坡高速03|BGP|流媒体-1D
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30023
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1K
+  password: 5f824264-999e-4c07-8eef-459d22952c9a
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇰🇷 韩国高速02|BGP|流媒体-1B
+  password: 14b193fb-3eef-42c1-bd8a-40d3c4ebdf99
+  port: 30045
+  server: node.cloudss77.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1N
+  password: a4a59672-1d71-43c3-af7d-f2bc262a8423
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1B
+  password: b4e94464-c000-4fa6-a503-3243e86376e3
+  port: 22800
+  server: 107.175.187.181
+  type: ss
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -1109,125 +1445,173 @@ proxy-groups:
   interval: 300
   name: 自动选择
   proxies:
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇳 印度2-1A
-  - 🇯🇵 日本-1F
-  - 🇳🇱 荷兰-1D
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇨🇦 加拿大1-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 日本NO.1-1A
-  - 🇰🇷 韩国-1E
-  - 🇧🇷 巴西-1D
-  - 🇰🇷 韩国-1A
-  - 🇩🇪 德国-1A
-  - 🇰🇷 韩国-1F
-  - 🇹🇷 土耳其-1D
-  - 🇹🇼 台湾2-1B
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1G
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇭🇰 香港NO.2-1B
-  - 🇮🇳 印度1-1B
-  - 🇭🇰 香港-线路1-1S
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇺🇸 美国-1D
-  - 🇫🇷 法国-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 香港-线路1-1x
-  - 🇭🇰 香港-线路1-1L
-  - 🇭🇰 香港-线路1-1I
-  - 🇫🇷 法国2-1B
-  - 🇹🇼 台湾1-1B
-  - 🇳🇱 荷兰-1E
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国-1B
-  - 🇳🇱 荷兰-1B
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇧🇷 巴西-1A
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇬🇧 英国1-1A
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇧🇷 巴西-1C
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇧🇷 巴西-1B
-  - 🇧🇷 巴西-1F
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇳🇱 荷兰-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇹🇷 土耳其-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇧🇷 巴西-1E
-  - 🇺🇸 美国-1C
-  - 🇫🇷 法国-1F
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇫🇷 法国-1D
-  - 🇭🇰 香港-线路1-1F
+  - 🇯🇵 日本高速03|BGP|流媒体-1B
   - 🇳🇱 荷兰-1A
-  - 🇯🇵 日本-1A
+  - 🇭🇰 香港高速03|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇯🇵 日本高速02|BGP|流媒体-1D
   - 🇹🇷 土耳其-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇭🇰 香港-线路1-1Y
-  - 🇰🇷 韩国 专线NO2-1B
-  - 🇺🇸 美国NO.2-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1D
-  - 🇫🇷 法国-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇯🇵 日本-1D
-  - 🇭🇰 香港-线路1-1H
-  - 🇩🇪 德国-1F
-  - 🇯🇵 日本-1E
-  - 🇬🇧 英国2-1B
-  - 🇫🇷 法国1-1B
-  - 🇫🇷 法国-1C
-  - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇹🇷 土耳其-1A
-  - 🇩🇪 德国-1E
-  - 🇺🇸 美国-1F
+  - 🇮🇪 爱尔兰-都柏林-1R
   - 🇩🇪 德国-1B
-  - 🇫🇷 法国-1E
-  - 🇹🇷 土耳其-1E
-  - 🇭🇰 香港-线路1-1T
-  - 🇰🇷 韩国-1C
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇭🇰 香港-线路1-1V
-  - 🇩🇪 德国-1C
-  - 🇳🇱 荷兰-1F
-  - 🇹🇷 土耳其-1C
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1D
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1C
+  - 🇬🇧 英国1-1B
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港NO.2-1B
   - 🇺🇸 美国-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1C
+  - 🇺🇸 美国高速01|流媒体-1D
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1Q
+  - 🇯🇵 日本NO.1-1A
+  - 🇫🇷 法国2-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1A
+  - 🇨🇦 加拿大2-1B
+  - 🇯🇵 日本-1B
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇰🇷 韩国高速02|BGP|流媒体-1D
+  - 🇹🇼 台湾1-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1A
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1W
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇫🇷 法国-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇯🇵 日本高速01|BGP|流媒体-1A
+  - 🇭🇰 香港高速02|BGP|流媒体-1D
+  - 🇳🇱 荷兰-1F
+  - 🇮🇳 印度2-1A
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1Y
+  - 🇹🇷 土耳其-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1D
+  - 🇹🇷 土耳其-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1C
+  - 🇩🇪 德国-1E
+  - 🇮🇳 印度1-1A
+  - 🇧🇷 巴西-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇳🇱 荷兰-1B
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇯🇵 日本-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1C
+  - 🇭🇰 香港-线路1-1H
   - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇧🇷 巴西-1F
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇰🇷 韩国高速01|BGP|流媒体-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇬🇧 英国2-1A
+  - 🇫🇷 法国-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇨🇦 加拿大1-1A
+  - 🇰🇷 韩国高速01|BGP|流媒体-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1B
+  - 🇧🇷 巴西-1C
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1M
+  - 🇧🇷 巴西-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1D
+  - 🇰🇷 韩国-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1B
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1A
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速02|BGP|流媒体-1B
+  - 🇯🇵 日本高速03|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1x
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港-线路1-1N
+  - 🇺🇸 美国-1C
+  - 🇹🇷 土耳其-1A
+  - 🇯🇵 日本高速03|BGP|流媒体-1D
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1D
+  - 🇯🇵 日本高速01|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1F
+  - 🇭🇰 香港-线路1-1T
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇫🇷 法国-1A
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速01|BGP|流媒体-1C
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国高速01|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1B
+  - 🇺🇸 美国-1B
+  - 🇭🇰 香港-线路1-1R
+  - 🇭🇰 香港-线路1-1P
+  - 🇰🇷 韩国-1D
+  - 🇯🇵 日本高速03|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国高速01|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1C
   - 🇩🇪 德国-1D
+  - 🇯🇵 日本-1E
+  - 🇩🇪 德国-1A
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国高速01|流媒体-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇯🇵 日本高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速03|BGP|流媒体-1A
+  - 🇳🇱 荷兰-1D
+  - 🇩🇪 德国-1F
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1D
+  - 🇰🇷 韩国高速02|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇳🇱 荷兰-1C
+  - 🇫🇷 法国-1C
+  - 🇰🇷 韩国-1E
+  - 🇹🇷 土耳其-1D
+  - 🇺🇸 美国-1F
+  - 🇫🇷 法国-1E
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1Y
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国高速02|BGP|流媒体-1A
+  - 🇫🇷 法国-1D
+  - 🇭🇰 香港-线路1-1A
+  - 🇧🇷 巴西-1D
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1D
+  - 🇭🇰 香港-线路1-1K
+  - 🇰🇷 韩国高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1B
   tolerance: 50
   type: url-test
   url: http://www.pinterest.com
@@ -1235,248 +1619,344 @@ proxy-groups:
   interval: 300
   name: 故障转移
   proxies:
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇳 印度2-1A
-  - 🇯🇵 日本-1F
-  - 🇳🇱 荷兰-1D
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇨🇦 加拿大1-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 日本NO.1-1A
-  - 🇰🇷 韩国-1E
-  - 🇧🇷 巴西-1D
-  - 🇰🇷 韩国-1A
-  - 🇩🇪 德国-1A
-  - 🇰🇷 韩国-1F
-  - 🇹🇷 土耳其-1D
-  - 🇹🇼 台湾2-1B
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1G
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇭🇰 香港NO.2-1B
-  - 🇮🇳 印度1-1B
-  - 🇭🇰 香港-线路1-1S
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇺🇸 美国-1D
-  - 🇫🇷 法国-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 香港-线路1-1x
-  - 🇭🇰 香港-线路1-1L
-  - 🇭🇰 香港-线路1-1I
-  - 🇫🇷 法国2-1B
-  - 🇹🇼 台湾1-1B
-  - 🇳🇱 荷兰-1E
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国-1B
-  - 🇳🇱 荷兰-1B
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇧🇷 巴西-1A
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇬🇧 英国1-1A
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇧🇷 巴西-1C
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇧🇷 巴西-1B
-  - 🇧🇷 巴西-1F
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇳🇱 荷兰-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇹🇷 土耳其-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇧🇷 巴西-1E
-  - 🇺🇸 美国-1C
-  - 🇫🇷 法国-1F
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇫🇷 法国-1D
-  - 🇭🇰 香港-线路1-1F
+  - 🇯🇵 日本高速03|BGP|流媒体-1B
   - 🇳🇱 荷兰-1A
-  - 🇯🇵 日本-1A
+  - 🇭🇰 香港高速03|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇯🇵 日本高速02|BGP|流媒体-1D
   - 🇹🇷 土耳其-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇭🇰 香港-线路1-1Y
-  - 🇰🇷 韩国 专线NO2-1B
-  - 🇺🇸 美国NO.2-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1D
-  - 🇫🇷 法国-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇯🇵 日本-1D
-  - 🇭🇰 香港-线路1-1H
-  - 🇩🇪 德国-1F
-  - 🇯🇵 日本-1E
-  - 🇬🇧 英国2-1B
-  - 🇫🇷 法国1-1B
-  - 🇫🇷 法国-1C
-  - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇹🇷 土耳其-1A
-  - 🇩🇪 德国-1E
-  - 🇺🇸 美国-1F
+  - 🇮🇪 爱尔兰-都柏林-1R
   - 🇩🇪 德国-1B
-  - 🇫🇷 法国-1E
-  - 🇹🇷 土耳其-1E
-  - 🇭🇰 香港-线路1-1T
-  - 🇰🇷 韩国-1C
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇭🇰 香港-线路1-1V
-  - 🇩🇪 德国-1C
-  - 🇳🇱 荷兰-1F
-  - 🇹🇷 土耳其-1C
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1D
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1C
+  - 🇬🇧 英国1-1B
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港NO.2-1B
   - 🇺🇸 美国-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1C
+  - 🇺🇸 美国高速01|流媒体-1D
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1Q
+  - 🇯🇵 日本NO.1-1A
+  - 🇫🇷 法国2-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1A
+  - 🇨🇦 加拿大2-1B
+  - 🇯🇵 日本-1B
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇰🇷 韩国高速02|BGP|流媒体-1D
+  - 🇹🇼 台湾1-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1A
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1W
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇫🇷 法国-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇯🇵 日本高速01|BGP|流媒体-1A
+  - 🇭🇰 香港高速02|BGP|流媒体-1D
+  - 🇳🇱 荷兰-1F
+  - 🇮🇳 印度2-1A
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1Y
+  - 🇹🇷 土耳其-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1D
+  - 🇹🇷 土耳其-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1C
+  - 🇩🇪 德国-1E
+  - 🇮🇳 印度1-1A
+  - 🇧🇷 巴西-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇳🇱 荷兰-1B
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇯🇵 日本-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1C
+  - 🇭🇰 香港-线路1-1H
   - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇧🇷 巴西-1F
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇰🇷 韩国高速01|BGP|流媒体-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇬🇧 英国2-1A
+  - 🇫🇷 法国-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇨🇦 加拿大1-1A
+  - 🇰🇷 韩国高速01|BGP|流媒体-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1B
+  - 🇧🇷 巴西-1C
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1M
+  - 🇧🇷 巴西-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1D
+  - 🇰🇷 韩国-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1B
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1A
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速02|BGP|流媒体-1B
+  - 🇯🇵 日本高速03|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1x
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港-线路1-1N
+  - 🇺🇸 美国-1C
+  - 🇹🇷 土耳其-1A
+  - 🇯🇵 日本高速03|BGP|流媒体-1D
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1D
+  - 🇯🇵 日本高速01|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1F
+  - 🇭🇰 香港-线路1-1T
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇫🇷 法国-1A
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速01|BGP|流媒体-1C
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国高速01|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1B
+  - 🇺🇸 美国-1B
+  - 🇭🇰 香港-线路1-1R
+  - 🇭🇰 香港-线路1-1P
+  - 🇰🇷 韩国-1D
+  - 🇯🇵 日本高速03|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国高速01|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1C
   - 🇩🇪 德国-1D
+  - 🇯🇵 日本-1E
+  - 🇩🇪 德国-1A
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国高速01|流媒体-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇯🇵 日本高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速03|BGP|流媒体-1A
+  - 🇳🇱 荷兰-1D
+  - 🇩🇪 德国-1F
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1D
+  - 🇰🇷 韩国高速02|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇳🇱 荷兰-1C
+  - 🇫🇷 法国-1C
+  - 🇰🇷 韩国-1E
+  - 🇹🇷 土耳其-1D
+  - 🇺🇸 美国-1F
+  - 🇫🇷 法国-1E
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1Y
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国高速02|BGP|流媒体-1A
+  - 🇫🇷 法国-1D
+  - 🇭🇰 香港-线路1-1A
+  - 🇧🇷 巴西-1D
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1D
+  - 🇭🇰 香港-线路1-1K
+  - 🇰🇷 韩国高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1B
   type: fallback
   url: http://www.gstatic.com/generate_204
 - name: 手动选择
   proxies:
-  - 🇭🇰 香港-线路1-1N
-  - 🇺🇸 美国NO.1-1B
-  - 🇮🇳 印度2-1A
-  - 🇯🇵 日本-1F
-  - 🇳🇱 荷兰-1D
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇨🇦 加拿大1-1A
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 日本NO.1-1A
-  - 🇰🇷 韩国-1E
-  - 🇧🇷 巴西-1D
-  - 🇰🇷 韩国-1A
-  - 🇩🇪 德国-1A
-  - 🇰🇷 韩国-1F
-  - 🇹🇷 土耳其-1D
-  - 🇹🇼 台湾2-1B
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1G
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇭🇰 香港NO.2-1B
-  - 🇮🇳 印度1-1B
-  - 🇭🇰 香港-线路1-1S
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇺🇸 美国-1D
-  - 🇫🇷 法国-1B
-  - 🇺🇸 美国-1E
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 香港-线路1-1x
-  - 🇭🇰 香港-线路1-1L
-  - 🇭🇰 香港-线路1-1I
-  - 🇫🇷 法国2-1B
-  - 🇹🇼 台湾1-1B
-  - 🇳🇱 荷兰-1E
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇯🇵 日本-1C
-  - 🇰🇷 韩国-1B
-  - 🇳🇱 荷兰-1B
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇧🇷 巴西-1A
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇬🇧 英国1-1A
-  - 🇰🇷 韩国 专线NO1-1B
-  - 🇧🇷 巴西-1C
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇧🇷 巴西-1B
-  - 🇧🇷 巴西-1F
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇳🇱 荷兰-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇹🇷 土耳其-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇧🇷 巴西-1E
-  - 🇺🇸 美国-1C
-  - 🇫🇷 法国-1F
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇫🇷 法国-1D
-  - 🇭🇰 香港-线路1-1F
+  - 🇯🇵 日本高速03|BGP|流媒体-1B
   - 🇳🇱 荷兰-1A
-  - 🇯🇵 日本-1A
+  - 🇭🇰 香港高速03|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇯🇵 日本高速02|BGP|流媒体-1D
   - 🇹🇷 土耳其-1F
-  - 🇯🇵 日本NO.2-1B
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇯🇵 日本-1B
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇭🇰 香港-线路1-1Y
-  - 🇰🇷 韩国 专线NO2-1B
-  - 🇺🇸 美国NO.2-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇭🇰 香港-线路1-1J
-  - 🇭🇰 香港-线路1-1D
-  - 🇫🇷 法国-1A
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇯🇵 日本-1D
-  - 🇭🇰 香港-线路1-1H
-  - 🇩🇪 德国-1F
-  - 🇯🇵 日本-1E
-  - 🇬🇧 英国2-1B
-  - 🇫🇷 法国1-1B
-  - 🇫🇷 法国-1C
-  - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1K
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇹🇷 土耳其-1A
-  - 🇩🇪 德国-1E
-  - 🇺🇸 美国-1F
+  - 🇮🇪 爱尔兰-都柏林-1R
   - 🇩🇪 德国-1B
-  - 🇫🇷 法国-1E
-  - 🇹🇷 土耳其-1E
-  - 🇭🇰 香港-线路1-1T
-  - 🇰🇷 韩国-1C
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇭🇰 香港-线路1-1V
-  - 🇩🇪 德国-1C
-  - 🇳🇱 荷兰-1F
-  - 🇹🇷 土耳其-1C
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 香港-线路1-1C
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇺🇸 美国-1B
-  - 🇰🇷 韩国-1D
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1C
+  - 🇬🇧 英国1-1B
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港NO.2-1B
   - 🇺🇸 美国-1A
+  - 🇺🇸 美国NO.1-1A
+  - 🇭🇰 香港-线路1-1C
+  - 🇺🇸 美国高速01|流媒体-1D
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1Q
+  - 🇯🇵 日本NO.1-1A
+  - 🇫🇷 法国2-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速02|BGP|流媒体-1A
+  - 🇨🇦 加拿大2-1B
+  - 🇯🇵 日本-1B
+  - 🇯🇵 日本-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇰🇷 韩国高速02|BGP|流媒体-1D
+  - 🇹🇼 台湾1-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1A
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1W
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇫🇷 法国-1F
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇯🇵 日本高速01|BGP|流媒体-1A
+  - 🇭🇰 香港高速02|BGP|流媒体-1D
+  - 🇳🇱 荷兰-1F
+  - 🇮🇳 印度2-1A
+  - 🇰🇷 韩国-1F
+  - 🇭🇰 香港-线路1-1Y
+  - 🇹🇷 土耳其-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1D
+  - 🇹🇷 土耳其-1B
+  - 🇯🇵 日本高速02|BGP|流媒体-1C
+  - 🇩🇪 德国-1E
+  - 🇮🇳 印度1-1A
+  - 🇧🇷 巴西-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
+  - 🇳🇱 荷兰-1B
+  - 🇸🇬 新加坡NO.1-1B
+  - 🇯🇵 日本-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1C
+  - 🇭🇰 香港-线路1-1H
   - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇭🇰 香港高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇧🇷 巴西-1F
+  - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇰🇷 韩国高速01|BGP|流媒体-1A
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇬🇧 英国2-1A
+  - 🇫🇷 法国-1B
+  - 🇺🇸 美国NO.2-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇨🇦 加拿大1-1A
+  - 🇰🇷 韩国高速01|BGP|流媒体-1D
+  - 🇭🇰 香港高速03|BGP|流媒体-1B
+  - 🇧🇷 巴西-1C
+  - 🇰🇷 韩国-1A
+  - 🇭🇰 香港-线路1-1M
+  - 🇧🇷 巴西-1A
+  - 🇭🇰 香港-线路1-1S
+  - 🇫🇷 法国1-1B
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1D
+  - 🇰🇷 韩国-1C
+  - 🇸🇬 新加坡NO.2-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1B
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1A
+  - 🇺🇸 美国-1D
+  - 🇮🇪 爱尔兰-都柏林-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速02|BGP|流媒体-1B
+  - 🇯🇵 日本高速03|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1x
+  - 🇭🇰 香港-线路1-1O
+  - 🇭🇰 香港-线路1-1N
+  - 🇺🇸 美国-1C
+  - 🇹🇷 土耳其-1A
+  - 🇯🇵 日本高速03|BGP|流媒体-1D
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1D
+  - 🇯🇵 日本高速01|BGP|流媒体-1D
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇦🇺 澳大利亚原生1-1B
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1A
+  - 🇭🇰 香港高速01|BGP|流媒体-1A
+  - 🇭🇰 香港-线路1-1F
+  - 🇰🇷 韩国高速01|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇰🇷 韩国-1B
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 日本-1F
+  - 🇭🇰 香港-线路1-1T
+  - 🇦🇺 澳大利亚原生2-1B
+  - 🇫🇷 法国-1A
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1C
+  - 🇭🇰 香港高速01|BGP|流媒体-1C
+  - 🇯🇵 日本高速01|BGP|流媒体-1C
+  - 🇹🇷 土耳其-1E
+  - 🇺🇸 美国高速01|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1x
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1B
+  - 🇺🇸 美国-1B
+  - 🇭🇰 香港-线路1-1R
+  - 🇭🇰 香港-线路1-1P
+  - 🇰🇷 韩国-1D
+  - 🇯🇵 日本高速03|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国高速01|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇭🇰 香港-线路1-1E
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇸🇬 新加坡高速02|BGP|流媒体-1C
   - 🇩🇪 德国-1D
+  - 🇯🇵 日本-1E
+  - 🇩🇪 德国-1A
+  - 🇯🇵 日本-1C
+  - 🇺🇸 美国高速01|流媒体-1A
+  - 🇸🇬 新加坡高速01|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇯🇵 日本高速01|BGP|流媒体-1B
+  - 🇭🇰 香港高速03|BGP|流媒体-1A
+  - 🇳🇱 荷兰-1D
+  - 🇩🇪 德国-1F
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1D
+  - 🇰🇷 韩国高速02|BGP|流媒体-1C
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇧🇷 巴西-1E
+  - 🇭🇰 香港-线路1-1V
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇳🇱 荷兰-1C
+  - 🇫🇷 法国-1C
+  - 🇰🇷 韩国-1E
+  - 🇹🇷 土耳其-1D
+  - 🇺🇸 美国-1F
+  - 🇫🇷 法国-1E
+  - 🇭🇰 香港-线路1-1B
+  - 🇮🇪 爱尔兰-都柏林-1Y
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国高速02|BGP|流媒体-1A
+  - 🇫🇷 法国-1D
+  - 🇭🇰 香港-线路1-1A
+  - 🇧🇷 巴西-1D
+  - 🇸🇬 新加坡高速03|BGP|流媒体-1D
+  - 🇭🇰 香港-线路1-1K
+  - 🇰🇷 韩国高速02|BGP|流媒体-1B
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1B
   type: select
 redir-port: 7892
 rules:
