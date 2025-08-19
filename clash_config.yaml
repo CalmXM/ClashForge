@@ -30,8 +30,263 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 3x备用专线香港1-1A
+  port: 50051
+  server: xh.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1F
+  password: e30afd94-f91b-4843-99b1-a2b08a803b52
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度1-1A
+  port: 45074
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- name: 🇺🇸 美国高速节点1
+  password: c278641f-235b-45ca-93e9-82705109132b
+  port: 1443
+  server: 144.34.178.66
+  skip-cert-verify: true
+  sni: node4.yuntongclouds.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1T
+  password: dcab4d30-5d30-48b8-a1b6-ec12643c260e
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1N
+  password: ec25358b-69bd-4c9a-8fa5-395080d53b5d
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1M
+  password: a9c964be-2cb3-4c6a-ae23-b6f726f6e528
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国2-1B
+  port: 45067
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.2-1B
+  port: 45053
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷 SS 土耳其1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 33744
+  server: ldu.izenny.com
+  type: ss
+  udp: true
 - auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇺🇸 美国-1C
+  name: 🇯🇵 日本-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1W
+  password: f6d0013f-e528-47b5-94ef-c406d8a381ad
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1C
+  password: 6b7549ff-27a6-4eb9-9174-9616af3a8ae8
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇩🇪 德国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国1-1B
+  port: 45066
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 1号专线 新加坡SG 146
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 39622
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 SS 日本1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 10589
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1L
+  password: 4afbf43b-7746-4250-8138-23abdd41f2d6
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇯🇵 日本-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国-1A
+  port: 19901
+  server: fg.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇲🇾 SS 马来西亚1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 13828
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO2-1A
+  port: 45075
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港NO.2-1A
+  port: 45051
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- name: 🇹🇼 台湾高速节点3
+  password: c278641f-235b-45ca-93e9-82705109132b
+  port: 443
+  server: 118.232.199.14
+  skip-cert-verify: true
+  sni: node3.yuntongclouds.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1C
+  password: 6b7549ff-27a6-4eb9-9174-9616af3a8ae8
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇳🇱 荷兰-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇳🇱 荷兰-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1号专线 香港HK 113
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 39524
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 SS 香港1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 34061
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1G
+  password: c3022301-751c-4576-a628-795663290ab3
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1L
+  password: 4afbf43b-7746-4250-8138-23abdd41f2d6
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇺🇸 美国-1D
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: 3d1eafa6-23b9-4999-8901-771c238f1bae
@@ -43,34 +298,500 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇮🇳 印度1-1A
-  port: 45074
+  name: 🇨🇦 加拿大1-1A
+  port: 45064
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- name: 🇹🇼 台湾高速节点3
-  password: b8e2d7d1-122d-4f92-9667-9e5e33bc84b9
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1G
+  password: c3022301-751c-4576-a628-795663290ab3
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1M
+  password: a9c964be-2cb3-4c6a-ae23-b6f726f6e528
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 1号专线 日本JP 114
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 36555
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 3x备用专线台湾1-1A
+  port: 50050
+  server: xh.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1Q
+  password: 996c1f5f-e741-431b-94af-ed5f67fa22bd
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- name: 🇹🇼 台湾高速节点
+  password: c278641f-235b-45ca-93e9-82705109132b
   port: 443
-  server: 118.232.199.14
+  server: 103.137.63.77
   skip-cert-verify: true
-  sni: node3.yuntongclouds.com
+  sni: node1.yuntongclouds.com
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇷 SS 土耳其1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 33744
+  name: 🇮🇪 爱尔兰-都柏林-1U
+  password: 520ebb66-2f45-4155-87d1-eb9fd472306a
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1R
+  password: 04faebdc-dda7-4556-829b-173380bbfe6f
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇳🇱 荷兰-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1P
+  password: e682244d-263f-435c-a5f1-8f29d7f43e3d
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇩🇪 德国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇳🇱 荷兰-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33659
+  server: hl.dport.top
+  skip-cert-verify: true
+  sni: hl.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.1-1A
+  port: 45056
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 加拿大2-1A
+  port: 45065
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1T
+  password: dcab4d30-5d30-48b8-a1b6-ec12643c260e
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇺🇸 美国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国2-1B
+  port: 45071
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1A
+  password: 59e783df-70f6-4612-8864-e570ff781b71
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生1-1A
+  port: 45062
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1K
+  password: 4c976703-de9f-40d4-a480-a4c192e4e824
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾2-1B
+  port: 45077
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1B
+  password: 91f3075a-ecdb-4e4d-9549-e66b8e946142
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 法国1-1A
+  port: 45072
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  name: 🇰🇷 韩国-1C
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 1号专线 台湾TW 89
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 33922
+  server: 120.233.44.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1D
+  password: 3c21ad26-3c54-4b03-a679-6a79a808f5b8
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1I
+  password: 702e385a-5c3c-4925-afeb-f014264bb1d3
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- name: 🇯🇵 2号专线 日本JP 75
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 39769
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 SS 美国2-1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 12589
   server: ldu.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1S
-  password: da9603cf-3039-4ab3-9777-8707bfd7d3e9
+  name: 🇭🇰 香港-线路1-1U
+  password: 520ebb66-2f45-4155-87d1-eb9fd472306a
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1J
+  password: 3c086907-c235-4635-a273-e4d238717a31
   port: 22800
   server: 107.175.187.181
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1E
+  password: 71b53096-33e8-46b6-9f7d-2a06c6a5eb3c
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1O
+  password: 2d700144-f89e-417f-9f8f-786d7cf26304
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇲🇽 SS 墨西哥1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 20149
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇱 SS 以色列1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 18140
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾1-1B
+  port: 45078
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SS 新加坡 1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 28063
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NO.2-1A
+  port: 45057
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1I
+  password: 702e385a-5c3c-4925-afeb-f014264bb1d3
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1S
+  password: 5b10528c-2d02-484a-8c5e-496514177150
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇯🇵 日本-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33657
+  server: rb.dport.top
+  skip-cert-verify: true
+  sni: rb.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇮🇳 印度2-1A
+  port: 45073
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1A
+  password: 59e783df-70f6-4612-8864-e570ff781b71
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  name: 🇰🇷 韩国-1D
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇩🇪 德国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1W
+  password: f6d0013f-e528-47b5-94ef-c406d8a381ad
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇩🇪 德国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33653
+  server: dg.dport.top
+  skip-cert-verify: true
+  sni: dg.dport.top
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NO.2-1A
+  port: 45055
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇺🇸 美国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1V
+  password: 7e95470f-3149-4ca5-aad6-3f76de03f0b5
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国NO.1-1B
+  port: 45052
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- name: 🇭🇰 2号专线 香港HK 74
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 33838
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国 专线NO1-1B
+  port: 45076
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e11db17-85fd-43d7-bb74-f4fa9d92cd1b
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 SS 日本3
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 57927
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇺🇸 美国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33650
+  server: mg.dport.top
+  skip-cert-verify: true
+  sni: mg.dport.top
+  type: hysteria2
+  udp: true
+- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  name: 🇰🇷 韩国-1A
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- name: 🇹🇼 台湾高速节点2
+  password: c278641f-235b-45ca-93e9-82705109132b
+  port: 443
+  server: 118.232.199.29
+  skip-cert-verify: true
+  sni: node2.yuntongclouds.com
+  type: trojan
+  udp: true
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇰🇷 韩国-1E
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
   udp: true
 - auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
   name: 🇩🇪 德国-1A
@@ -84,343 +805,19 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1G
-  password: 2d50c0f7-c464-4811-80dc-d7f0214b1e94
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇭 SS 泰国1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 39037
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇰🇷 韩国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇧🇷 SS 巴西1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 55936
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1U
-  password: 95f49a70-c290-4496-9e3b-7239cf0ef00d
+  name: 🇭🇰 香港-线路1-1J
+  password: 3c086907-c235-4635-a273-e4d238717a31
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1H
-  password: ec25358b-69bd-4c9a-8fa5-395080d53b5d
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1V
-  password: 2a4e5c7d-68c5-4261-a7c0-573a16c90cbb
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1x
-  password: 996c1f5f-e741-431b-94af-ed5f67fa22bd
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1O
-  password: 96c226c8-ee3b-4a5a-8d86-15e99eb76e94
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇰🇷 韩国-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇰🇷 韩国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- name: 🇭🇰 2号专线 香港HK 74-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 33838
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1M
-  password: 265ee28d-3803-4e98-ae15-7eba8fd09e1c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1R
-  password: ba5e4bfe-e9c8-41c1-a05d-6d8b1d2f0077
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇩🇪 德国-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾1-1A
-  port: 45078
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 1号专线 台湾TW 89-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 33922
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 SS 台湾1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 18148
+  name: 🇮🇸 SS 冰岛1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 18244
   server: ldu.izenny.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1L
-  password: 5b10528c-2d02-484a-8c5e-496514177150
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1E
-  password: 2d700144-f89e-417f-9f8f-786d7cf26304
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 印度2-1B
-  port: 45073
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国1-1A
-  port: 45072
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.1-1B
-  port: 45052
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇰🇷 韩国-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 1号专线 新加坡SG 146-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 39622
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1B
-  password: 91f3075a-ecdb-4e4d-9549-e66b8e946142
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1U
-  password: 95f49a70-c290-4496-9e3b-7239cf0ef00d
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- name: 🇺🇸 美国高速节点1
-  password: b8e2d7d1-122d-4f92-9667-9e5e33bc84b9
-  port: 1443
-  server: 144.34.178.66
-  skip-cert-verify: true
-  sni: node4.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1D
-  password: 04faebdc-dda7-4556-829b-173380bbfe6f
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦 加拿大2-1B
-  port: 45065
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1O
-  password: 96c226c8-ee3b-4a5a-8d86-15e99eb76e94
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- name: 🇭🇰 2号专线 香港HK 53-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 39765
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.1-1A
-  port: 45054
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NO.2-1A
-  port: 45055
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 SS 香港1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 34061
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国2-1B
-  port: 45071
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1号专线 香港HK 113-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 39524
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国1-1A
-  port: 45066
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇳🇱 荷兰-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇺🇸 美国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO1-1A
-  port: 45076
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
 - cipher: chacha20-ietf-poly1305
   name: 🇮🇪 爱尔兰-都柏林-1B
   password: 91f3075a-ecdb-4e4d-9549-e66b8e946142
@@ -429,62 +826,16 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1W
+  name: 🇮🇪 爱尔兰-都柏林-1D
   password: 3c21ad26-3c54-4b03-a679-6a79a808f5b8
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生2-1A
-  port: 45063
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇱 SS 以色列1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 18140
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- name: 🇹🇼 台湾高速节点
-  password: b8e2d7d1-122d-4f92-9667-9e5e33bc84b9
-  port: 443
-  server: 103.137.63.77
-  skip-cert-verify: true
-  sni: node1.yuntongclouds.com
-  type: trojan
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇯🇵 日本-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇳🇱 荷兰-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 SS 新加坡 1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 28063
+  name: 🇮🇳 SS 印度1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 34411
   server: ldu.izenny.com
   type: ss
   udp: true
@@ -499,320 +850,86 @@ proxies:
   sni: mg.dport.top
   type: hysteria2
   udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇯🇵 日本-1C
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺 澳大利亚原生2-1A
+  port: 45063
+  server: xdd.dashuai.cyou
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  name: 🇳🇱 荷兰-1E
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33657
-  server: rb.dport.top
+  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
+  port: 33659
+  server: hl.dport.top
   skip-cert-verify: true
-  sni: rb.dport.top
+  sni: hl.dport.top
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1T
-  password: c3022301-751c-4576-a628-795663290ab3
+  name: 🇭🇰 香港-线路1-1F
+  password: e30afd94-f91b-4843-99b1-a2b08a803b52
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.2-1A
-  port: 45057
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾2-1A
-  port: 45077
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1N
-  password: e682244d-263f-435c-a5f1-8f29d7f43e3d
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇲🇽 SS 墨西哥1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 20149
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 SS 美国2-1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1P
-  password: 07f03ed7-7476-4f9d-9770-cbea3a258205
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1号专线 香港HK 113-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 39524
+  name: 🇺🇸 1号专线 美国US 205
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 39312
   server: 120.233.44.206
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 加拿大1-1B
-  port: 45064
+  name: 🇸🇬 新加坡NO.1-1A
+  port: 45054
   server: haa.dashuai.cyou
   tls: false
   type: vmess
   udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- name: 🇭🇰 2号专线 香港HK 74-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 33838
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
+  uuid: cecdb94d-32b3-4b37-8ce7-904cc4fc0517
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇭 SS 泰国1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 39037
+  server: ldu.izenny.com
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1H
+  name: 🇭🇰 香港-线路1-1N
   password: ec25358b-69bd-4c9a-8fa5-395080d53b5d
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- name: 🇯🇵 2号专线 日本JP 75-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 39769
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1V
-  password: 2a4e5c7d-68c5-4261-a7c0-573a16c90cbb
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1E
+  name: 🇮🇪 爱尔兰-都柏林-1O
   password: 2d700144-f89e-417f-9f8f-786d7cf26304
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1I
-  password: dcab4d30-5d30-48b8-a1b6-ec12643c260e
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇩🇪 德国-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 3x备用专线台湾1-1B
-  port: 50050
-  server: xh.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1K
-  password: 047e1d18-6bcb-43df-9f0a-27e9190a1f5a
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1号专线 日本JP 103-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 31923
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Q
+  name: 🇭🇰 香港-线路1-1E
   password: 71b53096-33e8-46b6-9f7d-2a06c6a5eb3c
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 SS 韩国1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 41431
+  name: 🇹🇼 SS 台湾1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 18148
   server: ldu.izenny.com
   type: ss
   udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇺🇸 美国-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 1号专线 新加坡SG 146-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 39622
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺 澳大利亚原生1-1B
-  port: 45062
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1M
-  password: 265ee28d-3803-4e98-ae15-7eba8fd09e1c
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 1号专线 台湾TW 89-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 33922
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 法国-1B
-  port: 19901
-  server: fg.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1J
-  password: 3c086907-c235-4635-a273-e4d238717a31
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1I
-  password: dcab4d30-5d30-48b8-a1b6-ec12643c260e
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
 - auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇳🇱 荷兰-1E
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- name: 🇺🇸 2号专线 美国US 110-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 33889
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇳🇱 荷兰-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇩🇪 德国-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 SS 日本1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 10589
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NO.1-1B
-  port: 45056
-  server: haa.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- name: 🇺🇸 2号专线 美国US 110-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 33889
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇰🇷 韩国-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33656
-  server: hg.dport.top
-  skip-cert-verify: true
-  sni: hg.dport.top
-  type: hysteria2
-  udp: true
-- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
-  name: 🇯🇵 日本-1E
+  name: 🇯🇵 日本-1B
   obfs: salamander
   obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
@@ -822,255 +939,110 @@ proxies:
   sni: rb.dport.top
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1N
-  password: e682244d-263f-435c-a5f1-8f29d7f43e3d
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1C
-  password: 4afbf43b-7746-4250-8138-23abdd41f2d6
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 SS 台湾2-1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 43076
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1号专线 美国US 205-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 39312
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1号专线 日本JP 103-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 31923
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 专线NO2-1A
-  port: 45075
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- name: 🇭🇰 2号专线 香港HK 53-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
+- name: 🇭🇰 2号专线 香港HK 53
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
   port: 39765
   server: cdntwa.xiaomispeed.com
   skip-cert-verify: true
   sni: cdntwa.xiaomispeed.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港NO.2-1B
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 SS 日本3
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 57927
+  name: 🇰🇷 SS 韩国1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 41431
   server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国NO.2-1A
-  port: 45053
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f3dbef1-5d64-48b0-b604-e63ab15f276e
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1号专线 日本JP 114-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 36555
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  name: 🇳🇱 荷兰-1A
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 0228bc59-c213-4d1a-86e9-a8c263dde20b
-  port: 33659
-  server: hl.dport.top
-  skip-cert-verify: true
-  sni: hl.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1C
-  password: 4afbf43b-7746-4250-8138-23abdd41f2d6
-  port: 22800
-  server: 107.175.187.181
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 香港-线路1-1R
-  password: ba5e4bfe-e9c8-41c1-a05d-6d8b1d2f0077
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1号专线 美国US 205-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 39312
-  server: 120.233.44.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1F
-  password: 470dcb4d-c5fa-49bf-a308-d9c86d06674e
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1x
-  password: 996c1f5f-e741-431b-94af-ed5f67fa22bd
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Y
-  password: 4c976703-de9f-40d4-a480-a4c192e4e824
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- auth: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  name: 🇺🇸 美国-1D
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 87f2b69f-adf3-4c46-b60e-ffc4ea50fd71
-  port: 33650
-  server: mg.dport.top
-  skip-cert-verify: true
-  sni: mg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1D
   password: 04faebdc-dda7-4556-829b-173380bbfe6f
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1号专线 日本JP 114-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 36555
+  name: 🇯🇵 1号专线 日本JP 103
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 31923
   server: 120.233.44.206
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 SS 美国1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 46197
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国2-1B
-  port: 45067
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
-- name: 🇹🇼 台湾高速节点2
-  password: b8e2d7d1-122d-4f92-9667-9e5e33bc84b9
-  port: 443
-  server: 118.232.199.29
-  skip-cert-verify: true
-  sni: node2.yuntongclouds.com
-  type: trojan
-  udp: true
-- auth: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  name: 🇯🇵 日本-1B
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: b9d526f1-e35e-41a6-b649-465b51d1e8c0
-  port: 33657
-  server: rb.dport.top
-  skip-cert-verify: true
-  sni: rb.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇸 SS 冰岛1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 18244
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1G
-  password: 2d50c0f7-c464-4811-80dc-d7f0214b1e94
+  name: 🇭🇰 香港-线路1-1V
+  password: 7e95470f-3149-4ca5-aad6-3f76de03f0b5
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- name: 🇭🇰 2号专线 香港HK 244-1A
-  password: b41c3c75-e3cd-455a-8e22-14d857e75a09
-  port: 38522
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1A
-  password: 702e385a-5c3c-4925-afeb-f014264bb1d3
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1Y
+  name: 🇭🇰 香港-线路1-1K
   password: 4c976703-de9f-40d4-a480-a4c192e4e824
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1P
-  password: 07f03ed7-7476-4f9d-9770-cbea3a258205
+  name: 🇮🇪 爱尔兰-都柏林-1Q
+  password: 996c1f5f-e741-431b-94af-ed5f67fa22bd
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1H
+  password: 95f49a70-c290-4496-9e3b-7239cf0ef00d
+  port: 22800
+  server: 107.175.187.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1H
+  password: 95f49a70-c290-4496-9e3b-7239cf0ef00d
   port: 22800
   server: 156.224.77.215
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 3x备用专线香港1-1B
-  port: 50051
-  server: xh.dashuai.cyou
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇪 爱尔兰-都柏林-1P
+  password: e682244d-263f-435c-a5f1-8f29d7f43e3d
+  port: 22800
+  server: 107.175.187.181
+  type: ss
   udp: true
-  uuid: c95cce5e-e8ab-4e55-8566-464090239d2a
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 SS 巴西1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 55936
+  server: ldu.izenny.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 香港-线路1-1S
+  password: 5b10528c-2d02-484a-8c5e-496514177150
+  port: 22800
+  server: 156.224.77.215
+  type: ss
+  udp: true
+- auth: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  name: 🇰🇷 韩国-1B
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: f016c8b8-3784-4ecd-b10f-7c375125a2e8
+  port: 33656
+  server: hg.dport.top
+  skip-cert-verify: true
+  sni: hg.dport.top
+  type: hysteria2
+  udp: true
+- name: 🇺🇸 2号专线 美国US 110
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
+  port: 33889
+  server: cdntwa.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdntwa.xiaomispeed.com
+  type: trojan
+  udp: true
 - auth: 0228bc59-c213-4d1a-86e9-a8c263dde20b
   name: 🇯🇵 日本-1A
   obfs: salamander
@@ -1082,30 +1054,8 @@ proxies:
   sni: rb.dport.top
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1L
-  password: 5b10528c-2d02-484a-8c5e-496514177150
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1F
-  password: 470dcb4d-c5fa-49bf-a308-d9c86d06674e
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- name: 🇯🇵 2号专线 日本JP 75-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
-  port: 39769
-  server: cdntwa.xiaomispeed.com
-  skip-cert-verify: true
-  sni: cdntwa.xiaomispeed.com
-  type: trojan
-  udp: true
-- name: 🇭🇰 2号专线 香港HK 244-1B
-  password: 592f60f9-004f-4a77-b00c-b2082a9ceea0
+- name: 🇭🇰 2号专线 香港HK 244
+  password: e857c354-7f10-4ef0-9f1b-e15772ca93e9
   port: 38522
   server: cdntwa.xiaomispeed.com
   skip-cert-verify: true
@@ -1113,76 +1063,16 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1W
-  password: 3c21ad26-3c54-4b03-a679-6a79a808f5b8
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1A
-  password: 702e385a-5c3c-4925-afeb-f014264bb1d3
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1J
-  password: 3c086907-c235-4635-a273-e4d238717a31
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇲🇾 SS 马来西亚1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 13828
+  name: 🇹🇼 SS 台湾2-1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 43076
   server: ldu.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1T
-  password: c3022301-751c-4576-a628-795663290ab3
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1Q
-  password: 71b53096-33e8-46b6-9f7d-2a06c6a5eb3c
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港-线路1-1S
-  password: da9603cf-3039-4ab3-9777-8707bfd7d3e9
-  port: 22800
-  server: 156.224.77.215
-  type: ss
-  udp: true
-- auth: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  name: 🇩🇪 德国-1C
-  obfs: salamander
-  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-  password: 3d1eafa6-23b9-4999-8901-771c238f1bae
-  port: 33653
-  server: dg.dport.top
-  skip-cert-verify: true
-  sni: dg.dport.top
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇪 爱尔兰-都柏林-1K
-  password: 047e1d18-6bcb-43df-9f0a-27e9190a1f5a
-  port: 22800
-  server: 107.175.187.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳 SS 印度1
-  password: 925f69f6-887f-45dc-aea1-c9b2fbcf33e2
-  port: 34411
+  name: 🇺🇸 SS 美国1
+  password: c68874c9-38b6-45ea-ab8d-52cde04b12d1
+  port: 46197
   server: ldu.izenny.com
   type: ss
   udp: true
@@ -1198,148 +1088,133 @@ proxy-groups:
   interval: 300
   name: 自动选择
   proxies:
-  - 🇺🇸 美国-1C
-  - 🇮🇳 印度1-1A
-  - 🇹🇼 台湾高速节点3
-  - 🇹🇷 SS 土耳其1
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇩🇪 德国-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇭 SS 泰国1
-  - 🇰🇷 韩国-1C
-  - 🇧🇷 SS 巴西1
-  - 🇭🇰 香港-线路1-1U
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1E
-  - 🇭🇰 2号专线 香港HK 74-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1D
-  - 🇹🇼 台湾1-1A
-  - 🇹🇼 1号专线 台湾TW 89-1A
-  - 🇹🇼 SS 台湾1
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇳 印度2-1B
-  - 🇫🇷 法国1-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇰🇷 韩国-1A
-  - 🇸🇬 1号专线 新加坡SG 146-1B
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇺🇸 美国高速节点1
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 2号专线 香港HK 53-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇭🇰 SS 香港1
-  - 🇫🇷 法国2-1B
-  - 🇭🇰 1号专线 香港HK 113-1A
-  - 🇬🇧 英国1-1A
-  - 🇳🇱 荷兰-1D
-  - 🇺🇸 美国-1E
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇱 SS 以色列1
-  - 🇹🇼 台湾高速节点
-  - 🇯🇵 日本-1D
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SS 新加坡 1
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本-1C
-  - 🇭🇰 香港-线路1-1T
-  - 🇯🇵 日本NO.2-1A
-  - 🇹🇼 台湾2-1A
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇲🇽 SS 墨西哥1
-  - 🇺🇸 SS 美国2-1
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇭🇰 1号专线 香港HK 113-1B
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 2号专线 香港HK 74-1B
-  - 🇭🇰 香港-线路1-1H
-  - 🇯🇵 2号专线 日本JP 75-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇩🇪 德国-1E
-  - 🇹🇼 3x备用专线台湾1-1B
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 1号专线 日本JP 103-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇰🇷 SS 韩国1
-  - 🇺🇸 美国-1B
-  - 🇸🇬 1号专线 新加坡SG 146-1A
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇼 1号专线 台湾TW 89-1B
-  - 🇫🇷 法国-1B
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1I
-  - 🇳🇱 荷兰-1E
-  - 🇺🇸 2号专线 美国US 110-1A
-  - 🇳🇱 荷兰-1B
-  - 🇩🇪 德国-1B
-  - 🇯🇵 SS 日本1
-  - 🇯🇵 日本NO.1-1B
-  - 🇺🇸 2号专线 美国US 110-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本-1E
-  - 🇭🇰 香港-线路1-1N
-  - 🇭🇰 香港-线路1-1C
-  - 🇹🇼 SS 台湾2-1
-  - 🇺🇸 1号专线 美国US 205-1A
-  - 🇯🇵 1号专线 日本JP 103-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 2号专线 香港HK 53-1A
-  - 🇭🇰 香港NO.2-1B
-  - 🇯🇵 SS 日本3
-  - 🇺🇸 美国NO.2-1A
-  - 🇯🇵 1号专线 日本JP 114-1B
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇺🇸 1号专线 美国US 205-1B
-  - 🇭🇰 香港-线路1-1F
-  - 🇭🇰 香港-线路1-1x
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-线路1-1D
-  - 🇯🇵 1号专线 日本JP 114-1A
-  - 🇺🇸 SS 美国1
-  - 🇬🇧 英国2-1B
-  - 🇹🇼 台湾高速节点2
-  - 🇯🇵 日本-1B
-  - 🇮🇸 SS 冰岛1
-  - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 2号专线 香港HK 244-1A
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇭🇰 香港-线路1-1Y
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 3x备用专线香港1-1B
-  - 🇯🇵 日本-1A
-  - 🇭🇰 香港-线路1-1L
+  - 🇭🇰 3x备用专线香港1-1A
   - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇯🇵 2号专线 日本JP 75-1B
-  - 🇭🇰 2号专线 香港HK 244-1B
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国高速节点1
+  - 🇭🇰 香港-线路1-1T
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇬🇧 英国2-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇹🇷 SS 土耳其1
+  - 🇯🇵 日本-1D
   - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1D
+  - 🇬🇧 英国1-1B
+  - 🇸🇬 1号专线 新加坡SG 146
+  - 🇯🇵 SS 日本1
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇯🇵 日本-1C
+  - 🇫🇷 法国-1A
   - 🇲🇾 SS 马来西亚1
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇹🇼 台湾高速节点3
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇳🇱 荷兰-1C
+  - 🇳🇱 荷兰-1D
+  - 🇭🇰 1号专线 香港HK 113
+  - 🇭🇰 SS 香港1
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国-1D
+  - 🇨🇦 加拿大1-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1M
+  - 🇯🇵 1号专线 日本JP 114
+  - 🇹🇼 3x备用专线台湾1-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇹🇼 台湾高速节点
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇳🇱 荷兰-1B
+  - 🇭🇰 香港-线路1-1P
   - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1A
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大2-1A
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-1C
+  - 🇫🇷 法国2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇦🇺 澳大利亚原生1-1A
   - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇫🇷 法国1-1A
+  - 🇰🇷 韩国-1C
+  - 🇹🇼 1号专线 台湾TW 89
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 2号专线 日本JP 75
+  - 🇺🇸 SS 美国2-1
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇭🇰 香港-线路1-1O
+  - 🇲🇽 SS 墨西哥1
+  - 🇮🇱 SS 以色列1
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SS 新加坡 1
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇯🇵 日本-1E
+  - 🇮🇳 印度2-1A
+  - 🇭🇰 香港-线路1-1A
+  - 🇰🇷 韩国-1D
+  - 🇩🇪 德国-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇩🇪 德国-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-1B
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇺🇸 美国NO.1-1B
+  - 🇭🇰 2号专线 香港HK 74
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 SS 日本3
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国-1A
+  - 🇹🇼 台湾高速节点2
+  - 🇰🇷 韩国-1E
+  - 🇩🇪 德国-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇮🇸 SS 冰岛1
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
   - 🇮🇳 SS 印度1
+  - 🇺🇸 美国-1A
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇳🇱 荷兰-1E
+  - 🇭🇰 香港-线路1-1F
+  - 🇺🇸 1号专线 美国US 205
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇭 SS 泰国1
+  - 🇭🇰 香港-线路1-1N
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇭🇰 香港-线路1-1E
+  - 🇹🇼 SS 台湾1
+  - 🇯🇵 日本-1B
+  - 🇭🇰 2号专线 香港HK 53
+  - 🇰🇷 SS 韩国1
+  - 🇭🇰 香港-线路1-1R
+  - 🇯🇵 1号专线 日本JP 103
+  - 🇭🇰 香港-线路1-1V
+  - 🇭🇰 香港-线路1-1K
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1H
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇧🇷 SS 巴西1
+  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国-1B
+  - 🇺🇸 2号专线 美国US 110
+  - 🇯🇵 日本-1A
+  - 🇭🇰 2号专线 香港HK 244
+  - 🇹🇼 SS 台湾2-1
+  - 🇺🇸 SS 美国1
   tolerance: 50
   type: url-test
   url: http://www.pinterest.com
@@ -1347,294 +1222,264 @@ proxy-groups:
   interval: 300
   name: 故障转移
   proxies:
-  - 🇺🇸 美国-1C
-  - 🇮🇳 印度1-1A
-  - 🇹🇼 台湾高速节点3
-  - 🇹🇷 SS 土耳其1
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇩🇪 德国-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇭 SS 泰国1
-  - 🇰🇷 韩国-1C
-  - 🇧🇷 SS 巴西1
-  - 🇭🇰 香港-线路1-1U
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1E
-  - 🇭🇰 2号专线 香港HK 74-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1D
-  - 🇹🇼 台湾1-1A
-  - 🇹🇼 1号专线 台湾TW 89-1A
-  - 🇹🇼 SS 台湾1
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇳 印度2-1B
-  - 🇫🇷 法国1-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇰🇷 韩国-1A
-  - 🇸🇬 1号专线 新加坡SG 146-1B
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇺🇸 美国高速节点1
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 2号专线 香港HK 53-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇭🇰 SS 香港1
-  - 🇫🇷 法国2-1B
-  - 🇭🇰 1号专线 香港HK 113-1A
-  - 🇬🇧 英国1-1A
-  - 🇳🇱 荷兰-1D
-  - 🇺🇸 美国-1E
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇱 SS 以色列1
-  - 🇹🇼 台湾高速节点
-  - 🇯🇵 日本-1D
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SS 新加坡 1
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本-1C
-  - 🇭🇰 香港-线路1-1T
-  - 🇯🇵 日本NO.2-1A
-  - 🇹🇼 台湾2-1A
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇲🇽 SS 墨西哥1
-  - 🇺🇸 SS 美国2-1
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇭🇰 1号专线 香港HK 113-1B
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 2号专线 香港HK 74-1B
-  - 🇭🇰 香港-线路1-1H
-  - 🇯🇵 2号专线 日本JP 75-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇩🇪 德国-1E
-  - 🇹🇼 3x备用专线台湾1-1B
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 1号专线 日本JP 103-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇰🇷 SS 韩国1
-  - 🇺🇸 美国-1B
-  - 🇸🇬 1号专线 新加坡SG 146-1A
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇼 1号专线 台湾TW 89-1B
-  - 🇫🇷 法国-1B
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1I
-  - 🇳🇱 荷兰-1E
-  - 🇺🇸 2号专线 美国US 110-1A
-  - 🇳🇱 荷兰-1B
-  - 🇩🇪 德国-1B
-  - 🇯🇵 SS 日本1
-  - 🇯🇵 日本NO.1-1B
-  - 🇺🇸 2号专线 美国US 110-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本-1E
-  - 🇭🇰 香港-线路1-1N
-  - 🇭🇰 香港-线路1-1C
-  - 🇹🇼 SS 台湾2-1
-  - 🇺🇸 1号专线 美国US 205-1A
-  - 🇯🇵 1号专线 日本JP 103-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 2号专线 香港HK 53-1A
-  - 🇭🇰 香港NO.2-1B
-  - 🇯🇵 SS 日本3
-  - 🇺🇸 美国NO.2-1A
-  - 🇯🇵 1号专线 日本JP 114-1B
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇺🇸 1号专线 美国US 205-1B
-  - 🇭🇰 香港-线路1-1F
-  - 🇭🇰 香港-线路1-1x
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-线路1-1D
-  - 🇯🇵 1号专线 日本JP 114-1A
-  - 🇺🇸 SS 美国1
-  - 🇬🇧 英国2-1B
-  - 🇹🇼 台湾高速节点2
-  - 🇯🇵 日本-1B
-  - 🇮🇸 SS 冰岛1
-  - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 2号专线 香港HK 244-1A
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇭🇰 香港-线路1-1Y
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 3x备用专线香港1-1B
-  - 🇯🇵 日本-1A
-  - 🇭🇰 香港-线路1-1L
+  - 🇭🇰 3x备用专线香港1-1A
   - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇯🇵 2号专线 日本JP 75-1B
-  - 🇭🇰 2号专线 香港HK 244-1B
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国高速节点1
+  - 🇭🇰 香港-线路1-1T
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇬🇧 英国2-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇹🇷 SS 土耳其1
+  - 🇯🇵 日本-1D
   - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1D
+  - 🇬🇧 英国1-1B
+  - 🇸🇬 1号专线 新加坡SG 146
+  - 🇯🇵 SS 日本1
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇯🇵 日本-1C
+  - 🇫🇷 法国-1A
   - 🇲🇾 SS 马来西亚1
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇹🇼 台湾高速节点3
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇳🇱 荷兰-1C
+  - 🇳🇱 荷兰-1D
+  - 🇭🇰 1号专线 香港HK 113
+  - 🇭🇰 SS 香港1
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国-1D
+  - 🇨🇦 加拿大1-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1M
+  - 🇯🇵 1号专线 日本JP 114
+  - 🇹🇼 3x备用专线台湾1-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇹🇼 台湾高速节点
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇳🇱 荷兰-1B
+  - 🇭🇰 香港-线路1-1P
   - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1A
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大2-1A
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-1C
+  - 🇫🇷 法国2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇦🇺 澳大利亚原生1-1A
   - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇫🇷 法国1-1A
+  - 🇰🇷 韩国-1C
+  - 🇹🇼 1号专线 台湾TW 89
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 2号专线 日本JP 75
+  - 🇺🇸 SS 美国2-1
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇭🇰 香港-线路1-1O
+  - 🇲🇽 SS 墨西哥1
+  - 🇮🇱 SS 以色列1
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SS 新加坡 1
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇯🇵 日本-1E
+  - 🇮🇳 印度2-1A
+  - 🇭🇰 香港-线路1-1A
+  - 🇰🇷 韩国-1D
+  - 🇩🇪 德国-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇩🇪 德国-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-1B
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇺🇸 美国NO.1-1B
+  - 🇭🇰 2号专线 香港HK 74
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 SS 日本3
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国-1A
+  - 🇹🇼 台湾高速节点2
+  - 🇰🇷 韩国-1E
+  - 🇩🇪 德国-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇮🇸 SS 冰岛1
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
   - 🇮🇳 SS 印度1
+  - 🇺🇸 美国-1A
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇳🇱 荷兰-1E
+  - 🇭🇰 香港-线路1-1F
+  - 🇺🇸 1号专线 美国US 205
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇭 SS 泰国1
+  - 🇭🇰 香港-线路1-1N
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇭🇰 香港-线路1-1E
+  - 🇹🇼 SS 台湾1
+  - 🇯🇵 日本-1B
+  - 🇭🇰 2号专线 香港HK 53
+  - 🇰🇷 SS 韩国1
+  - 🇭🇰 香港-线路1-1R
+  - 🇯🇵 1号专线 日本JP 103
+  - 🇭🇰 香港-线路1-1V
+  - 🇭🇰 香港-线路1-1K
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1H
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇧🇷 SS 巴西1
+  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国-1B
+  - 🇺🇸 2号专线 美国US 110
+  - 🇯🇵 日本-1A
+  - 🇭🇰 2号专线 香港HK 244
+  - 🇹🇼 SS 台湾2-1
+  - 🇺🇸 SS 美国1
   type: fallback
   url: http://www.gstatic.com/generate_204
 - name: 手动选择
   proxies:
-  - 🇺🇸 美国-1C
-  - 🇮🇳 印度1-1A
-  - 🇹🇼 台湾高速节点3
-  - 🇹🇷 SS 土耳其1
-  - 🇮🇪 爱尔兰-都柏林-1S
-  - 🇩🇪 德国-1A
-  - 🇮🇪 爱尔兰-都柏林-1G
-  - 🇹🇭 SS 泰国1
-  - 🇰🇷 韩国-1C
-  - 🇧🇷 SS 巴西1
-  - 🇭🇰 香港-线路1-1U
-  - 🇮🇪 爱尔兰-都柏林-1H
-  - 🇮🇪 爱尔兰-都柏林-1V
-  - 🇮🇪 爱尔兰-都柏林-1x
-  - 🇮🇪 爱尔兰-都柏林-1O
-  - 🇰🇷 韩国-1B
-  - 🇰🇷 韩国-1E
-  - 🇭🇰 2号专线 香港HK 74-1A
-  - 🇮🇪 爱尔兰-都柏林-1M
-  - 🇮🇪 爱尔兰-都柏林-1R
-  - 🇩🇪 德国-1D
-  - 🇹🇼 台湾1-1A
-  - 🇹🇼 1号专线 台湾TW 89-1A
-  - 🇹🇼 SS 台湾1
-  - 🇮🇪 爱尔兰-都柏林-1L
-  - 🇮🇪 爱尔兰-都柏林-1E
-  - 🇮🇳 印度2-1B
-  - 🇫🇷 法国1-1A
-  - 🇺🇸 美国NO.1-1B
-  - 🇰🇷 韩国-1A
-  - 🇸🇬 1号专线 新加坡SG 146-1B
-  - 🇭🇰 香港-线路1-1B
-  - 🇮🇪 爱尔兰-都柏林-1U
-  - 🇺🇸 美国高速节点1
-  - 🇮🇪 爱尔兰-都柏林-1D
-  - 🇨🇦 加拿大2-1B
-  - 🇭🇰 香港-线路1-1O
-  - 🇭🇰 2号专线 香港HK 53-1B
-  - 🇸🇬 新加坡NO.1-1A
-  - 🇸🇬 新加坡NO.2-1A
-  - 🇭🇰 SS 香港1
-  - 🇫🇷 法国2-1B
-  - 🇭🇰 1号专线 香港HK 113-1A
-  - 🇬🇧 英国1-1A
-  - 🇳🇱 荷兰-1D
-  - 🇺🇸 美国-1E
-  - 🇰🇷 韩国 专线NO1-1A
-  - 🇮🇪 爱尔兰-都柏林-1B
-  - 🇮🇪 爱尔兰-都柏林-1W
-  - 🇦🇺 澳大利亚原生2-1A
-  - 🇮🇱 SS 以色列1
-  - 🇹🇼 台湾高速节点
-  - 🇯🇵 日本-1D
-  - 🇳🇱 荷兰-1C
-  - 🇸🇬 SS 新加坡 1
-  - 🇺🇸 美国-1A
-  - 🇯🇵 日本-1C
-  - 🇭🇰 香港-线路1-1T
-  - 🇯🇵 日本NO.2-1A
-  - 🇹🇼 台湾2-1A
-  - 🇮🇪 爱尔兰-都柏林-1N
-  - 🇲🇽 SS 墨西哥1
-  - 🇺🇸 SS 美国2-1
-  - 🇮🇪 爱尔兰-都柏林-1P
-  - 🇭🇰 1号专线 香港HK 113-1B
-  - 🇨🇦 加拿大1-1B
-  - 🇭🇰 2号专线 香港HK 74-1B
-  - 🇭🇰 香港-线路1-1H
-  - 🇯🇵 2号专线 日本JP 75-1A
-  - 🇭🇰 香港-线路1-1V
-  - 🇭🇰 香港-线路1-1E
-  - 🇮🇪 爱尔兰-都柏林-1I
-  - 🇩🇪 德国-1E
-  - 🇹🇼 3x备用专线台湾1-1B
-  - 🇭🇰 香港-线路1-1K
-  - 🇯🇵 1号专线 日本JP 103-1A
-  - 🇭🇰 香港-线路1-1Q
-  - 🇰🇷 SS 韩国1
-  - 🇺🇸 美国-1B
-  - 🇸🇬 1号专线 新加坡SG 146-1A
-  - 🇦🇺 澳大利亚原生1-1B
-  - 🇭🇰 香港-线路1-1M
-  - 🇹🇼 1号专线 台湾TW 89-1B
-  - 🇫🇷 法国-1B
-  - 🇮🇪 爱尔兰-都柏林-1J
-  - 🇭🇰 香港-线路1-1I
-  - 🇳🇱 荷兰-1E
-  - 🇺🇸 2号专线 美国US 110-1A
-  - 🇳🇱 荷兰-1B
-  - 🇩🇪 德国-1B
-  - 🇯🇵 SS 日本1
-  - 🇯🇵 日本NO.1-1B
-  - 🇺🇸 2号专线 美国US 110-1B
-  - 🇰🇷 韩国-1D
-  - 🇯🇵 日本-1E
-  - 🇭🇰 香港-线路1-1N
-  - 🇭🇰 香港-线路1-1C
-  - 🇹🇼 SS 台湾2-1
-  - 🇺🇸 1号专线 美国US 205-1A
-  - 🇯🇵 1号专线 日本JP 103-1B
-  - 🇰🇷 韩国 专线NO2-1A
-  - 🇭🇰 2号专线 香港HK 53-1A
-  - 🇭🇰 香港NO.2-1B
-  - 🇯🇵 SS 日本3
-  - 🇺🇸 美国NO.2-1A
-  - 🇯🇵 1号专线 日本JP 114-1B
-  - 🇳🇱 荷兰-1A
-  - 🇮🇪 爱尔兰-都柏林-1C
-  - 🇭🇰 香港-线路1-1R
-  - 🇺🇸 1号专线 美国US 205-1B
-  - 🇭🇰 香港-线路1-1F
-  - 🇭🇰 香港-线路1-1x
-  - 🇮🇪 爱尔兰-都柏林-1Y
-  - 🇺🇸 美国-1D
-  - 🇭🇰 香港-线路1-1D
-  - 🇯🇵 1号专线 日本JP 114-1A
-  - 🇺🇸 SS 美国1
-  - 🇬🇧 英国2-1B
-  - 🇹🇼 台湾高速节点2
-  - 🇯🇵 日本-1B
-  - 🇮🇸 SS 冰岛1
-  - 🇭🇰 香港-线路1-1G
-  - 🇭🇰 2号专线 香港HK 244-1A
-  - 🇮🇪 爱尔兰-都柏林-1A
-  - 🇭🇰 香港-线路1-1Y
-  - 🇭🇰 香港-线路1-1P
-  - 🇭🇰 3x备用专线香港1-1B
-  - 🇯🇵 日本-1A
-  - 🇭🇰 香港-线路1-1L
+  - 🇭🇰 3x备用专线香港1-1A
   - 🇮🇪 爱尔兰-都柏林-1F
-  - 🇯🇵 2号专线 日本JP 75-1B
-  - 🇭🇰 2号专线 香港HK 244-1B
+  - 🇮🇳 印度1-1A
+  - 🇺🇸 美国高速节点1
+  - 🇭🇰 香港-线路1-1T
+  - 🇮🇪 爱尔兰-都柏林-1N
+  - 🇮🇪 爱尔兰-都柏林-1M
+  - 🇬🇧 英国2-1B
+  - 🇺🇸 美国NO.2-1B
+  - 🇹🇷 SS 土耳其1
+  - 🇯🇵 日本-1D
   - 🇭🇰 香港-线路1-1W
-  - 🇭🇰 香港-线路1-1A
-  - 🇭🇰 香港-线路1-1J
+  - 🇭🇰 香港-线路1-1C
+  - 🇩🇪 德国-1D
+  - 🇬🇧 英国1-1B
+  - 🇸🇬 1号专线 新加坡SG 146
+  - 🇯🇵 SS 日本1
+  - 🇮🇪 爱尔兰-都柏林-1L
+  - 🇯🇵 日本-1C
+  - 🇫🇷 法国-1A
   - 🇲🇾 SS 马来西亚1
-  - 🇮🇪 爱尔兰-都柏林-1T
-  - 🇮🇪 爱尔兰-都柏林-1Q
-  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国 专线NO2-1A
+  - 🇭🇰 香港NO.2-1A
+  - 🇹🇼 台湾高速节点3
+  - 🇮🇪 爱尔兰-都柏林-1C
+  - 🇳🇱 荷兰-1C
+  - 🇳🇱 荷兰-1D
+  - 🇭🇰 1号专线 香港HK 113
+  - 🇭🇰 SS 香港1
+  - 🇮🇪 爱尔兰-都柏林-1G
+  - 🇭🇰 香港-线路1-1L
+  - 🇺🇸 美国-1D
+  - 🇨🇦 加拿大1-1A
+  - 🇭🇰 香港-线路1-1G
+  - 🇭🇰 香港-线路1-1M
+  - 🇯🇵 1号专线 日本JP 114
+  - 🇹🇼 3x备用专线台湾1-1A
+  - 🇭🇰 香港-线路1-1Q
+  - 🇹🇼 台湾高速节点
+  - 🇮🇪 爱尔兰-都柏林-1U
+  - 🇮🇪 爱尔兰-都柏林-1R
+  - 🇳🇱 荷兰-1B
+  - 🇭🇰 香港-线路1-1P
   - 🇩🇪 德国-1C
+  - 🇳🇱 荷兰-1A
+  - 🇯🇵 日本NO.1-1A
+  - 🇨🇦 加拿大2-1A
+  - 🇮🇪 爱尔兰-都柏林-1T
+  - 🇺🇸 美国-1C
+  - 🇫🇷 法国2-1B
+  - 🇮🇪 爱尔兰-都柏林-1A
+  - 🇦🇺 澳大利亚原生1-1A
   - 🇮🇪 爱尔兰-都柏林-1K
+  - 🇹🇼 台湾2-1B
+  - 🇭🇰 香港-线路1-1B
+  - 🇫🇷 法国1-1A
+  - 🇰🇷 韩国-1C
+  - 🇹🇼 1号专线 台湾TW 89
+  - 🇭🇰 香港-线路1-1D
+  - 🇮🇪 爱尔兰-都柏林-1I
+  - 🇯🇵 2号专线 日本JP 75
+  - 🇺🇸 SS 美国2-1
+  - 🇭🇰 香港-线路1-1U
+  - 🇮🇪 爱尔兰-都柏林-1J
+  - 🇮🇪 爱尔兰-都柏林-1E
+  - 🇭🇰 香港-线路1-1O
+  - 🇲🇽 SS 墨西哥1
+  - 🇮🇱 SS 以色列1
+  - 🇹🇼 台湾1-1B
+  - 🇸🇬 SS 新加坡 1
+  - 🇯🇵 日本NO.2-1A
+  - 🇭🇰 香港-线路1-1I
+  - 🇮🇪 爱尔兰-都柏林-1S
+  - 🇯🇵 日本-1E
+  - 🇮🇳 印度2-1A
+  - 🇭🇰 香港-线路1-1A
+  - 🇰🇷 韩国-1D
+  - 🇩🇪 德国-1B
+  - 🇮🇪 爱尔兰-都柏林-1W
+  - 🇩🇪 德国-1E
+  - 🇸🇬 新加坡NO.2-1A
+  - 🇺🇸 美国-1B
+  - 🇮🇪 爱尔兰-都柏林-1V
+  - 🇺🇸 美国NO.1-1B
+  - 🇭🇰 2号专线 香港HK 74
+  - 🇰🇷 韩国 专线NO1-1B
+  - 🇯🇵 SS 日本3
+  - 🇺🇸 美国-1E
+  - 🇰🇷 韩国-1A
+  - 🇹🇼 台湾高速节点2
+  - 🇰🇷 韩国-1E
+  - 🇩🇪 德国-1A
+  - 🇭🇰 香港-线路1-1J
+  - 🇮🇸 SS 冰岛1
+  - 🇮🇪 爱尔兰-都柏林-1B
+  - 🇮🇪 爱尔兰-都柏林-1D
   - 🇮🇳 SS 印度1
+  - 🇺🇸 美国-1A
+  - 🇦🇺 澳大利亚原生2-1A
+  - 🇳🇱 荷兰-1E
+  - 🇭🇰 香港-线路1-1F
+  - 🇺🇸 1号专线 美国US 205
+  - 🇸🇬 新加坡NO.1-1A
+  - 🇹🇭 SS 泰国1
+  - 🇭🇰 香港-线路1-1N
+  - 🇮🇪 爱尔兰-都柏林-1O
+  - 🇭🇰 香港-线路1-1E
+  - 🇹🇼 SS 台湾1
+  - 🇯🇵 日本-1B
+  - 🇭🇰 2号专线 香港HK 53
+  - 🇰🇷 SS 韩国1
+  - 🇭🇰 香港-线路1-1R
+  - 🇯🇵 1号专线 日本JP 103
+  - 🇭🇰 香港-线路1-1V
+  - 🇭🇰 香港-线路1-1K
+  - 🇮🇪 爱尔兰-都柏林-1Q
+  - 🇮🇪 爱尔兰-都柏林-1H
+  - 🇭🇰 香港-线路1-1H
+  - 🇮🇪 爱尔兰-都柏林-1P
+  - 🇧🇷 SS 巴西1
+  - 🇭🇰 香港-线路1-1S
+  - 🇰🇷 韩国-1B
+  - 🇺🇸 2号专线 美国US 110
+  - 🇯🇵 日本-1A
+  - 🇭🇰 2号专线 香港HK 244
+  - 🇹🇼 SS 台湾2-1
+  - 🇺🇸 SS 美国1
   type: select
 redir-port: 7892
 rules:
